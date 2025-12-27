@@ -1,0 +1,43 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem[Carcanholo 1998]{Carcanholo1998}
+\abntrefinfo{Carcanholo}{CARCANHOLO}{1998}
+{CARCANHOLO, M.~D. A import\^ancia da categoria valor de uso na teoria de
+  {{Marx}}.
+\emph{Pesquisa \& Debate Revista do Programa de Estudos P\'os-Graduados em
+  Economia Pol\'itica}, v.~9, n. 2 (14), 1998.}
+
+\bibitem[Duayer 2023]{Duayer2023a}
+\abntrefinfo{Duayer}{DUAYER}{2023}
+{DUAYER, M. {Jorge Luis Borges, filosofia da ci\^encia e cr\'itica
+  ontol\'ogica: verdade e transforma\c c\~ao social}.
+In:  \underline{\ \ \ \ \ \ \ \ }. \emph{{Teoria social, verdade e transforma\c
+  c\~ao: Ensaios de cr\'itica ontol\'ogica}}. S\~ao Paulo: Boitempo, 2023.}
+
+\bibitem[Foster e Clark 2004]{Foster2004}
+\abntrefinfo{Foster e Clark}{FOSTER; CLARK}{2004}
+{FOSTER, J.~B.; CLARK, B. Ecological imperialism: {{The}} curse of capitalism.
+\emph{Socialist register}, v.~40, 2004.}
+
+\bibitem[Marx 2017]{Marx2017a}
+\abntrefinfo{Marx}{MARX}{2017}
+{MARX, K. \emph{{O Capital: cr\'itica da economia pol\'itica - Livro I: o
+  processo de produ\c c\~ao do capital}}. 2. ed. S\~ao Paulo: Boitempo, 2017.}
+
+\bibitem[Marx 2021]{Marx2021}
+\abntrefinfo{Marx}{MARX}{2021}
+{MARX, K. \emph{{Grundrisse: Manuscritos e econ\^omicos de 1857 - 1858 : Esbo\c
+  cos da cr\'itica da economia pol\'itica}}. S\~ao Paulo: Boitempo, 2021.}
+
+\bibitem[Medeiros 2016]{Medeiros2016}
+\abntrefinfo{Medeiros}{MEDEIROS}{2016}
+{MEDEIROS, J.~L. {Se Marx tivesse escrito uma ontologia da sociedade, quais
+  seriam seus elementos fundamentais?}
+\emph{Revista Outubro}, v.~26, p. 169--194, 2016.}
+
+\end{thebibliography}

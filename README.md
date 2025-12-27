@@ -1,2 +1,4 @@
-# MastersDegree
-Code written for my Master's Degree.
+# \# MastersDegree
+
+Code and texts written for my Master's Degree (2025-2026).
+

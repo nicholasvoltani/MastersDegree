@@ -1,0 +1,43 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem[Bhaskar 1978]{Bhaskar1978}
+\abntrefinfo{Bhaskar}{BHASKAR}{1978}
+{BHASKAR, R. \emph{A {{Realist Theory}} of {{Science}}}. 2. ed. Nova Jersey:
+  Humanities Press, 1978.
+ISBN 978-1-134-05086-4.}
+
+\bibitem[Jr 2007]{PintoJr2007}
+\abntrefinfo{Jr}{JR}{2007}
+{JR, H.~Q. P. (Ed.). \emph{{Economia Da Energia}}. [S.l.]: Elsevier, 2007.
+ISBN 978-85-352-2408-5.}
+
+\bibitem[Marx 2014]{Marx2014}
+\abntrefinfo{Marx}{MARX}{2014}
+{MARX, K. \emph{{O capital: cr\'itica da economia pol\'itica - Livro II: o
+  processo de circula\c c\~ao do capital}}. 1. ed. S\~ao Paulo: Boitempo,
+  2014.}
+
+\bibitem[Marx 2017]{Marx2017}
+\abntrefinfo{Marx}{MARX}{2017}
+{MARX, K. \emph{{O Capital: cr\'itica da economia pol\'itica - Livro I: o
+  processo de produ\c c\~ao do capital}}. 2. ed. S\~ao Paulo: Boitempo, 2017.}
+
+\bibitem[Richter 2012]{Richter2012}
+\abntrefinfo{Richter}{RICHTER}{2012}
+{RICHTER, M. Utilities' business models for renewable energy: {{A}} review.
+\emph{Renewable and Sustainable Energy Reviews}, Elsevier, v.~16, n.~5, p.
+  2483--2493, 2012.}
+
+\bibitem[Wallace e Hobbs 2006]{Wallace2006}
+\abntrefinfo{Wallace e Hobbs}{WALLACE; HOBBS}{2006}
+{WALLACE, J.~M.; HOBBS, P.~V. \emph{Atmospheric Science: An Introductory
+  Survey}. 2nd ed. ed. Amsterdam Paris: Academic Press, 2006.  (International
+  Geophysics Series, volume 92).
+ISBN 978-0-12-732951-2.}
+
+\end{thebibliography}

@@ -1,0 +1,15 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem[Kollar 2025]{Kollar2025}
+\abntrefinfo{Kollar}{KOLLAR}{2025}
+{KOLLAR, J. \emph{Cisco, {{Nvidia}}, and the {{Economics}} of {{Tech
+  Bubbles}}}. 2025.
+Dispon{\'\i}vel em:
+  \url{https://www.technostatecraft.com/p/cisco-nvidia-and-the-economics-of?utm\_medium=android&triedRedirect=true}.}
+
+\end{thebibliography}
