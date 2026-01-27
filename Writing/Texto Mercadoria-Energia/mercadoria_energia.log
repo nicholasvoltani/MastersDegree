@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.23)  27 DEC 2025 19:17
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (MiKTeX 25.4) (preloaded format=pdflatex 2025.12.29)  15 JAN 2026 09:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -6,7 +6,7 @@ entering extended mode
 **"c:/Users/nicho/Documents/MastersDegree/Writing/Texto Mercadoria-Energia/mercadoria_energia.tex"
 (c:/Users/nicho/Documents/MastersDegree/Writing/Texto Mercadoria-Energia/mercadoria_energia.tex
 LaTeX2e <2025-11-01>
-L3 programming layer <2025-11-06>
+L3 programming layer <2025-12-24>
 (C:\Program Files\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2025/01/22 v1.4n Standard LaTeX document class
 (C:\Program Files\MiKTeX\tex/latex/base\size12.clo
@@ -42,15 +42,15 @@ File: pdftex.def 2025/09/29 v1.2d Graphics/color driver for pdftex
 \Gin@req@height=\dimen149
 \Gin@req@width=\dimen150
 ) (C:\Program Files\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2025/11/09 v25.15 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
+Package: babel 2025/12/11 v25.17 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
 \babel@savecnt=\count283
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2050.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2052.
-LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2054.
-LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line 2055.
-LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2056.
-LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2058.
-LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2083.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2068.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2070.
+LaTeX Encoding Info:    Redeclaring text command \ij (encoding T1) on input line 2072.
+LaTeX Encoding Info:    Redeclaring text command \IJ (encoding T1) on input line 2073.
+LaTeX Encoding Info:    Ignoring declaration for text command \ij (encoding ?) on input line 2074.
+LaTeX Encoding Info:    Ignoring declaration for text command \IJ (encoding ?) on input line 2076.
+LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) on input line 2101.
 \U@D=\dimen151
 \l@unhyphenated=\language79
  (C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def)
@@ -58,7 +58,7 @@ LaTeX Encoding Info:    Ignoring declaration for text command \SS (encoding ?) o
 \bbl@dirlevel=\count284
 Package babel Info: Configuration files are deprecated, as
 (babel)             they can break document portability.
-(babel)             Reported on input line 4175.
+(babel)             Reported on input line 4196.
 
 *************************************
 * Local config file bblopts.cfg used
@@ -67,7 +67,7 @@ Package babel Info: Configuration files are deprecated, as
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
 ) (C:\Program Files\MiKTeX\tex/generic/babel/locale/pt\babel-portuguese.tex)
 Package babel Info: Importing font and identification data for portuguese
-(babel)             from babel-pt.ini. Reported on input line 4298.
+(babel)             from babel-pt.ini. Reported on input line 4320.
  (C:\Users\nicho\AppData\Roaming\MiKTeX\tex/latex/babel-portuges\portuguese.ldf
 Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
 Package babel Info: Making " an active character on input line 143.
@@ -209,7 +209,7 @@ File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count302
 ) (mercadoria_energia.aux
 Package babel Info: 'portuguese' activates 'portuges' shorthands.
-(babel)             Reported on input line 12.
+(babel)             Reported on input line 11.
 )
 \openout1 = `mercadoria_energia.aux'.
 
@@ -269,32 +269,32 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 19.
  [1
 
-{C:/Users/nicho/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-Overfull \hbox (8.5958pt too wide) in paragraph at lines 34--34
+{C:/Users/nicho/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
+Overfull \hbox (8.5958pt too wide) in paragraph at lines 46--46
 []\OT1/cmr/bx/n/17.28 Energia en-quanto usu-fruto de ``mercadorias-
  []
 
-[2]
-Overfull \hbox (7.01115pt too wide) in paragraph at lines 53--54
+[3] [4]
+Overfull \hbox (7.01115pt too wide) in paragraph at lines 69--70
 []\OT1/cmr/m/n/12 H^^Sa va-lor mesmo na mis-te-ri-osa ele-tri-ci-dade que chega nos la-res das m^^Saquinas
  []
 
-[3] (mercadoria_energia.bbl) [4] (mercadoria_energia.aux)
+(mercadoria_energia.bbl [5]) [6] (mercadoria_energia.aux)
  ***********
 LaTeX2e <2025-11-01>
-L3 programming layer <2025-11-06>
+L3 programming layer <2025-12-24>
  ***********
 Package rerunfilecheck Info: File `mercadoria_energia.out' has not changed.
 (rerunfilecheck)             Checksum: D5633668920D65095337883740F4EA05;828.
  ) 
 Here is how much of TeX's memory you used:
- 10158 strings out of 467871
- 161643 string characters out of 5428442
- 587895 words of memory out of 5000000
- 38898 multiletter control sequences out of 15000+600000
- 633634 words of font info for 59 fonts, out of 8000000 for 9000
+ 10180 strings out of 467871
+ 161966 string characters out of 5428442
+ 588308 words of memory out of 5000000
+ 38915 multiletter control sequences out of 15000+600000
+ 633942 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,79p,1230b,461s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,8n,79p,1253b,656s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{Hfootnote.10} has been referenced but does not exist, replaced by a fixed one
 
@@ -325,10 +325,10 @@ pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist,
 
 pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist, replaced by a fixed one
 
-<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on mercadoria_energia.pdf (4 pages, 157926 bytes).
+<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on mercadoria_energia.pdf (6 pages, 179437 bytes).
 PDF statistics:
- 139 PDF objects out of 1000 (max. 8388607)
- 26 named destinations out of 1000 (max. 500000)
+ 165 PDF objects out of 1000 (max. 8388607)
+ 30 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 

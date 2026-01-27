@@ -5,11 +5,132 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.7 }
 
+\bibitem[Bolukbasi et al. 2016]{Bolukbasi2016a}
+\abntrefinfo{Bolukbasi et al.}{BOLUKBASI et al.}{2016}
+{BOLUKBASI, T. et al. Man is to computer programmer as woman is to homemaker?
+  {{Debiasing}} word embeddings.
+\emph{Advances in neural information processing systems}, v.~29, 2016.
+Dispon{\'\i}vel em:
+  \url{https://proceedings.neurips.cc/paper\_files/paper/2016/hash/a486cd07e4ac3d270571622f4f316ec5-Abstract.html}.}
+
+\bibitem[Goodfellow, Bengio e Courville 2016]{Goodfellow-et-al-2016}
+\abntrefinfo{Goodfellow, Bengio e Courville}{GOODFELLOW; BENGIO;
+  COURVILLE}{2016}
+{GOODFELLOW, I.; BENGIO, Y.; COURVILLE, A. \emph{Deep Learning}. MIT Press,
+  2016. Dispon{\'\i}vel em: \url{https://www.deeplearningbook.org/}.}
+
+\bibitem[Hochreiter e Schmidhuber 1997]{Hochreiter1997}
+\abntrefinfo{Hochreiter e Schmidhuber}{HOCHREITER; SCHMIDHUBER}{1997}
+{HOCHREITER, S.; SCHMIDHUBER, J. Long short-term memory.
+\emph{Neural computation}, MIT press, v.~9, n.~8, p. 1735--1780, 1997.
+Dispon{\'\i}vel em:
+  \url{https://ieeexplore.ieee.org/abstract/document/6795963/}.}
+
+\bibitem[Juricic 2025]{Juricic2025}
+\abntrefinfo{Juricic}{JURICIC}{2025}
+{JURICIC, L. \emph{{{CoreWeave}} Stock Falls after {{The Verge}} Labels It
+  "Heart of {{AI}} Bubble"}. 2025.
+Dispon{\'\i}vel em:
+  \url{https://finance.yahoo.com/news/coreweave-stock-falls-verge-labels-155210921.html}.}
+
+\bibitem[Kaye 2025]{Kaye2025}
+\abntrefinfo{Kaye}{KAYE}{2025}
+{KAYE, D. \emph{Nvidia Becomes World's First \$5tn Company}. 2025.
+Dispon{\'\i}vel em: \url{https://www.bbc.com/news/articles/cp8e970vn5vo}.}
+
 \bibitem[Kollar 2025]{Kollar2025}
 \abntrefinfo{Kollar}{KOLLAR}{2025}
 {KOLLAR, J. \emph{Cisco, {{Nvidia}}, and the {{Economics}} of {{Tech
   Bubbles}}}. 2025.
 Dispon{\'\i}vel em:
   \url{https://www.technostatecraft.com/p/cisco-nvidia-and-the-economics-of?utm\_medium=android&triedRedirect=true}.}
+
+\bibitem[Krizhevsky, Sutskever e Hinton 2012]{Krizhevsky2012}
+\abntrefinfo{Krizhevsky, Sutskever e Hinton}{KRIZHEVSKY; SUTSKEVER;
+  HINTON}{2012}
+{KRIZHEVSKY, A.; SUTSKEVER, I.; HINTON, G.~E. {{ImageNet}} classification with
+  deep convolutional neural networks.
+\emph{Communications of the ACM}, v.~60, n.~6, p. 84--90, 2012.
+ISSN 0001-0782, 1557-7317.}
+
+\bibitem[Laird 2026]{Laird2026}
+\abntrefinfo{Laird}{LAIRD}{2026}
+{LAIRD, J. \emph{{{OpenAI}}'s Own Forecast Predicts \$14 Billion Loss in 2026
+  but {{Nvidia-style}} \$100 Billion Revenues by 2029 According to New Report}.
+  2026.
+Dispon{\'\i}vel em:
+  \url{https://www.pcgamer.com/software/ai/openais-internal-documents-predict-usd14-billion-loss-in-2026-according-to-report/}.}
+
+\bibitem[Lopatto 2025]{Lopatto2025}
+\abntrefinfo{Lopatto}{LOPATTO}{2025}
+{LOPATTO, E. Meet {{CoreWeave}}, the {{AI}} industry's ticking time bomb.
+\emph{The Verge}, nov. 2025.
+Dispon{\'\i}vel em:
+  \url{https://www.theverge.com/ai-artificial-intelligence/822011/coreweave-debt-data-center-ai}.}
+
+\bibitem[{{LSTM}} Is Dead. {{Long Live Transformers}}! 2019]{Dirac2019}
+\abntrefinfo{{{LSTM}}\ldots}{{{LSTM}}\ldots}{2019}
+{{{LSTM}} Is Dead. {{Long Live Transformers}}! Seattle Applied Deep Learning:
+  [s.n.], 2019.
+Dispon{\'\i}vel em: \url{https://www.youtube.com/watch?v=S27pHKBEp30}.}
+
+\bibitem[Marx 2014]{Marx2014}
+\abntrefinfo{Marx}{MARX}{2014}
+{MARX, K. \emph{{O capital: cr\'itica da economia pol\'itica - Livro II: o
+  processo de circula\c c\~ao do capital}}. 1. ed. S\~ao Paulo: Boitempo,
+  2014.}
+
+\bibitem[Marx 2017]{Marx2017}
+\abntrefinfo{Marx}{MARX}{2017}
+{MARX, K. \emph{{O Capital: cr\'itica da economia pol\'itica - Livro I: o
+  processo de produ\c c\~ao do capital}}. 2. ed. S\~ao Paulo: Boitempo, 2017.}
+
+\bibitem[McElheran et al. 2023]{McElheran2023}
+\abntrefinfo{McElheran et al.}{MCELHERAN et al.}{2023}
+{MCELHERAN, K. et al. {{AI}} adoption in {{America}}: {{Who}}, what, and where.
+\emph{NBER Working Paper Series}, 2023.}
+
+\bibitem[Milmo et al. 2025]{Milmo2025}
+\abntrefinfo{Milmo et al.}{MILMO et al.}{2025}
+{MILMO, D. et al. `{{Sputnik}} moment': \$1tn wiped off {{US}} stocks after
+  {{Chinese}} firm unveils {{AI}} chatbot.
+\emph{The Guardian}, jan. 2025.
+ISSN 0261-3077.
+Dispon{\'\i}vel em:
+  \url{https://www.theguardian.com/business/2025/jan/27/tech-shares-asia-europe-fall-china-ai-deepseek}.}
+
+\bibitem[Nielsen 2015]{Nielsen2015}
+\abntrefinfo{Nielsen}{NIELSEN}{2015}
+{NIELSEN, M.~A. \emph{Neural Networks and Deep Learning}. San Francisco:
+  Determination Press, 2015. v.~25. Dispon{\'\i}vel em:
+  \url{http://neuralnetworksanddeeplearning.com/}.}
+
+\bibitem[Sarma 2022]{DasSarma2022}
+\abntrefinfo{Sarma}{SARMA}{2022}
+{SARMA, S. D. \emph{Quantum Computing Has a Hype Problem}. 2022.
+Dispon{\'\i}vel em:
+  \url{https://www.technologyreview.com/2022/03/28/1048355/quantum-computing-has-a-hype-problem/}.}
+
+\bibitem[Smith 2026]{Smith2026}
+\abntrefinfo{Smith}{SMITH}{2026}
+{SMITH, D. \emph{{{OpenAI}} Says It Plans to Report Stunning Annual Losses
+  through 2028---and Then Turn Wildly Profitable Just Two Years Later}. 2026.
+Dispon{\'\i}vel em:
+  \url{https://fortune.com/2025/11/12/openai-cash-burn-rate-annual-losses-2028-profitable-2030-financial-documents/}.}
+
+\bibitem[Vaswani et al. 2017]{Vaswani2017a}
+\abntrefinfo{Vaswani et al.}{VASWANI et al.}{2017}
+{VASWANI, A. et al. Attention is all you need.
+\emph{Advances in neural information processing systems}, v.~30, 2017.
+Dispon{\'\i}vel em:
+  \url{https://proceedings.neurips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html}.}
+
+\bibitem[Wang et al. 2025]{Wang2025}
+\abntrefinfo{Wang et al.}{WANG et al.}{2025}
+{WANG, E. et al. Exclusive: {{OpenAI}} lays groundwork for juggernaut {{IPO}}
+  at up to \$1 trillion valuation.
+\emph{Reuters}, out. 2025.
+Dispon{\'\i}vel em:
+  \url{https://www.reuters.com/business/openai-lays-groundwork-juggernaut-ipo-up-1-trillion-valuation-2025-10-29/}.}
 
 \end{thebibliography}
