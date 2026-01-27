@@ -1,14 +1,14 @@
 # Fdb version 4
-["bibtex texto_bolhas"] 1769521521.47449 "texto_bolhas.aux" "texto_bolhas.bbl" "texto_bolhas" 1769521523.00408 0
+["bibtex texto_bolhas"] 1769521521.47449 "texto_bolhas.aux" "texto_bolhas.bbl" "texto_bolhas" 1769527062.80502 0
   "./texto_bolhas.bib" 1769520883 25740 061e5d1354bffbff1e0da7bb0d5cb8a1 ""
   "C:/Users/nicho/AppData/Roaming/MiKTeX/bibtex/bib/abntex2/abntex2-options.bib" 1543103229 5396 4eb260dac60f150ae608d45252853090 ""
   "C:/Users/nicho/AppData/Roaming/MiKTeX/bibtex/bst/abntex2/abntex2-alf.bst" 1543103230 60064 0819ac8568f9a482510a46e3a8a6f605 ""
-  "texto_bolhas.aux" 1769521522 4320 6f3ba5e835a8eea7a490f9858a01cad7 "pdflatex"
+  "texto_bolhas.aux" 1769527061 4320 6f3ba5e835a8eea7a490f9858a01cad7 "pdflatex"
   (generated)
   "texto_bolhas.bbl"
   "texto_bolhas.blg"
   (rewritten before read)
-["pdflatex"] 1769521521.69749 "c:/Users/nicho/Documents/MastersDegree/Writing/Texto Bolha Ponto-Com vs Bolha IA/texto_bolhas.tex" "texto_bolhas.pdf" "texto_bolhas" 1769521523.00464 0
+["pdflatex"] 1769527061.07641 "c:/Users/nicho/Documents/MastersDegree/Writing/Texto Bolha Ponto-Com vs Bolha IA/texto_bolhas.tex" "texto_bolhas.pdf" "texto_bolhas" 1769527062.80559 0
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/tcrm1000.tfm" 993062508 1436 c7f957a372ef2fbe93c0982f96625e12 ""
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/tcrm1200.tfm" 993062508 1444 95ffe0f19b974d50849790c8225c7ef7 ""
   "C:/Program Files/MiKTeX/fonts/tfm/jknappen/ec/tcti1200.tfm" 993062558 1604 64544291d47abfccebbf78eacbe2faaf ""
@@ -95,11 +95,11 @@
   "C:/Users/nicho/AppData/Roaming/MiKTeX/tex/latex/relsize/relsize.sty" 1365244030 15542 c4cc3164fe24f2f2fbb06eb71b1da4c4 ""
   "C:/Users/nicho/AppData/Roaming/MiKTeX/tex/latex/rerunfilecheck/rerunfilecheck.sty" 1751104012 9684 a33a14b82ce60d6e77cb9be689d79ee6 ""
   "C:/Users/nicho/AppData/Roaming/MiKTeX/tex/latex/setspace/setspace.sty" 1670403145 22490 8cac309b79a4c53a4ffce4b1b07aead0 ""
-  "c:/Users/nicho/Documents/MastersDegree/Writing/Texto Bolha Ponto-Com vs Bolha IA/texto_bolhas.tex" 1769521518 23131 3f5de99be372fda29571dc7f65bf2a16 ""
-  "texto_bolhas.aux" 1769521522 4320 6f3ba5e835a8eea7a490f9858a01cad7 "pdflatex"
+  "c:/Users/nicho/Documents/MastersDegree/Writing/Texto Bolha Ponto-Com vs Bolha IA/texto_bolhas.tex" 1769527060 23138 da431dc45c93368fd832b47c462e2457 ""
+  "texto_bolhas.aux" 1769527061 4320 6f3ba5e835a8eea7a490f9858a01cad7 "pdflatex"
   "texto_bolhas.bbl" 1769521521 6149 61ef2b2abff0c3be00695cab8f853986 "bibtex texto_bolhas"
-  "texto_bolhas.out" 1769521522 735 7204a1ce15675d150ba6f2aab3ac6299 "pdflatex"
-  "texto_bolhas.tex" 1769521518 23131 3f5de99be372fda29571dc7f65bf2a16 ""
+  "texto_bolhas.out" 1769527061 735 7204a1ce15675d150ba6f2aab3ac6299 "pdflatex"
+  "texto_bolhas.tex" 1769527060 23138 da431dc45c93368fd832b47c462e2457 ""
   (generated)
   "texto_bolhas.aux"
   "texto_bolhas.log"
