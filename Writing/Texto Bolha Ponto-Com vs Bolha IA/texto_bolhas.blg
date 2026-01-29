@@ -1,68 +1,17 @@
-This is BibTeX, Version 0.99d
-Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: texto_bolhas.aux
-Reallocating 'name_of_file' (item size: 1) to 12 items.
-The style file: abntex2-alf.bst
-Reallocating 'name_of_file' (item size: 1) to 16 items.
-Reallocating 'name_of_file' (item size: 1) to 17 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'wiz_functions' (item size: 4) to 6000 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'wiz_functions' (item size: 4) to 9000 items.
-Database file #1: abntex2-options.bib
-Database file #2: texto_bolhas.bib
-Reallocating 'singl_function' (item size: 4) to 100 items.
-Reallocating 'glb_str_end' (item size: 4) to 20 items.
-Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
-Reallocating 'global_strs' (item size: 1) to 4000000 items.
-+---------------------------------------------------------+
-| Estilo bibliográfico abntex2-alf.bst versão v-1.9.7           |
-| Em caso de dúvidas ou problemas com este estilo procure |
-| http://www.abntex.net.br/                               |
-+---------------------------------------------------------+
-You've used 20 entries,
-            6714 wiz_defined-function locations,
-            1325 strings with 13489 characters,
-and the built_in function-call counts, 37875 in all, are:
-= -- 4921
-> -- 496
-< -- 1236
-+ -- 1464
-- -- 150
-* -- 2237
-:= -- 4574
-add.period$ -- 76
-call.type$ -- 20
-change.case$ -- 181
-chr.to.int$ -- 41
-cite$ -- 19
-duplicate$ -- 4269
-empty$ -- 1102
-format.name$ -- 722
-if$ -- 7199
-int.to.chr$ -- 0
-int.to.str$ -- 0
-missing$ -- 340
-newline$ -- 107
-num.names$ -- 90
-pop$ -- 479
-preamble$ -- 1
-purify$ -- 75
-quote$ -- 0
-skip$ -- 4488
-stack$ -- 1
-substring$ -- 1660
-swap$ -- 1467
-text.length$ -- 24
-text.prefix$ -- 0
-top$ -- 0
-type$ -- 9
-warning$ -- 0
-while$ -- 131
-width$ -- 0
-write$ -- 296
+[0] Config.pm:328> INFO - This is Biber 2.21
+[0] Config.pm:331> INFO - Logfile is 'texto_bolhas.blg'
+[91] biber-MSWIN64:342> INFO - === 
+[129] Biber.pm:421> INFO - Reading 'texto_bolhas.bcf'
+[226] Biber.pm:1002> INFO - Found 25 citekeys in bib section 0
+[237] Biber.pm:4487> INFO - Processing section 0
+[247] Biber.pm:4678> INFO - Looking for bibtex file 'texto_bolhas.bib' for section 0
+[324] bibtex.pm:1713> INFO - LaTeX decoding ...
+[404] bibtex.pm:1519> INFO - Found BibTeX data source 'texto_bolhas.bib'
+[551] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[551] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'variable = shifted' with 'variable = non-ignorable'
+[551] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'pt-PT'
+[551] Biber.pm:4313> INFO - No sort tailoring available for locale 'pt-PT'
+[574] bbl.pm:676> INFO - Writing 'texto_bolhas.bbl' with encoding 'UTF-8'
+[589] bbl.pm:779> INFO - Output to texto_bolhas.bbl
+[589] Biber.pm:132> WARN - ISBN '978-1-107-67373-1 978-1-139-52427-8' in entry 'Keynes2013' is invalid - run biber with '--validate_datamodel' for details.
+[589] Biber.pm:134> INFO - WARNINGS: 1

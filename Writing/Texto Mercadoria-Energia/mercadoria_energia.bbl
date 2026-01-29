@@ -1,53 +1,373 @@
-\providecommand{\abntreprintinfo}[1]{%
- \citeonline{#1}}
-\setlength{\labelsep}{0pt}\begin{thebibliography}{}
-\providecommand{\abntrefinfo}[3]{}
-\providecommand{\abntbstabout}[1]{}
-\abntbstabout{v-1.9.7 }
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
 
-\bibitem[Bhaskar 1978]{Bhaskar1978}
-\abntrefinfo{Bhaskar}{BHASKAR}{1978}
-{BHASKAR, R. \emph{A {{Realist Theory}} of {{Science}}}. 2. ed. Nova Jersey:
-  Humanities Press, 1978.
-ISBN 978-1-134-05086-4.}
 
-\bibitem[Brookes 2000]{Brookes2000}
-\abntrefinfo{Brookes}{BROOKES}{2000}
-{BROOKES, L.~G. Energy efficiency fallacies revisited.
-\emph{Energy Policy}, v.~28, n.~6, p. 355--366, jun. 2000.}
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{Bhaskar1978}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f158616dc653ce0a3f7e460e7e4c4dd8}{%
+           family={Bhaskar},
+           familyi={B\bibinitperiod},
+           given={Roy},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Nova Jersey}%
+      }
+      \list{publisher}{1}{%
+        {Humanities Press}%
+      }
+      \strng{namehash}{f158616dc653ce0a3f7e460e7e4c4dd8}
+      \strng{fullhash}{f158616dc653ce0a3f7e460e7e4c4dd8}
+      \strng{fullhashraw}{f158616dc653ce0a3f7e460e7e4c4dd8}
+      \strng{bibnamehash}{f158616dc653ce0a3f7e460e7e4c4dd8}
+      \strng{authorbibnamehash}{f158616dc653ce0a3f7e460e7e4c4dd8}
+      \strng{authornamehash}{f158616dc653ce0a3f7e460e7e4c4dd8}
+      \strng{authorfullhash}{f158616dc653ce0a3f7e460e7e4c4dd8}
+      \strng{authorfullhashraw}{f158616dc653ce0a3f7e460e7e4c4dd8}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{langid}{english}
+      \field{title}{A {{Realist Theory}} of {{Science}}}
+      \field{year}{1978}
+      \keyw{philosophy,philosophy/philosophy_of_science}
+    \endentry
+    \entry{Brookes2000}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=15090d3314c2c999d04871948c715e97}{%
+           family={Brookes},
+           familyi={B\bibinitperiod},
+           given={Leonard\bibnamedelima G.},
+           giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{15090d3314c2c999d04871948c715e97}
+      \strng{fullhash}{15090d3314c2c999d04871948c715e97}
+      \strng{fullhashraw}{15090d3314c2c999d04871948c715e97}
+      \strng{bibnamehash}{15090d3314c2c999d04871948c715e97}
+      \strng{authorbibnamehash}{15090d3314c2c999d04871948c715e97}
+      \strng{authornamehash}{15090d3314c2c999d04871948c715e97}
+      \strng{authorfullhash}{15090d3314c2c999d04871948c715e97}
+      \strng{authorfullhashraw}{15090d3314c2c999d04871948c715e97}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{annotation}{MAG ID: 1984826624}
+      \field{journaltitle}{Energy Policy}
+      \field{month}{6}
+      \field{number}{6}
+      \field{title}{Energy Efficiency Fallacies Revisited}
+      \field{volume}{28}
+      \field{year}{2000}
+      \field{pages}{355\bibrangedash 366}
+      \range{pages}{12}
+      \keyw{economics}
+    \endentry
+    \entry{Feynman2006}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=aac54ccf9c76aa4ba4310ed1334be7d8}{%
+           family={Feynman},
+           familyi={F\bibinitperiod},
+           given={Richard\bibnamedelima P.},
+           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=773368378dd55945d3bd474598026757}{%
+           family={Leighton},
+           familyi={L\bibinitperiod},
+           given={Robert\bibnamedelima B.},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5c232c2cb9d68f9c56cfcc361731e78e}{%
+           family={Sands},
+           familyi={S\bibinitperiod},
+           given={Matthew\bibnamedelima L.},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {San Francisco}%
+      }
+      \list{publisher}{1}{%
+        {Pearson Addison Wesley}%
+      }
+      \strng{namehash}{2c21286a7c7e7a4bcb5a2debc7959b90}
+      \strng{fullhash}{2c21286a7c7e7a4bcb5a2debc7959b90}
+      \strng{fullhashraw}{2c21286a7c7e7a4bcb5a2debc7959b90}
+      \strng{bibnamehash}{2c21286a7c7e7a4bcb5a2debc7959b90}
+      \strng{authorbibnamehash}{2c21286a7c7e7a4bcb5a2debc7959b90}
+      \strng{authornamehash}{2c21286a7c7e7a4bcb5a2debc7959b90}
+      \strng{authorfullhash}{2c21286a7c7e7a4bcb5a2debc7959b90}
+      \strng{authorfullhashraw}{2c21286a7c7e7a4bcb5a2debc7959b90}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{The {{Feynman}} Lectures on Physics}
+      \field{year}{2006}
+      \verb{urlraw}
+      \verb https://www.feynmanlectures.caltech.edu/
+      \endverb
+      \verb{url}
+      \verb https://www.feynmanlectures.caltech.edu/
+      \endverb
+    \endentry
+    \entry{Jevons1866}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=64cc6e50f483058684a3ec742cbd8ab6}{%
+           family={Jevons},
+           familyi={J\bibinitperiod},
+           given={William\bibnamedelima Stanley},
+           giveni={W\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Macmillan and Co.}%
+      }
+      \strng{namehash}{64cc6e50f483058684a3ec742cbd8ab6}
+      \strng{fullhash}{64cc6e50f483058684a3ec742cbd8ab6}
+      \strng{fullhashraw}{64cc6e50f483058684a3ec742cbd8ab6}
+      \strng{bibnamehash}{64cc6e50f483058684a3ec742cbd8ab6}
+      \strng{authorbibnamehash}{64cc6e50f483058684a3ec742cbd8ab6}
+      \strng{authornamehash}{64cc6e50f483058684a3ec742cbd8ab6}
+      \strng{authorfullhash}{64cc6e50f483058684a3ec742cbd8ab6}
+      \strng{authorfullhashraw}{64cc6e50f483058684a3ec742cbd8ab6}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{title}{The Coal Question}
+      \field{year}{1866}
+      \verb{urlraw}
+      \verb https://oll.libertyfund.org/titles/jevons-the-coal-question
+      \endverb
+      \verb{url}
+      \verb https://oll.libertyfund.org/titles/jevons-the-coal-question
+      \endverb
+      \keyw{economics}
+    \endentry
+    \entry{Marx2017}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=af80d32a7d375e934f94bdfb27bf2999}{%
+           family={Marx},
+           familyi={M\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {Boitempo}%
+      }
+      \strng{namehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{fullhash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{fullhashraw}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{bibnamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorbibnamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authornamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorfullhash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorfullhashraw}{af80d32a7d375e934f94bdfb27bf2999}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{2}
+      \field{langid}{brazilian}
+      \field{shorttitle}{{O Capital}}
+      \field{title}{{O Capital: crítica da economia política - Livro I: o processo de produção do capital}}
+      \field{year}{2017}
+      \keyw{economics,marxism}
+    \endentry
+    \entry{Marx2014}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=af80d32a7d375e934f94bdfb27bf2999}{%
+           family={Marx},
+           familyi={M\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {Boitempo}%
+      }
+      \strng{namehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{fullhash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{fullhashraw}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{bibnamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorbibnamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authornamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorfullhash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorfullhashraw}{af80d32a7d375e934f94bdfb27bf2999}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{1}
+      \field{langid}{brazilian}
+      \field{shorttitle}{{O capital}}
+      \field{title}{{O capital: crítica da economia política - Livro II: o processo de circulação do capital}}
+      \field{year}{2014}
+      \keyw{economics,marxism}
+    \endentry
+    \entry{PintoJr2007}{book}{}{}
+      \name{editor}{1}{}{%
+        {{un=0,uniquepart=base,hash=f68a734a76eff890eba654f4d2e158a9}{%
+           family={Pinto\bibnamedelima Jr},
+           familyi={P\bibinitperiod\bibinitdelim J\bibinitperiod},
+           given={Helder\bibnamedelima Queiroz},
+           giveni={H\bibinitperiod\bibinitdelim Q\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{f68a734a76eff890eba654f4d2e158a9}
+      \strng{fullhash}{f68a734a76eff890eba654f4d2e158a9}
+      \strng{fullhashraw}{f68a734a76eff890eba654f4d2e158a9}
+      \strng{bibnamehash}{f68a734a76eff890eba654f4d2e158a9}
+      \strng{editorbibnamehash}{f68a734a76eff890eba654f4d2e158a9}
+      \strng{editornamehash}{f68a734a76eff890eba654f4d2e158a9}
+      \strng{editorfullhash}{f68a734a76eff890eba654f4d2e158a9}
+      \strng{editorfullhashraw}{f68a734a76eff890eba654f4d2e158a9}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{title}
+      \field{langid}{brazilian}
+      \field{title}{{Economia Da Energia}}
+      \field{year}{2007}
+      \keyw{economics}
+    \endentry
+    \entry{Richter2012}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9e42b74c08912680d07f8bdae13d3a38}{%
+           family={Richter},
+           familyi={R\bibinitperiod},
+           given={Mario},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{9e42b74c08912680d07f8bdae13d3a38}
+      \strng{fullhash}{9e42b74c08912680d07f8bdae13d3a38}
+      \strng{fullhashraw}{9e42b74c08912680d07f8bdae13d3a38}
+      \strng{bibnamehash}{9e42b74c08912680d07f8bdae13d3a38}
+      \strng{authorbibnamehash}{9e42b74c08912680d07f8bdae13d3a38}
+      \strng{authornamehash}{9e42b74c08912680d07f8bdae13d3a38}
+      \strng{authorfullhash}{9e42b74c08912680d07f8bdae13d3a38}
+      \strng{authorfullhashraw}{9e42b74c08912680d07f8bdae13d3a38}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Renewable and Sustainable Energy Reviews}
+      \field{number}{5}
+      \field{shorttitle}{Utilities' Business Models for Renewable Energy}
+      \field{title}{Utilities' Business Models for Renewable Energy: {{A}} Review}
+      \field{urlday}{22}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{volume}{16}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \field{pages}{2483\bibrangedash 2493}
+      \range{pages}{11}
+    \endentry
+    \entry{Wallace2006}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=459caef4a0681ffa263ce84b83be3830}{%
+           family={Wallace},
+           familyi={W\bibinitperiod},
+           given={John\bibnamedelima Michael},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=440c88f2526625837686f278aff559f1}{%
+           family={Hobbs},
+           familyi={H\bibinitperiod},
+           given={Peter\bibnamedelima Victor},
+           giveni={P\bibinitperiod\bibinitdelim V\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Amsterdam Paris}%
+      }
+      \list{publisher}{1}{%
+        {Academic Press}%
+      }
+      \strng{namehash}{77ca4d0e95316f3138727251d84a166a}
+      \strng{fullhash}{77ca4d0e95316f3138727251d84a166a}
+      \strng{fullhashraw}{77ca4d0e95316f3138727251d84a166a}
+      \strng{bibnamehash}{77ca4d0e95316f3138727251d84a166a}
+      \strng{authorbibnamehash}{77ca4d0e95316f3138727251d84a166a}
+      \strng{authornamehash}{77ca4d0e95316f3138727251d84a166a}
+      \strng{authorfullhash}{77ca4d0e95316f3138727251d84a166a}
+      \strng{authorfullhashraw}{77ca4d0e95316f3138727251d84a166a}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{2}
+      \field{langid}{english}
+      \field{number}{volume 92}
+      \field{series}{International Geophysics Series}
+      \field{shorttitle}{Atmospheric Science}
+      \field{title}{Atmospheric Science: An Introductory Survey}
+      \field{year}{2006}
+      \keyw{physics}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
 
-\bibitem[Jevons 1866]{Jevons1866}
-\abntrefinfo{Jevons}{JEVONS}{1866}
-{JEVONS, W.~S. \emph{The Coal Question}. 2. ed. London: {Macmillan and Co.},
-  1866.}
-
-\bibitem[Jr 2007]{PintoJr2007}
-\abntrefinfo{Jr}{JR}{2007}
-{JR, H.~Q. P. (Ed.). \emph{{Economia Da Energia}}. [S.l.]: Elsevier, 2007.
-ISBN 978-85-352-2408-5.}
-
-\bibitem[Marx 2014]{Marx2014}
-\abntrefinfo{Marx}{MARX}{2014}
-{MARX, K. \emph{{O capital: cr\'itica da economia pol\'itica - Livro II: o
-  processo de circula\c c\~ao do capital}}. 1. ed. S\~ao Paulo: Boitempo,
-  2014.}
-
-\bibitem[Marx 2017]{Marx2017}
-\abntrefinfo{Marx}{MARX}{2017}
-{MARX, K. \emph{{O Capital: cr\'itica da economia pol\'itica - Livro I: o
-  processo de produ\c c\~ao do capital}}. 2. ed. S\~ao Paulo: Boitempo, 2017.}
-
-\bibitem[Richter 2012]{Richter2012}
-\abntrefinfo{Richter}{RICHTER}{2012}
-{RICHTER, M. Utilities' business models for renewable energy: {{A}} review.
-\emph{Renewable and Sustainable Energy Reviews}, Elsevier, v.~16, n.~5, p.
-  2483--2493, 2012.}
-
-\bibitem[Wallace e Hobbs 2006]{Wallace2006}
-\abntrefinfo{Wallace e Hobbs}{WALLACE; HOBBS}{2006}
-{WALLACE, J.~M.; HOBBS, P.~V. \emph{Atmospheric Science: An Introductory
-  Survey}. 2nd ed. ed. Amsterdam Paris: Academic Press, 2006.  (International
-  Geophysics Series, volume 92).
-ISBN 978-0-12-732951-2.}
-
-\end{thebibliography}

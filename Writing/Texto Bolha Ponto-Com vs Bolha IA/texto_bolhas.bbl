@@ -1,136 +1,1215 @@
-\providecommand{\abntreprintinfo}[1]{%
- \citeonline{#1}}
-\setlength{\labelsep}{0pt}\begin{thebibliography}{}
-\providecommand{\abntrefinfo}[3]{}
-\providecommand{\abntbstabout}[1]{}
-\abntbstabout{v-1.9.7 }
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
 
-\bibitem[Bolukbasi et al. 2016]{Bolukbasi2016a}
-\abntrefinfo{Bolukbasi et al.}{BOLUKBASI et al.}{2016}
-{BOLUKBASI, T. et al. Man is to computer programmer as woman is to homemaker?
-  {{Debiasing}} word embeddings.
-\emph{Advances in neural information processing systems}, v.~29, 2016.
-Dispon{\'\i}vel em:
-  \url{https://proceedings.neurips.cc/paper\_files/paper/2016/hash/a486cd07e4ac3d270571622f4f316ec5-Abstract.html}.}
 
-\bibitem[Goodfellow, Bengio e Courville 2016]{Goodfellow-et-al-2016}
-\abntrefinfo{Goodfellow, Bengio e Courville}{GOODFELLOW; BENGIO;
-  COURVILLE}{2016}
-{GOODFELLOW, I.; BENGIO, Y.; COURVILLE, A. \emph{Deep Learning}. MIT Press,
-  2016. Dispon{\'\i}vel em: \url{https://www.deeplearningbook.org/}.}
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{Armstrong2023}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2c11932212530a7eeb082477da5e8307}{%
+           family={Armstrong},
+           familyi={A\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2c11932212530a7eeb082477da5e8307}
+      \strng{fullhash}{2c11932212530a7eeb082477da5e8307}
+      \strng{fullhashraw}{2c11932212530a7eeb082477da5e8307}
+      \strng{bibnamehash}{2c11932212530a7eeb082477da5e8307}
+      \strng{authorbibnamehash}{2c11932212530a7eeb082477da5e8307}
+      \strng{authornamehash}{2c11932212530a7eeb082477da5e8307}
+      \strng{authorfullhash}{2c11932212530a7eeb082477da5e8307}
+      \strng{authorfullhashraw}{2c11932212530a7eeb082477da5e8307}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Financial Times}
+      \field{month}{8}
+      \field{title}{Nvidia circa 2023, {{Cisco}} circa 2000}
+      \field{year}{2023}
+      \keyw{AI}
+    \endentry
+    \entry{Bolukbasi2016a}{article}{}{}
+      \name{author}{5}{}{%
+        {{un=0,uniquepart=base,hash=9302e95dd4df33ead5464ab087ab17b0}{%
+           family={Bolukbasi},
+           familyi={B\bibinitperiod},
+           given={Tolga},
+           giveni={T\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e92742530fcafbae797b45437638bb01}{%
+           family={Chang},
+           familyi={C\bibinitperiod},
+           given={Kai-Wei},
+           giveni={K\bibinithyphendelim W\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=513cf660ea55635f455cdb1b82247955}{%
+           family={Zou},
+           familyi={Z\bibinitperiod},
+           given={James\bibnamedelima Y.},
+           giveni={J\bibinitperiod\bibinitdelim Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5292ad7a965d3892e67bed1262d5e8a3}{%
+           family={Saligrama},
+           familyi={S\bibinitperiod},
+           given={Venkatesh},
+           giveni={V\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=441fdec1f97230a547ac61f41633fa45}{%
+           family={Kalai},
+           familyi={K\bibinitperiod},
+           given={Adam\bibnamedelima T.},
+           giveni={A\bibinitperiod\bibinitdelim T\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ad8a246e762922f308a119263671cbf5}
+      \strng{fullhash}{740ccf93391370be7b23b74f35bbadec}
+      \strng{fullhashraw}{740ccf93391370be7b23b74f35bbadec}
+      \strng{bibnamehash}{ad8a246e762922f308a119263671cbf5}
+      \strng{authorbibnamehash}{ad8a246e762922f308a119263671cbf5}
+      \strng{authornamehash}{ad8a246e762922f308a119263671cbf5}
+      \strng{authorfullhash}{740ccf93391370be7b23b74f35bbadec}
+      \strng{authorfullhashraw}{740ccf93391370be7b23b74f35bbadec}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Advances in neural information processing systems}
+      \field{shorttitle}{Man Is to Computer Programmer as Woman Is to Homemaker?}
+      \field{title}{Man Is to Computer Programmer as Woman Is to Homemaker? {{Debiasing}} Word Embeddings}
+      \field{urlday}{25}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{volume}{29}
+      \field{year}{2016}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://proceedings.neurips.cc/paper_files/paper/2016/hash/a486cd07e4ac3d270571622f4f316ec5-Abstract.html
+      \endverb
+      \verb{url}
+      \verb https://proceedings.neurips.cc/paper_files/paper/2016/hash/a486cd07e4ac3d270571622f4f316ec5-Abstract.html
+      \endverb
+      \keyw{AI}
+    \endentry
+    \entry{Carcanholo2009}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=69303baeb2127d5f65d2d99ca327735a}{%
+           family={Carcanholo},
+           familyi={C\bibinitperiod},
+           given={Reinaldo},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3de4288237fc839cef0cd5b4ffdf6f2b}{%
+           family={Sabadini},
+           familyi={S\bibinitperiod},
+           given={Mauricio},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{cca2f8cb0cbcc97f5362a54ba190d4ca}
+      \strng{fullhash}{cca2f8cb0cbcc97f5362a54ba190d4ca}
+      \strng{fullhashraw}{cca2f8cb0cbcc97f5362a54ba190d4ca}
+      \strng{bibnamehash}{cca2f8cb0cbcc97f5362a54ba190d4ca}
+      \strng{authorbibnamehash}{cca2f8cb0cbcc97f5362a54ba190d4ca}
+      \strng{authornamehash}{cca2f8cb0cbcc97f5362a54ba190d4ca}
+      \strng{authorfullhash}{cca2f8cb0cbcc97f5362a54ba190d4ca}
+      \strng{authorfullhashraw}{cca2f8cb0cbcc97f5362a54ba190d4ca}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Revista da Sociedade Brasileira de Economia Política}
+      \field{number}{41}
+      \field{title}{Capital Fictício e Lucros Fictícios}
+      \field{volume}{24}
+      \field{year}{2009}
+      \field{pages}{65}
+      \range{pages}{1}
+      \keyw{marxism}
+    \endentry
+    \entry{DasSarma2022}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0850ad71b34e8d6fa3687767990eddc7}{%
+           family={Das\bibnamedelima Sarma},
+           familyi={D\bibinitperiod\bibinitdelim S\bibinitperiod},
+           given={Sankar},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{0850ad71b34e8d6fa3687767990eddc7}
+      \strng{fullhash}{0850ad71b34e8d6fa3687767990eddc7}
+      \strng{fullhashraw}{0850ad71b34e8d6fa3687767990eddc7}
+      \strng{bibnamehash}{0850ad71b34e8d6fa3687767990eddc7}
+      \strng{authorbibnamehash}{0850ad71b34e8d6fa3687767990eddc7}
+      \strng{authornamehash}{0850ad71b34e8d6fa3687767990eddc7}
+      \strng{authorfullhash}{0850ad71b34e8d6fa3687767990eddc7}
+      \strng{authorfullhashraw}{0850ad71b34e8d6fa3687767990eddc7}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Quantum computing startups are all the rage, but it's unclear if they'll be able to produce anything of use in the near future.}
+      \field{journaltitle}{MIT Technology Review}
+      \field{langid}{english}
+      \field{month}{3}
+      \field{title}{Quantum Computing Has a Hype Problem}
+      \field{urlday}{25}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.technologyreview.com/2022/03/28/1048355/quantum-computing-has-a-hype-problem/
+      \endverb
+      \verb{url}
+      \verb https://www.technologyreview.com/2022/03/28/1048355/quantum-computing-has-a-hype-problem/
+      \endverb
+      \keyw{AI}
+    \endentry
+    \entry{Dirac2019}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d020c8a474024a978345a4a0f8635550}{%
+           family={Dirac},
+           familyi={D\bibinitperiod},
+           given={Leo},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Seattle Applied Deep Learning}%
+      }
+      \strng{namehash}{d020c8a474024a978345a4a0f8635550}
+      \strng{fullhash}{d020c8a474024a978345a4a0f8635550}
+      \strng{fullhashraw}{d020c8a474024a978345a4a0f8635550}
+      \strng{bibnamehash}{d020c8a474024a978345a4a0f8635550}
+      \strng{authorbibnamehash}{d020c8a474024a978345a4a0f8635550}
+      \strng{authornamehash}{d020c8a474024a978345a4a0f8635550}
+      \strng{authorfullhash}{d020c8a474024a978345a4a0f8635550}
+      \strng{authorfullhashraw}{d020c8a474024a978345a4a0f8635550}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Creative Commons Attribution license (reuse allowed)}
+      \field{month}{12}
+      \field{title}{{{LSTM}} Is Dead. {{Long Live Transformers}}!}
+      \field{urlday}{23}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{year}{2019}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=S27pHKBEp30
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=S27pHKBEp30
+      \endverb
+      \keyw{AI}
+    \endentry
+    \entry{Goodfellow-et-al-2016}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=5d2585c11210cf1d4512e6e0a03ec315}{%
+           family={Goodfellow},
+           familyi={G\bibinitperiod},
+           given={Ian},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=40a8e4774982146adc2688546f54efb2}{%
+           family={Bengio},
+           familyi={B\bibinitperiod},
+           given={Yoshua},
+           giveni={Y\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=ccec1ccd2e1aa86960eb2e872c6b7020}{%
+           family={Courville},
+           familyi={C\bibinitperiod},
+           given={Aaron},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Press}%
+      }
+      \strng{namehash}{3ae53fe582e8a815b118d26947eaa326}
+      \strng{fullhash}{3ae53fe582e8a815b118d26947eaa326}
+      \strng{fullhashraw}{3ae53fe582e8a815b118d26947eaa326}
+      \strng{bibnamehash}{3ae53fe582e8a815b118d26947eaa326}
+      \strng{authorbibnamehash}{3ae53fe582e8a815b118d26947eaa326}
+      \strng{authornamehash}{3ae53fe582e8a815b118d26947eaa326}
+      \strng{authorfullhash}{3ae53fe582e8a815b118d26947eaa326}
+      \strng{authorfullhashraw}{3ae53fe582e8a815b118d26947eaa326}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Deep Learning}
+      \field{year}{2016}
+      \verb{urlraw}
+      \verb https://www.deeplearningbook.org/
+      \endverb
+      \verb{url}
+      \verb https://www.deeplearningbook.org/
+      \endverb
+      \keyw{AI}
+    \endentry
+    \entry{Hochreiter1997}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=41b31e29fb2bdbf9f5c9c1b0d5b3e815}{%
+           family={Hochreiter},
+           familyi={H\bibinitperiod},
+           given={Sepp},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=288bdbcfe1b91ad7484d7a24f74f99ed}{%
+           family={Schmidhuber},
+           familyi={S\bibinitperiod},
+           given={Jürgen},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MIT press}%
+      }
+      \strng{namehash}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
+      \strng{fullhash}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
+      \strng{fullhashraw}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
+      \strng{bibnamehash}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
+      \strng{authorbibnamehash}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
+      \strng{authornamehash}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
+      \strng{authorfullhash}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
+      \strng{authorfullhashraw}{4c2e1e2e1ac91e1df9d4f7b85ebe39b4}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Neural computation}
+      \field{number}{8}
+      \field{title}{Long Short-Term Memory}
+      \field{urlday}{23}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{volume}{9}
+      \field{year}{1997}
+      \field{urldateera}{ce}
+      \field{pages}{1735\bibrangedash 1780}
+      \range{pages}{46}
+      \verb{urlraw}
+      \verb https://ieeexplore.ieee.org/abstract/document/6795963/
+      \endverb
+      \verb{url}
+      \verb https://ieeexplore.ieee.org/abstract/document/6795963/
+      \endverb
+      \keyw{AI}
+    \endentry
+    \entry{Juricic2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=34ce1f8a9c99cbca0ed5dc897efd7e61}{%
+           family={Juricic},
+           familyi={J\bibinitperiod},
+           given={Louis},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{34ce1f8a9c99cbca0ed5dc897efd7e61}
+      \strng{fullhash}{34ce1f8a9c99cbca0ed5dc897efd7e61}
+      \strng{fullhashraw}{34ce1f8a9c99cbca0ed5dc897efd7e61}
+      \strng{bibnamehash}{34ce1f8a9c99cbca0ed5dc897efd7e61}
+      \strng{authorbibnamehash}{34ce1f8a9c99cbca0ed5dc897efd7e61}
+      \strng{authornamehash}{34ce1f8a9c99cbca0ed5dc897efd7e61}
+      \strng{authorfullhash}{34ce1f8a9c99cbca0ed5dc897efd7e61}
+      \strng{authorfullhashraw}{34ce1f8a9c99cbca0ed5dc897efd7e61}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Investing.com -- CoreWeave Inc (NASDAQ:CRWV) shares dropped 6\% Thursday following a report from The Verge that characterized the company as being at "the heart of the AI bubble," raising questions about its business model and dependence on Nvidia.}
+      \field{journaltitle}{Yahoo Finance}
+      \field{langid}{american}
+      \field{month}{11}
+      \field{title}{{{CoreWeave}} Stock Falls after {{The Verge}} Labels It "Heart of {{AI}} Bubble"}
+      \field{urlday}{26}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://finance.yahoo.com/news/coreweave-stock-falls-verge-labels-155210921.html
+      \endverb
+      \verb{url}
+      \verb https://finance.yahoo.com/news/coreweave-stock-falls-verge-labels-155210921.html
+      \endverb
+      \keyw{AI}
+    \endentry
+    \entry{Kaye2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=54e9707a4159837251779763fbaea6e0}{%
+           family={Kaye},
+           familyi={K\bibinitperiod},
+           given={Danielle},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{54e9707a4159837251779763fbaea6e0}
+      \strng{fullhash}{54e9707a4159837251779763fbaea6e0}
+      \strng{fullhashraw}{54e9707a4159837251779763fbaea6e0}
+      \strng{bibnamehash}{54e9707a4159837251779763fbaea6e0}
+      \strng{authorbibnamehash}{54e9707a4159837251779763fbaea6e0}
+      \strng{authornamehash}{54e9707a4159837251779763fbaea6e0}
+      \strng{authorfullhash}{54e9707a4159837251779763fbaea6e0}
+      \strng{authorfullhashraw}{54e9707a4159837251779763fbaea6e0}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The US chip-maker has rapidly climbed from a niche graphics-chip manufacturer to an AI titan.}
+      \field{langid}{british}
+      \field{month}{10}
+      \field{title}{Nvidia Becomes World's First \$5tn Company}
+      \field{urlday}{27}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.bbc.com/news/articles/cp8e970vn5vo
+      \endverb
+      \verb{url}
+      \verb https://www.bbc.com/news/articles/cp8e970vn5vo
+      \endverb
+      \keyw{AI}
+    \endentry
+    \entry{Keynes2013}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=612862f6008b8bea8cd4a13783af9a93}{%
+           family={Keynes},
+           familyi={K\bibinitperiod},
+           given={John\bibnamedelima Maynard},
+           giveni={J\bibinitperiod\bibinitdelim M\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=de91a5b5967efd053f0fa8c8dd3f6ef6}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Elizabeth\bibnamedelima S.},
+           giveni={E\bibinitperiod\bibinitdelim S\bibinitperiod}}}%
+        {{hash=b4acfee7a528da30cc2c75ce67be5358}{%
+           family={Moggridge},
+           familyi={M\bibinitperiod},
+           given={Donald\bibnamedelima E.},
+           giveni={D\bibinitperiod\bibinitdelim E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Cambridge}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press for the Royal Economic Society}%
+      }
+      \strng{namehash}{612862f6008b8bea8cd4a13783af9a93}
+      \strng{fullhash}{612862f6008b8bea8cd4a13783af9a93}
+      \strng{fullhashraw}{612862f6008b8bea8cd4a13783af9a93}
+      \strng{bibnamehash}{612862f6008b8bea8cd4a13783af9a93}
+      \strng{authorbibnamehash}{612862f6008b8bea8cd4a13783af9a93}
+      \strng{authornamehash}{612862f6008b8bea8cd4a13783af9a93}
+      \strng{authorfullhash}{612862f6008b8bea8cd4a13783af9a93}
+      \strng{authorfullhashraw}{612862f6008b8bea8cd4a13783af9a93}
+      \strng{editorbibnamehash}{01504d9bdfbc8a4c92c30db68308b271}
+      \strng{editornamehash}{01504d9bdfbc8a4c92c30db68308b271}
+      \strng{editorfullhash}{01504d9bdfbc8a4c92c30db68308b271}
+      \strng{editorfullhashraw}{01504d9bdfbc8a4c92c30db68308b271}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In 1936 Keynes published the most provocative book written by any economist of his generation. The General Theory, as it is known to all economists, cut through all the Gordian Knots of pre-Keynesian discussion of the trade cycle and propounded a new approach to the determination of the level of economic activity, the problems of employment and unemployment and the causes of inflation. Arguments about the book continued until his death in 1946 and still continue today. Despite all that has been written in the subsequent years, Keynes and his book still represent the turning point between the old economics and the new from which each generation of economists needs to take its inspiration}
+      \field{isbn}{978-1-107-67373-1 978-1-139-52427-8}
+      \field{langid}{english}
+      \field{series}{The {{Collected Writings}} of {{John Maynard Keynes}}}
+      \field{title}{The Collected Writings of {{John Maynard Keynes}}: {{The General Theory}} of {{Employment}}, {{Interest}} and {{Money}}}
+      \field{volume}{7}
+      \field{year}{2013}
+      \keyw{economics,economics/macroeconomics}
+    \endentry
+    \entry{Kollar2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=538656f1ede8d6f1a3913584d934282f}{%
+           family={Kollar},
+           familyi={K\bibinitperiod},
+           given={Justin},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{538656f1ede8d6f1a3913584d934282f}
+      \strng{fullhash}{538656f1ede8d6f1a3913584d934282f}
+      \strng{fullhashraw}{538656f1ede8d6f1a3913584d934282f}
+      \strng{bibnamehash}{538656f1ede8d6f1a3913584d934282f}
+      \strng{authorbibnamehash}{538656f1ede8d6f1a3913584d934282f}
+      \strng{authornamehash}{538656f1ede8d6f1a3913584d934282f}
+      \strng{authorfullhash}{538656f1ede8d6f1a3913584d934282f}
+      \strng{authorfullhashraw}{538656f1ede8d6f1a3913584d934282f}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{What the dot-com buildout and the AI expansion reveal about state policy, investor hype, and the burdens of infrastructure}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{title}{Cisco, {{Nvidia}}, and the {{Economics}} of {{Tech Bubbles}}}
+      \field{urlday}{22}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.technostatecraft.com/p/cisco-nvidia-and-the-economics-of?utm_medium=android&triedRedirect=true
+      \endverb
+      \verb{url}
+      \verb https://www.technostatecraft.com/p/cisco-nvidia-and-the-economics-of?utm_medium=android&triedRedirect=true
+      \endverb
+      \keyw{AI}
+    \endentry
+    \entry{Krizhevsky2012}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=c5e3a676e2ac1164b3afcd539c131fc9}{%
+           family={Krizhevsky},
+           familyi={K\bibinitperiod},
+           given={Alex},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=8d569d1d5b8b5a7836017a98b430f959}{%
+           family={Sutskever},
+           familyi={S\bibinitperiod},
+           given={Ilya},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=813bd95fe553e6079cd53a567b238287}{%
+           family={Hinton},
+           familyi={H\bibinitperiod},
+           given={Geoffrey\bibnamedelima E.},
+           giveni={G\bibinitperiod\bibinitdelim E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{1a23c09aa65b3c2ade45ed18d8127375}
+      \strng{fullhash}{1a23c09aa65b3c2ade45ed18d8127375}
+      \strng{fullhashraw}{1a23c09aa65b3c2ade45ed18d8127375}
+      \strng{bibnamehash}{1a23c09aa65b3c2ade45ed18d8127375}
+      \strng{authorbibnamehash}{1a23c09aa65b3c2ade45ed18d8127375}
+      \strng{authornamehash}{1a23c09aa65b3c2ade45ed18d8127375}
+      \strng{authorfullhash}{1a23c09aa65b3c2ade45ed18d8127375}
+      \strng{authorfullhashraw}{1a23c09aa65b3c2ade45ed18d8127375}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We trained a large, deep convolutional neural network to classify the 1.2 million high-resolution images in the ImageNet LSVRC-2010 contest into the 1000 different classes. On the test data, we achieved top-1 and top-5 error rates of 37.5\% and 17.0\% which is considerably better than the previous state-of-the-art. The neural network, which has 60 million parameters and 650,000 neurons, consists of five convolutional layers, some of which are followed by max-pooling layers, and three fully-connected layers with a final 1000-way softmax. To make training faster, we used non-saturating neurons and a very efficient GPU implementation of the convolution operation. To reduce overfitting in the fully-connected layers we employed a recently-developed regularization method called ``dropout'' that proved to be very effective. We also entered a variant of this model in the ILSVRC-2012 competition and achieved a winning top-5 test error rate of 15.3\%, compared to 26.2\% achieved by the second-best entry.}
+      \field{issn}{0001-0782, 1557-7317}
+      \field{journaltitle}{Communications of the ACM}
+      \field{langid}{english}
+      \field{number}{6}
+      \field{title}{{{ImageNet}} Classification with Deep Convolutional Neural Networks}
+      \field{urlday}{23}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{volume}{60}
+      \field{year}{2012}
+      \field{urldateera}{ce}
+      \field{pages}{84\bibrangedash 90}
+      \range{pages}{7}
+      \verb{doi}
+      \verb 10.1145/3065386
+      \endverb
+      \keyw{AI}
+    \endentry
+    \entry{Laird2026}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c2924884c98b5d57c8928e190a347711}{%
+           family={Laird},
+           familyi={L\bibinitperiod},
+           given={Jeremy},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{c2924884c98b5d57c8928e190a347711}
+      \strng{fullhash}{c2924884c98b5d57c8928e190a347711}
+      \strng{fullhashraw}{c2924884c98b5d57c8928e190a347711}
+      \strng{bibnamehash}{c2924884c98b5d57c8928e190a347711}
+      \strng{authorbibnamehash}{c2924884c98b5d57c8928e190a347711}
+      \strng{authornamehash}{c2924884c98b5d57c8928e190a347711}
+      \strng{authorfullhash}{c2924884c98b5d57c8928e190a347711}
+      \strng{authorfullhashraw}{c2924884c98b5d57c8928e190a347711}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{That's quite a turn around...}
+      \field{journaltitle}{Yahoo Finance}
+      \field{langid}{american}
+      \field{month}{1}
+      \field{title}{{{OpenAI}}'s Own Forecast Predicts \$14 Billion Loss in 2026 but {{Nvidia-style}} \$100 Billion Revenues by 2029 According to New Report}
+      \field{urlday}{27}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.pcgamer.com/software/ai/openais-internal-documents-predict-usd14-billion-loss-in-2026-according-to-report/
+      \endverb
+      \verb{url}
+      \verb https://www.pcgamer.com/software/ai/openais-internal-documents-predict-usd14-billion-loss-in-2026-according-to-report/
+      \endverb
+      \keyw{AI}
+    \endentry
+    \entry{Lopatto2025}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6665c4ab9b1f2e9ca6d477a3728600bb}{%
+           family={Lopatto},
+           familyi={L\bibinitperiod},
+           given={Elizabeth},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6665c4ab9b1f2e9ca6d477a3728600bb}
+      \strng{fullhash}{6665c4ab9b1f2e9ca6d477a3728600bb}
+      \strng{fullhashraw}{6665c4ab9b1f2e9ca6d477a3728600bb}
+      \strng{bibnamehash}{6665c4ab9b1f2e9ca6d477a3728600bb}
+      \strng{authorbibnamehash}{6665c4ab9b1f2e9ca6d477a3728600bb}
+      \strng{authornamehash}{6665c4ab9b1f2e9ca6d477a3728600bb}
+      \strng{authorfullhash}{6665c4ab9b1f2e9ca6d477a3728600bb}
+      \strng{authorfullhashraw}{6665c4ab9b1f2e9ca6d477a3728600bb}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The debt-laden AI compute company has been boosted by Nvidia.}
+      \field{journaltitle}{The Verge}
+      \field{langid}{american}
+      \field{month}{11}
+      \field{title}{Meet {{CoreWeave}}, the {{AI}} Industry's Ticking Time Bomb}
+      \field{urlday}{23}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.theverge.com/ai-artificial-intelligence/822011/coreweave-debt-data-center-ai
+      \endverb
+      \verb{url}
+      \verb https://www.theverge.com/ai-artificial-intelligence/822011/coreweave-debt-data-center-ai
+      \endverb
+      \keyw{AI}
+    \endentry
+    \entry{Marx2017}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=af80d32a7d375e934f94bdfb27bf2999}{%
+           family={Marx},
+           familyi={M\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {Boitempo}%
+      }
+      \strng{namehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{fullhash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{fullhashraw}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{bibnamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorbibnamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authornamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorfullhash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorfullhashraw}{af80d32a7d375e934f94bdfb27bf2999}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{2}
+      \field{langid}{brazilian}
+      \field{shorttitle}{{O Capital}}
+      \field{title}{{O Capital: crítica da economia política - Livro I: o processo de produção do capital}}
+      \field{year}{2017}
+      \keyw{economics,marxism}
+    \endentry
+    \entry{Marx2014}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=af80d32a7d375e934f94bdfb27bf2999}{%
+           family={Marx},
+           familyi={M\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {Boitempo}%
+      }
+      \strng{namehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{fullhash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{fullhashraw}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{bibnamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorbibnamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authornamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorfullhash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorfullhashraw}{af80d32a7d375e934f94bdfb27bf2999}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{1}
+      \field{langid}{brazilian}
+      \field{shorttitle}{{O capital}}
+      \field{title}{{O capital: crítica da economia política - Livro II: o processo de circulação do capital}}
+      \field{year}{2014}
+      \keyw{economics,marxism}
+    \endentry
+    \entry{Marx2017a}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=af80d32a7d375e934f94bdfb27bf2999}{%
+           family={Marx},
+           familyi={M\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {Boitempo}%
+      }
+      \strng{namehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{fullhash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{fullhashraw}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{bibnamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorbibnamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authornamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorfullhash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorfullhashraw}{af80d32a7d375e934f94bdfb27bf2999}
+      \field{extraname}{3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{1}
+      \field{langid}{brazilian}
+      \field{shorttitle}{{O capital}}
+      \field{title}{{O capital: crítica da economia política - Livro III: o processo global da produção capitalista}}
+      \field{year}{2017}
+      \keyw{economics,marxism}
+    \endentry
+    \entry{McElheran2023}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=383e0e0bf3503c1c74d4f609a2518439}{%
+           family={McElheran},
+           familyi={M\bibinitperiod},
+           given={Kristina},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f0984fff101830f03e1c6866528dc4cd}{%
+           family={Li},
+           familyi={L\bibinitperiod},
+           given={J\bibnamedelima Frank},
+           giveni={J\bibinitperiod\bibinitdelim F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7bd9f54569cb8c0301da00ed49b5a752}{%
+           family={Brynjolfsson},
+           familyi={B\bibinitperiod},
+           given={Erik},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=6b244196eca97edb9fa81ef1b65159a9}{%
+           family={Kroff},
+           familyi={K\bibinitperiod},
+           given={Zachary},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=b33c65099f12efca9ab7b0db88fcd630}{%
+           family={Dinlersoz},
+           familyi={D\bibinitperiod},
+           given={Emin},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=542d2c91fb33a0408d5799110fc6647b}{%
+           family={Foster},
+           familyi={F\bibinitperiod},
+           given={Lucia\bibnamedelima S},
+           giveni={L\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=84322bcdead53e40648a540a75c8e557}{%
+           family={Zolas},
+           familyi={Z\bibinitperiod},
+           given={Nikolas},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{b32df5a963d6f6581865b5e259f6260d}
+      \strng{fullhash}{3e573e5e163579254933bf4a5db22116}
+      \strng{fullhashraw}{3e573e5e163579254933bf4a5db22116}
+      \strng{bibnamehash}{b32df5a963d6f6581865b5e259f6260d}
+      \strng{authorbibnamehash}{b32df5a963d6f6581865b5e259f6260d}
+      \strng{authornamehash}{b32df5a963d6f6581865b5e259f6260d}
+      \strng{authorfullhash}{3e573e5e163579254933bf4a5db22116}
+      \strng{authorfullhashraw}{3e573e5e163579254933bf4a5db22116}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{We study the early adoption and diffusion of five AI-related technologies (automated-guided vehicles, machine learning, machine vision, natural language processing, and voice recognition) as documented in the 2018 Annual Business Survey of 850,000 firms across the United States. We find that fewer than 6\% of firms used any of the AI-related technologies we measure, though most very large firms reported at least some AI use. Weighted by employment, average adoption was just over 18\%. AI use in production, while varying considerably by industry, nevertheless was found in every sector of the economy and clustered with emerging technologies such as cloud computing and robotics. Among dynamic young firms, AI use was highest alongside moreeducated, more-experienced, and younger owners, including owners motivated by bringing new ideas to market or helping the community. AI adoption was also more common alongside indicators of high-growth entrepreneurship, including venture capital funding, recent product and process innovation, and growth-oriented business strategies. Early adoption was far from evenly distributed: a handful of ``superstar'' cities and emerging hubs led startups' adoption of AI. These patterns of early AI use foreshadow economic and social impacts far beyond this limited initial diffusion, with the possibility of a growing ``AI divide'' if early patterns persist.}
+      \field{journaltitle}{NBER Working Paper Series}
+      \field{langid}{english}
+      \field{title}{{{AI}} Adoption in {{America}}: {{Who}}, What, and Where}
+      \field{year}{2023}
+    \endentry
+    \entry{Milmo2025}{article}{}{}
+      \name{author}{4}{}{%
+        {{un=0,uniquepart=base,hash=32706184b1d06d51ae7d5d48482832e2}{%
+           family={Milmo},
+           familyi={M\bibinitperiod},
+           given={Dan},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=80fae30ef10c9cfc4cff039b64dc164f}{%
+           family={Hawkins},
+           familyi={H\bibinitperiod},
+           given={Amy},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5e3f80673c1bc5888af804f8d8e54763}{%
+           family={Booth},
+           familyi={B\bibinitperiod},
+           given={Robert},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=469361e07cc90747b1185b1969de4dff}{%
+           family={Kollewe},
+           familyi={K\bibinitperiod},
+           given={Julia},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{42cbe4023c91fe00776832e559425c24}
+      \strng{fullhash}{33c253c6efd05157802d6f92fe0484ba}
+      \strng{fullhashraw}{33c253c6efd05157802d6f92fe0484ba}
+      \strng{bibnamehash}{42cbe4023c91fe00776832e559425c24}
+      \strng{authorbibnamehash}{42cbe4023c91fe00776832e559425c24}
+      \strng{authornamehash}{42cbe4023c91fe00776832e559425c24}
+      \strng{authorfullhash}{33c253c6efd05157802d6f92fe0484ba}
+      \strng{authorfullhashraw}{33c253c6efd05157802d6f92fe0484ba}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Trump calls emergence of DeepSeek a `wake-up call' amid doubts about sustainability of western artificial intelligence boom}
+      \field{chapter}{Technology}
+      \field{issn}{0261-3077}
+      \field{journaltitle}{The Guardian}
+      \field{langid}{british}
+      \field{month}{1}
+      \field{shorttitle}{`{{Sputnik}} Moment'}
+      \field{title}{`{{Sputnik}} Moment': \$1tn Wiped off {{US}} Stocks after {{Chinese}} Firm Unveils {{AI}} Chatbot}
+      \field{urlday}{27}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.theguardian.com/business/2025/jan/27/tech-shares-asia-europe-fall-china-ai-deepseek
+      \endverb
+      \verb{url}
+      \verb https://www.theguardian.com/business/2025/jan/27/tech-shares-asia-europe-fall-china-ai-deepseek
+      \endverb
+      \keyw{AI}
+    \endentry
+    \entry{Monserrate2022}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fc6111b6fdf836a6979886807d2754ed}{%
+           family={Monserrate},
+           familyi={M\bibinitperiod},
+           given={Steven\bibnamedelima Gonzalez},
+           giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Schwarzman College of Computing}%
+      }
+      \strng{namehash}{fc6111b6fdf836a6979886807d2754ed}
+      \strng{fullhash}{fc6111b6fdf836a6979886807d2754ed}
+      \strng{fullhashraw}{fc6111b6fdf836a6979886807d2754ed}
+      \strng{bibnamehash}{fc6111b6fdf836a6979886807d2754ed}
+      \strng{authorbibnamehash}{fc6111b6fdf836a6979886807d2754ed}
+      \strng{authornamehash}{fc6111b6fdf836a6979886807d2754ed}
+      \strng{authorfullhash}{fc6111b6fdf836a6979886807d2754ed}
+      \strng{authorfullhashraw}{fc6111b6fdf836a6979886807d2754ed}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{shorttitle}{The Cloud Is Material}
+      \field{title}{The Cloud Is Material: {{On}} the Environmental Impacts of Computation and Data Storage}
+      \field{urlday}{26}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://mit-serc.pubpub.org/pub/the-cloud-is-material/release/1
+      \endverb
+      \verb{url}
+      \verb https://mit-serc.pubpub.org/pub/the-cloud-is-material/release/1
+      \endverb
+      \keyw{AI}
+    \endentry
+    \entry{Nielsen2015}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=afe17482fc813e497188aee3b3783879}{%
+           family={Nielsen},
+           familyi={N\bibinitperiod},
+           given={Michael\bibnamedelima A.},
+           giveni={M\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {San Francisco}%
+      }
+      \list{publisher}{1}{%
+        {Determination Press}%
+      }
+      \strng{namehash}{afe17482fc813e497188aee3b3783879}
+      \strng{fullhash}{afe17482fc813e497188aee3b3783879}
+      \strng{fullhashraw}{afe17482fc813e497188aee3b3783879}
+      \strng{bibnamehash}{afe17482fc813e497188aee3b3783879}
+      \strng{authorbibnamehash}{afe17482fc813e497188aee3b3783879}
+      \strng{authornamehash}{afe17482fc813e497188aee3b3783879}
+      \strng{authorfullhash}{afe17482fc813e497188aee3b3783879}
+      \strng{authorfullhashraw}{afe17482fc813e497188aee3b3783879}
+      \field{sortinit}{N}
+      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Neural Networks and Deep Learning}
+      \field{urlday}{23}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{volume}{25}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb http://neuralnetworksanddeeplearning.com/
+      \endverb
+      \verb{url}
+      \verb http://neuralnetworksanddeeplearning.com/
+      \endverb
+      \keyw{AI}
+    \endentry
+    \entry{Roberts2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6294e89b004d84cb749e88477d2fdcb8}{%
+           family={Roberts},
+           familyi={R\bibinitperiod},
+           given={Michael},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6294e89b004d84cb749e88477d2fdcb8}
+      \strng{fullhash}{6294e89b004d84cb749e88477d2fdcb8}
+      \strng{fullhashraw}{6294e89b004d84cb749e88477d2fdcb8}
+      \strng{bibnamehash}{6294e89b004d84cb749e88477d2fdcb8}
+      \strng{authorbibnamehash}{6294e89b004d84cb749e88477d2fdcb8}
+      \strng{authornamehash}{6294e89b004d84cb749e88477d2fdcb8}
+      \strng{authorfullhash}{6294e89b004d84cb749e88477d2fdcb8}
+      \strng{authorfullhashraw}{6294e89b004d84cb749e88477d2fdcb8}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The AI bubble continues.~The Magnificent Seven of tech media continue to drive the US stock market, along with the AI companies.~The ten largest US companies by stock market value, holdin\dots}
+      \field{journaltitle}{Michael Roberts Blog}
+      \field{langid}{english}
+      \field{month}{12}
+      \field{title}{{{AI}} and the Railway Mania}
+      \field{urlday}{23}
+      \field{urlmonth}{12}
+      \field{urlyear}{2025}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://thenextrecession.wordpress.com/2025/12/04/ai-and-the-railway-mania/
+      \endverb
+      \verb{url}
+      \verb https://thenextrecession.wordpress.com/2025/12/04/ai-and-the-railway-mania/
+      \endverb
+      \keyw{AI}
+    \endentry
+    \entry{Smith2026}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=864b8d6d145435ea0879b10b1cfa0e54}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Dave},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{864b8d6d145435ea0879b10b1cfa0e54}
+      \strng{fullhash}{864b8d6d145435ea0879b10b1cfa0e54}
+      \strng{fullhashraw}{864b8d6d145435ea0879b10b1cfa0e54}
+      \strng{bibnamehash}{864b8d6d145435ea0879b10b1cfa0e54}
+      \strng{authorbibnamehash}{864b8d6d145435ea0879b10b1cfa0e54}
+      \strng{authornamehash}{864b8d6d145435ea0879b10b1cfa0e54}
+      \strng{authorfullhash}{864b8d6d145435ea0879b10b1cfa0e54}
+      \strng{authorfullhashraw}{864b8d6d145435ea0879b10b1cfa0e54}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The company anticipates burning through roughly \$9 billion this year on \$13 billion in sales, a cash burn rate of approximately 70\% of revenue.\hspace{0pt}}
+      \field{journaltitle}{Fortune}
+      \field{langid}{english}
+      \field{title}{{{OpenAI}} Says It Plans to Report Stunning Annual Losses through 2028---and Then Turn Wildly Profitable Just Two Years Later}
+      \field{urlday}{26}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://fortune.com/2025/11/12/openai-cash-burn-rate-annual-losses-2028-profitable-2030-financial-documents/
+      \endverb
+      \verb{url}
+      \verb https://fortune.com/2025/11/12/openai-cash-burn-rate-annual-losses-2028-profitable-2030-financial-documents/
+      \endverb
+      \keyw{AI}
+    \endentry
+    \entry{Vaswani2017a}{article}{}{}
+      \name{author}{8}{}{%
+        {{un=0,uniquepart=base,hash=7f28e84700536646dd6620a0db07ad09}{%
+           family={Vaswani},
+           familyi={V\bibinitperiod},
+           given={Ashish},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=62efade83d70f0323fe248755e6c90c5}{%
+           family={Shazeer},
+           familyi={S\bibinitperiod},
+           given={Noam},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=06649ebab1ea5cac0250746a19764975}{%
+           family={Parmar},
+           familyi={P\bibinitperiod},
+           given={Niki},
+           giveni={N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=831027ee0ebf22375e2a86afc1881909}{%
+           family={Uszkoreit},
+           familyi={U\bibinitperiod},
+           given={Jakob},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=2fd2982e30ebcec93ec1cf76e0d797fd}{%
+           family={Jones},
+           familyi={J\bibinitperiod},
+           given={Llion},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=27b07e4eacbf4ef7a1438e3badb7dd8d}{%
+           family={Gomez},
+           familyi={G\bibinitperiod},
+           given={Aidan\bibnamedelima N.},
+           giveni={A\bibinitperiod\bibinitdelim N\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=540fcd72e1fa4bbed46604f4e6cff817}{%
+           family={Kaiser},
+           familyi={K\bibinitperiod},
+           given={{Ł}ukasz},
+           giveni={Ł\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=95595a0fefb86187cbc36e551017d332}{%
+           family={Polosukhin},
+           familyi={P\bibinitperiod},
+           given={Illia},
+           giveni={I\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{fullhash}{cb26e47f6b8133865271fc8483132297}
+      \strng{fullhashraw}{cb26e47f6b8133865271fc8483132297}
+      \strng{bibnamehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{authorbibnamehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{authornamehash}{ee273ab30cfb889666f8c4d806eb9ce7}
+      \strng{authorfullhash}{cb26e47f6b8133865271fc8483132297}
+      \strng{authorfullhashraw}{cb26e47f6b8133865271fc8483132297}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Advances in neural information processing systems}
+      \field{title}{Attention Is All You Need}
+      \field{urlday}{23}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{volume}{30}
+      \field{year}{2017}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://proceedings.neurips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html
+      \endverb
+      \verb{url}
+      \verb https://proceedings.neurips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html
+      \endverb
+      \keyw{AI}
+    \endentry
+    \entry{Wang2025}{article}{}{}
+      \name{author}{7}{}{%
+        {{un=0,uniquepart=base,hash=70adc56e45351b17f6d34f868e39fdbd}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Echo},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=517e2bb60e05861c7de0c34745102e0d}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={Kenrick},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=13278d09f897d0dcab1f66774f3f8fc1}{%
+           family={Seetharaman},
+           familyi={S\bibinitperiod},
+           given={Deepa},
+           giveni={D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=35aa9f6d2ff77433ee325b40e993f1a4}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Krystal},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=70adc56e45351b17f6d34f868e39fdbd}{%
+           family={Wang},
+           familyi={W\bibinitperiod},
+           given={Echo},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=517e2bb60e05861c7de0c34745102e0d}{%
+           family={Cai},
+           familyi={C\bibinitperiod},
+           given={Kenrick},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=35aa9f6d2ff77433ee325b40e993f1a4}{%
+           family={Hu},
+           familyi={H\bibinitperiod},
+           given={Krystal},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2db8d78dc2b4a42ae96723e2117c7c94}
+      \strng{fullhash}{6c4d6e4e95c4d365a6daaa5f707c15c2}
+      \strng{fullhashraw}{6c4d6e4e95c4d365a6daaa5f707c15c2}
+      \strng{bibnamehash}{2db8d78dc2b4a42ae96723e2117c7c94}
+      \strng{authorbibnamehash}{2db8d78dc2b4a42ae96723e2117c7c94}
+      \strng{authornamehash}{2db8d78dc2b4a42ae96723e2117c7c94}
+      \strng{authorfullhash}{6c4d6e4e95c4d365a6daaa5f707c15c2}
+      \strng{authorfullhashraw}{6c4d6e4e95c4d365a6daaa5f707c15c2}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{OpenAI is considering filing with securities regulators as soon as the second half of 2026, people familiar with the matter said.}
+      \field{chapter}{Business}
+      \field{journaltitle}{Reuters}
+      \field{langid}{english}
+      \field{month}{10}
+      \field{shorttitle}{Exclusive}
+      \field{title}{Exclusive: {{OpenAI}} Lays Groundwork for Juggernaut {{IPO}} at up to \$1 Trillion Valuation}
+      \field{urlday}{27}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.reuters.com/business/openai-lays-groundwork-juggernaut-ipo-up-1-trillion-valuation-2025-10-29/
+      \endverb
+      \verb{url}
+      \verb https://www.reuters.com/business/openai-lays-groundwork-juggernaut-ipo-up-1-trillion-valuation-2025-10-29/
+      \endverb
+      \keyw{AI}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
 
-\bibitem[Hochreiter e Schmidhuber 1997]{Hochreiter1997}
-\abntrefinfo{Hochreiter e Schmidhuber}{HOCHREITER; SCHMIDHUBER}{1997}
-{HOCHREITER, S.; SCHMIDHUBER, J. Long short-term memory.
-\emph{Neural computation}, MIT press, v.~9, n.~8, p. 1735--1780, 1997.
-Dispon{\'\i}vel em:
-  \url{https://ieeexplore.ieee.org/abstract/document/6795963/}.}
-
-\bibitem[Juricic 2025]{Juricic2025}
-\abntrefinfo{Juricic}{JURICIC}{2025}
-{JURICIC, L. \emph{{{CoreWeave}} Stock Falls after {{The Verge}} Labels It
-  "Heart of {{AI}} Bubble"}. 2025.
-Dispon{\'\i}vel em:
-  \url{https://finance.yahoo.com/news/coreweave-stock-falls-verge-labels-155210921.html}.}
-
-\bibitem[Kaye 2025]{Kaye2025}
-\abntrefinfo{Kaye}{KAYE}{2025}
-{KAYE, D. \emph{Nvidia Becomes World's First \$5tn Company}. 2025.
-Dispon{\'\i}vel em: \url{https://www.bbc.com/news/articles/cp8e970vn5vo}.}
-
-\bibitem[Kollar 2025]{Kollar2025}
-\abntrefinfo{Kollar}{KOLLAR}{2025}
-{KOLLAR, J. \emph{Cisco, {{Nvidia}}, and the {{Economics}} of {{Tech
-  Bubbles}}}. 2025.
-Dispon{\'\i}vel em:
-  \url{https://www.technostatecraft.com/p/cisco-nvidia-and-the-economics-of?utm\_medium=android&triedRedirect=true}.}
-
-\bibitem[Krizhevsky, Sutskever e Hinton 2012]{Krizhevsky2012}
-\abntrefinfo{Krizhevsky, Sutskever e Hinton}{KRIZHEVSKY; SUTSKEVER;
-  HINTON}{2012}
-{KRIZHEVSKY, A.; SUTSKEVER, I.; HINTON, G.~E. {{ImageNet}} classification with
-  deep convolutional neural networks.
-\emph{Communications of the ACM}, v.~60, n.~6, p. 84--90, 2012.
-ISSN 0001-0782, 1557-7317.}
-
-\bibitem[Laird 2026]{Laird2026}
-\abntrefinfo{Laird}{LAIRD}{2026}
-{LAIRD, J. \emph{{{OpenAI}}'s Own Forecast Predicts \$14 Billion Loss in 2026
-  but {{Nvidia-style}} \$100 Billion Revenues by 2029 According to New Report}.
-  2026.
-Dispon{\'\i}vel em:
-  \url{https://www.pcgamer.com/software/ai/openais-internal-documents-predict-usd14-billion-loss-in-2026-according-to-report/}.}
-
-\bibitem[Lopatto 2025]{Lopatto2025}
-\abntrefinfo{Lopatto}{LOPATTO}{2025}
-{LOPATTO, E. Meet {{CoreWeave}}, the {{AI}} industry's ticking time bomb.
-\emph{The Verge}, nov. 2025.
-Dispon{\'\i}vel em:
-  \url{https://www.theverge.com/ai-artificial-intelligence/822011/coreweave-debt-data-center-ai}.}
-
-\bibitem[{{LSTM}} Is Dead. {{Long Live Transformers}}! 2019]{Dirac2019}
-\abntrefinfo{{{LSTM}}\ldots}{{{LSTM}}\ldots}{2019}
-{{{LSTM}} Is Dead. {{Long Live Transformers}}! Seattle Applied Deep Learning:
-  [s.n.], 2019.
-Dispon{\'\i}vel em: \url{https://www.youtube.com/watch?v=S27pHKBEp30}.}
-
-\bibitem[Marx 2014]{Marx2014}
-\abntrefinfo{Marx}{MARX}{2014}
-{MARX, K. \emph{{O capital: cr\'itica da economia pol\'itica - Livro II: o
-  processo de circula\c c\~ao do capital}}. 1. ed. S\~ao Paulo: Boitempo,
-  2014.}
-
-\bibitem[Marx 2017]{Marx2017}
-\abntrefinfo{Marx}{MARX}{2017}
-{MARX, K. \emph{{O Capital: cr\'itica da economia pol\'itica - Livro I: o
-  processo de produ\c c\~ao do capital}}. 2. ed. S\~ao Paulo: Boitempo, 2017.}
-
-\bibitem[McElheran et al. 2023]{McElheran2023}
-\abntrefinfo{McElheran et al.}{MCELHERAN et al.}{2023}
-{MCELHERAN, K. et al. {{AI}} adoption in {{America}}: {{Who}}, what, and where.
-\emph{NBER Working Paper Series}, 2023.}
-
-\bibitem[Milmo et al. 2025]{Milmo2025}
-\abntrefinfo{Milmo et al.}{MILMO et al.}{2025}
-{MILMO, D. et al. `{{Sputnik}} moment': \$1tn wiped off {{US}} stocks after
-  {{Chinese}} firm unveils {{AI}} chatbot.
-\emph{The Guardian}, jan. 2025.
-ISSN 0261-3077.
-Dispon{\'\i}vel em:
-  \url{https://www.theguardian.com/business/2025/jan/27/tech-shares-asia-europe-fall-china-ai-deepseek}.}
-
-\bibitem[Nielsen 2015]{Nielsen2015}
-\abntrefinfo{Nielsen}{NIELSEN}{2015}
-{NIELSEN, M.~A. \emph{Neural Networks and Deep Learning}. San Francisco:
-  Determination Press, 2015. v.~25. Dispon{\'\i}vel em:
-  \url{http://neuralnetworksanddeeplearning.com/}.}
-
-\bibitem[Sarma 2022]{DasSarma2022}
-\abntrefinfo{Sarma}{SARMA}{2022}
-{SARMA, S. D. \emph{Quantum Computing Has a Hype Problem}. 2022.
-Dispon{\'\i}vel em:
-  \url{https://www.technologyreview.com/2022/03/28/1048355/quantum-computing-has-a-hype-problem/}.}
-
-\bibitem[Smith 2026]{Smith2026}
-\abntrefinfo{Smith}{SMITH}{2026}
-{SMITH, D. \emph{{{OpenAI}} Says It Plans to Report Stunning Annual Losses
-  through 2028---and Then Turn Wildly Profitable Just Two Years Later}. 2026.
-Dispon{\'\i}vel em:
-  \url{https://fortune.com/2025/11/12/openai-cash-burn-rate-annual-losses-2028-profitable-2030-financial-documents/}.}
-
-\bibitem[Vaswani et al. 2017]{Vaswani2017a}
-\abntrefinfo{Vaswani et al.}{VASWANI et al.}{2017}
-{VASWANI, A. et al. Attention is all you need.
-\emph{Advances in neural information processing systems}, v.~30, 2017.
-Dispon{\'\i}vel em:
-  \url{https://proceedings.neurips.cc/paper/2017/hash/3f5ee243547dee91fbd053c1c4a845aa-Abstract.html}.}
-
-\bibitem[Wang et al. 2025]{Wang2025}
-\abntrefinfo{Wang et al.}{WANG et al.}{2025}
-{WANG, E. et al. Exclusive: {{OpenAI}} lays groundwork for juggernaut {{IPO}}
-  at up to \$1 trillion valuation.
-\emph{Reuters}, out. 2025.
-Dispon{\'\i}vel em:
-  \url{https://www.reuters.com/business/openai-lays-groundwork-juggernaut-ipo-up-1-trillion-valuation-2025-10-29/}.}
-
-\end{thebibliography}

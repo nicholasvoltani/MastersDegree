@@ -2,14 +2,16 @@
 \usepackage{graphicx} % Required for inserting images
 \usepackage[portuguese]{babel}
 \usepackage{url}
-\usepackage{hyperref}
+\usepackage[hidelinks]{hyperref}
+\usepackage{csquotes}
+\usepackage[backend=biber, style=abnt]{biblatex}
+\usepackage{bookmark}
+\addbibresource{mercadoria_energia.bib}
 
-\usepackage[alf]{abntex2cite}
-\bibliographystyle{abntex2-alf}
 
 \title{Da energia enquanto mercadoria}
 \author{Nicholas Funari Voltani}
-\date{27 de dezembro de 2025}
+\date{28 de janeiro de 2026}
 
 \begin{document}
 
@@ -18,7 +20,7 @@
 \section{}
 O conceito de energia é algo que mesmo físicos do porte de Richard Feynman\footnote{Um dos ganhadores do Nobel da Física de 1965 pelas contribuições ao desenvolvimento da Eletrodinâmica Quântica (em particular pelos famosos ``diagramas de Feynman''). Uma das maiores inspirações de uma enorme parte dos estudantes de Física ao redor do mundo --- mais que Einstein, muitas vezes!} consideravam ``misteriosos'', não porque ela seja algo que a compreensão humana não consiga abarcar, e sim porque ela é não algo imediatamente palpável; não porque não se sabe o que a energia \textit{é} (pois isso é sabido muito bem), e sim por não saber-se ``\textit{de que}'' ela é feita. Vide Feynman,
 \begin{quote}
-    ``It is important to realize that[,] in physics today, we have no knowledge of what energy is. We do not have a picture that energy comes in little blobs of a definite amount. It is not that way. However, there are formulas for calculating some numerical quantity [i.e. total energy], and when we add it all together it gives [...] always the same number. It is an abstract thing in that it does not tell us the mechanism or the reasons for the various formulas [kinetic energy, etc.].'' (\href{https://www.feynmanlectures.caltech.edu/I_04.html}{Feynman Lectures on Physics, Vol. I, Cap. 4})
+    ``It is important to realize that[,] in physics today, we have no knowledge of what energy is. We do not have a picture that energy comes in little blobs of a definite amount. It is not that way. However, there are formulas for calculating some numerical quantity [i.e. total energy], and when we add it all together it gives [...] always the same number. It is an abstract thing in that it does not tell us the mechanism or the reasons for the various formulas [kinetic energy, etc.].'' \cite[Vol I, Cap. 4]{Feynman2006}
 \end{quote}
 
 O capitalista, por sorte, pode delegar a Física aos físicos e às conversas de bar, ocupando sua mente com o mais importante: ser um homem (ou mulher) eminentemente prático, ``que nem sempre sabe o que diz quando se encontra fora do seu negócio, mas [que] sabe muito bem o que faz dentro dele'' \footnote{\cite[p. 269]{Marx2017}.}. Os mistérios do universo não importam-lhe senão como capricho; o que importa-lhe, aí sim, é como tais forças naturais podem ser domadas e dobradas para dentro de seu bolso.
@@ -69,8 +71,7 @@ No que tange o processo econômico, a energia, tal qual as ideias de um empreend
 Há valor mesmo na misteriosa eletricidade que chega nos lares das máquinas industriais (e de seus leigos empregados), valor este advindo não só de sua produção original --- p. ex. na extração de carvão ou petróleo ---, como também pela depreciação envolvida em sua transmissão e conversão em energia elétrica (turbinas, cabos elétricos, transformadores, baterias, etc), além de processos auxiliares, como monitoramento do funcionamento adequado das redes elétricas, etc. 
 
 
-\bibliography{mercadoria_energia.bib}
-
+\printbibliography
 
 
 \end{document}
