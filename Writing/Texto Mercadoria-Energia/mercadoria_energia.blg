@@ -1,15 +1,15 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'mercadoria_energia.blg'
-[90] biber-MSWIN64:342> INFO - === 
-[128] Biber.pm:421> INFO - Reading 'mercadoria_energia.bcf'
-[224] Biber.pm:1002> INFO - Found 9 citekeys in bib section 0
-[235] Biber.pm:4487> INFO - Processing section 0
-[245] Biber.pm:4678> INFO - Looking for bibtex file 'mercadoria_energia.bib' for section 0
-[329] bibtex.pm:1713> INFO - LaTeX decoding ...
-[370] bibtex.pm:1519> INFO - Found BibTeX data source 'mercadoria_energia.bib'
-[439] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'variable = shifted' with 'variable = non-ignorable'
-[439] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[439] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'pt-PT'
-[439] Biber.pm:4313> INFO - No sort tailoring available for locale 'pt-PT'
-[448] bbl.pm:676> INFO - Writing 'mercadoria_energia.bbl' with encoding 'UTF-8'
-[451] bbl.pm:779> INFO - Output to mercadoria_energia.bbl
+[106] biber-MSWIN64:342> INFO - === 
+[148] Biber.pm:421> INFO - Reading 'mercadoria_energia.bcf'
+[257] Biber.pm:1002> INFO - Found 9 citekeys in bib section 0
+[269] Biber.pm:4487> INFO - Processing section 0
+[279] Biber.pm:4678> INFO - Looking for bibtex file 'mercadoria_energia.bib' for section 0
+[373] bibtex.pm:1713> INFO - LaTeX decoding ...
+[421] bibtex.pm:1519> INFO - Found BibTeX data source 'mercadoria_energia.bib'
+[497] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'variable = shifted' with 'variable = non-ignorable'
+[497] UCollate.pm:68> INFO - Overriding locale 'pt-PT' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[497] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'pt-PT'
+[497] Biber.pm:4313> INFO - No sort tailoring available for locale 'pt-PT'
+[509] bbl.pm:676> INFO - Writing 'mercadoria_energia.bbl' with encoding 'UTF-8'
+[514] bbl.pm:779> INFO - Output to mercadoria_energia.bbl

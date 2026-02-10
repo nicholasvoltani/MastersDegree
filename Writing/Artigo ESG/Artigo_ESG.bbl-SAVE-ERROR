@@ -1,0 +1,825 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{Angelo2022}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=552aae06e1d6c4615ca9b296f8ec4dba}{%
+           family={Angelo},
+           familyi={A\bibinitperiod},
+           given={Maurício},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{552aae06e1d6c4615ca9b296f8ec4dba}
+      \strng{fullhash}{552aae06e1d6c4615ca9b296f8ec4dba}
+      \strng{fullhashraw}{552aae06e1d6c4615ca9b296f8ec4dba}
+      \strng{bibnamehash}{552aae06e1d6c4615ca9b296f8ec4dba}
+      \strng{authorbibnamehash}{552aae06e1d6c4615ca9b296f8ec4dba}
+      \strng{authornamehash}{552aae06e1d6c4615ca9b296f8ec4dba}
+      \strng{authorfullhash}{552aae06e1d6c4615ca9b296f8ec4dba}
+      \strng{authorfullhashraw}{552aae06e1d6c4615ca9b296f8ec4dba}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{O empresário Fabio Alperowitch, fundador da FAMA Investimentos, se acostumou a ser uma voz dissonante em um mercado pouco afeito a vozes dissonantes. Em sua newsletter semanal ``ESG -- Direto ao Ponto'', lida por mais de 13 mil pessoas, nos posts em redes sociais ou nas entrevistas que concede, como esta para o Observatório da [\dots ]}
+      \field{journaltitle}{Observatório da Mineração}
+      \field{langid}{brazilian}
+      \field{month}{9}
+      \field{title}{{``É mentira que o mercado olha para o meio ambiente'', diz especialista em ESG, nova obsessão de mineradoras}}
+      \field{urlday}{30}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://observatoriodamineracao.com.br/e-mentira-que-o-mercado-olha-para-o-meio-ambiente-diz-especialista-em-esg-nova-obsessao-de-mineradoras/
+      \endverb
+      \verb{url}
+      \verb https://observatoriodamineracao.com.br/e-mentira-que-o-mercado-olha-para-o-meio-ambiente-diz-especialista-em-esg-nova-obsessao-de-mineradoras/
+      \endverb
+    \endentry
+    \entry{Bhaskar1978}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f158616dc653ce0a3f7e460e7e4c4dd8}{%
+           family={Bhaskar},
+           familyi={B\bibinitperiod},
+           given={Roy},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Nova Jersey}%
+      }
+      \list{publisher}{1}{%
+        {Humanities Press}%
+      }
+      \strng{namehash}{f158616dc653ce0a3f7e460e7e4c4dd8}
+      \strng{fullhash}{f158616dc653ce0a3f7e460e7e4c4dd8}
+      \strng{fullhashraw}{f158616dc653ce0a3f7e460e7e4c4dd8}
+      \strng{bibnamehash}{f158616dc653ce0a3f7e460e7e4c4dd8}
+      \strng{authorbibnamehash}{f158616dc653ce0a3f7e460e7e4c4dd8}
+      \strng{authornamehash}{f158616dc653ce0a3f7e460e7e4c4dd8}
+      \strng{authorfullhash}{f158616dc653ce0a3f7e460e7e4c4dd8}
+      \strng{authorfullhashraw}{f158616dc653ce0a3f7e460e7e4c4dd8}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{langid}{english}
+      \field{title}{A {{Realist Theory}} of {{Science}}}
+      \field{year}{1978}
+      \keyw{philosophy,philosophy/philosophy_of_science}
+    \endentry
+    \entry{CNBCTelevision2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=8f93b124f839ee92e5f4b843d2ff3127}{%
+           family={{CNBC Television}},
+           familyi={C\bibinitperiod}}}%
+      }
+      \strng{namehash}{8f93b124f839ee92e5f4b843d2ff3127}
+      \strng{fullhash}{8f93b124f839ee92e5f4b843d2ff3127}
+      \strng{fullhashraw}{8f93b124f839ee92e5f4b843d2ff3127}
+      \strng{bibnamehash}{8f93b124f839ee92e5f4b843d2ff3127}
+      \strng{authorbibnamehash}{8f93b124f839ee92e5f4b843d2ff3127}
+      \strng{authornamehash}{8f93b124f839ee92e5f4b843d2ff3127}
+      \strng{authorfullhash}{8f93b124f839ee92e5f4b843d2ff3127}
+      \strng{authorfullhashraw}{8f93b124f839ee92e5f4b843d2ff3127}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{President Donald Trump speaks to reporters during joint press conference with Israeli Prime Minister Benjamin Netanyahu. For access to live and exclusive video from CNBC subscribe to CNBC PRO: https://cnb.cx/42d859g}
+      \field{journaltitle}{YouTube}
+      \field{month}{2}
+      \field{shorttitle}{President {{Trump}}}
+      \field{title}{President {{Trump}}: {{Gaza Strip}} Could Be the '{{Riviera}} of the {{Middle East}}'}
+      \field{urlday}{30}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=wQvAAMsr5Dk
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=wQvAAMsr5Dk
+      \endverb
+    \endentry
+    \entry{deOliveira2023}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fa8068d33989bf71ad0350a84979fd95}{%
+           family={{de Oliveira}},
+           familyi={d\bibinitperiod},
+           given={Pedro\bibnamedelima Rocha},
+           giveni={P\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {Editora Elefante}%
+      }
+      \strng{namehash}{fa8068d33989bf71ad0350a84979fd95}
+      \strng{fullhash}{fa8068d33989bf71ad0350a84979fd95}
+      \strng{fullhashraw}{fa8068d33989bf71ad0350a84979fd95}
+      \strng{bibnamehash}{fa8068d33989bf71ad0350a84979fd95}
+      \strng{authorbibnamehash}{fa8068d33989bf71ad0350a84979fd95}
+      \strng{authornamehash}{fa8068d33989bf71ad0350a84979fd95}
+      \strng{authorfullhash}{fa8068d33989bf71ad0350a84979fd95}
+      \strng{authorfullhashraw}{fa8068d33989bf71ad0350a84979fd95}
+      \field{sortinit}{d}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{O conceito de uma ciência eficaz, baseada na evidência dos experimentos; a utopia político-filosófica e o Estado administrativamente capaz; a noção de sociedade civil e a funcionalidade da economia baseada no benefício próprio. Tais ideias, ainda hoje fundamentais para a compreensão da sociedade capitalista, foram formuladas pela primeira vez no período particularmente brutal da ``assim chamada acumulação primitiva de capital'': as origens da modernidade. Os pioneiros que então as propuseram, longe de serem pensadores profissionais, eram membros bastante ativos da elite político-econômica: cortesãos habilidosos, aristocratas favorecidos, representantes eleitos das classes proprietárias, inimigos ferrenhos das rebeliões populares. Francis Bacon, advogado e terratenente, supervisionava torturas; Thomas More, o conselheiro humanista de Henrique VIII, tinha um pelourinho no jardim; Thomas Smith, o que primeiro escreveu ``sociedade civil'' em inglês, engajou-se pessoalmente na genocida colonização da Irlanda. O presente trabalho propõe uma ``leitura a contrapelo'' das obras de autores paradigmáticos, visando desrecalcar o conteúdo histórico, econômico e social de seu pensamento, mostrando a incômoda continuidade que existe entre a mais alta imaginação moderna e a violência do processo civilizatório capitalista. Trata-se de uma análise detalhada de textos-chave de Francis Bacon, Thomas More e Thomas Smith, homens do ``longo século XVI'', buscando reconstruir passo a passo a lógica de suas exposições, ao mesmo tempo permitindo que os acontecimentos e a atmosfera de seu contexto histórico se insinuem entre os argumentos, de modo que possam ser compreendidos em sua densidade real. Para tanto, são mobilizados documentos de época, bem como explanações a respeito do funcionamento da sociedade na qual os autores viveram. Indaga-se qual o significado dos textos para os leitores que lhes eram contemporâneos, não só numa perspectiva cognitiva, mas do ponto de vista das implicações políticas neles contidas.}
+      \field{langid}{brazilian}
+      \field{month}{8}
+      \field{shorttitle}{{Discurso filosófico da acumulação primitiva}}
+      \field{title}{{Discurso filosófico da acumulação primitiva: estudos sobre as origens do pensamento moderno}}
+      \field{year}{2023}
+      \keyw{economics,philosophy}
+    \endentry
+    \entry{Friedman1970}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ed599767cda235bc9b7bb0e787374d60}{%
+           family={Friedman},
+           familyi={F\bibinitperiod},
+           given={Milton},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ed599767cda235bc9b7bb0e787374d60}
+      \strng{fullhash}{ed599767cda235bc9b7bb0e787374d60}
+      \strng{fullhashraw}{ed599767cda235bc9b7bb0e787374d60}
+      \strng{bibnamehash}{ed599767cda235bc9b7bb0e787374d60}
+      \strng{authorbibnamehash}{ed599767cda235bc9b7bb0e787374d60}
+      \strng{authornamehash}{ed599767cda235bc9b7bb0e787374d60}
+      \strng{authorfullhash}{ed599767cda235bc9b7bb0e787374d60}
+      \strng{authorfullhashraw}{ed599767cda235bc9b7bb0e787374d60}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Illus}
+      \field{chapter}{Archives}
+      \field{journaltitle}{The New York Times}
+      \field{langid}{american}
+      \field{month}{9}
+      \field{title}{A {{Friedman}} Doctrine-- {{The Social Responsibility}} of {{Business Is}} to {{Increase Its Profits}}}
+      \field{urlday}{30}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{year}{1970}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.nytimes.com/1970/09/13/archives/a-friedman-doctrine-the-social-responsibility-of-business-is-to.html
+      \endverb
+      \verb{url}
+      \verb https://www.nytimes.com/1970/09/13/archives/a-friedman-doctrine-the-social-responsibility-of-business-is-to.html
+      \endverb
+      \keyw{economics}
+    \endentry
+    \entry{Haddad2026}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=ed83a3e6604b2d9cc246b55c6fc36084}{%
+           family={Haddad},
+           familyi={H\bibinitperiod},
+           given={Mohammed},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=0f52429013f88bb8726ccdd7c6901c7d}{%
+           family={Mansour},
+           familyi={M\bibinitperiod},
+           given={Mohammad},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{217db7f353914a15a66694ea3e18e4f2}
+      \strng{fullhash}{217db7f353914a15a66694ea3e18e4f2}
+      \strng{fullhashraw}{217db7f353914a15a66694ea3e18e4f2}
+      \strng{bibnamehash}{217db7f353914a15a66694ea3e18e4f2}
+      \strng{authorbibnamehash}{217db7f353914a15a66694ea3e18e4f2}
+      \strng{authornamehash}{217db7f353914a15a66694ea3e18e4f2}
+      \strng{authorfullhash}{217db7f353914a15a66694ea3e18e4f2}
+      \strng{authorfullhashraw}{217db7f353914a15a66694ea3e18e4f2}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The plan treats Gaza as vacant beachfront property, proposing glass towers and industrial zones over historic sites.}
+      \field{journaltitle}{Al Jazeera}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{title}{Map Shows What Would Happen to {{Gaza}} under the {{US}} `Master Plan'}
+      \field{urlday}{30}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.aljazeera.com/news/2026/1/27/map-shows-what-would-happen-to-gaza-under-the-us-master-plan
+      \endverb
+      \verb{url}
+      \verb https://www.aljazeera.com/news/2026/1/27/map-shows-what-would-happen-to-gaza-under-the-us-master-plan
+      \endverb
+    \endentry
+    \entry{WhiteHouse2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7410096378712479cd33a5eeafbf1952}{%
+           family={House},
+           familyi={H\bibinitperiod},
+           given={White},
+           giveni={W\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7410096378712479cd33a5eeafbf1952}
+      \strng{fullhash}{7410096378712479cd33a5eeafbf1952}
+      \strng{fullhashraw}{7410096378712479cd33a5eeafbf1952}
+      \strng{bibnamehash}{7410096378712479cd33a5eeafbf1952}
+      \strng{authorbibnamehash}{7410096378712479cd33a5eeafbf1952}
+      \strng{authornamehash}{7410096378712479cd33a5eeafbf1952}
+      \strng{authorfullhash}{7410096378712479cd33a5eeafbf1952}
+      \strng{authorfullhashraw}{7410096378712479cd33a5eeafbf1952}
+      \field{sortinit}{H}
+      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{By the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered: Section 1.}
+      \field{journaltitle}{The White House}
+      \field{langid}{american}
+      \field{month}{1}
+      \field{title}{Ending {{Radical And Wasteful Government DEI Programs And Preferencing}}}
+      \field{urlday}{1}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.whitehouse.gov/presidential-actions/2025/01/ending-radical-and-wasteful-government-dei-programs-and-preferencing/
+      \endverb
+      \verb{url}
+      \verb https://www.whitehouse.gov/presidential-actions/2025/01/ending-radical-and-wasteful-government-dei-programs-and-preferencing/
+      \endverb
+    \endentry
+    \entry{Kirk2022}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a84b30cd1b3eb2f50ba839ae5726c8d7}{%
+           family={Kirk},
+           familyi={K\bibinitperiod},
+           given={Stuart},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a84b30cd1b3eb2f50ba839ae5726c8d7}
+      \strng{fullhash}{a84b30cd1b3eb2f50ba839ae5726c8d7}
+      \strng{fullhashraw}{a84b30cd1b3eb2f50ba839ae5726c8d7}
+      \strng{bibnamehash}{a84b30cd1b3eb2f50ba839ae5726c8d7}
+      \strng{authorbibnamehash}{a84b30cd1b3eb2f50ba839ae5726c8d7}
+      \strng{authornamehash}{a84b30cd1b3eb2f50ba839ae5726c8d7}
+      \strng{authorfullhash}{a84b30cd1b3eb2f50ba839ae5726c8d7}
+      \strng{authorfullhashraw}{a84b30cd1b3eb2f50ba839ae5726c8d7}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{Stuart Kirk, HSBC Asset Management's Head of Responsible Investment, challenges central bankers and policymakers on climate risk at the FT Live Moral Money Summit Europe. Discover why he believes the financial risks of climate change are overstated. Watch the full discussion and explore insights into ESG and responsible investing.}
+      \field{journaltitle}{YouTube}
+      \field{month}{5}
+      \field{shorttitle}{{{HSBC}}'s {{Stuart Kirk}}}
+      \field{title}{{{HSBC}}'s {{Stuart Kirk}}: {{Why Investors Shouldn}}'t {{Fear Climate Risk}} |{} {{FT Moral Money Summit Europe}}}
+      \field{urlday}{30}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.youtube.com/watch?v=bfNamRmje-s
+      \endverb
+      \verb{url}
+      \verb https://www.youtube.com/watch?v=bfNamRmje-s
+      \endverb
+    \endentry
+    \entry{Lukacs2003a}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5b2d1e1fe6d71453fb85ac6607bc3e51}{%
+           family={Lukács},
+           familyi={L\bibinitperiod},
+           given={Georg},
+           giveni={G\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{translator}{2}{}{%
+        {{hash=a467a49c37352c12cd8fb23b06ebe84d}{%
+           family={Nascimento},
+           familyi={N\bibinitperiod},
+           given={Rodnei},
+           giveni={R\bibinitperiod}}}%
+        {{hash=cb1536439650cfecc05bab9a22a0515d}{%
+           family={Jannini},
+           familyi={J\bibinitperiod},
+           given={Karina},
+           giveni={K\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {Martins Fontes}%
+      }
+      \strng{namehash}{5b2d1e1fe6d71453fb85ac6607bc3e51}
+      \strng{fullhash}{5b2d1e1fe6d71453fb85ac6607bc3e51}
+      \strng{fullhashraw}{5b2d1e1fe6d71453fb85ac6607bc3e51}
+      \strng{bibnamehash}{5b2d1e1fe6d71453fb85ac6607bc3e51}
+      \strng{authorbibnamehash}{5b2d1e1fe6d71453fb85ac6607bc3e51}
+      \strng{authornamehash}{5b2d1e1fe6d71453fb85ac6607bc3e51}
+      \strng{authorfullhash}{5b2d1e1fe6d71453fb85ac6607bc3e51}
+      \strng{authorfullhashraw}{5b2d1e1fe6d71453fb85ac6607bc3e51}
+      \strng{translatorbibnamehash}{c979b1b1da119249a8a2092e6436cf2e}
+      \strng{translatornamehash}{c979b1b1da119249a8a2092e6436cf2e}
+      \strng{translatorfullhash}{c979b1b1da119249a8a2092e6436cf2e}
+      \strng{translatorfullhashraw}{c979b1b1da119249a8a2092e6436cf2e}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{História e consciência de classe}}
+      \field{langid}{portuguese}
+      \field{title}{{A reificação e a consciência do proletariado}}
+      \field{year}{2003}
+    \endentry
+    \entry{Makortoff2022}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=43242bf9fe3e3b22933e3fe8fa962812}{%
+           family={Makortoff},
+           familyi={M\bibinitperiod},
+           given={Kalyeena},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{43242bf9fe3e3b22933e3fe8fa962812}
+      \strng{fullhash}{43242bf9fe3e3b22933e3fe8fa962812}
+      \strng{fullhashraw}{43242bf9fe3e3b22933e3fe8fa962812}
+      \strng{bibnamehash}{43242bf9fe3e3b22933e3fe8fa962812}
+      \strng{authorbibnamehash}{43242bf9fe3e3b22933e3fe8fa962812}
+      \strng{authornamehash}{43242bf9fe3e3b22933e3fe8fa962812}
+      \strng{authorfullhash}{43242bf9fe3e3b22933e3fe8fa962812}
+      \strng{authorfullhashraw}{43242bf9fe3e3b22933e3fe8fa962812}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Bank investigating Stuart Kirk's conference speech deriding flooding risks and climate warnings from UN and Bank of England}
+      \field{chapter}{Business}
+      \field{journaltitle}{The Guardian}
+      \field{langid}{british}
+      \field{month}{5}
+      \field{title}{{{HSBC}} Suspends Head of Responsible Investing Who Called Climate Warnings `Shrill'}
+      \field{urlday}{31}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.theguardian.com/business/2022/may/22/hsbc-suspends-head-of-responsible-investing-who-called-climate-warnings-shrill
+      \endverb
+      \verb{url}
+      \verb https://www.theguardian.com/business/2022/may/22/hsbc-suspends-head-of-responsible-investing-who-called-climate-warnings-shrill
+      \endverb
+    \endentry
+    \entry{Marshall1985}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3d74109cfa4db29bb49a345238083832}{%
+           family={Marshall},
+           familyi={M\bibinitperiod},
+           given={Alfred},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {Nova Cultural}%
+      }
+      \strng{namehash}{3d74109cfa4db29bb49a345238083832}
+      \strng{fullhash}{3d74109cfa4db29bb49a345238083832}
+      \strng{fullhashraw}{3d74109cfa4db29bb49a345238083832}
+      \strng{bibnamehash}{3d74109cfa4db29bb49a345238083832}
+      \strng{authorbibnamehash}{3d74109cfa4db29bb49a345238083832}
+      \strng{authornamehash}{3d74109cfa4db29bb49a345238083832}
+      \strng{authorfullhash}{3d74109cfa4db29bb49a345238083832}
+      \strng{authorfullhashraw}{3d74109cfa4db29bb49a345238083832}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{title}{Princípios de Economia: Tratado Introdutório (Tradução Revista Por {{Rômulo Almeida}} e {{Ottolmy Strauch}})}
+      \field{year}{1985}
+    \endentry
+    \entry{Marx2017}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=af80d32a7d375e934f94bdfb27bf2999}{%
+           family={Marx},
+           familyi={M\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {Boitempo}%
+      }
+      \strng{namehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{fullhash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{fullhashraw}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{bibnamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorbibnamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authornamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorfullhash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorfullhashraw}{af80d32a7d375e934f94bdfb27bf2999}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{2}
+      \field{langid}{brazilian}
+      \field{shorttitle}{{O Capital}}
+      \field{title}{{O Capital: crítica da economia política - Livro I: o processo de produção do capital}}
+      \field{year}{2017}
+      \keyw{economics,marxism}
+    \endentry
+    \entry{Mirza2025}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3f981e43d1150643528ababcb0c11afb}{%
+           family={Mirza},
+           familyi={M\bibinitperiod},
+           given={Zoya},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3f981e43d1150643528ababcb0c11afb}
+      \strng{fullhash}{3f981e43d1150643528ababcb0c11afb}
+      \strng{fullhashraw}{3f981e43d1150643528ababcb0c11afb}
+      \strng{bibnamehash}{3f981e43d1150643528ababcb0c11afb}
+      \strng{authorbibnamehash}{3f981e43d1150643528ababcb0c11afb}
+      \strng{authornamehash}{3f981e43d1150643528ababcb0c11afb}
+      \strng{authorfullhash}{3f981e43d1150643528ababcb0c11afb}
+      \strng{authorfullhashraw}{3f981e43d1150643528ababcb0c11afb}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Financial institutions have increasingly departed groups like the Net-Zero Banking Alliance and Climate Action 100+, but experts say banks are still committed to sustainability.}
+      \field{journaltitle}{ESG Dive}
+      \field{langid}{american}
+      \field{month}{1}
+      \field{title}{Why Climate Alliance Memberships Are No Longer `En Vogue' for {{Wall Street}} |{} {{ESG Dive}}}
+      \field{urlday}{1}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.esgdive.com/news/why-climate-alliance-memberships-are-no-longer-en-vogue-for-wall-street-banks/738838/
+      \endverb
+      \verb{url}
+      \verb https://www.esgdive.com/news/why-climate-alliance-memberships-are-no-longer-en-vogue-for-wall-street-banks/738838/
+      \endverb
+    \endentry
+    \entry{Reis-Castro2021}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=0118e968605c48ec99340c91b5d5d771}{%
+           family={{Reis-Castro}},
+           familyi={R\bibinitperiod},
+           given={Luísa},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Duke University Press}%
+      }
+      \strng{namehash}{0118e968605c48ec99340c91b5d5d771}
+      \strng{fullhash}{0118e968605c48ec99340c91b5d5d771}
+      \strng{fullhashraw}{0118e968605c48ec99340c91b5d5d771}
+      \strng{bibnamehash}{0118e968605c48ec99340c91b5d5d771}
+      \strng{authorbibnamehash}{0118e968605c48ec99340c91b5d5d771}
+      \strng{authornamehash}{0118e968605c48ec99340c91b5d5d771}
+      \strng{authorfullhash}{0118e968605c48ec99340c91b5d5d771}
+      \strng{authorfullhashraw}{0118e968605c48ec99340c91b5d5d771}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Environmental Humanities}
+      \field{number}{2}
+      \field{shorttitle}{Becoming Without}
+      \field{title}{Becoming without: {{Making}} Transgenic Mosquitoes and Disease Control in {{Brazil}}}
+      \field{volume}{13}
+      \field{year}{2021}
+      \field{pages}{323\bibrangedash 347}
+      \range{pages}{25}
+    \endentry
+    \entry{Reis-Castro2013}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=0118e968605c48ec99340c91b5d5d771}{%
+           family={{Reis-Castro}},
+           familyi={R\bibinitperiod},
+           given={Luísa},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d6ad5517ede07ef3e7ca669db9f5e38a}{%
+           family={Hendrickx},
+           familyi={H\bibinitperiod},
+           given={Kim},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{a6dadb1cfd82a738c1225420f57e3824}
+      \strng{fullhash}{a6dadb1cfd82a738c1225420f57e3824}
+      \strng{fullhashraw}{a6dadb1cfd82a738c1225420f57e3824}
+      \strng{bibnamehash}{a6dadb1cfd82a738c1225420f57e3824}
+      \strng{authorbibnamehash}{a6dadb1cfd82a738c1225420f57e3824}
+      \strng{authornamehash}{a6dadb1cfd82a738c1225420f57e3824}
+      \strng{authorfullhash}{a6dadb1cfd82a738c1225420f57e3824}
+      \strng{authorfullhashraw}{a6dadb1cfd82a738c1225420f57e3824}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Technology in society}
+      \field{number}{2}
+      \field{shorttitle}{Winged Promises}
+      \field{title}{Winged Promises: Exploring the Discourse on Transgenic Mosquitoes in {{Brazil}}}
+      \field{volume}{35}
+      \field{year}{2013}
+      \field{pages}{118\bibrangedash 128}
+      \range{pages}{11}
+    \endentry
+    \entry{Reuters2022}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7513717dba8b208fe06799dcc54e59e2}{%
+           family={Reuters},
+           familyi={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{7513717dba8b208fe06799dcc54e59e2}
+      \strng{fullhash}{7513717dba8b208fe06799dcc54e59e2}
+      \strng{fullhashraw}{7513717dba8b208fe06799dcc54e59e2}
+      \strng{bibnamehash}{7513717dba8b208fe06799dcc54e59e2}
+      \strng{authorbibnamehash}{7513717dba8b208fe06799dcc54e59e2}
+      \strng{authornamehash}{7513717dba8b208fe06799dcc54e59e2}
+      \strng{authorfullhash}{7513717dba8b208fe06799dcc54e59e2}
+      \strng{authorfullhashraw}{7513717dba8b208fe06799dcc54e59e2}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Stuart Kirk, the global head of responsible investing at HSBC Asset Management, has resigned from his role, according to a post attributed to him on professional networking site LinkedIn on Thursday.}
+      \field{chapter}{Business}
+      \field{journaltitle}{Reuters}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{title}{{{HSBC}}'s Head of Responsible Investing Quits after Climate Speech Controversy}
+      \field{urlday}{31}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.reuters.com/business/hsbcs-head-responsible-investing-quits-after-climate-speech-controversy-2022-07-07/
+      \endverb
+      \verb{url}
+      \verb https://www.reuters.com/business/hsbcs-head-responsible-investing-quits-after-climate-speech-controversy-2022-07-07/
+      \endverb
+    \endentry
+    \entry{Segal2025}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=80db6bde22b7d9f51801fba7b06985d2}{%
+           family={Segal},
+           familyi={S\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{80db6bde22b7d9f51801fba7b06985d2}
+      \strng{fullhash}{80db6bde22b7d9f51801fba7b06985d2}
+      \strng{fullhashraw}{80db6bde22b7d9f51801fba7b06985d2}
+      \strng{bibnamehash}{80db6bde22b7d9f51801fba7b06985d2}
+      \strng{authorbibnamehash}{80db6bde22b7d9f51801fba7b06985d2}
+      \strng{authornamehash}{80db6bde22b7d9f51801fba7b06985d2}
+      \strng{authorfullhash}{80db6bde22b7d9f51801fba7b06985d2}
+      \strng{authorfullhashraw}{80db6bde22b7d9f51801fba7b06985d2}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{HSBC announced that it has decided to withdraw from the Net-Zero Banking Alliance (NZBA), following its North American peers to become the first major UK bank to exit the UN-backed coalition dedicated to advancing global net zero goals through their financing activities. Despite its departure from the NZBA, however, HSBC reiterated its commitment to pursue [\dots ]}
+      \field{journaltitle}{ESG Today}
+      \field{langid}{american}
+      \field{month}{7}
+      \field{title}{{{HSBC Exits Net Zero Banking Alliance}}}
+      \field{urlday}{31}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.esgtoday.com/hsbc-exits-net-zero-banking-alliance/
+      \endverb
+      \verb{url}
+      \verb https://www.esgtoday.com/hsbc-exits-net-zero-banking-alliance/
+      \endverb
+    \endentry
+    \entry{Segal2025a}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=80db6bde22b7d9f51801fba7b06985d2}{%
+           family={Segal},
+           familyi={S\bibinitperiod},
+           given={Mark},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{80db6bde22b7d9f51801fba7b06985d2}
+      \strng{fullhash}{80db6bde22b7d9f51801fba7b06985d2}
+      \strng{fullhashraw}{80db6bde22b7d9f51801fba7b06985d2}
+      \strng{bibnamehash}{80db6bde22b7d9f51801fba7b06985d2}
+      \strng{authorbibnamehash}{80db6bde22b7d9f51801fba7b06985d2}
+      \strng{authornamehash}{80db6bde22b7d9f51801fba7b06985d2}
+      \strng{authorfullhash}{80db6bde22b7d9f51801fba7b06985d2}
+      \strng{authorfullhashraw}{80db6bde22b7d9f51801fba7b06985d2}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{HSBC revealed today a series of major changes to its climate goals, including a decision to push back its 2030 target to achieve net zero emissions in its operations and supply chain by 20 years, citing the ``slower pace of the transition across the real economy,'' in areas including climate technology, energy transition, and government [\dots ]}
+      \field{journaltitle}{ESG Today}
+      \field{langid}{american}
+      \field{month}{2}
+      \field{title}{{{HSBC Pushes Back Net Zero Goals}} by 20 {{Years}}}
+      \field{urlday}{31}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.esgtoday.com/hsbc-pushes-back-net-zero-goals-by-20-years/
+      \endverb
+      \verb{url}
+      \verb https://www.esgtoday.com/hsbc-pushes-back-net-zero-goals-by-20-years/
+      \endverb
+    \endentry
+    \entry{Telesforo2025}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=45030a2da4e6ad700416f40273361b9d}{%
+           family={Telésforo},
+           familyi={T\bibinitperiod},
+           given={João},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=950402cce0793dfe810b077168acaeb7}{%
+           family={Luedy},
+           familyi={L\bibinitperiod},
+           given={Laura},
+           giveni={L\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {Boitempo}%
+      }
+      \strng{namehash}{45030a2da4e6ad700416f40273361b9d}
+      \strng{fullhash}{45030a2da4e6ad700416f40273361b9d}
+      \strng{fullhashraw}{45030a2da4e6ad700416f40273361b9d}
+      \strng{bibnamehash}{45030a2da4e6ad700416f40273361b9d}
+      \strng{authorbibnamehash}{45030a2da4e6ad700416f40273361b9d}
+      \strng{authornamehash}{45030a2da4e6ad700416f40273361b9d}
+      \strng{authorfullhash}{45030a2da4e6ad700416f40273361b9d}
+      \strng{authorfullhashraw}{45030a2da4e6ad700416f40273361b9d}
+      \strng{editorbibnamehash}{950402cce0793dfe810b077168acaeb7}
+      \strng{editornamehash}{950402cce0793dfe810b077168acaeb7}
+      \strng{editorfullhash}{950402cce0793dfe810b077168acaeb7}
+      \strng{editorfullhashraw}{950402cce0793dfe810b077168acaeb7}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{Tempo fechado: colapso ecológico e capitalismo}}
+      \field{langid}{brazilian}
+      \field{title}{{Confissões do capitalismo "verde": lucrando com a tragédia climática e com placebos ESG}}
+      \field{year}{2025}
+      \keyw{agroecologia}
+    \endentry
+    \entry{FinancialTimes2022}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=2be60eb02a4a4a19c08b4b1c6bc66f4d}{%
+           family={Times},
+           familyi={T\bibinitperiod},
+           given={Financial},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{2be60eb02a4a4a19c08b4b1c6bc66f4d}
+      \strng{fullhash}{2be60eb02a4a4a19c08b4b1c6bc66f4d}
+      \strng{fullhashraw}{2be60eb02a4a4a19c08b4b1c6bc66f4d}
+      \strng{bibnamehash}{2be60eb02a4a4a19c08b4b1c6bc66f4d}
+      \strng{authorbibnamehash}{2be60eb02a4a4a19c08b4b1c6bc66f4d}
+      \strng{authornamehash}{2be60eb02a4a4a19c08b4b1c6bc66f4d}
+      \strng{authorfullhash}{2be60eb02a4a4a19c08b4b1c6bc66f4d}
+      \strng{authorfullhashraw}{2be60eb02a4a4a19c08b4b1c6bc66f4d}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Financial Times is one of the world's leading news organisations, recognised internationally for its authority, integrity and accuracy.}
+      \field{langid}{british}
+      \field{month}{11}
+      \field{title}{Financial {{Times}} Appoints {{Stuart Kirk}} as Investment Columnist, Expands Personal Finance Coverage}
+      \field{urlday}{31}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://aboutus.ft.com/press_release/stuart-kirk-personal-finance
+      \endverb
+      \verb{url}
+      \verb https://aboutus.ft.com/press_release/stuart-kirk-personal-finance
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

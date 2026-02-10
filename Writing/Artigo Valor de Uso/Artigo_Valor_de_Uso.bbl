@@ -1,0 +1,227 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{Carcanholo1998}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fc84a5fe8e343148f15037896ff34bdb}{%
+           family={Carcanholo},
+           familyi={C\bibinitperiod},
+           given={Marcelo\bibnamedelima Dias},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fc84a5fe8e343148f15037896ff34bdb}
+      \strng{fullhash}{fc84a5fe8e343148f15037896ff34bdb}
+      \strng{fullhashraw}{fc84a5fe8e343148f15037896ff34bdb}
+      \strng{bibnamehash}{fc84a5fe8e343148f15037896ff34bdb}
+      \strng{authorbibnamehash}{fc84a5fe8e343148f15037896ff34bdb}
+      \strng{authornamehash}{fc84a5fe8e343148f15037896ff34bdb}
+      \strng{authorfullhash}{fc84a5fe8e343148f15037896ff34bdb}
+      \strng{authorfullhashraw}{fc84a5fe8e343148f15037896ff34bdb}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Pesquisa \& Debate Revista do Programa de Estudos Pós-Graduados em Economia Política}
+      \field{number}{2 (14)}
+      \field{title}{A Importância Da Categoria Valor de Uso Na Teoria de {{Marx}}}
+      \field{volume}{9}
+      \field{year}{1998}
+    \endentry
+    \entry{Duayer2023a}{inbook}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a30fb6f2c2430fb472e31ff72de8e72c}{%
+           family={Duayer},
+           familyi={D\bibinitperiod},
+           given={Mário},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {Boitempo}%
+      }
+      \strng{namehash}{a30fb6f2c2430fb472e31ff72de8e72c}
+      \strng{fullhash}{a30fb6f2c2430fb472e31ff72de8e72c}
+      \strng{fullhashraw}{a30fb6f2c2430fb472e31ff72de8e72c}
+      \strng{bibnamehash}{a30fb6f2c2430fb472e31ff72de8e72c}
+      \strng{authorbibnamehash}{a30fb6f2c2430fb472e31ff72de8e72c}
+      \strng{authornamehash}{a30fb6f2c2430fb472e31ff72de8e72c}
+      \strng{authorfullhash}{a30fb6f2c2430fb472e31ff72de8e72c}
+      \strng{authorfullhashraw}{a30fb6f2c2430fb472e31ff72de8e72c}
+      \field{sortinit}{D}
+      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{Teoria social, verdade e transformação: Ensaios de crítica ontológica}}
+      \field{langid}{brazilian}
+      \field{month}{9}
+      \field{title}{{Jorge Luis Borges, filosofia da ciência e crítica ontológica: verdade e transformação social}}
+      \field{year}{2023}
+    \endentry
+    \entry{Foster2004}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=66ef95fbc18ced2469c3a06817f4f6e1}{%
+           family={Foster},
+           familyi={F\bibinitperiod},
+           given={John\bibnamedelima Bellamy},
+           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=79c3238289d29fa489cb55da7489969e}{%
+           family={Clark},
+           familyi={C\bibinitperiod},
+           given={Brett},
+           giveni={B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{4fc1985bc7b195f1f8563932beeb058f}
+      \strng{fullhash}{4fc1985bc7b195f1f8563932beeb058f}
+      \strng{fullhashraw}{4fc1985bc7b195f1f8563932beeb058f}
+      \strng{bibnamehash}{4fc1985bc7b195f1f8563932beeb058f}
+      \strng{authorbibnamehash}{4fc1985bc7b195f1f8563932beeb058f}
+      \strng{authornamehash}{4fc1985bc7b195f1f8563932beeb058f}
+      \strng{authorfullhash}{4fc1985bc7b195f1f8563932beeb058f}
+      \strng{authorfullhashraw}{4fc1985bc7b195f1f8563932beeb058f}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Socialist register}
+      \field{shorttitle}{Ecological Imperialism}
+      \field{title}{Ecological Imperialism: {{The}} Curse of Capitalism}
+      \field{volume}{40}
+      \field{year}{2004}
+    \endentry
+    \entry{Marx2021}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=af80d32a7d375e934f94bdfb27bf2999}{%
+           family={Marx},
+           familyi={M\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {Boitempo}%
+      }
+      \strng{namehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{fullhash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{fullhashraw}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{bibnamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorbibnamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authornamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorfullhash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorfullhashraw}{af80d32a7d375e934f94bdfb27bf2999}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{langid}{brazilian}
+      \field{shorttitle}{{Grundrisse}}
+      \field{title}{{Grundrisse: Manuscritos e econômicos de 1857 - 1858 : Esboços da crítica da economia política}}
+      \field{year}{2021}
+    \endentry
+    \entry{Marx2017a}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=af80d32a7d375e934f94bdfb27bf2999}{%
+           family={Marx},
+           familyi={M\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {Boitempo}%
+      }
+      \strng{namehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{fullhash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{fullhashraw}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{bibnamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorbibnamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authornamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorfullhash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorfullhashraw}{af80d32a7d375e934f94bdfb27bf2999}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{2}
+      \field{langid}{brazilian}
+      \field{shorttitle}{{O Capital}}
+      \field{title}{{O Capital: crítica da economia política - Livro I: o processo de produção do capital}}
+      \field{year}{2017}
+    \endentry
+    \entry{Medeiros2016}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7a0223d80175ececcaca634cc03d959b}{%
+           family={Medeiros},
+           familyi={M\bibinitperiod},
+           given={João\bibnamedelima Leonardo},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7a0223d80175ececcaca634cc03d959b}
+      \strng{fullhash}{7a0223d80175ececcaca634cc03d959b}
+      \strng{fullhashraw}{7a0223d80175ececcaca634cc03d959b}
+      \strng{bibnamehash}{7a0223d80175ececcaca634cc03d959b}
+      \strng{authorbibnamehash}{7a0223d80175ececcaca634cc03d959b}
+      \strng{authornamehash}{7a0223d80175ececcaca634cc03d959b}
+      \strng{authorfullhash}{7a0223d80175ececcaca634cc03d959b}
+      \strng{authorfullhashraw}{7a0223d80175ececcaca634cc03d959b}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Although inspired by very different motivations, Geörgy Lukács (in his Ontology of Social Being) and Roy Bhaskar (mainly in The Possibility of Naturalism) attempted to unveil the key elements of the ontology underlying in Marx's social theory. This article aims to present some of the defining elements of such an ontology, highlighting the following determinations: teleology, which is unique to human activity; knowledge and value taken as objective determinations of society; the structured character of the social world; the categories of totality; and historicity, characterized by the notions of law (understood as a tendency), development and unequal development.}
+      \field{journaltitle}{Revista Outubro}
+      \field{langid}{portuguese}
+      \field{title}{{Se Marx tivesse escrito uma ontologia da sociedade, quais seriam seus elementos fundamentais?}}
+      \field{volume}{26}
+      \field{year}{2016}
+      \field{pages}{169\bibrangedash 194}
+      \range{pages}{26}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

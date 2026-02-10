@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.28)  28 JAN 2026 21:08
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.28)  29 JAN 2026 15:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -610,16 +610,16 @@ LaTeX Font Info:    External font `cmex10' loaded for size
  [1
 
 {C:/Users/nicho/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] [2]
-Overfull \hbox (8.5958pt too wide) in paragraph at lines 48--48
+Overfull \hbox (8.5958pt too wide) in paragraph at lines 47--47
 []\OT1/cmr/bx/n/17.28 Energia en-quanto usu-fruto de ``mercadorias-
  []
 
-[3] [4]
-Overfull \hbox (7.01115pt too wide) in paragraph at lines 71--72
+[3]
+Overfull \hbox (7.01115pt too wide) in paragraph at lines 51--52
 []\OT1/cmr/m/n/12 H^^Sa va-lor mesmo na mis-te-ri-osa ele-tri-ci-dade que chega nos la-res das m^^Saquinas
  []
 
-[5] [6] (mercadoria_energia.aux)
+[4] [5] [6] [7] (mercadoria_energia.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
@@ -629,17 +629,17 @@ Package logreq Info: Writing requests to 'mercadoria_energia.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 18361 strings out of 467871
- 330115 string characters out of 5428443
- 1238666 words of memory out of 5000000
- 47000 multiletter control sequences out of 15000+600000
+ 18369 strings out of 467871
+ 330226 string characters out of 5428443
+ 1239670 words of memory out of 5000000
+ 47003 multiletter control sequences out of 15000+600000
  634111 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 78i,8n,97p,1335b,6025s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 78i,8n,97p,1424b,6025s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on mercadoria_energia.pdf (6 pages, 186409 bytes).
+Output written on mercadoria_energia.pdf (7 pages, 188752 bytes).
 PDF statistics:
- 174 PDF objects out of 1000 (max. 8388607)
- 31 named destinations out of 1000 (max. 500000)
+ 186 PDF objects out of 1000 (max. 8388607)
+ 36 named destinations out of 1000 (max. 500000)
  33 words of extra memory for PDF output out of 10000 (max. 10000000)
 
