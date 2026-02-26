@@ -1,0 +1,135 @@
+\documentclass[12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+\usepackage{setspace}
+\onehalfspacing
+
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{mathtools}
+
+\numberwithin{equation}{section}
+
+\theoremstyle{plain}
+\newtheorem{theorem}{Teorema}[section]
+\newtheorem{proposition}[theorem]{Proposição}
+\newtheorem{lemma}[theorem]{Lema}
+\newtheorem{corollary}[theorem]{Corolário}
+
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definição}
+\newtheorem{example}[theorem]{Exemplo}
+\newtheorem{exercise}{Exercício}[section]
+
+\theoremstyle{remark}
+\newtheorem*{remark}{Observação}
+
+\usepackage{hyperref}
+\usepackage{csquotes}
+
+\usepackage[
+    backend=biber,
+    style=authoryear,
+    maxcitenames=2
+]{biblatex}
+
+\addbibresource{/mnt/c/Users/nicho/Documents/nicholasvoltani.github.io/bibliography.bib}
+
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\pref}{\succeq}
+\newcommand{\strictpref}{\succ}
+\newcommand{\indiff}{\sim}
+
+% ------------------------------------------------
+% Title (fill manually)
+% ------------------------------------------------
+\title{}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\hypertarget{exercuxedcio-3}{%
+\section{Exercício 3}\label{exercuxedcio-3}}
+
+!400
+
+Seja \(x(p,w)\) a Demanda Marshalliana, tal que \[
+x_{l}(p, \alpha w) = \alpha x_{l}(p,w)
+\] (homogênea de grau 1 no tocante à Renda, para dado bem \(l\)).
+
+Derivando com relação a \(\alpha\) e tomando \(\alpha=1\) ao final,
+temos \$\$ \begin{align*}
+\frac{ \partial x_{l} }{ \partial w } w &= x_{l} \\
+\therefore \frac{ \partial x_{l} }{ \partial w } \frac{w}{x_{l}} \equiv \epsilon_{lw} &= 1
+
+\end{align*} \$\$ onde \(\epsilon_{lw}\) é a Elasticidade-Renda da
+Demanda.
+
+Vetorialmente, temos{[}\^{}1{]} \[
+\nabla_{w} x = \frac{x}{w}
+\] Sendo \(w\) dado (assim como \(p\)), tomando
+\(\alpha = \frac{1}{w}\), temos \[
+\nabla_{w} x = \frac{1}{w} x(p, 1)
+\] Ou seja, dados \((p, w)\), temos que a curva \(x\) no tocante à renda
+--- i.e.~Curva de Engel --- tem inclinação constante,
+\textbf{é uma reta}, de coeficiente \(\frac{x(p,1)}{w}\).
+
+\hypertarget{exemplos}{%
+\subsubsection{Exemplos}\label{exemplos}}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\tightlist
+\item
+  Substitutos Perfeitos Caso \(p_{2}>p_{1}\), tem-se que se substitui
+  totalmente o consumo de \(2\) por \(1\). Portanto, pela restrição
+  orçamentária, temos \[
+  x_{1} = \frac{w}{p_{1}}
+  \]
+\end{enumerate}
+
+Logo, \(\frac{ \partial x_{1} }{ \partial w } = \frac{1}{p_{1}}\) é a
+inclinação da curva de Engel de bens substitutos perfeitos.
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi})}
+\setcounter{enumi}{1}
+\item
+  Complementares Perfeitos Supondo-se bens complementares \(1:1\), temos
+  que \(x_{1}=x_{2}\equiv x\). Pela restrição orçamentária, teremos \[
+  x = \frac{w}{p_{1}+p_{2}} = x_{1} = x_{2}
+  \] Logo,
+  \(\frac{ \partial x }{ \partial w } = \frac{1}{p_{1}+p_{2}}\).
+\item
+  Função de Cobb-Douglas Tendo bens com coeficientes \(\alpha_{i}\) tais
+  que \(\sum_{i} \alpha_{i} = 1\), temos que suas demandas serão \[
+  x_{i} = \frac{\alpha_{i}}{p_{i}} w 
+  \] com inclinações
+  \(\frac{ \partial x_{i} }{ \partial w } = \frac{\alpha_{i}}{p_{i}}\).
+\end{enumerate}
+
+\hypertarget{exercuxedcio-5}{%
+\section{Exercício 5}\label{exercuxedcio-5}}
+
+!500
+
+Dados os bens \(x\) e \(h\){[}\^{}2{]}, onde \(x\) possui preço \(p\) e
+o tempo de trabalho possui salário \(s\), temos que a restrição
+orçamentária é de que \[
+\underbrace{ p\cdot x }_{ \text{Consumo de bens} } \leq \underbrace{ (24-h)\cdot s }_{ \text{Salário} }
+\] o que é equivalente a \[
+\underbrace{ p \cdot x + s \cdot h }_{ \text{Custos (+ de oportunidade)} } \leq \underbrace{ 24 \cdot s }_{ \text{Salário máximo} }
+\]
+
+!500 Fonte: VARIAN, p.~175.
+
+\printbibliography
+
+\end{document}

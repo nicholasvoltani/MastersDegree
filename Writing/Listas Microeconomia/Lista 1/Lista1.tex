@@ -1,0 +1,340 @@
+\documentclass[12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+\usepackage{setspace}
+\onehalfspacing
+
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{mathtools}
+
+\numberwithin{equation}{section}
+
+\theoremstyle{plain}
+\newtheorem{theorem}{Teorema}
+\newtheorem{proposition}[theorem]{Proposição}
+\newtheorem{lemma}[theorem]{Lema}
+\newtheorem{corollary}[theorem]{Corolário}
+
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definição}
+\newtheorem{example}[theorem]{Exemplo}
+\newtheorem{exercise}{Exercício}
+
+\theoremstyle{remark}
+\newtheorem*{remark}{Observação}
+
+\usepackage{hyperref}
+\usepackage{csquotes}
+
+\usepackage[
+    backend=biber,
+    style=authoryear,
+    maxcitenames=2
+]{biblatex}
+
+\addbibresource{/mnt/c/Users/nicho/Documents/nicholasvoltani.github.io/bibliography.bib}
+
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\pref}{\succeq}
+\newcommand{\strictpref}{\succ}
+\newcommand{\indiff}{\sim}
+
+% ------------------------------------------------
+% Title (fill manually)
+% ------------------------------------------------
+\title{Lista 1 -- Teoria Microeconômica}
+\author{Professor: Fábio Waltenberg \\Monitor: Nicholas Funari Voltani}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\hypertarget{conceitos-introdutuxf3rios}{%
+\section{Conceitos introdutórios}\label{conceitos-introdutuxf3rios}}
+
+\hypertarget{conjuntos-parcialmentetotalmente-ordenados}{%
+\subsection{Conjuntos parcialmente/totalmente
+ordenados}\label{conjuntos-parcialmentetotalmente-ordenados}}
+
+\begin{definition}[Relações de Ordem]
+  Um conjunto (não-vazio) \(X\) é dito \emph{parcialmente ordenado} se ele possui uma relação \(\leq\) que satisfaça\footnote{Note que \(\forall\)   é um ``A'' invertido, que em inglês se lê ``\emph{for \textbf{a}ll}''.
+  Por exemplo, a asserção \(\forall x \in X: x \leq x\) lê: ``Para todo
+  \(x\) pertencente ao conjunto \(X\), vale que \(x \leq x\)''. Ademais,
+  caso valha a asserção lógica \(A \land B\), lê-se: ``\(A\) \textbf{e}
+  \(B\) são verdadeiros''.} 
+  
+  \begin{enumerate}
+    \item \emph{Reflexividade}:
+\(\forall x \in X: x \leq x\)
+    \item \emph{Transitividade}:
+\(\forall x, y, z \in X: (x \leq y) \land (y \leq z) \implies x \leq z\)
+    \item \emph{Antissimetria}:
+\(\forall x, y \in X: (x\leq y) \land (y \leq x) \implies x = y\)
+  \end{enumerate}
+
+
+Essa relação \(\geq\) é dita ser uma \emph{relação de ordem parcial} (ou
+relação \emph{parcial} de ordem).
+
+Caso \emph{todos} os elementos em \(X\) sejam ``comparáveis'' através de
+\(\leq\) --- ou seja,\footnote{Caso valha a asserção lógica
+  \(A \lor B\), lê-se: ``\(A\) \textbf{ou} \(B\) é/são verdadeiro(s)''.
+  Note que este ``ou'' é \emph{inclusivo}, ou seja, quer dizer ``\(A\) é
+  verdadeiro, \(B\) é verdadeiro, ou \(A\) \textbf{e} \(B\) são
+  verdadeiros''.} \[
+\forall x, y \in X: (x \leq y) \lor (y \leq x)
+\] dizemos que o conjunto \(X\) é \emph{totalmente ordenado}, e que
+\(\leq\) é uma relação de ordem \emph{total} (ou relação \emph{total} de
+ordem).
+
+
+\begin{remark}
+  
+  Note que, naturalmente, nem todas as relações parciais de ordem são
+  totais. Seja \(X = \{ 1,2,3\}\), e
+\(\mathcal{P}(X) = \{ \emptyset, \{ 1 \}, \{ 2 \}, \{ 3 \}, \{ 1,2 \}, \{ 1,3 \}, \{ 2,3 \}, X \}\)
+o conjunto das partes de \(X\) (em inglês: \emph{power set}). Verifique
+que \(\mathcal{P}(X)\), com a relação de inclusão de conjuntos
+\(\subseteq\), é uma relação \emph{parcial} de ordem, mas que \emph{não
+é total} --- ou seja, existem elementos em \(\mathcal{P}(X)\) que não
+são comparáveis sob \(\subseteq\).
+
+(Ao leitor pedante: trivialmente pode-se definir \(x \preceq y\) --- a
+operação ``para o outro lado'' --- como \(y \succeq x\).)
+
+\end{remark}
+\end{definition}
+
+\hypertarget{preferuxeancias-racionais}{%
+\subsection{Preferências racionais}\label{preferuxeancias-racionais}}
+
+\begin{definition}[Preferências Racionais]
+  
+  Mas-Collell et al (1995) definem \emph{preferências racionais} \(\succeq\) como
+  ``relações \emph{completas}
+(\(\forall x,y: x \succeq y \lor y \succeq x\)) e \emph{transitivas}''
+--- ou seja, vide acima, são relações de ordem \emph{total} sobre um
+espaço de cestas de bens.
+\end{definition}
+
+\begin{definition}[Função utilidade representante de preferências racionais]
+  
+  Vide definição \textbf{1.B.2.} em @Mas-Colell1995, uma função
+  \(u: X \to \mathbb{R}\) é uma \emph{função utilidade que representa uma
+relação de ordem} \(\succeq\) caso \[
+  \forall x, y \in X: x \succeq y \iff u(x) \geq u(y)
+  \] (naturalmente com a relação de ordem \(\geq\) usual dos números reais
+  \(\mathbb{R}\).)
+\end{definition}
+  
+
+\begin{proposition}
+  Todas preferências que sejam representáveis por uma função utilidade são necessariamente racionais.
+
+  \begin{proof}
+    A relação de ordem sobre os reais \(\mathbb{R}\) \emph{é uma relação
+    total}, pois sabemos que, para quaisquer números reais
+    \(x, y \in \mathbb{R}\), vale que ou \(x>y\), ou \(x<y\), ou \(x=y\);
+    dito de outra forma, sempre vale que ou \(x \geq y\), ou \(y\geq x\).
+      
+    Dessa forma, caso uma relação de preferências \(\succeq\), sobre um
+    conjunto \(X\) de cestas de bens, seja representável por uma função
+    utilidade \(u:X \to \mathbb{R}\), então \emph{necessariamente} esta
+    relação tem de ser \emph{racional} (i.e.~relação \emph{total} de ordem).
+    A demonstração da proposição \textbf{1.B.2} em @Mas-Colell1995 segue o
+    seguinte esquema: para quaisquer \(x, y \in X\), como \(u(x)\) e
+    \(u(y)\) estão sobre um conjunto totalmente ordenado \(\mathbb{R}\),
+    então vale que ou \(u(x) \geq u(y)\), ou \(u(y) \geq u(x)\), e como
+    pressupõe-se que \(\succeq\) é representada por \(u\), então conclui-se
+    que ou \(x \succeq y\) ou \(y \succeq x\) --- portanto, esta relação
+    \(\succeq\) é total.
+    
+    Ou seja, caso uma relação de preferências seja representável por uma
+    função utilidade, então ela será racional.
+  \end{proof}
+
+  \begin{remark}
+    A recíproca não é verdadeira:
+    há preferências racionais que não são representáveis por funções
+    utilidade, uma das quais é a ordem lexicográfica (exercício \ref{velhojorge} abaixo).    
+  \end{remark}
+\end{proposition}
+
+\section{Exercícios} 
+\setcounter{exercise}{0}
+\subsection{Relações de ordem e preferências racionais}
+\begin{exercise}
+  Demonstre que, a partir de uma relação de ordem
+  \(\succeq\) em um espaço \(X\), é possível definir uma relação \(\sim\)
+  que \[x
+  \forall x, y \in X: x \sim y \iff (x \succeq y)\,  \land  \, (y \succeq x)
+  \] (Tradução: ``Para todo \(x\) e \(y\) pertencentes a \(X\), vale que
+  \(x \sim y\) se, e somente se, valer que \(x \succeq y\) e também
+  \(y \succeq x\).)
+  
+  \begin{proof}
+    Essa relação \(\sim\) satisfaz as propriedades: 
+    \begin{enumerate}
+      \item \emph{Reflexividade}: \(\forall x \in X: x \sim x\) 
+      \item \emph{Comutatividade}: \(\forall x, y \in X: x \sim y \iff y \sim x\) 
+      \item \emph{Transitividade}: \(\forall x, y, z \in X: (x \sim y) \land (y \sim z) \implies x \sim z\)
+   
+    \end{enumerate}
+
+    Por satisfazer estas propriedades, \(\sim\) é dita uma \emph{relação de
+    equivalência}.
+    
+    \begin{remark}
+      Note que a relação de igualdade \(x=y\) satisfaz
+      essas propriedades. Relações de equivalência são mais gerais, e menos
+      restritivas, do que relações de igualdade.
+    \end{remark}
+    
+  \end{proof}
+\end{exercise}
+
+\begin{exercise}
+  Dada uma relação de equivalência \(\sim\) sobre
+algum conjunto (não-vazio) \(X\), então é possível definir, para cada
+\(x \in X\), sua \emph{classe de equivalência} \([x]\) como sendo o
+conjunto\footnote{Tradução matemática: \([x]\) \emph{é definido} como
+  ``o conjunto de elementos \(y \in X\) tais que \(x \sim y\)''. Note
+  que estes elementos \(y\) são um mero índice, i.e.~não importa qual
+  letra seja usada; poderia igualmente ser escrito como ``o conjunto de
+  elementos \(z \in X\)'', ou ``\ldots elementos \(\xi \in X\)''. O
+  único elemento que tem alguma ``concretude'' aqui (além do dado
+  conjunto \(X\)) é um dado elemento \(x\), que foi pré-determinado no
+  enunciado.} \[
+[x] \coloneqq \{y \in X: y \sim x\}
+\]
+
+Ou seja, é o conjunto de elementos em \(X\) que são equivalentes (sob
+\(\sim\)) a \(x\) (note que \(x \in [x]\) --- por quê?).
+
+Demonstre que classes de equivalência são \textbf{disjuntas}: se há
+algum elemento em comum entre duas classes de equivalência \([x]\) e
+\([y]\), então elas são a mesma classe de equivalência. Dito de outra
+forma: se \(x \nsim y\) (ou seja, que \textbf{não} seja verdade que
+\(x \sim y\)), então não haverá interseção entre suas classes de
+equivalência --- i.e.~\([x] \cap [y] = \emptyset\) ---, e, portanto,
+\([x] \neq [y]\). Escrito em ``matematiquês'', esta proposição
+lê:\footnote{\(A \implies B\) lê ``\(A\) implica \(B\)'', ou seja, \(A\)
+  ser verdadeiro \emph{implica que} \(B\) também seja verdadeiro.
+  \(A \iff B\) quer dizer que \(A\) é verdadeiro \emph{se e somente se}
+  \(B\) for verdadeiro; é o mesmo que \(A \implies B\) \textbf{e também}
+  \(B \implies A\).} \[
+\forall x, y \in X: x \nsim y \iff [x] \neq [y]
+\]
+
+\begin{proof}
+  Caso tenhamos que, para algum $\tilde{x} \in [x]$ e $\tilde{y} \in [y]$, valha que
+  \[
+  \tilde{x} \sim \tilde{y}
+  \]
+  então isso quer dizer 1) que $[x] \subseteq [y]$, pois \textit{qualquer} elemento de $x^{\prime} \in [x]$ também pertence a $[y]$ (por quê? O que garante isso?), e 2) que $[y] \subseteq [x]$, pois \textit{qualquer} elemento de $y^{\prime} \in [y]$ também pertence a $[x]$ (por quê? O que garante isso?). 
+
+  Portanto, $[x] = [y]$. 
+  
+\end{proof}
+
+\begin{remark}
+  A importância deste exercício é que, dada uma relação de preferência
+  racional \(\succeq\) sobre algum conjunto de cestas de bens \(X\), é
+  possível definir uma relação de equivalência \(\sim\) , a qual descreve
+  uma ``relação de indiferença'' entre cestas de \(X\). As \emph{curvas de
+  indiferença} são, portanto, classes de equivalência sob esta relação de
+  equivalência induzida por esta preferência. Segue do resultado acima,
+  portanto, que \emph{curvas de indiferença diferentes não se cruzam}!
+  \end{remark}
+\end{exercise}
+
+\begin{exercise}
+  Uma função monotônica \(f:X \to Y\) (definida
+sobre conjuntos parcialmente ordenados \((X, \succeq_{X})\) e
+\((Y, \succeq_{Y})\)) é uma função que \emph{preserva relações de
+ordem}. Ou seja, se temos \(x \succeq_{X} y\) em \(X\), então
+\(f(x) \succeq_{Y} f(y)\) em \(Y\). Em matematiquês: \[
+\forall x, y \in X: x \succeq_{X} y \implies f(x) \succeq_{Y} f(y)
+\]
+
+Mostre que relações de equivalência (induzidas por relações de ordem)
+são também preservadas por funções monotônicas \(f\): se \(x \sim_X y\), então
+\(f(x) \sim_Y f(y)\).
+
+Isso quer dizer que, embora ``os valores mudem'' por conta da função
+\(f\), \emph{o formato das curvas de indiferença permanecem os mesmos}.
+
+
+\begin{remark}
+  É comum se dizer que funções monotônicas são ``funções
+  não-decrescentes'', e que funções \emph{estritamente} monotônicas são
+  ``funções \emph{estritamente} crescentes'' --- isso, porém, segue da
+  definição de acima\footnote{Usualmente também assume-se que o domínio da
+    função \(f\) seja \emph{totalmente} ordenado, que é o caso de
+    \(\mathbb{R}\): todos os elementos são comparáveis entre si sob a
+    relação de ordem. Mas isso é mero pedantismo: se dois elementos
+    \(x, y \in X\) não fossem comparáveis sob relação de ordem, então já
+    não haveria nada entre eles para ser preservado por \(f\), e tudo se
+    passaria como se nada tivesse se passado!}. 
+    
+Funções monotônicas em
+  geral preservam \(\succeq\), mas pode haver casos em que, por exemplo,
+  \(x \succ_{X} y\) \textbf{e} \(\mathbf{x \nsim_{X} y}\), mas
+  \(f(x) \succeq_{Y} f(y)\), ou até \(f(x) \sim_{Y} f(y)\) --- por
+  exemplo, funções em \(\mathbb{R}\) que sejam crescentes mas que possuam
+  ``platôs'' nos quais certos intervalos estejam ``na mesma altura'' num
+  gráfico; são, portanto, funções ``não-decrescentes''. 
+  
+  Por outro lado,
+  funções \emph{estritamente} monotônicas preservam somente \(\succ\) ---
+  se \(x \succ_{X} y\), então garante-se que \(f(x) \succ_{Y} f(y)\) ---
+  e, portanto, são funções \emph{estritamente} crescentes.
+  \end{remark}
+\end{exercise}
+
+\begin{exercise}
+  Considere uma relação de preferência definida
+  sobre \(\mathbb{R}^2\) definida como \[
+  (x_{1},x_{2}) \succ (y_{1}, y_{2}) \iff x_{1}+x_{2} > y_{1}+y_{2}
+  \]
+  
+  Essa relação de preferência satisfaz não-saciedade local? Há algum ponto de saciedade local? 
+\end{exercise}
+
+
+\begin{exercise}
+  \label{velhojorge}
+  A ordem lexicográfica \(\succeq\) é uma relação
+  de ordem definida para quaisquer \(x=(x_{1},x_{2}) \in \mathbb{R}^{2}\)
+  e \(y =(y_{1},y_{2})\in \mathbb{R}^{2}\) como \[
+  x \succeq y \iff (x_{1} \geq y_{1}) \lor [(x_{1} = y_{1}) \land (x_{2} \geq y_{2})]
+  \] É chamada ``lexicográfica'', pois é um ordenamento ``alfabético'': por
+  exemplo, \(ab \succeq aa\), pois \(a=a\) (ou seja, \(x_{1}=y_{1}\)) e
+  \(b\geq a\) (ou seja, \(x_{2}\geq y_{2}\)).
+  
+  Em outras notícias, o velho Jorge é alcoólatra. Seus amigos falam em voz
+  baixa sobre suas curvas de nível lexicográficas: ele sempre prefere
+  estritamente a cesta de consumo que contém a maior quantidade de bebida,
+  independentemente da quantidade dos outros bens na cesta; se duas cestas
+  tiverem a mesma quantidade de bebida, ele prefere estritamente a cesta
+  que tem a maior quantidade dos outros bens. Esboce as preferências do
+  velho Jorge em um diagrama. Qual dos axiomas (completude e
+  transitividade) é violado por tal ordenação? Ela é uma relação de ordem
+  \emph{contínua}? 
+
+\end{exercise}  
+
+
+\section*{Referências}
+MAS-COLELL, Andreu; WHINSTON, Michael
+Dennis; GREEN, Jerry R. \textbf{Microeconomic theory}. New York: Oxford
+University Press, 1995.
+
+
+\end{document}

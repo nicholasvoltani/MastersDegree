@@ -1,0 +1,98 @@
+\documentclass[12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+\usepackage{setspace}
+\onehalfspacing
+
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{mathtools}
+
+\numberwithin{equation}{section}
+
+\theoremstyle{plain}
+\newtheorem{theorem}{Teorema}[section]
+\newtheorem{proposition}[theorem]{Proposição}
+\newtheorem{lemma}[theorem]{Lema}
+\newtheorem{corollary}[theorem]{Corolário}
+
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definição}
+\newtheorem{example}[theorem]{Exemplo}
+\newtheorem{exercise}{Exercício}[section]
+
+\theoremstyle{remark}
+\newtheorem*{remark}{Observação}
+
+\usepackage{hyperref}
+\usepackage{csquotes}
+
+\usepackage[
+    backend=biber,
+    style=authoryear,
+    maxcitenames=2
+]{biblatex}
+
+\addbibresource{/mnt/c/Users/nicho/Documents/nicholasvoltani.github.io/bibliography.bib}
+
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\pref}{\succeq}
+\newcommand{\strictpref}{\succ}
+\newcommand{\indiff}{\sim}
+
+% ------------------------------------------------
+% Title (fill manually)
+% ------------------------------------------------
+\title{}
+\author{}
+\date{}
+
+\begin{document}
+
+\hypertarget{conceitos-introdutuxf3rios}{%
+\section{Conceitos introdutórios}\label{conceitos-introdutuxf3rios}}
+
+\hypertarget{exercuxedcios}{%
+\section{Exercícios}\label{exercuxedcios}}
+
+\hypertarget{ex-1-mas-collell-et-al-exercuxedcio-6.b.4}{%
+\subsection{Ex 1 (Mas-Collell et al, exercício
+6.B.4)}\label{ex-1-mas-collell-et-al-exercuxedcio-6.b.4}}
+
+O propósito desse exercício é ilustrar como a teoria da utilidade
+esperada nos permite tomar decisões consistentes ao lidar com
+probabilidades extremamente pequenas ao considerar probabilidades
+relativamente grandes. Suponha que uma agência de segurança esteja
+pensando em estabelecer um critério sob o qual uma área propensa à
+inundação deveria ser evacuada. A probabilidade de inundação é de
+\(1\%\). Há quatro resultados possíveis:
+
+\begin{enumerate}
+\def\labelenumi{(\Alph{enumi})}
+\item
+  Nenhuma evacuação é necessária e nada é feito.
+\item
+  Uma evacuação é feita, que é desnecessária
+\item
+  Uma evacuação é feita, que é necessária.
+\item
+  Nenhuma evacuação é feita e uma inundação causa um desastre.
+\end{enumerate}
+
+Suponha que uma agência seja indiferente entre o resultado certo de B e
+a loteria de A com probabilidade \(p\) e D com probabilidade \(1-p\), e
+entre o resultado certo C e a loteria de A com probabilidade \(q\) e D
+com probabilidade \(1-q\).\footnote{Tradução: Essa agência possui as
+  seguintes preferências: \(B \sim \left(p A + (1-p) D\right)\);
+  \(C \sim \left(q B + (1-q) D\right)\); e \(A \succ D\).} Suponha,
+também, que ela prefira A a D, e que \(p \in(0, 1)\) e \(q\in(0,1)\).
+Assuma que as condições do teorema da utilidade esperada sejam
+satisfeitas.
+
+\printbibliography
+
+\end{document}

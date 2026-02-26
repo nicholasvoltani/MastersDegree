@@ -59,6 +59,57 @@
       \verb https://observatoriodamineracao.com.br/e-mentira-que-o-mercado-olha-para-o-meio-ambiente-diz-especialista-em-esg-nova-obsessao-de-mineradoras/
       \endverb
     \endentry
+    \entry{Baines2023}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=3068df4dba66b53550acf23f18e292da}{%
+           family={Baines},
+           familyi={B\bibinitperiod},
+           given={Joseph},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5f05e88a3aad7fe6d97038c33924a07b}{%
+           family={Hager},
+           familyi={H\bibinitperiod},
+           given={Sandy\bibnamedelima Brian},
+           giveni={S\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{95837aa7e947e11a78a6283675080eb5}
+      \strng{fullhash}{95837aa7e947e11a78a6283675080eb5}
+      \strng{fullhashraw}{95837aa7e947e11a78a6283675080eb5}
+      \strng{bibnamehash}{95837aa7e947e11a78a6283675080eb5}
+      \strng{authorbibnamehash}{95837aa7e947e11a78a6283675080eb5}
+      \strng{authornamehash}{95837aa7e947e11a78a6283675080eb5}
+      \strng{authorfullhash}{95837aa7e947e11a78a6283675080eb5}
+      \strng{authorfullhashraw}{95837aa7e947e11a78a6283675080eb5}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{This article examines the role of the Big Three asset management firms -- BlackRock, Vanguard and State Street -- in corporate environmental governance. Specifically, it investigates the Big Three's relationships with the publicly listed Carbon Majors: a small group of fossil fuels, cement and mining companies responsible for the bulk of industrial greenhouse gas emissions. Engaging with the corporate governance concepts of ownership and control, and exit and voice, it charts the rise to prominence of the Big Three, including their environmental, social and governance (ESG) funds, in the ownership of the Carbon Majors. Having established their status as key sources of permanent capital that are unlikely to exit from their investment positions in the world's most polluting publicly listed corporations, the article examines how control may be exercised through voice by analysing the Big Three's proxy voting record at Carbon Major annual general meetings. It finds that they more frequently oppose rather than support shareholder resolutions aimed at improving environmental governance and that their voting is more likely to lead to the failure than to the success of these resolutions. Remarkably, there is little to distinguish the proxy voting of the Big Three's ESG funds from their non-ESG funds. Regardless of whether these resolutions succeeded or failed, they also tend to be narrow in scope and piecemeal in nature. Overall, the article raises serious doubts about the Big Three's credentials as environmental stewards and argues instead that they are little more than stewards of the status quo of shareholder value maximization.}
+      \field{journaltitle}{Competition \& Change}
+      \field{langid}{english}
+      \field{month}{7}
+      \field{number}{3-4}
+      \field{shorttitle}{From Passive Owners to Planet Savers?}
+      \field{title}{From Passive Owners to Planet Savers? {{Asset}} Managers, Carbon Majors and the Limits of Sustainable Finance}
+      \field{urlday}{19}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{volume}{27}
+      \field{year}{2023}
+      \field{urldateera}{ce}
+      \field{pages}{449\bibrangedash 471}
+      \range{pages}{23}
+      \verb{urlraw}
+      \verb https://journals.sagepub.com/doi/10.1177/10245294221130432
+      \endverb
+      \verb{url}
+      \verb https://journals.sagepub.com/doi/10.1177/10245294221130432
+      \endverb
+    \endentry
     \entry{Bhaskar1978}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=f158616dc653ce0a3f7e460e7e4c4dd8}{%
@@ -207,6 +258,98 @@
       \verb https://www.dropbox.com/scl/fi/q1p0l13m8p3clq8f21ah2/The-Secret-Diary-of-a-Sustainable-Investor-Tariq-Fancy.pdf?dl=0&e=1&rlkey=2w1kfxxyudmmvs2c3kcoip6rl
       \endverb
     \endentry
+    \entry{Fichtner2024}{article}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=36200e1d7ca9a09cb6d12a7f8bbe0f62}{%
+           family={Fichtner},
+           familyi={F\bibinitperiod},
+           given={Jan},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=487dadc03227f5ace7e2aac0f3435b43}{%
+           family={Jaspert},
+           familyi={J\bibinitperiod},
+           given={Robin},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=509485595aae11802140ec6d3682b25f}{%
+           family={Petry},
+           familyi={P\bibinitperiod},
+           given={Johannes},
+           giveni={J\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{a3b161f2239ebeb9d37e0ae7e9181dd5}
+      \strng{fullhash}{a3b161f2239ebeb9d37e0ae7e9181dd5}
+      \strng{fullhashraw}{a3b161f2239ebeb9d37e0ae7e9181dd5}
+      \strng{bibnamehash}{a3b161f2239ebeb9d37e0ae7e9181dd5}
+      \strng{authorbibnamehash}{a3b161f2239ebeb9d37e0ae7e9181dd5}
+      \strng{authornamehash}{a3b161f2239ebeb9d37e0ae7e9181dd5}
+      \strng{authorfullhash}{a3b161f2239ebeb9d37e0ae7e9181dd5}
+      \strng{authorfullhashraw}{a3b161f2239ebeb9d37e0ae7e9181dd5}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Abstract Environmental, social, and governance (ESG) funds are among the fastest-growing investment styles. ESG investing thereby has a governing effect, and a key open question is whether ESG merely reduces risks for investors or whether it can have a sustainability impact and actively contribute to climate transition. This governance through ESG is characterized by three potential transmission mechanisms: ratings, shareholder engagement, and capital allocation. These can create sustainability impact or constitute ``ESG gaps'' if transmission mechanisms remain ineffective/unutilized. Based on financial data, an investigation of ESG methodologies and expert interviews, we provide a novel ESG market analysis, focusing on the standard-setting role of a handful of ESG index providers in capital allocation. Our findings highlight that while ``Dark Green'' indices could have an impact, currently ``Broad ESG'' indices, which do not meaningfully facilitate sustainability, dominate investing: we call this the ``ESG capital allocation gap.'' This has important implications, because effective transmission mechanisms are crucial for ESG funds to achieve sustainability impact in the real economy.}
+      \field{journaltitle}{Regulation \& Governance}
+      \field{langid}{english}
+      \field{month}{4}
+      \field{number}{2}
+      \field{title}{Mind the {{ESG}} Capital Allocation Gap: {{The}} Role of Index Providers, Standard-setting, and "Green" Indices for the Creation of Sustainability Impact}
+      \field{urlday}{19}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{volume}{18}
+      \field{year}{2024}
+      \field{urldateera}{ce}
+      \field{pages}{479\bibrangedash 498}
+      \range{pages}{20}
+      \verb{urlraw}
+      \verb https://onlinelibrary.wiley.com/doi/10.1111/rego.12530
+      \endverb
+      \verb{url}
+      \verb https://onlinelibrary.wiley.com/doi/10.1111/rego.12530
+      \endverb
+    \endentry
+    \entry{FinancialTimes2022}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=c888f63e45a9c9a17718c76970680a75}{%
+           family={{Financial Times}},
+           familyi={F\bibinitperiod}}}%
+      }
+      \strng{namehash}{c888f63e45a9c9a17718c76970680a75}
+      \strng{fullhash}{c888f63e45a9c9a17718c76970680a75}
+      \strng{fullhashraw}{c888f63e45a9c9a17718c76970680a75}
+      \strng{bibnamehash}{c888f63e45a9c9a17718c76970680a75}
+      \strng{authorbibnamehash}{c888f63e45a9c9a17718c76970680a75}
+      \strng{authornamehash}{c888f63e45a9c9a17718c76970680a75}
+      \strng{authorfullhash}{c888f63e45a9c9a17718c76970680a75}
+      \strng{authorfullhashraw}{c888f63e45a9c9a17718c76970680a75}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The Financial Times is one of the world's leading news organisations, recognised internationally for its authority, integrity and accuracy.}
+      \field{langid}{british}
+      \field{month}{11}
+      \field{title}{Financial {{Times}} Appoints {{Stuart Kirk}} as Investment Columnist, Expands Personal Finance Coverage}
+      \field{urlday}{31}
+      \field{urlmonth}{1}
+      \field{urlyear}{2026}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://aboutus.ft.com/press_release/stuart-kirk-personal-finance
+      \endverb
+      \verb{url}
+      \verb https://aboutus.ft.com/press_release/stuart-kirk-personal-finance
+      \endverb
+    \endentry
     \entry{Friedman1970}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=ed599767cda235bc9b7bb0e787374d60}{%
@@ -295,44 +438,44 @@
       \verb https://www.aljazeera.com/news/2026/1/27/map-shows-what-would-happen-to-gaza-under-the-us-master-plan
       \endverb
     \endentry
-    \entry{WhiteHouse2025}{misc}{}{}
+    \entry{Johnson2025a}{article}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=7410096378712479cd33a5eeafbf1952}{%
-           family={House},
-           familyi={H\bibinitperiod},
-           given={White},
-           giveni={W\bibinitperiod},
+        {{un=0,uniquepart=base,hash=6d51934b95597a62bbe13293522f4ed7}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Lamar},
+           giveni={L\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{7410096378712479cd33a5eeafbf1952}
-      \strng{fullhash}{7410096378712479cd33a5eeafbf1952}
-      \strng{fullhashraw}{7410096378712479cd33a5eeafbf1952}
-      \strng{bibnamehash}{7410096378712479cd33a5eeafbf1952}
-      \strng{authorbibnamehash}{7410096378712479cd33a5eeafbf1952}
-      \strng{authornamehash}{7410096378712479cd33a5eeafbf1952}
-      \strng{authorfullhash}{7410096378712479cd33a5eeafbf1952}
-      \strng{authorfullhashraw}{7410096378712479cd33a5eeafbf1952}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
+      \strng{namehash}{6d51934b95597a62bbe13293522f4ed7}
+      \strng{fullhash}{6d51934b95597a62bbe13293522f4ed7}
+      \strng{fullhashraw}{6d51934b95597a62bbe13293522f4ed7}
+      \strng{bibnamehash}{6d51934b95597a62bbe13293522f4ed7}
+      \strng{authorbibnamehash}{6d51934b95597a62bbe13293522f4ed7}
+      \strng{authornamehash}{6d51934b95597a62bbe13293522f4ed7}
+      \strng{authorfullhash}{6d51934b95597a62bbe13293522f4ed7}
+      \strng{authorfullhashraw}{6d51934b95597a62bbe13293522f4ed7}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{By the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered: Section 1.}
-      \field{journaltitle}{The White House}
+      \field{abstract}{The nation's largest asset manager said it will not renew ``aspirational workforce representation goals'' which expired in 2024, in response to executive orders targeting DEI programs.}
+      \field{journaltitle}{ESG Dive}
       \field{langid}{american}
-      \field{month}{1}
-      \field{title}{Ending {{Radical And Wasteful Government DEI Programs And Preferencing}}}
-      \field{urlday}{1}
+      \field{month}{3}
+      \field{title}{{{BlackRock}} Ends Diversity Goals, Merges {{DEI}} Team into `{{Talent}} and {{Culture}}'}
+      \field{urlday}{11}
       \field{urlmonth}{2}
       \field{urlyear}{2026}
       \field{year}{2025}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://www.whitehouse.gov/presidential-actions/2025/01/ending-radical-and-wasteful-government-dei-programs-and-preferencing/
+      \verb https://www.esgdive.com/news/blackrock-ends-diversity-goals-merges-dei-team-into-talent-and-culture/741391/
       \endverb
       \verb{url}
-      \verb https://www.whitehouse.gov/presidential-actions/2025/01/ending-radical-and-wasteful-government-dei-programs-and-preferencing/
+      \verb https://www.esgdive.com/news/blackrock-ends-diversity-goals-merges-dei-team-into-talent-and-culture/741391/
       \endverb
     \endentry
     \entry{Kirk2022}{misc}{}{}
@@ -535,6 +678,126 @@
       \field{year}{2017}
       \keyw{economics,marxism}
     \endentry
+    \entry{Medeiros2013}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7a0223d80175ececcaca634cc03d959b}{%
+           family={Medeiros},
+           familyi={M\bibinitperiod},
+           given={João\bibnamedelima Leonardo},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Niterói}%
+      }
+      \list{publisher}{1}{%
+        {Editora da UFF}%
+      }
+      \strng{namehash}{7a0223d80175ececcaca634cc03d959b}
+      \strng{fullhash}{7a0223d80175ececcaca634cc03d959b}
+      \strng{fullhashraw}{7a0223d80175ececcaca634cc03d959b}
+      \strng{bibnamehash}{7a0223d80175ececcaca634cc03d959b}
+      \strng{authorbibnamehash}{7a0223d80175ececcaca634cc03d959b}
+      \strng{authornamehash}{7a0223d80175ececcaca634cc03d959b}
+      \strng{authorfullhash}{7a0223d80175ececcaca634cc03d959b}
+      \strng{authorfullhashraw}{7a0223d80175ececcaca634cc03d959b}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{shorttitle}{A Economia Diante Do Horror Econômico}
+      \field{title}{A Economia Diante Do Horror Econômico: Uma Crítica Ontológica Dos Surtos de Altruísmo Da Ciência Econômica}
+      \field{year}{2013}
+      \keyw{economics,marxism,philosophy/critical_realism}
+    \endentry
+    \entry{Medeiros2016}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=7a0223d80175ececcaca634cc03d959b}{%
+           family={Medeiros},
+           familyi={M\bibinitperiod},
+           given={João\bibnamedelima Leonardo},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{7a0223d80175ececcaca634cc03d959b}
+      \strng{fullhash}{7a0223d80175ececcaca634cc03d959b}
+      \strng{fullhashraw}{7a0223d80175ececcaca634cc03d959b}
+      \strng{bibnamehash}{7a0223d80175ececcaca634cc03d959b}
+      \strng{authorbibnamehash}{7a0223d80175ececcaca634cc03d959b}
+      \strng{authornamehash}{7a0223d80175ececcaca634cc03d959b}
+      \strng{authorfullhash}{7a0223d80175ececcaca634cc03d959b}
+      \strng{authorfullhashraw}{7a0223d80175ececcaca634cc03d959b}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Although inspired by very different motivations, Geörgy Lukács (in his Ontology of Social Being) and Roy Bhaskar (mainly in The Possibility of Naturalism) attempted to unveil the key elements of the ontology underlying in Marx's social theory. This article aims to present some of the defining elements of such an ontology, highlighting the following determinations: teleology, which is unique to human activity; knowledge and value taken as objective determinations of society; the structured character of the social world; the categories of totality; and historicity, characterized by the notions of law (understood as a tendency), development and unequal development.}
+      \field{journaltitle}{Revista Outubro}
+      \field{langid}{portuguese}
+      \field{title}{{Se Marx tivesse escrito uma ontologia da sociedade, quais seriam seus elementos fundamentais?}}
+      \field{volume}{26}
+      \field{year}{2016}
+      \field{pages}{169\bibrangedash 194}
+      \range{pages}{26}
+      \keyw{marxism,philosophy}
+    \endentry
+    \entry{Medeiros2013a}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7a0223d80175ececcaca634cc03d959b}{%
+           family={Medeiros},
+           familyi={M\bibinitperiod},
+           given={João\bibnamedelima Leonardo},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=d3ce1cfa405ecdf3f2d780a51f005f2c}{%
+           family={Sá\bibnamedelima Barreto},
+           familyi={S\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Eduardo},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {SciELO Brasil}%
+      }
+      \strng{namehash}{620c5e65b7cabac292098c9581f86097}
+      \strng{fullhash}{620c5e65b7cabac292098c9581f86097}
+      \strng{fullhashraw}{620c5e65b7cabac292098c9581f86097}
+      \strng{bibnamehash}{620c5e65b7cabac292098c9581f86097}
+      \strng{authorbibnamehash}{620c5e65b7cabac292098c9581f86097}
+      \strng{authornamehash}{620c5e65b7cabac292098c9581f86097}
+      \strng{authorfullhash}{620c5e65b7cabac292098c9581f86097}
+      \strng{authorfullhashraw}{620c5e65b7cabac292098c9581f86097}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Economia e Sociedade}
+      \field{shorttitle}{Lukács e {{Marx}} Contra o" Ecologismo Acrítico"}
+      \field{title}{Lukács e {{Marx}} Contra o "Ecologismo Acrítico": Por Uma Ética Ambiental Materialista}
+      \field{urlday}{6}
+      \field{urlmonth}{10}
+      \field{urlyear}{2025}
+      \field{volume}{22}
+      \field{year}{2013}
+      \field{urldateera}{ce}
+      \field{pages}{317\bibrangedash 333}
+      \range{pages}{17}
+      \verb{urlraw}
+      \verb https://www.scielo.br/j/ecos/a/YGnKMp4ntmXV9hmHfBF5vSt/?lang=pt
+      \endverb
+      \verb{url}
+      \verb https://www.scielo.br/j/ecos/a/YGnKMp4ntmXV9hmHfBF5vSt/?lang=pt
+      \endverb
+      \keyw{marxism}
+    \endentry
     \entry{Mirza2025}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=3f981e43d1150643528ababcb0c11afb}{%
@@ -654,7 +917,7 @@
     \entry{Reuters2022}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=7513717dba8b208fe06799dcc54e59e2}{%
-           family={Reuters},
+           family={{Reuters}},
            familyi={R\bibinitperiod}}}%
       }
       \strng{namehash}{7513717dba8b208fe06799dcc54e59e2}
@@ -817,45 +1080,79 @@
       \field{langid}{brazilian}
       \field{title}{{Confissões do capitalismo "verde": lucrando com a tragédia climática e com placebos ESG}}
       \field{year}{2025}
-      \keyw{agroecologia}
     \endentry
-    \entry{FinancialTimes2022}{misc}{}{}
+    \entry{WhiteHouse2025}{misc}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=2be60eb02a4a4a19c08b4b1c6bc66f4d}{%
-           family={Times},
-           familyi={T\bibinitperiod},
-           given={Financial},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fc5ee6934003d7a25ef59361504afd08}{%
+           family={{White House}},
+           familyi={W\bibinitperiod}}}%
       }
-      \strng{namehash}{2be60eb02a4a4a19c08b4b1c6bc66f4d}
-      \strng{fullhash}{2be60eb02a4a4a19c08b4b1c6bc66f4d}
-      \strng{fullhashraw}{2be60eb02a4a4a19c08b4b1c6bc66f4d}
-      \strng{bibnamehash}{2be60eb02a4a4a19c08b4b1c6bc66f4d}
-      \strng{authorbibnamehash}{2be60eb02a4a4a19c08b4b1c6bc66f4d}
-      \strng{authornamehash}{2be60eb02a4a4a19c08b4b1c6bc66f4d}
-      \strng{authorfullhash}{2be60eb02a4a4a19c08b4b1c6bc66f4d}
-      \strng{authorfullhashraw}{2be60eb02a4a4a19c08b4b1c6bc66f4d}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
+      \strng{namehash}{fc5ee6934003d7a25ef59361504afd08}
+      \strng{fullhash}{fc5ee6934003d7a25ef59361504afd08}
+      \strng{fullhashraw}{fc5ee6934003d7a25ef59361504afd08}
+      \strng{bibnamehash}{fc5ee6934003d7a25ef59361504afd08}
+      \strng{authorbibnamehash}{fc5ee6934003d7a25ef59361504afd08}
+      \strng{authornamehash}{fc5ee6934003d7a25ef59361504afd08}
+      \strng{authorfullhash}{fc5ee6934003d7a25ef59361504afd08}
+      \strng{authorfullhashraw}{fc5ee6934003d7a25ef59361504afd08}
+      \field{extraname}{1}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradate}{1}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{The Financial Times is one of the world's leading news organisations, recognised internationally for its authority, integrity and accuracy.}
-      \field{langid}{british}
-      \field{month}{11}
-      \field{title}{Financial {{Times}} Appoints {{Stuart Kirk}} as Investment Columnist, Expands Personal Finance Coverage}
-      \field{urlday}{31}
-      \field{urlmonth}{1}
+      \field{abstract}{By the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered: Section 1.}
+      \field{journaltitle}{The White House}
+      \field{langid}{american}
+      \field{month}{1}
+      \field{title}{Ending {{Radical And Wasteful Government DEI Programs And Preferencing}}}
+      \field{urlday}{1}
+      \field{urlmonth}{2}
       \field{urlyear}{2026}
-      \field{year}{2022}
+      \field{year}{2025}
       \field{urldateera}{ce}
       \verb{urlraw}
-      \verb https://aboutus.ft.com/press_release/stuart-kirk-personal-finance
+      \verb https://www.whitehouse.gov/presidential-actions/2025/01/ending-radical-and-wasteful-government-dei-programs-and-preferencing/
       \endverb
       \verb{url}
-      \verb https://aboutus.ft.com/press_release/stuart-kirk-personal-finance
+      \verb https://www.whitehouse.gov/presidential-actions/2025/01/ending-radical-and-wasteful-government-dei-programs-and-preferencing/
+      \endverb
+    \endentry
+    \entry{WhiteHouse2025a}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fc5ee6934003d7a25ef59361504afd08}{%
+           family={{White House}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Washington, D.C.}%
+      }
+      \strng{namehash}{fc5ee6934003d7a25ef59361504afd08}
+      \strng{fullhash}{fc5ee6934003d7a25ef59361504afd08}
+      \strng{fullhashraw}{fc5ee6934003d7a25ef59361504afd08}
+      \strng{bibnamehash}{fc5ee6934003d7a25ef59361504afd08}
+      \strng{authorbibnamehash}{fc5ee6934003d7a25ef59361504afd08}
+      \strng{authornamehash}{fc5ee6934003d7a25ef59361504afd08}
+      \strng{authorfullhash}{fc5ee6934003d7a25ef59361504afd08}
+      \strng{authorfullhashraw}{fc5ee6934003d7a25ef59361504afd08}
+      \field{extraname}{2}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{11}
+      \field{title}{National {{Security Strategy}} of the {{United States}} of {{America}}}
+      \field{year}{2025}
+      \verb{urlraw}
+      \verb https://www.whitehouse.gov/wp-content/uploads/2025/12/2025-National-Security-Strategy.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.whitehouse.gov/wp-content/uploads/2025/12/2025-National-Security-Strategy.pdf
       \endverb
     \endentry
   \enddatalist
