@@ -2,7 +2,8 @@
 
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage[brazil]{babel}
+\usepackage[brazilian]{babel}
+\usepackage{cancel}
 
 \usepackage{geometry}
 \geometry{margin=2.5cm}
@@ -23,7 +24,7 @@
 \theoremstyle{definition}
 \newtheorem{definition}[theorem]{Definição}
 \newtheorem{example}[theorem]{Exemplo}
-\newtheorem{exercise}{Exercício}[section]
+\newtheorem{exercise}{Exercício}
 
 \theoremstyle{remark}
 \newtheorem*{remark}{Observação}
@@ -33,11 +34,10 @@
 
 \usepackage[
     backend=biber,
-    style=authoryear,
-    maxcitenames=2
+    style=abnt
 ]{biblatex}
 
-\addbibresource{/mnt/c/Users/nicho/Documents/nicholasvoltani.github.io/bibliography.bib}
+\addbibresource{../Microeconomics.bib}
 
 \newcommand{\R}{\mathbb{R}}
 \newcommand{\pref}{\succeq}
@@ -47,51 +47,263 @@
 % ------------------------------------------------
 % Title (fill manually)
 % ------------------------------------------------
-\title{}
-\author{}
-\date{}
+\title{Lista 3 --- Teoria Microeconômica (PPGE-UFF)}
+\author{Professor: Fábio Waltenberg \\Monitor: Nicholas Funari Voltani}
 
 \begin{document}
+\maketitle
 
-\hypertarget{conceitos-introdutuxf3rios}{%
-\section{Conceitos introdutórios}\label{conceitos-introdutuxf3rios}}
+\section{Conceitos introdutórios}
+\subsection{Identidades matemáticas em Teoria do Consumidor}
+Resultados importantes para a teoria do consumidor, assim como para a teoria da firma, são o lema de Shephard e a identidade de Roy.\footnote{Suas demonstrações são mais convolutas. Para o leitor interessado: suas demonstrações giram em torno do \textit{envelope theorem}, e recomendo singelamente minha demonstração destes resultados em \href{https://nicholasvoltani.github.io/Envelope-Theorem}{Envelope Theorem --- nicholasvoltani.github.io}}
 
-\hypertarget{exercuxedcios}{%
-\section{Exercícios}\label{exercuxedcios}}
+O lema de Shephard associa a demanda hicksiana \(\vec{h}(\vec{p}, \bar{u})\) com a função dispêndio \(e(\vec{p}, \bar{u})\): a trajetória da demanda hicksiana é descrita pela variação do dispêndio com relação aos \textit{preços}. Formalmente:
+\[
+\nabla_{p} {\vec{e}(\vec{p}, \bar{u})} = \vec{h}(p, \bar{u}) 
+\]
 
-\hypertarget{ex-1-mas-collell-et-al-exercuxedcio-6.b.4}{%
-\subsection{Ex 1 (Mas-Collell et al, exercício
-6.B.4)}\label{ex-1-mas-collell-et-al-exercuxedcio-6.b.4}}
+A identidade de Roy é um corolário do lema de Shephard, resultado obtido pela derivação da função de utilidade indireta:
+\[
+\nabla_{p} v\left(\vec{p}, e(\vec{p}, \bar{u})\right) = \nabla_{p} \bar{u} = 0
+\]
 
-O propósito desse exercício é ilustrar como a teoria da utilidade
-esperada nos permite tomar decisões consistentes ao lidar com
-probabilidades extremamente pequenas ao considerar probabilidades
-relativamente grandes. Suponha que uma agência de segurança esteja
-pensando em estabelecer um critério sob o qual uma área propensa à
-inundação deveria ser evacuada. A probabilidade de inundação é de
-\(1\%\). Há quatro resultados possíveis:
+Formalmente, a identidade de Roy tem a forma
+\[
+\vec{h}(p, \bar{u}) = -\frac{1}{\left( \frac{ \partial v }{ \partial w } \right) } \nabla_{p}v
+\]
 
-\begin{enumerate}
+\subsection{Loterias}
+\begin{example}
+  \label{exemploseguros}
+  \parencite[exemplo 6.C.1]{Mas-Colell1995} Considere um tomador de decisão estritamente avesso ao risco que tenha uma riqueza inicial de \(w\), mas que corra o risco de perder \(D\) dólares. A probabilidade de perda é \(\pi\).\footnote{Não, não é \(3.1415 \dots\)} É possível, entretanto, que o tomador de decisão adquira um seguro. Uma unidade de seguro custa \(q\) dólares e paga \(1\) dólar se a perda ocorrer. Assim, se \(\alpha\) unidades de seguro forem compradas, o patrimônio do indivíduo será \(w-\alpha q\), se não houver sinistro\footnote{Um ``sinistro'' ocorre quando um seguro é acionado devido a uma perda a ser indenizada. O pagamento de um sinistro se chama ``indenização''.} e \(w-\alpha q-D+\alpha\) se o sinistro ocorrer. Observe, para fins de discussão posterior, que a riqueza esperada do tomador de decisão é então \(w - \pi D + \alpha (\pi - q)\). O problema do tomador de decisão é escolher o nível ótimo de \(\alpha\). Seu problema de maximização de utilidade é
+    \[
+      \max\limits_{\alpha \geq 0}  \,(1-\pi) \, u(w-\alpha q) + \pi u(w-\alpha q - D + \alpha )
+  \]
+  Se \(\alpha^*\) for ótimo, ele deve satisfazer a condição de primeira ordem:
+  \[
+    -q(1-\pi) \, u^{\prime} (w-\alpha^* q)+ \pi(1-q) u^{\prime} (w-D+\alpha^* (1-q)) \leq 0
+  \]
+  com igualdade se \(\alpha^* > 0\).
+  
+  Suponha agora que o preço \(q\) de uma unidade de seguro seja atuarialmente justo no sentido de ser igual ao custo esperado do seguro. Ou seja, \(q=\pi\). Então a condição de primeira ordem requer que
+  \[
+  u^{\prime} (w-D+\alpha^* (1-\pi))-u^{\prime} (w-\alpha^* \pi) \leq 0
+  \]
+  com igualdade se \(\alpha^* > 0\).
+  
+  Como \(u^\prime (w-D) > u^\prime (w)\), devemos ter \(\alpha^*>0\) e, portanto,
+  \[
+  u^\prime (w-D+\alpha^* (1-\pi))=u^\prime (w-\alpha^* \pi)
+  \]
+  
+  Como \(u^{\prime}  (\cdot)\) é estritamente decrescente, isso implica
+  \[
+    w-D+\alpha^* (1-\pi)=w-\alpha^* \pi
+    \]
+    ou, equivalentemente,
+    \[
+      \alpha^* = D
+      \]
+      
+      Assim, se o seguro for atuarialmente justo, o tomador de decisão faz seguro completo. A riqueza final do indivíduo é então \(w-\pi D\), independentemente da ocorrência da perda.
+      
+      Essa prova do resultado do seguro total usa condições de primeira ordem, o que é instrutivo, mas não é realmente necessário. Observe que se \(q=\pi\), então a riqueza esperada do tomador de decisão é \(w-\pi D\) para qualquer \(\alpha\). Como definir \(\alpha=D\) permite que ele alcance \(w-\pi D\) com certeza, a definição de aversão ao risco implica diretamente que este é o nível ótimo de \(\alpha\).
+\end{example}
+  
+
+
+\section{Exercícios}\label{exercuxedcios}
+\begin{exercise}
+
+  Através da função utilidade de Cobb-Douglas \(U(x_{1},x_{2}) = x_{1}^{\alpha}x_{2}^{1-\alpha}\), e supondo vetor de preços \(\vec{p} = (p_1,)\) e restrição orçamentária \(w\), demonstre que vale a equação de Slutsky. Para isso, resolva os seguintes passos: 
+  
+  \begin{enumerate}
+  \item Obtenha as demandas walrasianas \(x^*(\vec{p}, w)\) e \(y^*(\vec{p},w)\) pelo problema de maximização de utilidade 
+  \item Com as demandas walrasianas, obtenha a função de utilidade indireta \(v(\vec{p}, w) = U(x^*(\vec{p},w), y^*(\vec{p},w))\), a ser denotada como \(\bar{u} \in \mathbb{R}\)
+  \item Obtenha as demandas hicksianas (também chamadas de demandas \textit{compensadas} de Hicks) \(h_{x}(\vec{p}, \bar{u})\) e \(h_{y}(\vec{p}, \bar{u})\). Para isso, utilize a identidade de Roy para cada bem \(i\):
+  \[
+    h_{i}(\vec{p}, \bar{u}) = -\frac{\frac{ \partial v }{ \partial p_{i} }}{\frac{ \partial v }{ \partial w } }
+\]
+Tome muito cuidado! A demanda compensada é uma função de \(\vec{p}\) \textbf{e de \(\mathbf{\bar{u}}\)}, \textbf{não de \(\mathbf{w}\)}!! Ou seja, caso apareça algum \(w\), utilize algum dos resultados demonstrados anteriormente que seja função de \(\vec{p}\) e \(\bar{u}\) para ressubstitui-lo.\footnote{Isso é relevante! No que tange à demanda compensada \(\vec{h}(\vec{p}, \bar{u})\), ela é uma demanda \textit{para um dado nível de utilidade} \(\bar{u}\); a restrição orçamentária empregada para alcançar este nível de utilidade \(\bar{u}\), naturalmente, \textit{depende deste nível de utilidade} \(\bar{u}\) (além dos preços)! Não cometam os mesmos erros de cálculo que eu!}
+\item A equação de Slutsky tem a forma \(\frac{ \partial x^*_{i} }{ \partial p_{i} } = \frac{ \partial h_{i} }{ \partial p_{i} } - x^*_{i} \frac{ \partial x_{i}^* }{ \partial w }\) para cada bem \(i\). Calcule cada um dos termos, e confirme que a equação é válida.
+\end{enumerate}
+
+\end{exercise}
+
+\begin{exercise}
+  \parencite[exercício 6.B.4]{Mas-Colell1995} O propósito desse exercício é ilustrar como a teoria da utilidade esperada nos permite tomar decisões consistentes ao lidar com probabilidades extremamente pequenas ao considerar probabilidades relativamente grandes. Suponha que uma agência de segurança esteja pensando em estabelecer um critério sob o qual uma área propensa à inundação deveria ser evacuada. A probabilidade de inundação é de \(1\%\). Há quatro resultados possíveis:
+  
+  \begin{enumerate}
 \def\labelenumi{(\Alph{enumi})}
 \item
-  Nenhuma evacuação é necessária e nada é feito.
+Nenhuma evacuação é necessária e nada é feito.
 \item
-  Uma evacuação é feita, que é desnecessária
+Uma evacuação é feita, que é desnecessária
 \item
-  Uma evacuação é feita, que é necessária.
+Uma evacuação é feita, que é necessária.
 \item
   Nenhuma evacuação é feita e uma inundação causa um desastre.
 \end{enumerate}
 
-Suponha que uma agência seja indiferente entre o resultado certo de B e
-a loteria de A com probabilidade \(p\) e D com probabilidade \(1-p\), e
-entre o resultado certo C e a loteria de A com probabilidade \(q\) e D
-com probabilidade \(1-q\).\footnote{Tradução: Essa agência possui as
-  seguintes preferências: \(B \sim \left(p A + (1-p) D\right)\);
-  \(C \sim \left(q B + (1-q) D\right)\); e \(A \succ D\).} Suponha,
-também, que ela prefira A a D, e que \(p \in(0, 1)\) e \(q\in(0,1)\).
-Assuma que as condições do teorema da utilidade esperada sejam
-satisfeitas.
+Suponha que uma agência seja indiferente entre o resultado certo de B e a loteria de A com probabilidade \(p\) e D com probabilidade \(1-p\), e entre o resultado certo C e a loteria de A com probabilidade \(q\) e D com probabilidade \(1-q\).\footnote{Tradução: Essa agência possui as seguintes preferências: \(B \sim \left(p A + (1-p) D\right)\); \(C \sim \left(q B + (1-q) D\right)\); e \(A \succ D\).} Suponha, também, que ela prefira A a D, e que \(p \in(0, 1)\) e \(q\in(0,1)\). Assuma que as condições do teorema da utilidade esperada sejam satisfeitas.
+
+\begin{enumerate}
+\item
+  Construa uma função de utilidade na forma de utilidade esperada para a agência.
+  \item
+  Considere dois critérios diferentes de política:
+  
+  \begin{enumerate}
+  \item
+  Critério 1: Esse critério resultará em uma evacuação em \(90\%\) dos casos nos quais a inundação ocorrerá e uma evacuação desnecessária em \(10\%\) dos casos nos quais nenhuma inundação ocorre.
+  \item
+  Critério 2: Esse critério é mais conservador. Resulta em uma evacuação em \(95\%\) dos casos nos quais a inundação ocorrerá e uma evacuação desnecessária em \(15\%\) dos casos nos quais nenhuma inundação ocorre.
+\end{enumerate}
+\end{enumerate}
+
+Primeiro, derive as distribuições de probabilidade para os quatro resultados sob esses dois critérios. Depois, ao usar a função de utilidade do item (a), decida qual critério a agência preferiria.
+\end{exercise}
+  
+\begin{exercise}
+  \parencite[exercício 6.C.1]{Mas-Colell1995} Mostre que se o seguro \textbf{não} é atuarialmente justo (de modo que \(q>\pi\), cf. exemplo \ref{exemploseguros} acima), então o indivíduo \textbf{não} irá se segurar completamente.
+\end{exercise}
+
+\begin{exercise}
+  Mostre que a função utilidade exponencial
+  \[
+    u(x) = 1 - e^{-\alpha x}
+    \]
+    possui aversão absoluta ao risco \(r_{A}(x)\) constante. (Em inglês, diz-se que ela apresenta CARA --- \textit{constant absolute risk aversion}.) O que significa \(\alpha\) aumentar?
+  \end{exercise}
+
+
+\begin{exercise}
+  Mostre que a função de utilidade isoelástica
+  \[
+  u(x) = \frac{x^{1-\rho} -1}{1-\rho}
+  \]
+  possui aversão relativa ao risco \(r_{r}(x)\) constante. (Em inglês, diz-se que ela apresenta CRRA --- \textit{constant relative risk aversion}.) O que significa \(\rho\) aumentar?
+
+  Note que\footnote{Pode-se verificar isso com L'Hôpital, e lembrando que \(\frac{ \partial x^{-\rho}}{ \partial \rho } = -\ln(x) x^\rho\).}
+  \[
+  \lim\limits_{\rho \to 1} \frac{x^{1-\rho} - 1}{1-\rho} = \ln x
+  \]
+
+  Portanto, a utilidade logarítmica não só é avessa ao risco, como possui aversão relativa ao risco constante (igual a \(1\)).
+\end{exercise}
+        
+\section{Resoluções}
+\setcounter{exercise}{0}
+
+\begin{exercise}
+  
+\end{exercise}
+
+\begin{exercise}
+  Temos a seguinte matriz de decisão:\footnote{O símbolo \(\lnot\) significa ``negação'' (em LaTeX: \texttt{\textbackslash{}lnot}). A notação \(\lnot A\) lê: ``não-\(A\)''.}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|l|} % The '|' creates vertical lines
+\hline % Top horizontal line
+\begin{tabular}[c]{@{}l@{}}Inundação $\rightarrow$\\ $\downarrow$ Evacuação\end{tabular} & $I$ & $\lnot I$ \\ \hline
+$E$ & $C$ & $B$ \\ \hline
+$\lnot E$ & $D$ & $A$ \\ \hline
+\end{tabular}
+\end{table}
+onde \(A, B, C, D\) são as todas as possíveis situações. Tenha-se \(P(I) = 0.01 \iff P(\lnot I) = 0.99\).
+
+A agência de segurança possui as seguintes preferências (\(p, q \in (0,1)\)):
+\[
+\begin{cases}
+B \sim p A + (1-p) D \\
+C \sim q B + (1-q) D \\
+A \succ D
+\end{cases}
+\]
+
+a) \textit{Ex hypothesi}, podemos criar uma Utilidade de von Neumann-Morgenstern \(U(\cdot)\) de tal forma que satisfaça as preferências acima:
+\[
+\begin{cases}
+U(B) = p U(A) + (1-p) U(D) \\
+U(C) = q U(B) + (1-q) U(D) \\
+U(A) > U(D)
+\end{cases}
+\]
+Defina-se \(U(D) = 0\) e \(U(A) = 1\). Segue então que \(U(B) = p\) e \(U(C) = q\).
+
+b) Dadas probabilidades \(P(E \mid I)\) e \(P(E \mid \lnot I)\), junto de \(P(I)\), pode-se inferir todas as probabilidades dos eventos \(A, B, C, D\) pela definição de probabilidades bayesianas:
+\[
+\begin{cases}
+  P(C) = P(E \land I) &= P(E \mid I) \cdot P(I) \\
+  P(D) = P(\lnot E \mid I) &= P(\lnot E \mid I) \cdot P(I) \\
+  P(B) = P(E \land \lnot I) &= P(E \mid \lnot I) \cdot P(\lnot I) \\
+  P(A) = P(\lnot E \land \lnot I) &= P(\lnot E \mid \lnot I) \cdot P(\lnot I)
+  \end{cases}
+  \]
+  Critério \(1\): - \(P(E \mid I) = 0.90\) (\(\implies P(\lnot E \mid I) = 0.10\)) - \(P(E \mid \lnot I) = 0.10\) (\(\implies P(\lnot E \mid \lnot I) = 0.90\)) Logo, tem-se que
+  \[
+\begin{cases}
+  P(A) = 0.891 \\
+  P(B) = 0.099 \\
+  P(C) = 0.009 \\
+  P(D) = 0.001
+  \end{cases}
+  \]
+  
+  Critério \(2\): - \(P(E \mid I) = 0.95\) (\(\implies P(\lnot E \mid I) = 0.05\)) - \(P(E \mid \lnot I) = 0.15\) (\(\implies P(\lnot E \mid \lnot I) = 0.85\)) Logo, tem-se que
+\[
+\begin{cases}
+  P(A) = 0.8415 \\
+  P(B) = 0.1485 \\
+  P(C) = 0.0095 \\
+P(D) = 0.0005
+\end{cases}
+\]
+
+As respectivas utilidades esperadas são simplesmente \(\sum \limits_{i} P(X_{i}) \, U(X_{i})\). Deseja-se saber em quais casos se preferiria uma invés da outra; sem perda de generalidade, calculemos o caso de que se prefere (a loteria) \(I\) ante (à loteria) \(II\). Ou seja, \(U(I) > U(II)\). Em números:
+
+\begin{align}
+0.891 + 0.099 p + 0.0009 q &> 0.8415 + 0.1485p + 0.0095 q \\
+\iff 0.495 &> 0.0495p + 0.005q
+\end{align}
+
+Dividindo tudo por \(0.005\), tem-se que o critério \(I\) é preferível ao critério \(II\) se e somente se
+\[
+  99 > 99p + q
+  \]
+  
+  \(II\) é preferível a \(I\) ao inverter a desigualdade. (E ambos são equivalentes quando é uma igualdade.)
+
+\end{exercise}
+
+\begin{exercise}
+  Suponhamos que o preço cobrado pelo seguro não seja atuarialmente justo: \(q > \pi\lambda\).
+    
+    Suponha, por absurdo, que o segurado ainda queira cobrir-se completamente, i.e.~\(\alpha^{*} = \frac{D}{\lambda}\).
+    
+    Então teremos que sua riqueza não mudará, e sua condição de primeira ordem será
+    \[
+      \pi (\lambda - q)\, \underbrace{ u^\prime\left( w - \frac{q}{\lambda} \pi D  \right) }_{ \coloneqq u^\prime } + (1-\pi) (-q) \, \underbrace{ u^\prime\left( w - \frac{q}{\lambda} \pi D \right) }_{ \coloneqq u^\prime } \leq 0
+      \]
+      Reorganizando, temos
+      \[
+        (\pi \lambda - \cancel{ \pi q } - q + \cancel{ \pi q }) u^\prime = \underbrace{ (\pi\lambda - q) }_{ < 0 } \underbrace{ u^\prime }_{ \geq 0 } < 0
+        \]
+        Pelos critérios de Kuhn-Tucker, só se satisfaz a desigualdade estrita se \(\alpha^{*} = 0\) --- ou seja, ele não comprou nenhuma unidade de seguro. Logo: contradição por absurdo.
+        
+        Portanto, temos de ter que \(\alpha^{*} \neq \frac{D}{\lambda}\).
+        
+\end{exercise}
+
+\begin{exercise}
+  
+\end{exercise}
+
+\begin{exercise}
+  
+\end{exercise}
+
 
 \printbibliography
 

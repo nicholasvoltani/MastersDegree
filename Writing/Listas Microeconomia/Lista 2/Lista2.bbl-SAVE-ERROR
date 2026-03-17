@@ -1,0 +1,106 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{Mas-Colell1995}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b76f97409971b7c349c5ca95c956f216}{%
+           family={{Mas-Colell}},
+           familyi={M\bibinitperiod},
+           given={Andreu},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=af8fb43e720fb828e2675ca752dab059}{%
+           family={Whinston},
+           familyi={W\bibinitperiod},
+           given={Michael\bibnamedelima Dennis},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3351d53ca164d7525b03413fc0e38b7c}{%
+           family={Green},
+           familyi={G\bibinitperiod},
+           given={Jerry\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{0c6e3aed91d7d85a6cc26760b7a3370f}
+      \strng{fullhash}{eba193a65b833f23ce32186bd3529df8}
+      \strng{fullhashraw}{eba193a65b833f23ce32186bd3529df8}
+      \strng{bibnamehash}{eba193a65b833f23ce32186bd3529df8}
+      \strng{authorbibnamehash}{eba193a65b833f23ce32186bd3529df8}
+      \strng{authornamehash}{0c6e3aed91d7d85a6cc26760b7a3370f}
+      \strng{authorfullhash}{eba193a65b833f23ce32186bd3529df8}
+      \strng{authorfullhashraw}{eba193a65b833f23ce32186bd3529df8}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Microeconomic Theory}
+      \field{year}{1995}
+      \keyw{economics,economics/microeconomics,mathematics}
+    \endentry
+    \entry{Varian2014}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=affde3c8d511e90b7126c60a56e7ab49}{%
+           family={Varian},
+           familyi={V\bibinitperiod},
+           given={Hal\bibnamedelima R.},
+           giveni={H\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York; London}%
+      }
+      \list{publisher}{1}{%
+        {W.W. Norton \& Company}%
+      }
+      \strng{namehash}{affde3c8d511e90b7126c60a56e7ab49}
+      \strng{fullhash}{affde3c8d511e90b7126c60a56e7ab49}
+      \strng{fullhashraw}{affde3c8d511e90b7126c60a56e7ab49}
+      \strng{bibnamehash}{affde3c8d511e90b7126c60a56e7ab49}
+      \strng{authorbibnamehash}{affde3c8d511e90b7126c60a56e7ab49}
+      \strng{authornamehash}{affde3c8d511e90b7126c60a56e7ab49}
+      \strng{authorfullhash}{affde3c8d511e90b7126c60a56e7ab49}
+      \strng{authorfullhashraw}{affde3c8d511e90b7126c60a56e7ab49}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{9}
+      \field{langid}{english}
+      \field{shorttitle}{Intermediate Microeconomics}
+      \field{title}{Intermediate Microeconomics: A Modern Approach}
+      \field{year}{2014}
+      \keyw{economics,economics/microeconomics}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

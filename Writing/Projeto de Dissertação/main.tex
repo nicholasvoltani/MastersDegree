@@ -1,0 +1,131 @@
+% !TeX root = main.tex
+
+
+%------------------------------------------------------------------------------
+% Exemplo de documento para auxiliar a padronização das monografias da 
+% Faculdade de Economia - UFF
+%------------------------------------------------------------------------------
+
+\documentclass[12pt, openright, chapter=TITLE]{economia} %---------------------
+% Estão disponíveis opções de impressão como frente e verso, papel A4, outras
+% linguagens e ets...
+%------------------------------------------------------------------------------ 
+
+\usepackage{helvet}
+\renewcommand{\familydefault}{\sfdefault} % desmarcar as duas linhas de código para usar Arial como fonte...
+\usepackage{hyperref}
+\hypersetup{
+    hidelinks
+    }
+
+\usepackage{pdfpages}
+%\usepackage{graphicx} % Required for inserting images
+%\usepackage[portuguese]{babel}
+%\usepackage{csquotes}
+%\usepackage[backend=biber, style=abnt]{biblatex}
+%\addbibresource{Khazzoom-Brookes.bib}
+
+\usepackage{tabularx} % Ensure this is in your main.tex preamble
+\usepackage{makecell}
+\usepackage[backend=biber,style=abnt,language=brazilian]{biblatex}
+\usepackage{csquotes}
+\addbibresource{../Khazzoom-Brookes.bib}
+
+
+%------------------------------------------------------------------------------
+% INFORMAÇÕES E DADOS PARA A CAPA
+%------------------------------------------------------------------------------
+
+\titulo{Uma crítica marxista ao postulado de Khazzoom-Brookes}
+\autor{Nicholas Funari Voltani}
+\data{2026} 
+%orientador{Prof. Eduardo Sá Barreto}
+%\coorientador{Profa. Dra. Bianca Imbiriba Bonente}
+
+
+%------------------------------------------------------------------------------
+%	FOLHA DE ROSTO E PREAMBULO
+%------------------------------------------------------------------------------
+
+\preambulo{Projeto de Dissertação apresentado ao Programa de Pós-graduação em Economia da Universidade Federal Fluminense como requisito parcial para obtenção do título de Mestre em Ciências Econômicas.
+\\
+
+Orientador: Prof. Dr. Eduardo Sá Barreto
+\\
+
+Co-Orientadora: Profa. Dra. Bianca Imbiriba Bonente}
+
+%------------------------------------------------------------------------------
+% INÍCIO DO DOCUMENTO
+%------------------------------------------------------------------------------
+
+\makeindex
+
+\begin{document}
+
+%------------------------------------------------------------------------------
+% ELEMENTOS PRÉ-TEXTUAIS E CAPA
+%------------------------------------------------------------------------------
+
+%------------------------------------------------------------------------------
+% Aqui iremos inserir, em ordem, a capa '\imprimircapa', a folha de rosto
+% '\imprimirfolhaderosto*', as figuras da monografia '\figuras' e as tabelas
+% 'tabelas'. É possível também a inserção de quadros, por exemplo, com o 
+% comando 'quadros'. Sempre pulando uma linha entre as opções de ''listas''
+%------------------------------------------------------------------------------
+
+\imprimircapa
+\imprimirfolhaderosto*		
+
+%\includepdf[pages=1]{file.pdf} % inclui o arquivo file (ficha catalografica gerada pela biblioteca)
+%\include{aprovacao}	
+\clearpage
+
+%\input{capitulos/resumo.tex}	
+
+%\input{capitulos/dedicatoria}		
+					
+%\figuras
+
+%\tabelas
+
+\sumario
+
+
+% -----------------------------------------------------------------------------
+% ELEMENTOS TEXTUAIS
+% -----------------------------------------------------------------------------
+
+\textual
+
+\input{capitulos/introducao.tex}
+
+%\input{capitulos/capitulo2.tex}
+
+%\input{capitulos/capitulo3.tex}
+
+%\input{capitulos/comocitar.tex}
+
+%\input{capitulos/conclusao.tex}
+
+%chapter{Cronograma}
+
+
+% ----------------------------------------------------------
+% ELEMENTOS PÓS-TEXTUAIS
+% ----------------------------------------------------------
+\postextual
+
+% ----------------------------------------------------------
+% Referências bibliográficas
+% ----------------------------------------------------------
+
+
+%\bibliography{Khazzoom_Brookes}
+
+
+\printbibliography
+
+
+
+\end{document}

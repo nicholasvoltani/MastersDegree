@@ -30,16 +30,15 @@
 \theoremstyle{remark}
 \newtheorem*{remark}{Observação}
 
-\usepackage{hyperref}
+\usepackage[colorlinks, citecolor=blue, urlcolor=blue, linkcolor=blue]{hyperref}
 \usepackage{csquotes}
 
 \usepackage[
     backend=biber,
-    style=authoryear,
-    maxcitenames=2
+    style=abnt
 ]{biblatex}
 
-\addbibresource{/mnt/c/Users/nicho/Documents/nicholasvoltani.github.io/bibliography.bib}
+\addbibresource{../Microeconomics.bib}
 
 \newcommand{\R}{\mathbb{R}}
 \newcommand{\pref}{\succeq}
@@ -49,16 +48,12 @@
 % ------------------------------------------------
 % Title (fill manually)
 % ------------------------------------------------
-\title{Lista 2 -- Teoria Microeconômica}
-\author{Professor: Fábio Waltenberg \\Monitor: Nicholas Funari Voltani}
+\title{Lista 2 -- Teoria Microeconômica (PPGE-UFF)}
+\author{Professor: Fábio Waltenberg\thanks{\href{mailto:fdwaltenberg@id.uff.br}{fdwaltenberg@id.uff.br}} \\Monitor: Nicholas Funari Voltani\thanks{\href{mailto:nicholasvoltani@gmail.com}{nicholasvoltani@gmail.com}}}
 \date{}
 
 \begin{document}
 \maketitle
-
-\hypertarget{conceitos-introdutuxf3rios}{%
-\section{Conceitos introdutórios}\label{conceitos-introdutuxf3rios}}
-
 
 
 \hypertarget{exercuxedcios}{%
@@ -67,10 +62,15 @@
 \begin{exercise}
     Um consumidor consome um bem de consumo \(x\) e
     usufrui de uma quantidade de horas de lazer \(h\). O preço do bem de
-    consumo é \(p\), e o consumidor pode trabalhar a uma taxa salarial de
-    \(s \in \mathbb{R}^+\) (salário \emph{positivo}!). Qual é o conjunto
-    orçamentário walrasiano do consumidor, em notação matemática? Note que
-    \(0 \leq h \leq 24\), e que o consumidor divide seu tempo entre lazer (um bem que usufrui) e trabalho assalariado (um ``mal'').
+    consumo é \(p\), e o consumidor pode trabalhar a um salário-hora de
+    \(s \in \mathbb{R}_+\) (salário \emph{positivo}!). Qual é o conjunto
+    orçamentário walrasiano do consumidor, em notação matemática? Desenhe seu gráfico. Dica: Note que \(0 \leq h \leq 24\), e que o consumidor divide seu tempo entre lazer ($h$, um bem que usufrui) e trabalho assalariado ($24-h$, um ``mal'').
+
+    \parencite{Mas-Colell1995} Suponhamos também que este consumidor tenha direito a horas extras, i.e. um salário diferenciado após ter trabalhado (digamos) 8 horas em um dia: seu salário trabalhando $0\leq (24-h) \leq 8$\footnote{Pois estamos focando na variável $h$ de horas de lazer (um bem), e portanto $24-h$ horas de trabalho (um mal); caso trabalhemos com o tempo de trabalho $L$ (um mal), teríamos que $24-L$ seria a quantidade de horas de lazer (um bem). Inclusive, este $24$ também é arbitrário, é o caso máximo de horas possíveis de se trabalhar em um dia --- mas que, na prática, não é alcançado... ou, ao menos, \textbf{não deveria}!} é $s$, e para as demais horas de trabalho é $s^{\prime}  > s$. Desenhe o conjunto orçamentário deste consumidor (dica: desenhe da direita para a esquerda no eixo $h$). 
+    
+    O que acontece caso as horas \textit{obrigatórias} --- i.e. horas não-extras --- aumentem, por exemplo, de 8h pra 12h diárias?\footnote{Como permitido pela recente ``modernização trabalhista'' na Argentina \parencite{BBCNews2026}.} E se considerarmos não o tempo diário de trabalho, e sim o tempo \textit{semanal} de trabalho $0\leq  \tilde{h}\leq 24 \cdot 7=168$: como muda o conjunto orçamentário conforme muda-se a jornada de trabalho de 5x2 ($5\cdot 8 = 40$h obrigatórias semanais) para 6x1 ($6\cdot 8 = 48$h horas obrigatórias semanais)\footnote{Sem contar descansos extras estipulados etc.}?
+
+    Suponhamos, ademais, que ele passe a ter sua renda taxada a um imposto $t \in (0, 1)$ após um patamar de $M$ reais\footnote{Isso pode ser visto como o valor $M$ no eixo do consumo: caso ele tenha $M$ reais (ou mais) de renda, ele pode comprar o equivalente a $M$ reais (ou mais) do bem $x$.}, e que esse imposto incida somente na região em que ele ganha $s^{\prime}$. Desenhe o gráfico de seu conjunto orçamentário (como acima: desenhe da direita para a esquerda no eixo $h$).
 \end{exercise}
 
 \begin{exercise}
@@ -116,9 +116,13 @@
 
     \begin{remark}
         Note que essas demandas walrasianas não determinam \(x_{1}\)! Isso quer
-        dizer que, dados \(\vec{p}\) e \(w\), o conjunto de cestas \[
+        dizer que, dados \(\vec{p}\) e \(w\), o conjunto de cestas 
+        \[
         \{ m \in \mathbb{R}: (m,x_{2}^*) \}
-        \] dado o \(x_{2}^*\) ótimo, são todas cestas ótimas.   
+        \] 
+        dado o \(x_{2}^*\) ótimo e $m \coloneq \frac{w - p_2 x_2^*}{p_1}$ a quantidade do bem $1$ consumido com o resto da renda, são todas cestas ótimas.
+        
+        Denota-se ele como $m$, pois é costumeiro utilizar utilidades quase-lineares em que $x_1$ representa \textit{dinheiro} (\textit{\textbf{m}oney}): faz-se $p_1=1$ (numerário), e a quantidade $m$ que resta, após a definição ótima de $x_2^*$, será \textit{o montante de dinheiro que restou} após o consumo de $x_2^*$.
     \end{remark}
 
 \end{exercise}
@@ -176,9 +180,6 @@
 
 \end{exercise}
 
-\vfill 
-
-\pagebreak
 
 \section{Resoluções}
 
@@ -196,7 +197,7 @@ o que é equivalente a
 \begin{figure}[h]
     \centering
     \includegraphics{images/Pasted image 20250424141222.png}
-    \caption{(Varian, 2014, p. 175).}
+    \caption{\cite[p. 175]{Varian2014}.}
 \end{figure}
 \end{exercise}
 
@@ -397,9 +398,7 @@ Função de Cobb-Douglas: Tendo bens com coeficientes \(\alpha_{i}\) tais
 
 
 
-%\printbibliography
+\printbibliography
 
-\subsection*{Referências}
-VARIAN, Hal R. \textbf{Intermediate microeconomics: a modern approach}. 9 ed. W. W. Norton, 2014.
 
 \end{document}

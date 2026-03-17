@@ -1,9 +1,15 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'Lista1.blg'
-[120] biber-MSWIN64:342> INFO - === 
-[177] Biber.pm:421> INFO - Reading 'Lista1.bcf'
-[298] Biber.pm:1002> INFO - Found 0 citekeys in bib section 0
-[310] bbl.pm:676> INFO - Writing 'Lista1.bbl' with encoding 'UTF-8'
-[310] bbl.pm:779> INFO - Output to Lista1.bbl
-[310] Biber.pm:132> WARN - The file 'Lista1.bcf' does not contain any citations!
-[311] Biber.pm:134> INFO - WARNINGS: 1
+[104] biber-MSWIN64:342> INFO - === 
+[145] Biber.pm:421> INFO - Reading 'Lista1.bcf'
+[247] Biber.pm:1002> INFO - Found 1 citekeys in bib section 0
+[259] Biber.pm:4487> INFO - Processing section 0
+[269] Biber.pm:4678> INFO - Looking for bibtex file '../Microeconomics.bib' for section 0
+[352] bibtex.pm:1713> INFO - LaTeX decoding ...
+[363] bibtex.pm:1519> INFO - Found BibTeX data source '../Microeconomics.bib'
+[409] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[409] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[409] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'pt-BR'
+[409] Biber.pm:4313> INFO - No sort tailoring available for locale 'pt-BR'
+[411] bbl.pm:676> INFO - Writing 'Lista1.bbl' with encoding 'UTF-8'
+[412] bbl.pm:779> INFO - Output to Lista1.bbl

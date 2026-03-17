@@ -16,5 +16,125 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{BBCNews2026}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=4f3fd42903d78c136ecfc4622a687936}{%
+           family={{BBC News Mundo}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{4f3fd42903d78c136ecfc4622a687936}
+      \strng{fullhash}{4f3fd42903d78c136ecfc4622a687936}
+      \strng{fullhashraw}{4f3fd42903d78c136ecfc4622a687936}
+      \strng{bibnamehash}{4f3fd42903d78c136ecfc4622a687936}
+      \strng{authorbibnamehash}{4f3fd42903d78c136ecfc4622a687936}
+      \strng{authornamehash}{4f3fd42903d78c136ecfc4622a687936}
+      \strng{authorfullhash}{4f3fd42903d78c136ecfc4622a687936}
+      \strng{authorfullhashraw}{4f3fd42903d78c136ecfc4622a687936}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Mientras que en el oficialismo consideran que la nueva regulación modernizará las relaciones laborales, los mayores críticos dicen que promueve la explotación.}
+      \field{journaltitle}{BBC News Mundo}
+      \field{langid}{spanish}
+      \field{month}{2}
+      \field{title}{{3 claves de la polémica reforma laboral impulsada por Javier Milei y aprobada por el Senado de Argentina}}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://www.bbc.com/mundo/articles/cq8g0y235wqo
+      \endverb
+      \verb{url}
+      \verb https://www.bbc.com/mundo/articles/cq8g0y235wqo
+      \endverb
+      \keyw{economics}
+    \endentry
+    \entry{Mas-Colell1995}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b76f97409971b7c349c5ca95c956f216}{%
+           family={{Mas-Colell}},
+           familyi={M\bibinitperiod},
+           given={Andreu},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=af8fb43e720fb828e2675ca752dab059}{%
+           family={Whinston},
+           familyi={W\bibinitperiod},
+           given={Michael\bibnamedelima Dennis},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3351d53ca164d7525b03413fc0e38b7c}{%
+           family={Green},
+           familyi={G\bibinitperiod},
+           given={Jerry\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{eba193a65b833f23ce32186bd3529df8}
+      \strng{fullhash}{eba193a65b833f23ce32186bd3529df8}
+      \strng{fullhashraw}{eba193a65b833f23ce32186bd3529df8}
+      \strng{bibnamehash}{eba193a65b833f23ce32186bd3529df8}
+      \strng{authorbibnamehash}{eba193a65b833f23ce32186bd3529df8}
+      \strng{authornamehash}{eba193a65b833f23ce32186bd3529df8}
+      \strng{authorfullhash}{eba193a65b833f23ce32186bd3529df8}
+      \strng{authorfullhashraw}{eba193a65b833f23ce32186bd3529df8}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Microeconomic Theory}
+      \field{year}{1995}
+      \keyw{economics,economics/microeconomics,mathematics}
+    \endentry
+    \entry{Varian2014}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=affde3c8d511e90b7126c60a56e7ab49}{%
+           family={Varian},
+           familyi={V\bibinitperiod},
+           given={Hal\bibnamedelima R.},
+           giveni={H\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York; London}%
+      }
+      \list{publisher}{1}{%
+        {W.W. Norton \& Company}%
+      }
+      \strng{namehash}{affde3c8d511e90b7126c60a56e7ab49}
+      \strng{fullhash}{affde3c8d511e90b7126c60a56e7ab49}
+      \strng{fullhashraw}{affde3c8d511e90b7126c60a56e7ab49}
+      \strng{bibnamehash}{affde3c8d511e90b7126c60a56e7ab49}
+      \strng{authorbibnamehash}{affde3c8d511e90b7126c60a56e7ab49}
+      \strng{authornamehash}{affde3c8d511e90b7126c60a56e7ab49}
+      \strng{authorfullhash}{affde3c8d511e90b7126c60a56e7ab49}
+      \strng{authorfullhashraw}{affde3c8d511e90b7126c60a56e7ab49}
+      \field{sortinit}{V}
+      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{9}
+      \field{langid}{english}
+      \field{shorttitle}{Intermediate Microeconomics}
+      \field{title}{Intermediate Microeconomics: A Modern Approach}
+      \field{year}{2014}
+      \keyw{economics,economics/microeconomics}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

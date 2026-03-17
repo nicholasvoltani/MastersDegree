@@ -1,0 +1,80 @@
+\documentclass{article}[12pt]
+\usepackage[utf8]{inputenc}
+\usepackage[brazil]{babel}
+\usepackage{multirow,array}
+\usepackage{mathtools}
+\usepackage{amsmath,amsfonts,amsthm,amssymb}
+\usepackage{subcaption}
+\usepackage{authblk}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{indentfirst}
+\usepackage[margin=1in]{geometry}
+\usepackage{makecell}
+\usepackage{cancel}
+\usepackage{epigraph}
+\setlength\epigraphwidth{\textwidth}
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    urlcolor=cyan,
+    citecolor=blue
+    }
+
+\usepackage[alf]{abntex2cite}
+\bibliographystyle{abntex2-alf}
+
+\newcommand{\safelink}[2]{\href{\detokenize{#1}}{#2}}
+
+\title{Para uma análise marxista do ``postulado de Khazzoom-Brookes''}
+\author{Nicholas Funari Voltani}
+\date{19 de novembro de 2025}
+
+\begin{document}
+
+\maketitle
+
+
+\begin{abstract}
+    No final do século XIX, W. S. Jevons conjecturou que o aumento da eficiência do uso de carvão induzia ao aumento, não à redução, de seu consumo nas atividades manufatureiras britânicas. Após as crises do petróleo de 1970, o mesmo debate foi trazido à tona por economistas neoclássicos sob o nome de ``Postulado de Khazzoom-Brookes'', o qual afirma algo similar no tocante ao uso de energia. Neste trabalho, busca-se demonstrar, a partir da teoria do valor-trabalho de Marx, que a lógica imanente do capital necessariamente leva a este resultado ``contraditório'': há um ímpeto imanente ao aumento da eficiência do consumo (relativo) de meios de produção (e, em particular, do ``consumo de energia''), junto ao ímpeto do aumento de seu consumo (absoluto).
+\end{abstract}
+
+
+\section{Introdução}
+O que convencionou-se chamar de ``paradoxo de Jevons'' é um fenômeno que este economista observou ao final do século XIX: uma maior eficiência do emprego de carvão induz um \textit{aumento} de seu consumo (a um nível da economia como um todo), oposto à intuição cotidiana que ela induziria uma \textit{diminuição} de seu consumo (pois menos energia seria necessária para alcançar um mesmo nível de produto)\footnote{``\textit{IT is very commonly urged, that the failing supply of coal will be met by new modes of using it efficiently and economically. The amount of useful work got out of coal may be made to increase manifold, while the amount of coal consumed is stationary or diminishing. We have thus, it is supposed, the means of completely neutralizing the evils of scarce and costly fuel.} [...]
+
+    \textit{I speak not here of the domestic consumption of coal. This is undoubtedly capable of being cut down without other harm than curtailing our home comforts, and somewhat altering our confirmed national habits. The coal thus saved would be, for the most part, laid up for the use of posterity.} [...]
+    
+    \textit{But the economy of coal in manufactures is a different matter.} It is wholly a confusion of ideas to suppose that the economical use of fuel is equivalent to a diminished consumption. The very contrary is the truth.'' \cite[p. 75; grifo meu]{Jevons1866}}. 
+Jevons trata, portanto, do aumento \textit{absoluto} do consumo de carvão enquanto fonte energética, não obstante a redução \textit{relativa} de seu consumo (pois ele torna-se, de fato, ``\textit{mais eficiente}''). Isso pode ser visto, por exemplo, pelo emprego paulatino de motores com maior eficiência termodinâmica, suplementação da força-motriz do carvão com a força-motriz a vapor (o foco da ``segunda Revolução Industrial''), etc. 
+
+Há desenvolvimentos no que tange à caracterização do ``paradoxo de Jevons'' feitos pela economia neoclássica, quando das crises do petróleo na década de 1970. Os trabalhos fundamentais neste tema são de Khazzoom (\citeyear{Khazzoom1980}, \citeyear{Khazzoom1987}), Brookes (\citeyear{Brookes1990}) e Saunders (\citeyear{Saunders1992}), o qual cunhou a expressão ``postulado de Khazzoom-Brookes'', definindo-o como\footnote{Sorrell destaca o escopo no qual é adequado avaliar empiricamente o efeito do ``postulado de Khazzoom-Brookes'': ``\textit{For the K-B postulate the relevant system boundary is normally taken as the national economy. But energy efficiency improvements may also affect trade patterns and international energy prices, thereby changing energy consumption in other countries.[...] To capture the full range of rebound effects, the system boundary for the independent variable (energy efficiency) should be relatively narrow, while the system boundary for the dependent variable (energy consumption) should be as wide as possible.}'' \cite[p. 15]{Sorrell2007}.} 
+\begin{quote}
+    ``\textit{Khazzoom-Brookes Postulate}: With fixed real energy price, energy efficiency gains will increase energy consumption above where it would be without these gains.” \cite[p. 135]{Saunders1992}
+\end{quote}
+
+A principal ideia cunhada pela área de Economia da Energia, neste âmbito, é o chamado ``efeito \textit{rebound}''\footnote{Alguns o traduzem como ``efeito rebote'', ``efeito bumerangue'', etc.}, que trata sobre o incentivo ao consumo de energia após um choque tecnológico que permita maior poupança de energia. O efeito \textit{rebound} é um análogo do ``efeito preço'' microeconômico: é a composição de um ``efeito intensidade'', pelo qual permite-se uma diminuição no consumo do fator energético de produção\footnote{Alguns autores neoclássicos que abordam o efeito \textit{rebound} empregam funções de produção em seus modelos que explicitamente são função de algum ``fator energia'' $E$, p. ex. \cite{Saunders1992}, }, e um ``efeito produto'', que expande a fronteira de possibilidade de produção \cite[pp. 170-1]{Saunders2009}.
+
+O postulado de Khazzoom-Brookes, como o paradoxo de Jevons, trata quando o efeito \textit{rebound} é grande o suficiente para que a poupança energética \textit{esperada}, permitida pelo choque tecnológico, é totalmente consumida --- dito de outra forma, a poupança \textit{efetiva} ou é nula ou mesmo ``negativa'', consumindo-se \textit{mais} energia do que antes do aumento de eficiência. Neste caso diz-se que houve um efeito \textit{backfire}. O postulado de Khazzoom-Brookes, portanto, se trata sobre ganhos de eficiência energética (fixados preços reais da energia) induzirem a um efeito \textit{backfire} do consumo energético.
+
+
+\section{Metodologia}
+A realidade em si é \textit{concreta}\footnote{Do latim \textit{con-crēscere}, ``crescer junto/conjuntamente''. É neste sentido que Marx diz que ``O concreto é concreto porque é a síntese de múltiplas determinações, portanto, unidade do diverso'' \cite[p. 54]{Marx2021}.} porque advém da confluência de diversas tendências superpostas, cancelando-se ou reforçando-se entre si, que manifestam-se em fenômenos empíricos e não-empíricos. É por isso que faz-se necessário apreender esta realidade não só como ela brota no mundo, como também \textit{porque} ela brota \textit{de tal forma} no mundo, o que só é possível ao apreender o mundo em seus aspectos não só aparentes, como também subjacentes.
+
+Um dos fundamentos da vertente da filosofia da ciência denominada ``realismo crítico'', como exposto em \textit{A Realist Theory of Science} \cite{Bhaskar1978}, é que a realidade é ``estratificada'': não consiste puramente nos fenômenos empíricos (ao contrário do que advoga a filosofia ``empirista'', legatária de David Hume), mas também em fenômenos que são ``efetivos-mas-não-empíricos''. O objetivo da ciência, em última instância, é descrever a realidade através dos \textit{mecanismos causais}, imanentes à realidade, devido aos quais tais fenômenos efetivam-se no mundo (sejam eles empíricos ou não). 
+
+Como elaborado no realismo crítico, entidades \textit{reais} são, portanto, não só aquelas que são \textit{in actu}, mas também \textit{in potentia}, i.e. \textit{a própria potencialidade} que rege eventos, quer eles efetivem-se ou não. Ou seja, essa potencialidade não encontra-se em outro plano da realidade: é parte componente da própria realidade, pertence-lhe e manifesta-se sobre ela -- ou melhor, \textit{dentro} dela, \textit{nela} propriamente \cite{Bhaskar1978, Bhaskar1998, Lawson1997, Medeiros2013}.
+
+Em suma, a investigação científica, em particular nas ciências sociais, deve pautar-se não somente nos fenômenos empíricos, mas também --- e, em verdade, mais ainda --- nos \textit{mecanismos geradores} dos fenômenos efetivos; deve pautar-se, portanto, não só no que ocorre efetivamente, mas também no seu porquê, i.e. nas suas causas e na necessidade da efetividade em que manifestam-se.
+
+\section{Fundamentação Teórica}
+Pelo discutido acima, fica mais claro por que a apreensão de um fenômeno econômico como o assim denominado ``postulado de Khazzoom-Brookes''não pode restringir-se à análise comparativa de dados: porque, dessa forma, não apreende-se (pode-se dizer também: \textit{ofusca-se}) o \textit{porquê} deste fenômeno vir a ser. 
+
+O presente trabalho buscará, portanto, compreender este fenômeno através da teoria do valor-trabalho, exposta por Marx n'\textit{O Capital} \cite{Marx2017a, Marx2014, Marx2017}, e valendo-se também de trabalhos posteriores relacionados --- notadamente \cite{SaBarreto2018}. O objetivo é não só entender o porquê deste fenômeno, como também entender a \textit{necessidade} de sua ocorrência, devida à lógica imanente do capital, observável, por exemplo, em seu ímpeto de aumentar não só a eficiência no consumo produtivo de meios de produção --- requerer \textit{menos} destes para um nível de produção dado ---, mas também a produtividade da produção --- em um dado período de tempo, produzir mais mercadorias, portanto requerendo \textit{mais} meios de produção. 
+
+\bibliography{Khazzoom-Brookes}
+
+
+\end{document}

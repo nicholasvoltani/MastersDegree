@@ -83,7 +83,7 @@
       <file>main.bcf</file>
     </requires>
     <requires type="editable">
-      <file>Khazzoom_Brookes.bib</file>
+      <file>../Khazzoom_Brookes.bib</file>
     </requires>
   </external>
 </requests>
