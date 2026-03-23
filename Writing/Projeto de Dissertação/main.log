@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.9)  12 MAR 2026 13:19
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.18)  19 MAR 2026 14:29
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -452,7 +452,7 @@ Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
 \BKM@id=\count347
 )) (C:\Program Files\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2026/02/14 v26.3 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
+Package: babel 2026/03/08 v26.4 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
 \babel@savecnt=\count348
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2078.
 LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2080.
@@ -1143,7 +1143,15 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (main.bbl)
+ (main.bbl
+
+Package biblatex Warning: The following entry could not be found
+(biblatex)                in the database:
+(biblatex)                Marx2021
+(biblatex)                Please verify the spelling and rerun
+(biblatex)                LaTeX afterwards.
+
+)
 Package biblatex Info: Reference section=0 on input line 64.
 Package biblatex Info: Reference segment=0 on input line 64.
 <logo.png, id=3, 253.94875pt x 257.96375pt>
@@ -1184,44 +1192,49 @@ l.79
 ] (main.toc) [2
 
 ] (capitulos/introducao.tex
+LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
+(Font)              Font shape `T1/phv/m/sl' tried instead on input line 7.
+Package babel Info: 'brazil' activates 'portuges' shorthands.
+(babel)             Reported on input line 7.
+ [3
+
+]
 Cap\'{\i }tulo 1.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 9.
-[3
-
+[4
 
 ]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 21.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <5> on input line 21.
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 21.
-Package babel Info: 'brazil' activates 'portuges' shorthands.
-(babel)             Reported on input line 34.
- [4] [5]
+ [5] [6]
 Cap\'{\i }tulo 2.
-[6
+[7
 
-] [7]
+] [8]
 Cap\'{\i }tulo 3.
-[8
+
+LaTeX Warning: Citation 'Marx2021' on page 9 undefined on input line 84.
+
+[9
 
 ]
 Cap\'{\i }tulo 4.
-[9
+[10
 
-] [10]
+] [11]
 Cap\'{\i }tulo 5.
 
 Underfull \hbox (badness 4217) in paragraph at lines 147--147
 []|\T1/phv/m/n/10.95 (+20) Trabalho bi-bli-o-grá-
  []
 
-) [11
+) [12
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 127.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 131.
  (C:\Users\nicho\AppData\Roaming\MiKTeX\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
@@ -1229,9 +1242,9 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `pcr' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [12
+ [13
 
-] [13]
+] [14]
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
@@ -1245,17 +1258,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26964 strings out of 467867
- 472023 string characters out of 5428402
- 1520919 words of memory out of 5000000
- 55208 multiletter control sequences out of 15000+600000
- 668340 words of font info for 230 fonts, out of 8000000 for 9000
+ 26972 strings out of 467867
+ 472098 string characters out of 5428401
+ 1520887 words of memory out of 5000000
+ 55210 multiletter control sequences out of 15000+600000
+ 671167 words of font info for 234 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,18n,107p,1383b,4310s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (14 pages, 136826 bytes).
+Output written on main.pdf (15 pages, 137682 bytes).
 PDF statistics:
- 272 PDF objects out of 1000 (max. 8388607)
+ 273 PDF objects out of 1000 (max. 8388607)
  60 named destinations out of 1000 (max. 500000)
- 36966 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 41062 words of extra memory for PDF output out of 42996 (max. 10000000)
 

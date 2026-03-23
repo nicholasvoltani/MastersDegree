@@ -270,42 +270,6 @@
       \range{pages}{54}
       \keyw{economics,marxism}
     \endentry
-    \entry{Marx2021}{book}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=af80d32a7d375e934f94bdfb27bf2999}{%
-           family={Marx},
-           familyi={M\bibinitperiod},
-           given={Karl},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {São Paulo}%
-      }
-      \list{publisher}{1}{%
-        {Boitempo}%
-      }
-      \strng{namehash}{af80d32a7d375e934f94bdfb27bf2999}
-      \strng{fullhash}{af80d32a7d375e934f94bdfb27bf2999}
-      \strng{fullhashraw}{af80d32a7d375e934f94bdfb27bf2999}
-      \strng{bibnamehash}{af80d32a7d375e934f94bdfb27bf2999}
-      \strng{authorbibnamehash}{af80d32a7d375e934f94bdfb27bf2999}
-      \strng{authornamehash}{af80d32a7d375e934f94bdfb27bf2999}
-      \strng{authorfullhash}{af80d32a7d375e934f94bdfb27bf2999}
-      \strng{authorfullhashraw}{af80d32a7d375e934f94bdfb27bf2999}
-      \field{extraname}{1}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{langid}{brazilian}
-      \field{shorttitle}{{Grundrisse}}
-      \field{title}{{Grundrisse: Manuscritos e econômicos de 1857 - 1858 : Esboços da crítica da economia política}}
-      \field{year}{2021}
-      \keyw{marxism}
-    \endentry
     \entry{Marx2017}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=af80d32a7d375e934f94bdfb27bf2999}{%
@@ -329,7 +293,7 @@
       \strng{authornamehash}{af80d32a7d375e934f94bdfb27bf2999}
       \strng{authorfullhash}{af80d32a7d375e934f94bdfb27bf2999}
       \strng{authorfullhashraw}{af80d32a7d375e934f94bdfb27bf2999}
-      \field{extraname}{2}
+      \field{extraname}{1}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradate}{1}
@@ -367,7 +331,7 @@
       \strng{authornamehash}{af80d32a7d375e934f94bdfb27bf2999}
       \strng{authorfullhash}{af80d32a7d375e934f94bdfb27bf2999}
       \strng{authorfullhashraw}{af80d32a7d375e934f94bdfb27bf2999}
-      \field{extraname}{3}
+      \field{extraname}{2}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -404,7 +368,7 @@
       \strng{authornamehash}{af80d32a7d375e934f94bdfb27bf2999}
       \strng{authorfullhash}{af80d32a7d375e934f94bdfb27bf2999}
       \strng{authorfullhashraw}{af80d32a7d375e934f94bdfb27bf2999}
-      \field{extraname}{4}
+      \field{extraname}{3}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradate}{2}
@@ -838,6 +802,7 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{Marx2021}
 \endrefsection
 \endinput
 
