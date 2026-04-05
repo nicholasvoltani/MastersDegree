@@ -19,6 +19,80 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global/global}
+    \entry{Akerlof1978}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=f198b417f1390a0f8ff279349b43f47d}{%
+           family={Akerlof},
+           familyi={A\bibinitperiod},
+           given={George\bibnamedelima A.},
+           giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {Elsevier}%
+      }
+      \strng{namehash}{f198b417f1390a0f8ff279349b43f47d}
+      \strng{fullhash}{f198b417f1390a0f8ff279349b43f47d}
+      \strng{fullhashraw}{f198b417f1390a0f8ff279349b43f47d}
+      \strng{bibnamehash}{f198b417f1390a0f8ff279349b43f47d}
+      \strng{authorbibnamehash}{f198b417f1390a0f8ff279349b43f47d}
+      \strng{authornamehash}{f198b417f1390a0f8ff279349b43f47d}
+      \strng{authorfullhash}{f198b417f1390a0f8ff279349b43f47d}
+      \strng{authorfullhashraw}{f198b417f1390a0f8ff279349b43f47d}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{booktitle}{Uncertainty in Economics}
+      \field{shorttitle}{The Market for ``Lemons''}
+      \field{title}{The Market for ``Lemons'': {{Quality}} Uncertainty and the Market Mechanism}
+      \field{year}{1978}
+      \field{pages}{235\bibrangedash 251}
+      \range{pages}{17}
+      \verb{urlraw}
+      \verb https://www.sciencedirect.com/science/article/pii/B978012214850750022X
+      \endverb
+      \verb{url}
+      \verb https://www.sciencedirect.com/science/article/pii/B978012214850750022X
+      \endverb
+      \keyw{economics}
+    \endentry
+    \entry{Arrow1974}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=9d7255886d065ad5731cd220b32e134b}{%
+           family={Arrow},
+           familyi={A\bibinitperiod},
+           given={Kenneth\bibnamedelima Joseph},
+           giveni={K\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Amsterdam}%
+      }
+      \list{publisher}{1}{%
+        {North-Holland Publishing Company}%
+      }
+      \strng{namehash}{9d7255886d065ad5731cd220b32e134b}
+      \strng{fullhash}{9d7255886d065ad5731cd220b32e134b}
+      \strng{fullhashraw}{9d7255886d065ad5731cd220b32e134b}
+      \strng{bibnamehash}{9d7255886d065ad5731cd220b32e134b}
+      \strng{authorbibnamehash}{9d7255886d065ad5731cd220b32e134b}
+      \strng{authornamehash}{9d7255886d065ad5731cd220b32e134b}
+      \strng{authorfullhash}{9d7255886d065ad5731cd220b32e134b}
+      \strng{authorfullhashraw}{9d7255886d065ad5731cd220b32e134b}
+      \field{sortinit}{A}
+      \field{sortinithash}{2f401846e2029bad6b3ecc16d50031e2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{Essays in the Theory of Risk-Bearing}
+      \field{year}{1974}
+      \keyw{economics}
+    \endentry
     \entry{Mas-Colell1995}{book}{}{}
       \name{author}{3}{}{%
         {{un=0,uniquepart=base,hash=b76f97409971b7c349c5ca95c956f216}{%
@@ -63,6 +137,51 @@
       \field{title}{Microeconomic Theory}
       \field{year}{1995}
       \keyw{economics,economics/microeconomics,mathematics}
+    \endentry
+    \entry{Wood2015}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=90ff7bda6dcccbcbb9072ac658c451ba}{%
+           family={Wood},
+           familyi={W\bibinitperiod},
+           given={David\bibnamedelima A.},
+           giveni={D\bibinitperiod\bibinitdelim A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=f29b733248e41159f533322247529440}{%
+           family={Khosravanian},
+           familyi={K\bibinitperiod},
+           given={Rassoul},
+           giveni={R\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{64990bfa2c0d5cfc427b5511bc03c604}
+      \strng{fullhash}{64990bfa2c0d5cfc427b5511bc03c604}
+      \strng{fullhashraw}{64990bfa2c0d5cfc427b5511bc03c604}
+      \strng{bibnamehash}{64990bfa2c0d5cfc427b5511bc03c604}
+      \strng{authorbibnamehash}{64990bfa2c0d5cfc427b5511bc03c604}
+      \strng{authornamehash}{64990bfa2c0d5cfc427b5511bc03c604}
+      \strng{authorfullhash}{64990bfa2c0d5cfc427b5511bc03c604}
+      \strng{authorfullhashraw}{64990bfa2c0d5cfc427b5511bc03c604}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{Journal of Natural Gas Science and Engineering}
+      \field{langid}{english}
+      \field{month}{11}
+      \field{title}{Exponential Utility Functions Aid Upstream Decision Making}
+      \field{volume}{27}
+      \field{year}{2015}
+      \field{pages}{1482\bibrangedash 1494}
+      \range{pages}{13}
+      \verb{urlraw}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S1875510015302171
+      \endverb
+      \verb{url}
+      \verb https://linkinghub.elsevier.com/retrieve/pii/S1875510015302171
+      \endverb
+      \keyw{economics}
     \endentry
   \enddatalist
 \endrefsection

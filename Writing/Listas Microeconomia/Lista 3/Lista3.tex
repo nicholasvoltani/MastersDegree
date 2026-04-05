@@ -30,6 +30,7 @@
 \newtheorem*{remark}{Observação}
 
 \usepackage{hyperref}
+\hypersetup{hidelinks}
 \usepackage{csquotes}
 
 \usepackage[
@@ -48,34 +49,68 @@
 % Title (fill manually)
 % ------------------------------------------------
 \title{Lista 3 --- Teoria Microeconômica (PPGE-UFF)}
-\author{Professor: Fábio Waltenberg \\Monitor: Nicholas Funari Voltani}
+\author{Professor: Fábio Waltenberg\thanks{\href{mailto:fdwaltenberg@id.uff.br}{fdwaltenberg@id.uff.br}} \\Monitor: Nicholas Funari Voltani\thanks{\href{mailto:nicholasvoltani@gmail.com}{nicholasvoltani@gmail.com}}}
+\date{}
 
 \begin{document}
 \maketitle
 
 \section{Conceitos introdutórios}
 \subsection{Identidades matemáticas em Teoria do Consumidor}
-Resultados importantes para a teoria do consumidor, assim como para a teoria da firma, são o lema de Shephard e a identidade de Roy.\footnote{Suas demonstrações são mais convolutas. Para o leitor interessado: suas demonstrações giram em torno do \textit{envelope theorem}, e recomendo singelamente minha demonstração destes resultados em \href{https://nicholasvoltani.github.io/Envelope-Theorem}{Envelope Theorem --- nicholasvoltani.github.io}}
+Resultados importantes para a teoria do consumidor, assim como para a teoria da firma, são o lema de Shephard e a identidade de Roy.\footnote{Suas demonstrações são mais convolutas. Para o leitor interessado: suas demonstrações giram em torno do \textit{envelope theorem}, e recomendo singelamente minha (Nicholas) demonstração destes resultados em \href{https://nicholasvoltani.github.io/Envelope-Theorem}{[[Envelope Theorem]]}.}
 
 O lema de Shephard associa a demanda hicksiana \(\vec{h}(\vec{p}, \bar{u})\) com a função dispêndio \(e(\vec{p}, \bar{u})\): a trajetória da demanda hicksiana é descrita pela variação do dispêndio com relação aos \textit{preços}. Formalmente:
 \[
-\nabla_{p} {\vec{e}(\vec{p}, \bar{u})} = \vec{h}(p, \bar{u}) 
+\nabla_{p} {e(\vec{p}, \bar{u})} = \vec{h}(p, \bar{u}) 
 \]
 
 A identidade de Roy é um corolário do lema de Shephard, resultado obtido pela derivação da função de utilidade indireta:
 \[
-\nabla_{p} v\left(\vec{p}, e(\vec{p}, \bar{u})\right) = \nabla_{p} \bar{u} = 0
+\nabla_{p} v\left(\vec{p}, e(\vec{p}, \bar{u})\right) = \nabla_{p} \underbrace{\bar{u}}_{\text{Constante!}} = 0
 \]
 
-Formalmente, a identidade de Roy tem a forma
+Portanto, a identidade de Roy tem a forma
 \[
 \vec{h}(p, \bar{u}) = -\frac{1}{\left( \frac{ \partial v }{ \partial w } \right) } \nabla_{p}v
 \]
+Ou, escrevendo para cada bem $i$,
+\[
+h_i(p, \bar{u}) = -\frac{\left( \frac{ \partial v }{ \partial p_i } \right) }{\left( \frac{ \partial v }{ \partial w } \right) } 
+\]
+
 
 \subsection{Loterias}
-\begin{example}
+No contexto de Microeconomia, uma loteria não é mais do que uma lista de valores $L = (p_1, \dots, p_n)$ tal que 
+\[
+\sum\limits_{i=1}^n p_i = 1 
+\]
+Ou seja, $L$ é, por assim dizer, um vetor de probabilidades, em que cada $i = 1, \dots, n$ representa algo de interesse, seja p. ex. um bem, ou mesmo uma outra loteria.
+
+\begin{figure}[h]
+  \centering
+  \includegraphics[width=0.8\textwidth]{images/simplexos.png}
+  \caption{Representação gráfica de simplexos de $0$ (caso trivial, não-pertinente), $1$ e $2$ dimensões --- no que nos diz respeito, loterias de $1$, $2$ e $3$ argumentos. Note que, embora um $n$-simplexo seja $n$-dimensional (resp. acima: um ponto, uma reta e um plano), sua visualização em $\mathbb{R}^{n+1}$ ilustra melhor como a normalização $\sum\limits_i p_i = 1$ aparece. Fonte: \href{https://ncatlab.org/nlab/show/simplex}{https://ncatlab.org/nlab/show/simplex}.}
+  \label{simplexos}
+\end{figure}
+
+
+É possível visualizá-lo no que se chama de \textit{simplexos}, vide figura \ref{simplexos}. Por clareza, pensemos que cada componente de uma loteria $L$ se trata de algum bem, e $p_i$ é alguma probabilidade a ele associada. Então, por exemplo, um simplexo de duas dimensões --- associado a uma loteria $L = (p_1, p_2)$ --- seria meramente um segmento de reta $[0,1] \subset \mathbb{R}$ em que os extremos representam cada bem; usualmente pensamos em $p \in [0, 1]$, porém isso é o mesmo que dizer que 
+\begin{itemize}
+  \item $p$ é a probabilidade \textit{do bem da extremidade direita} --- denotemos ele por $p_2$;
+  \item $1-p$ a probabilidade \textit{do bem da extremidade esquerda} --- denotemos ele por $p_1$.\footnote{O motivo devido ao qual é possível descrever essa loteria por apenas um número é justamente a restrição de normalização $\sum\limits_i p_i = 1$. O número de variáveis do problema é $2$ (a quantidade de bens), e possui $1$ restrição (a restrição de normalização); portanto, o problema possui somente $2-1 = 1$ grau de liberdade, i.e. requer somente $1$ variável para sua descrição completa --- no caso acima, $p$. Para loterias de $n$ argumentos, haverá $n-1$ graus de liberdade pelo mesmo motivo.}  
+\end{itemize}
+
+Dessa forma, temos que o segmento de reta $[0, 1]$ é o simplexo que representa uma loteria $(p_1, p_2)$. Num caso de uma loteria de $3$ bens/argumentos, o simplexo é um triângulo em $ \mathbb{R}^2$, cf. figura \ref{simplexos}.
+
+% \begin{figure}[h]
+%   \centering
+%   \includegraphics[width=0.4\textwidth]{images/Simplex.png}
+%   \caption{Representação gráfica de uma loteria com $3$ possibilidades \parencite[p. 175, figura \textbf{6.B.5} a).]{Mas-Colell1995}. Note que as opções, quando individualmente consideradas, têm preferência $1 \prec  2 \prec  3$.}
+% \end{figure}
+
+\begin{example}[Seguros]
   \label{exemploseguros}
-  \parencite[exemplo 6.C.1]{Mas-Colell1995} Considere um tomador de decisão estritamente avesso ao risco que tenha uma riqueza inicial de \(w\), mas que corra o risco de perder \(D\) dólares. A probabilidade de perda é \(\pi\).\footnote{Não, não é \(3.1415 \dots\)} É possível, entretanto, que o tomador de decisão adquira um seguro. Uma unidade de seguro custa \(q\) dólares e paga \(1\) dólar se a perda ocorrer. Assim, se \(\alpha\) unidades de seguro forem compradas, o patrimônio do indivíduo será \(w-\alpha q\), se não houver sinistro\footnote{Um ``sinistro'' ocorre quando um seguro é acionado devido a uma perda a ser indenizada. O pagamento de um sinistro se chama ``indenização''.} e \(w-\alpha q-D+\alpha\) se o sinistro ocorrer. Observe, para fins de discussão posterior, que a riqueza esperada do tomador de decisão é então \(w - \pi D + \alpha (\pi - q)\). O problema do tomador de decisão é escolher o nível ótimo de \(\alpha\). Seu problema de maximização de utilidade é
+  \parencite[exemplo 6.C.1]{Mas-Colell1995} Considere um tomador de decisão estritamente avesso ao risco que tenha uma riqueza inicial de \(w\), mas que corra o risco de perder \(D\) dólares. A probabilidade de perda é \(\pi\).\footnote{Não, não é \(3.1415 \dots\)} É possível, entretanto, que o tomador de decisão adquira um seguro. Uma unidade de seguro custa \(q\) dólares\footnote{O custo de um seguro, geralmente pensado em \textit{taxas de prêmio}, pode já contabilizar outros custos da seguradora que o oferece, como custos de transação, contabilidade etc., além da própria precificação do risco que ele busca cobrir.} e paga \(1\) dólar se a perda ocorrer. Assim, se \(\alpha\) unidades de seguro forem compradas, o patrimônio do indivíduo será \(w-\alpha q\), se não houver sinistro\footnote{Um ``sinistro'' ocorre quando um seguro é acionado devido a uma perda a ser indenizada. O pagamento de um sinistro se chama ``indenização''.} e \(w-\alpha q-D+\alpha\) se o sinistro ocorrer. Observe, para fins de discussão posterior, que a riqueza esperada do tomador de decisão é então \(w - \pi D + \alpha (\pi - q)\). O problema do tomador de decisão é escolher o nível ótimo de \(\alpha\). Seu problema de maximização de utilidade é
     \[
       \max\limits_{\alpha \geq 0}  \,(1-\pi) \, u(w-\alpha q) + \pi u(w-\alpha q - D + \alpha )
   \]
@@ -107,27 +142,106 @@ Formalmente, a identidade de Roy tem a forma
       
       Assim, se o seguro for atuarialmente justo, o tomador de decisão faz seguro completo. A riqueza final do indivíduo é então \(w-\pi D\), independentemente da ocorrência da perda.
       
-      Essa prova do resultado do seguro total usa condições de primeira ordem, o que é instrutivo, mas não é realmente necessário. Observe que se \(q=\pi\), então a riqueza esperada do tomador de decisão é \(w-\pi D\) para qualquer \(\alpha\). Como definir \(\alpha=D\) permite que ele alcance \(w-\pi D\) com certeza, a definição de aversão ao risco implica diretamente que este é o nível ótimo de \(\alpha\).
+      Essa prova do resultado do seguro total usa condições de primeira ordem, o que é instrutivo, mas não é realmente necessário. Observe que se \(q=\pi\), então a riqueza esperada do tomador de decisão é \(w-\pi D\) para qualquer \(\alpha\). Como definir \(\alpha=D\) permite que ele alcance \(w-\pi D\) com certeza, a definição de aversão ao risco implica diretamente que este é o nível ótimo de \(\alpha\).\footnote{Não necessariamente o segurado conseguirá segurar-se completamente (em cujo caso parte de seu risco seguirá ``a descoberto''), seja por falta de oferta por parte de seguradoras e/ou por taxas de prêmio inacessíveis. Aqui, num nível mais concreto e próximo da realidade econômica, entraríamos no terreno de falhas de mercado, mais precisamente de assimetria de informação.
+      
+      Por exemplo, em seu famoso artigo, \textcite{Akerlof1978} aponta tal ``falha de mercado'' de oferta de seguros descompassada com sua demanda: ``É fato conhecido que pessoas com mais de 65 anos têm grande dificuldade em adquirir um plano de saúde [\textit{medical insurance}: é uma espécie de seguro]. A pergunta que surge naturalmente é: por que o preço não sobe para acompanhar o risco? Nossa resposta é que, à medida que o preço sobe, \textit{as pessoas que contratam o seguro serão aquelas que têm cada vez mais certeza de que precisarão dele} [i.e. risco moral] […] O resultado é que a condição médica média dos solicitantes de seguro se deteriora conforme o preço aumenta […]'' (p. 492-3, grifo nosso).}
 \end{example}
   
+\subsection{Um básico de probabilidades condicionais}
+Dada uma distribuição de probabilidades $P$, temos que a probabilidade de certo evento $X$ \textit{condicional a certo evento} $I$ é definida como
+\[
+P(X \mid I) = \frac{P(X \cap I)}{P(I)}
+\]
+
+\begin{example}
+  Seja P(X) uma distribuição de probabilidade uniforme sobre os valores possíveis de um dado (seja seu espaço amostral $S \coloneqq \{1, 2, 3, 4, 5, 6\}$). Então\footnote{A rigor, como probabilidades são \textit{funções de medida} de subconjuntos do espaço amostral $S$ (a rigor$^2$, de conjuntos em uma $\sigma$-álgebra de $S$), então $P(X=x)$ quer dizer $P(\{x\})$, ou seja, a função probabilidade avaliando a ``medida'' do conjunto $\{x\}$.}
+  \[
+  \forall x \in \{1, 2, 3, 4, 5, 6\}: P(X = x) = \frac{1}{6} 
+  \]
+  
+  Por exemplo, seja $I$ definida como ``o número tirado no dado é \textit{par}'' --- em termos de conjunto, no caso, $I \coloneqq \{2, 4, 6\}$. Então tem-se que $P(I) = P(2) + P(4) + P(6) = \frac{1}{2}$ (por quê?), e as probabilidades de cada elemento em $S$ condicionais a $I$ são
+
+  \[
+  \forall x \in \{1, 2, 3, 4, 5, 6\}: P(X = x \mid I) = \frac{P(\{x\} \cap I)}{P(I)} = \begin{cases}
+    0, x \in \{1, 3, 5 \} \\
+    \frac{1/6}{1/2} = \frac{1}{3}, x \in \{2, 4, 6\}
+  \end{cases}
+  \]
+
+  Na prática, o que ocorre é que a probabilidade condicional está agindo sobre um ``espaço amostral menor'': invés de agir sobre o espaço amostral inteiro $S$, ele age sobre $I$, o conjunto pressuposto. De fato, sempre fala-se de probabilidades condicionais; a questão é que $P(S) = 1$ por pressuposto. Mas o que ocorre, mediante uma probabilidade condicional, é que há a mudança
+  \[
+  P(X) = \frac{P(X)}{P(S)} \mapsto \frac{P(X \cap I)}{P(S \cap I)} = \frac{P(X \cap I)}{P(I)}
+  \]
+\end{example}
+
+\subsection{Aversão ao risco}
+\begin{definition}[Coeficiente de Aversão Absoluta ao Risco]
+  Dada uma utilidade de Bernoulli $u(x)$ duplamente diferenciável, o coeficiente de aversão absoluta ao risco (i.e. coeficiente de Arrow-Pratt) é definido como
+  $$
+  r_{A}(x) = -\frac{u''(x)}{u'(x)}
+  $$
+  O sinal negativo é por convenção: $r_{A}$ é positivo para agentes \textit{avessos ao risco}, $0$ para neutros ao risco, e negativo para \textit{amantes ao risco}.
+
+  Essa definição não pode ser meramente $u''(x)$, i.e. o quanto a utilidade marginal $\frac{d u}{dx}$ varia --- lembrando que a supomos como sendo positiva: sempre deseja-se mais dinheiro $x$, \textit{mesmo que a taxas $\frac{d}{dx} \frac{du}{dx}$ decrescentes}. Não pode ser meramente $u^{\prime\prime}(x)$, pois tal medida não se preservaria mediante transformações afins do tipo $u \mapsto au + b$ ($a, b \in \mathbb{R}$). A bem da verdade, na literatura a que tive\footnote{Eu, Nicholas.} acesso, sempre menciona-se que esta medida de aversão ao risco tem de se preservar mediante transformações \textit{afins} \parencite{Arrow1974,Mas-Colell1995}, mas não é claro \textit{por quê}. Uma tentativa é a seguinte: seja $f(u(x))$ uma transformação \textit{monotônica}, o que é pertinente ao problema pois ela preserva preferências e curvas de indiferença. Por regra da cadeia, obtém-se (usando $\partial_x \equiv \frac{d}{dx}$) que
+  $$-\frac{\partial_{xx}f(u(x))}{\partial_{x}f(u(x))} = -\frac{u^{\prime\prime}(x)}{u^{\prime}(x)} - u^{\prime}(x) \frac{f^{\prime\prime}(z)}{f^{\prime}(z)}
+  $$
+  Supondo que desejamos que nossa medida $-\frac{\square^{\prime\prime}}{\square^{\prime}}$ se preserve de $u(x)$ para $f(u(x))$ --- no que concerne \textit{a $x$} ---, requerir-se-á que $-\frac{\partial_{xx}f(u(x))}{\partial_{x}f(u(x))} = -\frac{u^{\prime\prime}(x)}{u^{\prime}(x)}$, portanto forçando com que $f^{\prime\prime}(z)= 0$. Como $f$ é uma função monotônica, então ela forçosamente terá de ser uma função \textit{afim} $f(z) = az+b$ ($a, b \in \mathbb{R}$).
+ 
+\end{definition}
+
+\begin{definition}[Coeficiente de aversão relativa ao risco]
+  O coeficiente de aversão \textit{relativa} ao risco de um tomador de risco com utilidade de Bernoulli $u(x)$ duplamente diferenciável é definida como
+  $$
+  r_{R}(x) = -x \frac{u''(x)}{u'(x)}
+  $$
+  
+  A forma de ver que ela é uma medida \textit{relativa} de risco é de constatar que ela é a \textit{elasticidade-riqueza da utilidade marginal} \parencite[p. 94]{Arrow1974}\footnote{Lembrando que, por regra da cadeia, $\frac{ \partial  }{ \partial x } = \frac{ \partial \ln x }{ \partial x } \frac{ \partial  }{ \partial \ln x } = \frac{1}{x} \frac{ \partial  }{ \partial \ln x }$ e, portanto, $\frac{ \partial  }{ \partial \ln x } = x \frac{ \partial  }{ \partial x }$.}
+  $$
+  r_{R}(x) = \frac{\partial \ln u^{\prime} }{\partial \ln x} =  -x \frac{u''(x)}{u'(x)}
+  $$
+
+  Ou seja, ela mede aversão ao risco em medidas \textit{relativas a certa riqueza dada}, não em medidas absolutas. 
+
+\end{definition}
 
 
 \section{Exercícios}\label{exercuxedcios}
 \begin{exercise}
-
-  Através da função utilidade de Cobb-Douglas \(U(x_{1},x_{2}) = x_{1}^{\alpha}x_{2}^{1-\alpha}\), e supondo vetor de preços \(\vec{p} = (p_1,)\) e restrição orçamentária \(w\), demonstre que vale a equação de Slutsky. Para isso, resolva os seguintes passos: 
-  
-  \begin{enumerate}
-  \item Obtenha as demandas walrasianas \(x^*(\vec{p}, w)\) e \(y^*(\vec{p},w)\) pelo problema de maximização de utilidade 
-  \item Com as demandas walrasianas, obtenha a função de utilidade indireta \(v(\vec{p}, w) = U(x^*(\vec{p},w), y^*(\vec{p},w))\), a ser denotada como \(\bar{u} \in \mathbb{R}\)
-  \item Obtenha as demandas hicksianas (também chamadas de demandas \textit{compensadas} de Hicks) \(h_{x}(\vec{p}, \bar{u})\) e \(h_{y}(\vec{p}, \bar{u})\). Para isso, utilize a identidade de Roy para cada bem \(i\):
+  Como já resolvido previamente (ou na graduação, ou no exercício 2 da lista 2), a demanda walrasiana de uma função utilidade Cobb-Douglas $U(x_1, x_2) = x_1^{\alpha_1} x_2^{\alpha_2}$ para dois bens, com pesos $\alpha_1 + \alpha_2 = 1$, é da forma
   \[
-    h_{i}(\vec{p}, \bar{u}) = -\frac{\frac{ \partial v }{ \partial p_{i} }}{\frac{ \partial v }{ \partial w } }
-\]
-Tome muito cuidado! A demanda compensada é uma função de \(\vec{p}\) \textbf{e de \(\mathbf{\bar{u}}\)}, \textbf{não de \(\mathbf{w}\)}!! Ou seja, caso apareça algum \(w\), utilize algum dos resultados demonstrados anteriormente que seja função de \(\vec{p}\) e \(\bar{u}\) para ressubstitui-lo.\footnote{Isso é relevante! No que tange à demanda compensada \(\vec{h}(\vec{p}, \bar{u})\), ela é uma demanda \textit{para um dado nível de utilidade} \(\bar{u}\); a restrição orçamentária empregada para alcançar este nível de utilidade \(\bar{u}\), naturalmente, \textit{depende deste nível de utilidade} \(\bar{u}\) (além dos preços)! Não cometam os mesmos erros de cálculo que eu!}
-\item A equação de Slutsky tem a forma \(\frac{ \partial x^*_{i} }{ \partial p_{i} } = \frac{ \partial h_{i} }{ \partial p_{i} } - x^*_{i} \frac{ \partial x_{i}^* }{ \partial w }\) para cada bem \(i\). Calcule cada um dos termos, e confirme que a equação é válida.
-\end{enumerate}
+  \begin{cases}
+    x_1^*(p, w) &= \frac{\alpha_1}{p_1} w \\
+    x_2^*(p, w) &= \frac{\alpha_2}{p_2} w
+  \end{cases}
+  \]
 
+  A partir destas demandas, calcule a função de utilidade indireta
+  \[
+  v(p, w) = U(x_1^*(p, w), x_2^*(p, w))
+  \]
+  e, através desta função, calcule as demandas hicksianas através da identidade 
+  \[
+  h^*(p, \bar{u}) = x^*(p, \bar{u} = v(p, w))
+  \]
+
+  Resolvamos agora o problema pela outra direção. Com a mesma função utilidade e dado um nível desejado de utilidade $\bar{u} \in \mathbb{R}$, obtenha a demanda hicksiana $(h_1^*, h_2^*)$ que minimiza o dispêndio
+  \[
+  p_1 x_1 + p_2 x_2
+  \]
+
+  Através desta demanda hicksiana, calcule a função dispêndio $e(p, \bar{u})$, i.e.
+  \[
+  e(p, \bar{u}) = p_1 h_1^* + p_2 h_2^*  
+  \]  
+  
+  Verifique, por fim, que vale a identidade
+  \[
+  h^*(p, \bar{u}) = x^*(p, w = e(p, \bar{u}))
+  \]
+  Ou seja, substitua o valor de $v(p, w)$ na demanda hicksiana $h^*(p, \overline{u})$ e verifique que ela é igual à demanda walrasiana. Verifique também que a função dispêndio corresponderá à restrição orçamentária acima, através de
+  \[
+  e(p, \bar{u} = v(p, w)) = w
+  \]
 \end{exercise}
 
 \begin{exercise}
@@ -145,7 +259,7 @@ Uma evacuação é feita, que é necessária.
   Nenhuma evacuação é feita e uma inundação causa um desastre.
 \end{enumerate}
 
-Suponha que uma agência seja indiferente entre o resultado certo de B e a loteria de A com probabilidade \(p\) e D com probabilidade \(1-p\), e entre o resultado certo C e a loteria de A com probabilidade \(q\) e D com probabilidade \(1-q\).\footnote{Tradução: Essa agência possui as seguintes preferências: \(B \sim \left(p A + (1-p) D\right)\); \(C \sim \left(q B + (1-q) D\right)\); e \(A \succ D\).} Suponha, também, que ela prefira A a D, e que \(p \in(0, 1)\) e \(q\in(0,1)\). Assuma que as condições do teorema da utilidade esperada sejam satisfeitas.
+Suponha que uma agência seja indiferente entre o resultado certo de B e a loteria de A com probabilidade \(p\) e D com probabilidade \(1-p\), e entre o resultado certo C e a loteria de A com probabilidade \(q\) e D com probabilidade \(1-q\). Suponha, também, que ela prefira A a D, e que \(p \in(0, 1)\) e \(q\in(0,1)\).\footnote{Tradução: Essa agência possui as seguintes preferências: \(B \sim \left(p A + (1-p) D\right)\); \(C \sim \left(q B + (1-q) D\right)\); e \(A \succ D\).} Assuma que as condições do teorema da utilidade esperada sejam satisfeitas.
 
 \begin{enumerate}
 \item
@@ -163,7 +277,22 @@ Suponha que uma agência seja indiferente entre o resultado certo de B e a loter
 
 Primeiro, derive as distribuições de probabilidade para os quatro resultados sob esses dois critérios. Depois, ao usar a função de utilidade do item (a), decida qual critério a agência preferiria.
 \end{exercise}
-  
+
+% \begin{exercise}
+%   1) Demonstre que, ao derivar a equação do \textit{probability premium} duas vezes \textbf{com relação a $\epsilon$}, obtém-se
+%   \[
+%   r_A(x_0) = 4 \left.\frac{ \partial \pi}{ \partial \epsilon}(x_{0}, \epsilon,u)\right|_{\epsilon \to 0} 
+%   \]  
+
+%   2) Demonstre que, derivando a equação do equivalente certo $c(L, \epsilon)$ \textbf{com relação a $\epsilon$}, obtém-se que 
+%   \begin{enumerate}
+%     \item $\left.\frac{ \partial c(L, \epsilon)}{ \partial \epsilon}\right|_{\epsilon \to 0} = 0$, e, portanto,
+%     \item  $\left.\frac{ \partial^2 c(L, \epsilon)}{ \partial \epsilon^2}\right|_{\epsilon \to 0} = - r_A(x)$
+%   \end{enumerate}
+
+%   \textbf{Lembre-se sempre da regra da cadeia!}
+% \end{exercise}
+
 \begin{exercise}
   \parencite[exercício 6.C.1]{Mas-Colell1995} Mostre que se o seguro \textbf{não} é atuarialmente justo (de modo que \(q>\pi\), cf. exemplo \ref{exemploseguros} acima), então o indivíduo \textbf{não} irá se segurar completamente.
 \end{exercise}
@@ -171,20 +300,19 @@ Primeiro, derive as distribuições de probabilidade para os quatro resultados s
 \begin{exercise}
   Mostre que a função utilidade exponencial
   \[
-    u(x) = 1 - e^{-\alpha x}
+    u(x) = 1 - e^{-a x}
     \]
-    possui aversão absoluta ao risco \(r_{A}(x)\) constante. (Em inglês, diz-se que ela apresenta CARA --- \textit{constant absolute risk aversion}.) O que significa \(\alpha\) aumentar?
+    possui aversão \textbf{absoluta} ao risco \(r_{A}(x)\) constante. (Em inglês, diz-se que ela apresenta CARA --- \textit{constant absolute risk aversion}.) O que significa \(a\) aumentar?
   \end{exercise}
-
 
 \begin{exercise}
   Mostre que a função de utilidade isoelástica
   \[
   u(x) = \frac{x^{1-\rho} -1}{1-\rho}
   \]
-  possui aversão relativa ao risco \(r_{r}(x)\) constante. (Em inglês, diz-se que ela apresenta CRRA --- \textit{constant relative risk aversion}.) O que significa \(\rho\) aumentar?
+  possui aversão \textbf{relativa} ao risco \(r_{R}(x)\) constante. (Em inglês, diz-se que ela apresenta CRRA --- \textit{constant relative risk aversion}.) O que significa \(\rho\) aumentar?
 
-  Note que\footnote{Pode-se verificar isso com L'Hôpital, e lembrando que \(\frac{ \partial x^{-\rho}}{ \partial \rho } = -\ln(x) x^\rho\).}
+  Note que\footnote{Pode-se verificar isso com L'Hôpital, e lembrando que \(\frac{ \partial x^{1-\rho}}{ \partial \rho } = -\ln(x) x^{1-\rho}\).}
   \[
   \lim\limits_{\rho \to 1} \frac{x^{1-\rho} - 1}{1-\rho} = \ln x
   \]
@@ -196,11 +324,66 @@ Primeiro, derive as distribuições de probabilidade para os quatro resultados s
 \setcounter{exercise}{0}
 
 \begin{exercise}
+  Supondo que $\alpha_1 + \alpha_2 = 1$, teremos
+  \begin{align}
+    v(p, w) &= \left(w \frac{\alpha_1}{p_1} \right)^{\alpha_1} \left(w \frac{\alpha_2}{p_2} \right)^{\alpha_2} \\
+    &= w \left(\frac{\alpha_1}{p_1} \right)^{\alpha_1} \left(\frac{\alpha_2}{p_2} \right)^{\alpha_2}
+  \end{align}
   
+  Definindo $\bar{u} = v(p, w)$, podemos isolar $w$ em função das demais variáveis, obtendo
+  \[
+  w =\bar{u} \left(\frac{p_1}{\alpha_1}\right)^{\alpha_1} \left(\frac{p_2}{\alpha_2}\right)^{\alpha_2}  
+  \]
+
+  Ressubstituindo este $w$ nas demandas walrasianas, obteremos as demandas hicksianas\footnote{Lembrando que $\alpha_2 - 1  = - \alpha_1$, pois supomos \textit{ex hypothesi} que $\alpha_1 + \alpha_2 = 1$.}
+  \[
+  \begin{cases}
+    h_1(p, \bar{u}) &= \bar{u} \left(\frac{\alpha_1}{p_1} \frac{p_2}{\alpha_2}\right)^{\alpha_2} \\
+    h_2(p, \bar{u}) &= \bar{u} \left(\frac{p_1}{\alpha_1} \frac{\alpha_2}{p_2}\right)^{\alpha_1} \\
+  \end{cases}
+  \]
+
+  Para resolver o problema de minimização de dispêndio, montamos o lagrangiano\footnote{Denotando $\left<p \mid h^*\right> = \sum\limits_i p_i h^*_i$ por simplicidade. É uma notação não-incomum de produto escalar/interno. (Sim, é porque eu [Nicholas] sou físico, ``notação bra-ket'', \textit{old habits die hard}...)}
+  \[
+  \mathcal{L} = \left<p \mid h^*\right> + \lambda (U(h^*_1, h^*_2) - \bar{u})
+  \]
+
+  As condições de primeira ordem do problema dão que
+  \[
+  h_2^* = \frac{\alpha_2}{\alpha_1} \frac{p_1}{p_2} h_1^*
+  \]
+
+  Ressubstituindo na restrição da utilidade, obtemos
+  \[
+  \begin{cases}
+    h_{1}^*(p, \bar{u}) &= \bar{u} \left( \frac{\alpha_{1}}{\alpha_{2}} \frac{p_{2}}{p_{1}} \right)^{\alpha_{2}} \\
+  h_{2}^*(p, \bar{u}) &= \bar{u} \left( \frac{\alpha_{1}}{\alpha_{2}} \frac{p_{2}}{p_{1}} \right)^{\alpha_{2}-1} \\
+  &= \bar{u} \left( \frac{\alpha_{2}}{\alpha_{1}} \frac{p_{1}}{p_{2}} \right)^{\alpha_{1}}
+  \end{cases}
+  \]
+  (Note que já coincide com a resolução acima!)
+
+  O dispêndio ótimo, obtido com a demanda hicksiana, é da forma
+  \[
+  e(p, \bar{u}) = \bar{u} \left( p_{1} \left( \frac{\alpha_{1}}{\alpha_{2}} \frac{p_{2}}{p_{1}} \right)^{\alpha_{2}} + p_{2} \left( \frac{\alpha_{2}}{\alpha_{1}} \frac{p_{1}}{p_{2}} \right)^{\alpha_{1}} \right)
+  \]
+
+  Em particular, se temos que esta utilidade tem a forma
+  \[
+  \bar{u} = w \left( \frac{\alpha_{1}}{p_{1}} \right)^{\alpha_{1}} \left( \frac{\alpha_{2}}{p_{2}} \right)^{\alpha_{2}}
+  \]
+  ou seja, sendo a utilidade indireta do problema de maximização de utilidade acima, teremos que
+  \begin{align*}
+    e(p, \bar{u}) &= w \left( \cancel{ p_{1} } \frac{\alpha_{1}}{\cancel{ p_{1} }} \left( \cancel{ \frac{\alpha_{2}}{p_{2}} } \cancel{ \frac{p_{2}}{\alpha_{2}} } \right)^{\alpha_{2}} + \cancel{ p_{2} } \frac{\alpha_{2}}{\cancel{ p_{2} }} \left( \cancel{ \frac{p_{1}}{\alpha_{1}} } \cancel{ \frac{\alpha_{1}}{p_{1}} } \right)^{\alpha_{1}}  \right) \\
+    &= w (\alpha_1 + \alpha_2) \\
+    &= w
+  \end{align*}
+
+  Ou seja, os problemas coincidem!
 \end{exercise}
 
 \begin{exercise}
-  Temos a seguinte matriz de decisão:\footnote{O símbolo \(\lnot\) significa ``negação'' (em LaTeX: \texttt{\textbackslash{}lnot}). A notação \(\lnot A\) lê: ``não-\(A\)''.}
+  Temos a seguinte matriz de decisão:\footnote{O símbolo \(\lnot\) significa ``negação'' (em \LaTeX: \texttt{\textbackslash{}lnot}). A notação \(\lnot A\) lê: ``não-\(A\)''.}
 
 \begin{table}[h]
 \centering
@@ -211,7 +394,7 @@ $E$ & $C$ & $B$ \\ \hline
 $\lnot E$ & $D$ & $A$ \\ \hline
 \end{tabular}
 \end{table}
-onde \(A, B, C, D\) são as todas as possíveis situações. Tenha-se \(P(I) = 0.01 \iff P(\lnot I) = 0.99\).
+\(A, B, C, D\) são as todas as possíveis situações. Tenha-se, por pressuposto, que \(P(I) = 0.01 \iff P(\lnot I) = 0.99\).
 
 A agência de segurança possui as seguintes preferências (\(p, q \in (0,1)\)):
 \[
@@ -232,7 +415,7 @@ U(A) > U(D)
 \]
 Defina-se \(U(D) = 0\) e \(U(A) = 1\). Segue então que \(U(B) = p\) e \(U(C) = q\).
 
-b) Dadas probabilidades \(P(E \mid I)\) e \(P(E \mid \lnot I)\), junto de \(P(I)\), pode-se inferir todas as probabilidades dos eventos \(A, B, C, D\) pela definição de probabilidades bayesianas:
+b) Dadas probabilidades \(P(E \mid I)\) e \(P(E \mid \lnot I)\), junto de \(P(I)\), pode-se inferir todas as probabilidades dos eventos \(A, B, C, D\) pela definição de probabilidades condicionais:
 \[
 \begin{cases}
   P(C) = P(E \land I) &= P(E \mid I) \cdot P(I) \\
@@ -261,21 +444,80 @@ P(D) = 0.0005
 \end{cases}
 \]
 
-As respectivas utilidades esperadas são simplesmente \(\sum \limits_{i} P(X_{i}) \, U(X_{i})\). Deseja-se saber em quais casos se preferiria uma invés da outra; sem perda de generalidade, calculemos o caso de que se prefere (a loteria) \(I\) ante (à loteria) \(II\). Ou seja, \(U(I) > U(II)\). Em números:
+As respectivas utilidades esperadas são simplesmente \(\sum \limits_{i} P(X_{i}) \, U(X_{i})\). Deseja-se saber em quais casos se preferiria uma invés da outra; sem perda de generalidade, calculemos o caso de que se prefere a loteria \(1\) ante à loteria \(2\). Ou seja, \(U(\texttt{loteria 1}) > U(\texttt{loteria 2})\). Em números:
 
 \begin{align}
 0.891 + 0.099 p + 0.0009 q &> 0.8415 + 0.1485p + 0.0095 q \\
 \iff 0.495 &> 0.0495p + 0.005q
 \end{align}
 
-Dividindo tudo por \(0.005\), tem-se que o critério \(I\) é preferível ao critério \(II\) se e somente se
+Dividindo tudo por \(0.005\), tem-se que o critério \(1\) é preferível ao critério \(2\) se e somente se
 \[
   99 > 99p + q
   \]
   
-  \(II\) é preferível a \(I\) ao inverter a desigualdade. (E ambos são equivalentes quando é uma igualdade.)
+  O critério \(2\) é preferível ao critério \(1\) ao inverter a desigualdade. (E ambos são equivalentes quando é uma igualdade.)
 
 \end{exercise}
+
+
+% \begin{exercise}
+%   1) Temos que a equação que define o \textit{probability premium} é 
+%   \[
+%   u(x) = \left( \frac{1}{2} + \pi(x, \epsilon, u) \right) u(x + \epsilon) + \left( \frac{1}{2} - \pi(x, \epsilon, u) \right) u(x - \epsilon)
+%   \]  
+%   Derivando com relação a $\epsilon$, obtemos
+%   \[
+%   0 = \frac{ \partial \pi }{ \partial \epsilon }  u(x+\epsilon) + \left( \frac{1}{2} + \pi \right) \frac{ \partial u }{ \partial x_{+} }  - \frac{ \partial \pi }{ \partial \epsilon } u(x-\epsilon) - \left( \frac{1}{2} - \pi \right) \frac{ \partial u }{ \partial x_{-} }
+%   \]
+%   onde define-se $x_{\pm} \coloneqq x \pm \epsilon$. Isso é importante, pois, ao tomarmos $\epsilon \to 0$ depois dos cálculos, $x_\pm \to x$. 
+
+%   Derivando novamente, obtemos
+%   \begin{align*}
+%     0 = \frac{ \partial^2 \pi }{ \partial \epsilon^{2} } u(x_{+}) &+ \frac{ \partial \pi }{ \partial \epsilon }\frac{ \partial u }{ \partial x_{+} } \\
+%     &+ \frac{ \partial \pi }{ \partial \epsilon } \frac{ \partial u }{ \partial x_{+} } + \left( \frac{1}{2} + \pi \right) \frac{ \partial^{2} u }{ \partial x_{+}^{2} } \\
+%     &- \frac{ \partial^{2} \pi }{ \partial \epsilon^{2} } u(x_{-}) + \frac{ \partial \pi }{ \partial \epsilon } \frac{ \partial u }{ \partial x_{-} } \\
+%     &+ \frac{ \partial^{2} \pi }{ \partial \epsilon^{2} } \frac{ \partial u }{ \partial x_{-} } + \left( \frac{1}{2} - \pi \right) \frac{ \partial^{2}u }{ \partial x_{-}^{2} } 
+%   \end{align*}
+
+%   Tomando o limite $\epsilon \to 0$, teremos
+%  \begin{align*}
+%     0 = \cancel{ \frac{ \partial^2 \pi }{ \partial \epsilon^{2} } u(x) } &+ \frac{ \partial \pi }{ \partial \epsilon }\frac{ \partial u }{ \partial x } \\
+%     &+ \frac{ \partial \pi }{ \partial \epsilon } \frac{ \partial u }{ \partial x } + \left( \frac{1}{2} + \cancel{ \pi } \right) \frac{ \partial^{2} u }{ \partial x^{2} } \\
+%     &- \cancel{ \frac{ \partial^{2} \pi }{ \partial \epsilon^{2} } u(x) } + \frac{ \partial \pi }{ \partial \epsilon } \frac{ \partial u }{ \partial x } \\
+%     &+ \frac{ \partial^{2} \pi }{ \partial \epsilon^{2} } \frac{ \partial u }{ \partial x } + \left( \frac{1}{2} - \cancel{ \pi } \right) \frac{ \partial^{2}u }{ \partial x^{2} } \\
+%     \therefore 0 = 4 \left.\frac{ \partial \pi}{ \partial \epsilon}(x, \epsilon,u)\right|_{\epsilon \to 0} + \frac{ \partial^{2}u }{ \partial x^{2} }
+%   \end{align*}
+%   Portanto, vale que, em particular para $x = x_0$,
+%   \[
+%   r_A(x_0) = - \left.\frac{u^{\prime\prime}(x)}{u^{\prime}(x)}\right|_{x={x_0}}  = 4 \left.\frac{ \partial \pi}{ \partial \epsilon}(x_{0}, \epsilon,u)\right|_{\epsilon \to 0}
+%   \]
+
+%   Quanto ao equivalente certo, derivando uma vez por $\epsilon$, obtém-se
+%   \begin{align*}
+%     \frac{ \partial u }{ \partial x } \frac{ \partial c }{ \partial \epsilon } = \frac{1}{2} \frac{ \partial u }{ \partial x_{+} } - \frac{1}{2} \frac{ \partial u }{ \partial x_{-} } 
+%   \end{align*}
+  
+%   Tomando o limite $\epsilon \to 0$, tem-se que $\frac{ \partial c }{ \partial \epsilon } \to 0$. (Este resultado é somente como antecipação para os cálculos da segunda derivada.)
+  
+%   Derivando de novo a equação acima, temos
+%   \begin{align*}
+%   \frac{ \partial^{2}u }{ \partial x^{2} } \left( \frac{ \partial c }{ \partial \epsilon } \right)^{2} + \frac{ \partial u }{ \partial x } \frac{ \partial c^{2} }{ \partial \epsilon^{2} } = \frac{1}{2} \frac{ \partial^{2}u }{ \partial x_{+}^{2} } + \frac{1}{2}\frac{ \partial^{2} u }{ \partial x_{-}^{2} } 
+%   \end{align*}
+  
+%   Tomando o limite $\epsilon \to 0$ --- de verdade agora ---, teremos que
+%   \begin{align*}
+%  \frac{ \partial^{2}u }{ \partial x^{2} } \cancel{ \left( \frac{ \partial c }{ \partial \epsilon } \right)^{2} } + \frac{ \partial u }{ \partial x } \frac{ \partial c^{2} }{ \partial \epsilon^{2} } = \frac{1}{2} \frac{ \partial^{2}u }{ \partial x^{2} } + \frac{1}{2}\frac{ \partial^{2} u }{ \partial x^{2} } 
+%   \end{align*}
+  
+%   Obtém-se, portanto, que 
+%   \begin{align*}
+%     \left.\frac{ \partial^2 c(L, \epsilon)}{ \partial \epsilon^2}\right|_{\epsilon \to 0} = - r_A(x)
+%   \end{align*}
+
+
+% \end{exercise}
+
 
 \begin{exercise}
   Suponhamos que o preço cobrado pelo seguro não seja atuarialmente justo: \(q > \pi\lambda\).
@@ -297,12 +539,89 @@ Dividindo tudo por \(0.005\), tem-se que o critério \(I\) é preferível ao cri
 \end{exercise}
 
 \begin{exercise}
+  A primeira derivada é 
+  \[
+  u^{\prime}(x) = + a e^{-ax}
+  \]
+
+  A segunda derivada é 
+  \[
+  u^{\prime\prime}(x) = -a^2 e^{-ax}
+  \]
+
+  Portanto, o coeficiente de Arrow-Pratt da utilidade exponencial é
+  \[
+  r_A(x) = + \frac{a^2 \cancel{e^{-ax}}}{a \cancel{e^{-ax}}} = a
+  \]
+
+  Sua forma, conforme $a$ varia, pode ser vista na figura \ref{exponencial}.
+
+  \begin{figure}[h]
+  \centering
+  \includegraphics[width=0.8\textwidth]{images/utilidade_exponencial_financeiro.png}
+  \caption{Fonte: Funções de utilidade exponencial para vários parâmetros de aversão ao risco. Fonte: \parencite[fig. 1]{Wood2015}; destaque-se que estes autores utilizam a função $U(x) = \frac{1-e^{-rx}}{1-e^{-r}}$.}
+  \label{exponencial}
+\end{figure}
   
+
 \end{exercise}
 
 \begin{exercise}
+  A primeira derivada é
+  \[
+  u^{\prime}(x) = x^{-\rho }
+  \]
+
+  A segunda derivada é
+  \[
+  u^{\prime\prime}(x) = -\rho x^{-\rho -1}
+  \]
+
+  O coeficiente de aversão \textbf{absoluta} ao risco é 
+  \[
+    r_A(x) = + \rho \frac{x^{-\rho -1}}{x^{-\rho }} = \frac{\rho}{x} 
+    \]
+    
+    Ou seja, ela possui $r_A$ variável. Contudo, seu coeficiente de aversão \textbf{relativa} ao risco é
+    \[
+      r_R(x) = x r_A(x) = \rho 
+      \]
+      
+  O gráfico da utilidade isoelástica pode ser visto na figura
+  \begin{figure}[h]
+  \centering
+  \includegraphics[width=0.8\textwidth]{images/1280px-Isoelastic.svg.png}
+  \caption{Fonte: \href{Wikipedia}{\url{https://en.wikipedia.org/wiki/Isoelastic_utility}}. $\eta$ na imagem é o mesmo que $\rho$ em nosso caso, e $c$ o mesmo que nosso $x$.}
+  \label{isoelastica}
+  \end{figure}
   
+  
+  Ademais, pode-se obter que a utilidade isoelástica converge à função logarítmica quando $\rho  \to 1$, pois, através de L'Hôpital\footnote{Este limite admite regra de L'Hôpital, pois o limite imediato $\rho \to 1$ dá algo do tipo ``$\frac{0}{0}$''.},
+  \begin{align*}
+    \lim\limits_{\rho  \to 1} \frac{x^{1-\rho }-1}{1-\rho } = \lim\limits_{\rho  \to 1} \frac{\frac{ \partial x^{1-\rho }-1 }{ \partial \rho }}{\frac{ \partial (1-\rho) }{ \partial \rho } }
+  \end{align*}
+
+  A derivada $\frac{ \partial x^{1-\rho }}{\partial \rho }$ requer cuidado, pois, embora seja verdade que $\frac{ \partial x^{1-\rho }}{\partial x} = (1-\rho ) x^{-\rho }$ (como usado acima), a derivada \textbf{com relação a $\rho$} é diferente. Para obtê-la, pode-se aproveitar o fato de que i) $x > 0$\footnote{Estamos falando de quantidades monetárias, afinal.} e, portanto, pode-se escrever que ii) $x = e^{ln(x)}$. Com isso, podemos obter essa derivada da seguinte forma (note que a derivada com relação a $\rho$ considera o termo $x^1$ como constante)
+  
+  \begin{align*}
+  \frac{ \partial x^{1-\rho} }{ \partial \rho } &= x \frac{ \partial x^{-\rho} }{ \partial \rho } \\
+  &= x \frac{ \partial  }{ \partial \rho } e^{\ln (x^{-\rho})}  \\
+  &= x \frac{ \partial  }{ \partial \rho } e^{(-\rho) \ln x}   \\
+  &= -x \ln x \, e^{-\rho \ln x}  \\
+  &= - x\ln x e^{\ln x^{-\rho}} \\
+  &= -\ln x \, x^{1-\rho}
+  \end{align*}
+
+  Voltando ao problema do limite da isoelástica:
+    \begin{align*}
+    \lim\limits_{\rho  \to 1} \frac{x^{1-\rho }-1}{1-\rho } &= \lim\limits_{\rho  \to 1} \frac{\frac{ \partial x^{1-\rho }-1 }{ \partial \rho }}{\frac{ \partial (1-\rho) }{ \partial \rho } } \\
+    &= \lim\limits_{\rho  \to 1} (\cancel{-} \ln x) \frac{x^{1-\rho }}{\cancel{-}1 } \\
+    &= \ln x
+  \end{align*}
+
+
 \end{exercise}
+
 
 
 \printbibliography

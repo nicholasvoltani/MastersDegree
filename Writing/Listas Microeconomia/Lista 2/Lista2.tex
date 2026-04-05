@@ -194,11 +194,24 @@ o que é equivalente a
 \[ \underbrace{ p \cdot x + s \cdot h }_{ \text{Custos (+ de oportunidade)} } \leq \underbrace{ 24 \cdot s }_{ \text{Salário máximo} }
 \]
 
-\begin{figure}[h]
+Isso pode ser visto na figura \ref{fig:Varian}. Os casos subsequentes estão na figura \ref{fig:outrossalarios}. 
+
+\begin{figure}[h!]
     \centering
     \includegraphics{images/Pasted image 20250424141222.png}
-    \caption{\cite[p. 175]{Varian2014}.}
+    \caption{Restrição orçamentária de consumo vs. lazer. Fonte: \cite[p. 175]{Varian2014}.}
+    \label{fig:Varian}
 \end{figure}
+
+
+\begin{figure}[h!]
+    \centering
+    \includegraphics{images/Captura de tela 2026-03-25 131150.png}
+    \caption{Diferentes possibilidades de restrição orçamentária. Da direita para a esquerda: salário normal, salário de horas-extras, e salário pós-taxação. Fonte: \cite[p. 22]{Mas-Colell1995}.}
+    \label{fig:outrossalarios}
+\end{figure}
+
+
 \end{exercise}
 
 \begin{exercise}
@@ -226,33 +239,37 @@ Das primeiras $k$ equações, tem-se que, para quaisquer \(i, j\), vale \[
 \frac{\alpha_{i}}{p_{i} x_{i}} = \frac{\alpha_{j}}{p_{j} x_{j}}
 \]
 
-Da restrição, obtém-se que, para qualquer \(i\) 
+Da restrição, obtém-se que, para qualquer \(i\) \textit{fixado} 
 
 \begin{align}
 w = \sum\limits_{k} \frac{p_{k} x_{k}}{\alpha_{k}} \alpha_{k} &= \frac{p_{i} x_{i}}{\alpha_{i}} \sum \limits_{k} \alpha_{k}  \\
 &= \frac{p_{i} x_{i}}{\alpha_{i}}
 \end{align}
-Portanto, para todo \(i\) vale \[
+Portanto, para todo \(i\), vale 
+\[
 x_{i} = \alpha_{i} \frac{w}{p_{i}}
-\] Equivalentemente, vale o resultado esperado para uma utilidade
-Cobb-Douglas: \[
+\] 
+Equivalentemente, vale o resultado já esperado de utilidades
+Cobb-Douglas em, p. ex., $2$ dimensões: 
+\[
 \alpha_{i} = \frac{p_{i} x_{i}}{w}
-\] Ou seja, os argumentos \(\alpha_{i}\) dão as \textit{proporções} de
+\] 
+Ou seja, os argumentos \(\alpha_{i}\) dão as \textit{proporções} de
 cada bem \(i\) no dispêndio da renda \(w\).
 
 \end{exercise}
 
 \begin{exercise}
-    Trivial --- sim, eu me tornei o que eu jurei destruir... Mas note que a resolução por maximização da utilidade não dá nenhuma condição que descreva $x_1^*$, somente $x_2^*$. Isso quer dizer que o conjunto de cestas $\{ m \in \mathbb{R}: (m, x_2^*) \}$ é um conjunto de cestas igualmente ótimas.
+    Trivial\footnote{Eu me tornei o que eu jurei destruir... \href{https://www.youtube.com/watch?v=dQw4w9WgXcQ}{\textit{You were supposed to destroy them, not join them!}}} --- brincadeira. Note que a resolução por maximização da utilidade não dá nenhuma condição que descreva $x_1^*$, somente $x_2^*$. Isso quer dizer que o conjunto de cestas $\{ m \in \mathbb{R}: (m, x_2^*) \}$ é um conjunto de cestas igualmente ótimas.
 \end{exercise}
 
 \begin{exercise}
     Compensa resolver o problema de otimização para a nova
 utilidade\footnote{Funções monotônicas preservam curvas de indiferença.} \[
-\tilde{u}(x) \equiv \rho \, u(x)^\rho = \rho (\alpha_{1} x_{1}^\rho + \alpha_{2} x_{2}^\rho)
+\tilde{u}(x) \coloneqq \rho \, u(x)^\rho = \rho (\alpha_{1} x_{1}^\rho + \alpha_{2} x_{2}^\rho)
 \]
 
-Pela otimização do lagrangiano associado, temos\footnote{Notação para simplicidade: $\partial_{i}u \equiv \frac{ \partial u }{ \partial x_{i} }$.}
+Pela otimização do lagrangiano associado, temos\footnote{Notação para simplicidade: $\partial_{i} \tilde{u} \equiv \frac{ \partial \tilde{u} }{ \partial x_{i} }$.}
 
 \begin{align*}
 \frac{\partial_{1}\tilde{u}}{p_{1}} &= \frac{\partial_{2}\tilde{u}}{p_{2}} \\
