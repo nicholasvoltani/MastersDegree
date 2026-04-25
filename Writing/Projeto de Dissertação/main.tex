@@ -28,8 +28,13 @@
 \usepackage{tabularx} % Ensure this is in your main.tex preamble
 \usepackage{makecell}
 \usepackage[backend=biber,style=abnt,language=brazilian]{biblatex}
+\renewbibmacro*{date}{%
+  \printfield{year}%
+  \printfield{extrayear}}
+
 \usepackage{csquotes}
 \addbibresource{../Khazzoom-Brookes.bib}
+
 
 
 %------------------------------------------------------------------------------
@@ -40,20 +45,20 @@
 \autor{Nicholas Funari Voltani}
 \data{2026} 
 %orientador{Prof. Eduardo Sá Barreto}
-%\coorientador{Profa. Dra. Bianca Imbiriba Bonente}
+%\coorientador{Profa. Dra. Bianca Aires Imbiriba Di Maio Bonente}
 
 
 %------------------------------------------------------------------------------
 %	FOLHA DE ROSTO E PREAMBULO
 %------------------------------------------------------------------------------
 
-\preambulo{Projeto de Dissertação apresentado ao Programa de Pós-graduação em Economia da Universidade Federal Fluminense como requisito parcial para obtenção do título de Mestre em Ciências Econômicas.
+\preambulo{Projeto de Dissertação apresentado ao Programa de Pós-graduação em Economia da Universidade Federal Fluminense.
 \\
 
-Orientador: Prof. Dr. Eduardo Sá Barreto
+Orientador: Prof. Dr. Eduardo Sá Barreto Cruz
 \\
 
-Co-Orientadora: Profa. Dra. Bianca Imbiriba Bonente}
+Co-Orientadora: Profa. Dra. Bianca Aires Imbiriba Di Maio Bonente}
 
 %------------------------------------------------------------------------------
 % INÍCIO DO DOCUMENTO
@@ -99,7 +104,7 @@ Co-Orientadora: Profa. Dra. Bianca Imbiriba Bonente}
 \textual
 
 \begin{abstract}
-    No final do século XIX, W. S. Jevons conjecturou que o aumento da eficiência do uso de carvão induzia ao aumento, não à redução, de seu consumo nas atividades manufatureiras britânicas. Após as crises do petróleo de 1970, o mesmo debate foi trazido à tona por economistas neoclássicos sob o nome de ``Postulado de Khazzoom-Brookes'', o qual afirma algo similar no tocante ao uso de energia. Neste trabalho, busca-se demonstrar, a partir da teoria do valor-trabalho de Marx, que a lógica imanente do capital necessariamente leva a este resultado ``contraditório'': há um ímpeto imanente ao aumento da eficiência do consumo (relativo) de meios de produção (e, em particular, do ``consumo de energia''), junto ao ímpeto do aumento de seu consumo (absoluto).
+    No final do século XIX, W. S. Jevons conjecturou que o aumento da eficiência do uso de carvão induzia ao aumento, não à redução, de seu consumo nas atividades manufatureiras britânicas. Após as crises do petróleo da década de 1970, o mesmo debate foi trazido à tona por economistas neoclássicos sob o nome de ``Postulado de Khazzoom-Brookes'', o qual afirma algo similar no tocante ao uso de energia em geral. Neste trabalho, busca-se demonstrar, a partir da teoria do valor-trabalho de Marx, que a lógica imanente do capital necessariamente leva a este resultado que é tomado como ``contraditório'' pela economia ortodoxa: busca-se mostrar que há um ímpeto imanente ao aumento da eficiência do consumo (relativo) de meios de produção (e, em particular, do ``consumo de energia''), junto ao ímpeto do aumento de seu consumo (absoluto).
 \end{abstract}
 
 \input{capitulos/introducao.tex}

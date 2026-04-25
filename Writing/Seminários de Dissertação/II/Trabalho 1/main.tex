@@ -20,9 +20,13 @@
 %\usepackage{csquotes}
 %\usepackage[backend=biber, style=abnt]{biblatex}
 %\addbibresource{Khazzoom-Brookes.bib}
+\usepackage{epigraph}
 
 \usepackage[backend=biber,style=abnt,language=brazilian]{biblatex}
 \usepackage{csquotes}
+\renewbibmacro*{date}{%
+  \printfield{year}%
+  \printfield{extrayear}}
 \addbibresource{../../../Khazzoom-Brookes.bib}
 
 

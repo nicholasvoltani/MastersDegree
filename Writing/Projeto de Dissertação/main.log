@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.18)  19 MAR 2026 14:29
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.25)  13 APR 2026 17:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -991,7 +991,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'brazil'.
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 64.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 69.
 (C:\Users\nicho\AppData\Roaming\MiKTeX\tex/latex/psnfss\t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
@@ -1002,25 +1002,25 @@ LaTeX Warning: Unused global option(s):
 (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 64.
-LaTeX Font Info:    ... okay on input line 64.
-Package hyperref Info: Link coloring OFF on input line 64.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 69.
+LaTeX Font Info:    ... okay on input line 69.
+Package hyperref Info: Link coloring OFF on input line 69.
 \myptabbox=\box108
 \myptabboxwidth=\skip287
  (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
@@ -1042,16 +1042,16 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
  (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \microtypecontext on input line 64.
-Package microtype Info: Applying patch `item' on input line 64.
-Package microtype Info: Applying patch `toc' on input line 64.
-Package microtype Info: Applying patch `eqnum' on input line 64.
+LaTeX Info: Redefining \microtypecontext on input line 69.
+Package microtype Info: Applying patch `item' on input line 69.
+Package microtype Info: Applying patch `toc' on input line 69.
+Package microtype Info: Applying patch `eqnum' on input line 69.
 
 
-Package microtype Warning: Unable to apply patch `footnote' on input line 64.
+Package microtype Warning: Unable to apply patch `footnote' on input line 69.
 
-Package microtype Info: Applying patch `verbatim' on input line 64.
-LaTeX Info: Redefining \microtypesetup on input line 64.
+Package microtype Info: Applying patch `verbatim' on input line 69.
+LaTeX Info: Redefining \microtypesetup on input line 69.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1143,31 +1143,28 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (main.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                Marx2021
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
-Package biblatex Info: Reference section=0 on input line 64.
-Package biblatex Info: Reference segment=0 on input line 64.
+ (main.bbl)
+Package biblatex Info: Reference section=0 on input line 69.
+Package biblatex Info: Reference segment=0 on input line 69.
 <logo.png, id=3, 253.94875pt x 257.96375pt>
 File: logo.png Graphic file (type png)
 <use logo.png>
-Package pdftex.def Info: logo.png  used on input line 77.
+Package pdftex.def Info: logo.png  used on input line 82.
 (pdftex.def)             Requested size: 91.04872pt x 92.489pt.
  [1
 
 {C:/Users/nicho/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc} <./logo.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 79--79
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
+[]\T1/phv/m/n/12 (+20) Projeto de Dis-ser-ta-ção apre-sen-tado
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 79--79
+Underfull \hbox (badness 10000) in paragraph at lines 84--84
 
  []
 
@@ -1175,16 +1172,16 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--79
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 79.
+(Font)              <12> on input line 84.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 79.
+(Font)              <8> on input line 84.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 79.
+(Font)              <6> on input line 84.
 
 pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.79 
+l.84 
       [1
 
 
@@ -1202,39 +1199,49 @@ Package babel Info: 'brazil' activates 'portuges' shorthands.
 Cap\'{\i }tulo 1.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 9.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 16.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 16.
 [4
 
-]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 21.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 21.
- [5] [6]
+] [5] [6]
 Cap\'{\i }tulo 2.
 [7
 
-] [8]
+] [8] [9]
 Cap\'{\i }tulo 3.
-
-LaTeX Warning: Citation 'Marx2021' on page 9 undefined on input line 84.
-
-[9
-
-]
-Cap\'{\i }tulo 4.
 [10
 
-] [11]
+]
+LaTeX Font Info:    Trying to load font information for TS1+phv on input line 107.
+ (C:\Users\nicho\AppData\Roaming\MiKTeX\tex/latex/psnfss\ts1phv.fd
+File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `phv' (encoding: TS1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Overfull \hbox (9.43927pt too wide) in paragraph at lines 107--108
+[]\T1/phv/m/n/12 (-20) Fazer uma re-vi-são da li-te-ra-tura so-bre o pa-ra-doxo de Je-vons/postulado de Khazzoom-
+ []
+
+[11]
+Cap\'{\i }tulo 4.
+[12
+
+] [13]
 Cap\'{\i }tulo 5.
 
-Underfull \hbox (badness 4217) in paragraph at lines 147--147
+Underfull \hbox (badness 4217) in paragraph at lines 174--174
 []|\T1/phv/m/n/10.95 (+20) Trabalho bi-bli-o-grá-
  []
 
-) [12
+) [14
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 131.
+LaTeX Font Info:    Trying to load font information for T1+pcr on input line 136.
  (C:\Users\nicho\AppData\Roaming\MiKTeX\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
@@ -1242,9 +1249,15 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `pcr' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [13
+ [15
 
-] [14]
+]
+
+Package biblatex Warning: Field 'extrayear' is deprecated.
+(biblatex)                Please use 'extradate' instead.
+(biblatex)                Using 'extradate' now.
+
+[16] [17]
 \tf@toc=\write7
 \openout7 = `main.toc'.
 
@@ -1258,17 +1271,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26972 strings out of 467867
- 472098 string characters out of 5428401
- 1520887 words of memory out of 5000000
- 55210 multiletter control sequences out of 15000+600000
- 671167 words of font info for 234 fonts, out of 8000000 for 9000
+ 27198 strings out of 467867
+ 476695 string characters out of 5428401
+ 1522106 words of memory out of 5000000
+ 55369 multiletter control sequences out of 15000+600000
+ 673643 words of font info for 262 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,18n,107p,1383b,4310s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 99i,18n,107p,2217b,4310s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (15 pages, 137682 bytes).
+Output written on main.pdf (18 pages, 172503 bytes).
 PDF statistics:
- 273 PDF objects out of 1000 (max. 8388607)
- 60 named destinations out of 1000 (max. 500000)
- 41062 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 405 PDF objects out of 1000 (max. 8388607)
+ 82 named destinations out of 1000 (max. 500000)
+ 43110 words of extra memory for PDF output out of 51595 (max. 10000000)
 

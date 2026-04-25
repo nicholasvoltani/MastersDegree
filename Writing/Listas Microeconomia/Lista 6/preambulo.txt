@@ -1,0 +1,61 @@
+\documentclass[12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+
+\usepackage{geometry}
+\geometry{margin=2.5cm}
+\usepackage{setspace}
+\onehalfspacing
+
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{mathtools}
+
+\numberwithin{equation}{section}
+
+\theoremstyle{plain}
+\newtheorem{theorem}{Teorema}[section]
+\newtheorem{proposition}[theorem]{Proposição}
+\newtheorem{lemma}[theorem]{Lema}
+\newtheorem{corollary}[theorem]{Corolário}
+
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definição}
+\newtheorem{example}[theorem]{Exemplo}
+\newtheorem{exercise}{Exercício}
+
+\theoremstyle{remark}
+\newtheorem*{remark}{Observação}
+
+\usepackage{csquotes}
+\usepackage{xcolor}
+\usepackage{cancel}
+
+\usepackage[
+  backend=biber,
+  style=abnt,
+  maxcitenames=3
+  ]{biblatex}
+  
+\addbibresource{../Microeconomics.bib}
+
+\usepackage{url}
+\usepackage[
+    colorlinks,
+    unicode, 
+    citecolor=blue,
+    urlcolor=blue,
+    linkcolor=blue]{hyperref}
+ 
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\pref}{\succeq}
+\newcommand{\strictpref}{\succ}
+\newcommand{\indiff}{\sim}
+
+% ------------------------------------------------
+% Title (fill manually)
+% ------------------------------------------------
+\title{Lista 5 --- Teoria Microeconômica (PPGE-UFF)}
+\author{Professor: Fábio Waltenberg\thanks{\href{mailto:fdwaltenberg@id.uff.br}{fdwaltenberg@id.uff.br}} \\Monitor: Nicholas Funari Voltani\thanks{\href{mailto:nicholasvoltani@gmail.com}{nicholasvoltani@gmail.com}}}
+\date{}

@@ -1,17 +1,15 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'main.blg'
-[99] biber-MSWIN64:342> INFO - === 
-[141] Biber.pm:421> INFO - Reading 'main.bcf'
-[262] Biber.pm:1002> INFO - Found 22 citekeys in bib section 0
-[274] Biber.pm:4487> INFO - Processing section 0
-[284] Biber.pm:4678> INFO - Looking for bibtex file '../Khazzoom-Brookes.bib' for section 0
-[381] bibtex.pm:1713> INFO - LaTeX decoding ...
-[472] bibtex.pm:1519> INFO - Found BibTeX data source '../Khazzoom-Brookes.bib'
-[583] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[583] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[583] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'pt-BR'
-[583] Biber.pm:4313> INFO - No sort tailoring available for locale 'pt-BR'
-[602] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
-[612] bbl.pm:779> INFO - Output to main.bbl
-[613] Biber.pm:132> WARN - I didn't find a database entry for 'Marx2021' (section 0)
-[613] Biber.pm:134> INFO - WARNINGS: 1
+[207] biber-MSWIN64:342> INFO - === 
+[296] Biber.pm:421> INFO - Reading 'main.bcf'
+[507] Biber.pm:1002> INFO - Found 38 citekeys in bib section 0
+[525] Biber.pm:4487> INFO - Processing section 0
+[548] Biber.pm:4678> INFO - Looking for bibtex file '../Khazzoom-Brookes.bib' for section 0
+[719] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1167] bibtex.pm:1519> INFO - Found BibTeX data source '../Khazzoom-Brookes.bib'
+[1663] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1664] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1664] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'pt-BR'
+[1664] Biber.pm:4313> INFO - No sort tailoring available for locale 'pt-BR'
+[1753] bbl.pm:676> INFO - Writing 'main.bbl' with encoding 'UTF-8'
+[1814] bbl.pm:779> INFO - Output to main.bbl
