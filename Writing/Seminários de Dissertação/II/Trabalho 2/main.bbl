@@ -16,5 +16,114 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global/global}
+    \entry{Marx2017}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=af80d32a7d375e934f94bdfb27bf2999}{%
+           family={Marx},
+           familyi={M\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {Boitempo}%
+      }
+      \strng{namehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{fullhash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{fullhashraw}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{bibnamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorbibnamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authornamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorfullhash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorfullhashraw}{af80d32a7d375e934f94bdfb27bf2999}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{2}
+      \field{langid}{brazilian}
+      \field{shorttitle}{{O Capital}}
+      \field{title}{{O Capital: crítica da economia política - Livro I: o processo de produção do capital}}
+      \field{year}{2017}
+      \keyw{economics,marxism}
+    \endentry
+    \entry{Pasquinelli2022}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fdd1f8c21d64d058841fdd4eae05cf96}{%
+           family={Pasquinelli},
+           familyi={P\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fdd1f8c21d64d058841fdd4eae05cf96}
+      \strng{fullhash}{fdd1f8c21d64d058841fdd4eae05cf96}
+      \strng{fullhashraw}{fdd1f8c21d64d058841fdd4eae05cf96}
+      \strng{bibnamehash}{fdd1f8c21d64d058841fdd4eae05cf96}
+      \strng{authorbibnamehash}{fdd1f8c21d64d058841fdd4eae05cf96}
+      \strng{authornamehash}{fdd1f8c21d64d058841fdd4eae05cf96}
+      \strng{authorfullhash}{fdd1f8c21d64d058841fdd4eae05cf96}
+      \strng{authorfullhashraw}{fdd1f8c21d64d058841fdd4eae05cf96}
+      \field{extraname}{1}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Journal of Interdisciplinary History of Ideas}
+      \field{number}{22}
+      \field{shorttitle}{Labour, {{Energy}}, and {{Information}} as {{Historical Configurations}}}
+      \field{title}{Labour, {{Energy}}, and {{Information}} as {{Historical Configurations}}: {{Notes}} for a {{Political Metrology}} of the {{Anthropocene}}}
+      \field{volume}{11}
+      \field{year}{2022}
+      \keyw{economics,marxism}
+    \endentry
+    \entry{Pasquinelli2023}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fdd1f8c21d64d058841fdd4eae05cf96}{%
+           family={Pasquinelli},
+           familyi={P\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London; New York}%
+      }
+      \list{publisher}{1}{%
+        {Verso}%
+      }
+      \strng{namehash}{fdd1f8c21d64d058841fdd4eae05cf96}
+      \strng{fullhash}{fdd1f8c21d64d058841fdd4eae05cf96}
+      \strng{fullhashraw}{fdd1f8c21d64d058841fdd4eae05cf96}
+      \strng{bibnamehash}{fdd1f8c21d64d058841fdd4eae05cf96}
+      \strng{authorbibnamehash}{fdd1f8c21d64d058841fdd4eae05cf96}
+      \strng{authornamehash}{fdd1f8c21d64d058841fdd4eae05cf96}
+      \strng{authorfullhash}{fdd1f8c21d64d058841fdd4eae05cf96}
+      \strng{authorfullhashraw}{fdd1f8c21d64d058841fdd4eae05cf96}
+      \field{extraname}{2}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{"A social history that reveals the roots of AI in the spatial computation of industrial factories and the surveillance of collective behaviour"--}
+      \field{shorttitle}{The Eye of the Master}
+      \field{title}{The Eye of the Master: A Social History of Artificial Intelligence}
+      \field{year}{2023}
+      \keyw{AI,economics,marxism}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

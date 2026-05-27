@@ -19,7 +19,7 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global/global}
-    \entry{Akerlof1978}{incollection}{}{}
+    \entry{Akerlof1978}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=f198b417f1390a0f8ff279349b43f47d}{%
            family={Akerlof},
@@ -27,9 +27,6 @@
            given={George\bibnamedelima A.},
            giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
            givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
       }
       \strng{namehash}{f198b417f1390a0f8ff279349b43f47d}
       \strng{fullhash}{f198b417f1390a0f8ff279349b43f47d}
@@ -45,12 +42,15 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{booktitle}{Uncertainty in Economics}
+      \field{journaltitle}{The Quarterly Journal of Economics}
+      \field{month}{8}
+      \field{number}{3}
       \field{shorttitle}{The Market for ``Lemons''}
       \field{title}{The Market for ``Lemons'': {{Quality}} Uncertainty and the Market Mechanism}
-      \field{year}{1978}
-      \field{pages}{235\bibrangedash 251}
-      \range{pages}{17}
+      \field{volume}{84}
+      \field{year}{1970}
+      \field{pages}{488\bibrangedash 500}
+      \range{pages}{13}
       \verb{urlraw}
       \verb https://www.sciencedirect.com/science/article/pii/B978012214850750022X
       \endverb

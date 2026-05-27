@@ -51,10 +51,9 @@
       <bcf:key>labelnamespec</bcf:key>
       <bcf:value order="1">shortauthor</bcf:value>
       <bcf:value order="2">author</bcf:value>
-      <bcf:value order="3">holder</bcf:value>
-      <bcf:value order="4">shorteditor</bcf:value>
-      <bcf:value order="5">editor</bcf:value>
-      <bcf:value order="6">translator</bcf:value>
+      <bcf:value order="3">shorteditor</bcf:value>
+      <bcf:value order="4">editor</bcf:value>
+      <bcf:value order="5">translator</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>labeltitle</bcf:key>
@@ -185,7 +184,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquename</bcf:key>
-      <bcf:value>minfull</bcf:value>
+      <bcf:value>full</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniqueprimaryauthor</bcf:key>
@@ -295,10 +294,9 @@
       <bcf:key>labelnamespec</bcf:key>
       <bcf:value order="1">shortauthor</bcf:value>
       <bcf:value order="2">author</bcf:value>
-      <bcf:value order="3">holder</bcf:value>
-      <bcf:value order="4">shorteditor</bcf:value>
-      <bcf:value order="5">editor</bcf:value>
-      <bcf:value order="6">translator</bcf:value>
+      <bcf:value order="3">shorteditor</bcf:value>
+      <bcf:value order="4">editor</bcf:value>
+      <bcf:value order="5">translator</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>labeltitle</bcf:key>
@@ -401,7 +399,7 @@
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniquename</bcf:key>
-      <bcf:value>minfull</bcf:value>
+      <bcf:value>full</bcf:value>
     </bcf:option>
     <bcf:option type="singlevalued">
       <bcf:key>uniqueprimaryauthor</bcf:key>
@@ -562,6 +560,7 @@
     <bcf:option datatype="string">datelabel</bcf:option>
     <bcf:option datatype="string">backrefstyle</bcf:option>
     <bcf:option datatype="string">arxiv</bcf:option>
+    <bcf:option datatype="string">mergedate</bcf:option>
     <bcf:option datatype="boolean">familyinits</bcf:option>
     <bcf:option datatype="boolean">giveninits</bcf:option>
     <bcf:option datatype="boolean">prefixinits</bcf:option>
@@ -645,27 +644,7 @@
     <bcf:option datatype="boolean">doi</bcf:option>
     <bcf:option datatype="boolean">eprint</bcf:option>
     <bcf:option datatype="boolean">related</bcf:option>
-    <bcf:option datatype="boolean">ittitles</bcf:option>
-    <bcf:option datatype="boolean">scbib</bcf:option>
-    <bcf:option datatype="boolean">nosl</bcf:option>
-    <bcf:option datatype="boolean">nosn</bcf:option>
-    <bcf:option datatype="boolean">noslsn</bcf:option>
-    <bcf:option datatype="boolean">repeattitles</bcf:option>
-    <bcf:option datatype="boolean">repeatfirstfields</bcf:option>
-    <bcf:option datatype="boolean">repeatfields</bcf:option>
-    <bcf:option datatype="boolean">usedashes</bcf:option>
-    <bcf:option datatype="boolean">indent</bcf:option>
-    <bcf:option datatype="boolean">extradate</bcf:option>
-    <bcf:option datatype="boolean">extrayear</bcf:option>
-    <bcf:option datatype="boolean">justify</bcf:option>
-    <bcf:option datatype="boolean">oldspacing</bcf:option>
-    <bcf:option datatype="boolean">pretty</bcf:option>
-    <bcf:option datatype="boolean">citecount</bcf:option>
-    <bcf:option datatype="boolean">slashdaterange</bcf:option>
-    <bcf:option datatype="boolean">dateyear</bcf:option>
-    <bcf:option datatype="boolean">datemonth</bcf:option>
-    <bcf:option datatype="boolean">sccite</bcf:option>
-    <bcf:option datatype="boolean">accite</bcf:option>
+    <bcf:option datatype="boolean">dashed</bcf:option>
     <bcf:option datatype="boolean">bibtexcaseprotection</bcf:option>
     <bcf:option datatype="integer">mincrossrefs</bcf:option>
     <bcf:option datatype="integer">minxrefs</bcf:option>
@@ -696,6 +675,7 @@
     <bcf:option datatype="string">loccittracker</bcf:option>
     <bcf:option datatype="string">uniquelist</bcf:option>
     <bcf:option datatype="string">uniquename</bcf:option>
+    <bcf:option datatype="string">mergedate</bcf:option>
     <bcf:option datatype="boolean">familyinits</bcf:option>
     <bcf:option datatype="boolean">giveninits</bcf:option>
     <bcf:option datatype="boolean">prefixinits</bcf:option>
@@ -747,8 +727,6 @@
     <bcf:option datatype="boolean">doi</bcf:option>
     <bcf:option datatype="boolean">eprint</bcf:option>
     <bcf:option datatype="boolean">related</bcf:option>
-    <bcf:option datatype="boolean">dateyear</bcf:option>
-    <bcf:option datatype="boolean">datemonth</bcf:option>
     <bcf:option datatype="boolean">bibtexcaseprotection</bcf:option>
     <bcf:option datatype="xml">labelalphatemplate</bcf:option>
     <bcf:option datatype="xml">translit</bcf:option>
@@ -787,6 +765,7 @@
     <bcf:option datatype="string" backendout="1">loccittracker</bcf:option>
     <bcf:option datatype="string">uniquelist</bcf:option>
     <bcf:option datatype="string">uniquename</bcf:option>
+    <bcf:option datatype="string" backendout="1">mergedate</bcf:option>
     <bcf:option datatype="boolean" backendout="1">familyinits</bcf:option>
     <bcf:option datatype="boolean" backendout="1">giveninits</bcf:option>
     <bcf:option datatype="boolean" backendout="1">prefixinits</bcf:option>
@@ -837,19 +816,6 @@
     <bcf:option datatype="boolean" backendout="1">doi</bcf:option>
     <bcf:option datatype="boolean" backendout="1">eprint</bcf:option>
     <bcf:option datatype="boolean" backendout="1">related</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">nosl</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">nosn</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">noslsn</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">repeattitle</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">repeattitles</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">repeatfirstfields</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">repeatfields</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">extradate</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">extrayear</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">backref</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">slashdaterange</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">dateyear</bcf:option>
-    <bcf:option datatype="boolean" backendout="1">datemonth</bcf:option>
     <bcf:option datatype="boolean" backendout="1">bibtexcaseprotection</bcf:option>
     <bcf:option datatype="integer" backendin="maxcitenames,maxbibnames,maxsortnames">maxnames</bcf:option>
     <bcf:option datatype="integer" backendin="mincitenames,minbibnames,minsortnames">minnames</bcf:option>
@@ -910,39 +876,6 @@
   </bcf:datafieldset>
   <!-- SOURCEMAP -->
   <bcf:sourcemap>
-    <bcf:maps datatype="bibtex" level="style">
-      <bcf:map>
-        <bcf:map_step map_field_source="conference-number" map_field_target="number"/>
-        <bcf:map_step map_field_source="conference-year" map_field_target="eventdate"/>
-        <bcf:map_step map_field_source="conference-location" map_field_target="venue"/>
-        <bcf:map_step map_field_source="conference-number" map_field_target="number"/>
-        <bcf:map_step map_field_source="org-short" map_field_target="shortauthor"/>
-        <bcf:map_step map_field_source="urlaccessdate" map_field_target="urldate"/>
-        <bcf:map_step map_field_source="year-presented" map_field_target="eventyear"/>
-        <bcf:map_step map_field_source="furtherresp" map_field_target="titleaddon"/>
-        <bcf:map_step map_type_source="journalpart" map_type_target="supperiodical"/>
-      </bcf:map>
-      <bcf:map>
-        <bcf:map_step map_field_source="reprinted-from" map_final="1"/>
-        <bcf:map_step map_field_set="related" map_origfieldval="1"/>
-      </bcf:map>
-      <bcf:map>
-        <bcf:map_step map_field_source="reprinted-text" map_final="1"/>
-        <bcf:map_step map_field_set="relatedtype" map_field_value="reprintfrom"/>
-      </bcf:map>
-      <bcf:map>
-        <bcf:per_type>patent</bcf:per_type>
-        <bcf:map_step map_field_source="organization" map_final="1"/>
-        <bcf:map_step map_field_set="sortkey" map_origfieldval="1"/>
-      </bcf:map>
-      <bcf:map>
-        <bcf:per_type>thesis</bcf:per_type>
-        <bcf:per_type>phdthesis</bcf:per_type>
-        <bcf:per_type>mastersthesis</bcf:per_type>
-        <bcf:per_type>monography</bcf:per_type>
-        <bcf:map_step map_field_set="bookpagination" map_field_value="sheet"/>
-      </bcf:map>
-    </bcf:maps>
     <bcf:maps datatype="bibtex" level="driver">
       <bcf:map>
         <bcf:map_step map_field_set="day" map_null="1"/>
@@ -1420,10 +1353,6 @@
       <bcf:field fieldtype="field" format="xsv" datatype="option" skip_output="true">relatedoptions</bcf:field>
       <bcf:field fieldtype="field" datatype="range">pages</bcf:field>
       <bcf:field fieldtype="field" datatype="code">execute</bcf:field>
-      <bcf:field fieldtype="field" datatype="literal">section</bcf:field>
-      <bcf:field fieldtype="field" datatype="literal">illustrated</bcf:field>
-      <bcf:field fieldtype="field" datatype="literal">dimensions</bcf:field>
-      <bcf:field fieldtype="field" datatype="literal">reprinted-text</bcf:field>
     </bcf:fields>
     <bcf:entryfields>
       <bcf:field>abstract</bcf:field>
@@ -2187,26 +2116,6 @@
       <bcf:field>type</bcf:field>
       <bcf:field>venue</bcf:field>
     </bcf:entryfields>
-    <bcf:entryfields>
-      <bcf:entrytype>monography</bcf:entrytype>
-      <bcf:field>location</bcf:field>
-      <bcf:field>author</bcf:field>
-      <bcf:field>chapterpages</bcf:field>
-      <bcf:field>pagetotal</bcf:field>
-      <bcf:field>bookpagination</bcf:field>
-      <bcf:field>institution</bcf:field>
-      <bcf:field>title</bcf:field>
-      <bcf:field>type</bcf:field>
-      <bcf:field>note</bcf:field>
-      <bcf:field>isbn</bcf:field>
-      <bcf:field>doi</bcf:field>
-      <bcf:field>eprint</bcf:field>
-      <bcf:field>url</bcf:field>
-      <bcf:field>addendum</bcf:field>
-      <bcf:field>pubstate</bcf:field>
-      <bcf:field>pageref</bcf:field>
-      <bcf:field>date</bcf:field>
-    </bcf:entryfields>
     <bcf:multiscriptfields>
       <bcf:field>abstract</bcf:field>
       <bcf:field>addendum</bcf:field>
@@ -2462,121 +2371,13 @@
   <!-- CITATION DATA -->
   <!-- SECTION 0 -->
   <bcf:bibdata section="0">
-    <bcf:datasource type="file" datatype="bibtex" glob="false">../Khazzoom-Brookes.bib</bcf:datasource>
+    <bcf:datasource type="file" datatype="bibtex" glob="false">../Microeconomics.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1" intorder="1">Jevons1866</bcf:citekey>
-    <bcf:citekey order="2" intorder="1">Khazzoom1980</bcf:citekey>
-    <bcf:citekey order="3" intorder="1">Khazzoom1980</bcf:citekey>
-    <bcf:citekey order="4" intorder="1">Khazzoom1980</bcf:citekey>
-    <bcf:citekey order="4" intorder="2">Khazzoom1987</bcf:citekey>
-    <bcf:citekey order="5" intorder="1">Khazzoom1980</bcf:citekey>
-    <bcf:citekey order="5" intorder="2">Khazzoom1987</bcf:citekey>
-    <bcf:citekey order="6" intorder="1">Brookes1990</bcf:citekey>
-    <bcf:citekey order="7" intorder="1">Brookes1990</bcf:citekey>
-    <bcf:citekey order="8" intorder="1">Saunders1992</bcf:citekey>
-    <bcf:citekey order="9" intorder="1">Saunders1992</bcf:citekey>
-    <bcf:citekey order="10" intorder="1">Saunders1992</bcf:citekey>
-    <bcf:citekey order="11" intorder="1">Brookes1990</bcf:citekey>
-    <bcf:citekey order="12" intorder="1">Khazzoom1987</bcf:citekey>
-    <bcf:citekey order="13" intorder="1">Khazzoom1987</bcf:citekey>
-    <bcf:citekey order="14" intorder="1">Keepin1988</bcf:citekey>
-    <bcf:citekey order="14" intorder="2">Keepin1989</bcf:citekey>
-    <bcf:citekey order="14" intorder="3">Jones1989</bcf:citekey>
-    <bcf:citekey order="15" intorder="1">Keepin1988</bcf:citekey>
-    <bcf:citekey order="15" intorder="2">Keepin1989</bcf:citekey>
-    <bcf:citekey order="15" intorder="3">Jones1989</bcf:citekey>
-    <bcf:citekey order="16" intorder="1">Brookes1990</bcf:citekey>
-    <bcf:citekey order="16" intorder="2">Brookes1992</bcf:citekey>
-    <bcf:citekey order="16" intorder="3">Brookes1993</bcf:citekey>
-    <bcf:citekey order="16" intorder="4">Grubb1990</bcf:citekey>
-    <bcf:citekey order="16" intorder="5">Grubb1992</bcf:citekey>
-    <bcf:citekey order="17" intorder="1">Saunders2009</bcf:citekey>
-    <bcf:citekey order="18" intorder="1">Sorrell2007</bcf:citekey>
-    <bcf:citekey order="19" intorder="1">SaBarreto2022</bcf:citekey>
-    <bcf:citekey order="20" intorder="1">SaBarreto2022</bcf:citekey>
-    <bcf:citekey order="21" intorder="1">Hanley2009</bcf:citekey>
-    <bcf:citekey order="22" intorder="1">Hanley2009</bcf:citekey>
-    <bcf:citekey order="23" intorder="1">Medeiros2013</bcf:citekey>
-    <bcf:citekey order="24" intorder="1">Medeiros2013</bcf:citekey>
-    <bcf:citekey order="25" intorder="1">SaBarreto2016</bcf:citekey>
-    <bcf:citekey order="26" intorder="1">Gillingham2015</bcf:citekey>
-    <bcf:citekey order="27" intorder="1">Brookes2000</bcf:citekey>
-    <bcf:citekey order="28" intorder="1">Jevons1866</bcf:citekey>
-    <bcf:citekey order="29" intorder="1">Jevons1866</bcf:citekey>
-    <bcf:citekey order="30" intorder="1">USEnergyInformation</bcf:citekey>
-    <bcf:citekey order="31" intorder="1">USEnergyInformation</bcf:citekey>
-    <bcf:citekey order="32" intorder="1">Medeiros2013</bcf:citekey>
-    <bcf:citekey order="33" intorder="1">Marx2017</bcf:citekey>
-    <bcf:citekey order="33" intorder="2">Marx2014</bcf:citekey>
-    <bcf:citekey order="33" intorder="3">Marx2017a</bcf:citekey>
-    <bcf:citekey order="34" intorder="1">SaBarreto2018</bcf:citekey>
-    <bcf:citekey order="35" intorder="1">SaBarreto2018</bcf:citekey>
-    <bcf:citekey order="36" intorder="1">SaBarreto2021a</bcf:citekey>
-    <bcf:citekey order="36" intorder="2">SaBarreto2022</bcf:citekey>
-    <bcf:citekey order="37" intorder="1">Medeiros2013</bcf:citekey>
-    <bcf:citekey order="37" intorder="2">Lawson1997</bcf:citekey>
-    <bcf:citekey order="37" intorder="3">Bhaskar1978</bcf:citekey>
-    <bcf:citekey order="37" intorder="4">Bhaskar1998</bcf:citekey>
-    <bcf:citekey order="38" intorder="1">Marx2011</bcf:citekey>
-    <bcf:citekey order="39" intorder="1">Marx2017</bcf:citekey>
-    <bcf:citekey order="39" intorder="2">Marx2014</bcf:citekey>
-    <bcf:citekey order="39" intorder="3">Marx2017a</bcf:citekey>
-    <bcf:citekey order="40" intorder="1">Marx2011</bcf:citekey>
-    <bcf:citekey order="41" intorder="1">Marx2017</bcf:citekey>
-    <bcf:citekey order="41" intorder="2">SaBarreto2018</bcf:citekey>
-    <bcf:citekey order="41" intorder="3">SaBarreto2022</bcf:citekey>
-    <bcf:citekey order="42" intorder="1">Marx2014</bcf:citekey>
-    <bcf:citekey order="42" intorder="2">SaBarreto2018</bcf:citekey>
-    <bcf:citekey order="42" intorder="3">SaBarreto2022</bcf:citekey>
-    <bcf:citekey order="43" intorder="1">Medeiros2013</bcf:citekey>
-    <bcf:citekey order="43" intorder="2">Lawson1997</bcf:citekey>
-    <bcf:citekey order="43" intorder="3">Bhaskar1978</bcf:citekey>
-    <bcf:citekey order="43" intorder="4">Bhaskar1998</bcf:citekey>
-    <bcf:citekey order="44" intorder="1">Jevons1866</bcf:citekey>
-    <bcf:citekey order="45" intorder="1">Jevons1866</bcf:citekey>
-    <bcf:citekey order="46" intorder="1">Brookes1990</bcf:citekey>
-    <bcf:citekey order="46" intorder="2">Saunders1992</bcf:citekey>
-    <bcf:citekey order="47" intorder="1">Brookes1990</bcf:citekey>
-    <bcf:citekey order="47" intorder="2">Saunders1992</bcf:citekey>
-    <bcf:citekey order="48" intorder="1">Malm2016</bcf:citekey>
-    <bcf:citekey order="48" intorder="2">Monserrate2022</bcf:citekey>
-    <bcf:citekey order="49" intorder="1">Jevons1866</bcf:citekey>
-    <bcf:citekey order="50" intorder="1">Jevons1866</bcf:citekey>
-    <bcf:citekey order="51" intorder="1">Khazzoom1980</bcf:citekey>
-    <bcf:citekey order="51" intorder="2">Khazzoom1987</bcf:citekey>
-    <bcf:citekey order="51" intorder="3">Keepin1988</bcf:citekey>
-    <bcf:citekey order="51" intorder="4">Keepin1989</bcf:citekey>
-    <bcf:citekey order="51" intorder="5">Jones1989</bcf:citekey>
-    <bcf:citekey order="51" intorder="6">Brookes1990</bcf:citekey>
-    <bcf:citekey order="51" intorder="7">Brookes1992</bcf:citekey>
-    <bcf:citekey order="51" intorder="8">Brookes1993</bcf:citekey>
-    <bcf:citekey order="51" intorder="9">Grubb1990</bcf:citekey>
-    <bcf:citekey order="51" intorder="10">Grubb1992</bcf:citekey>
-    <bcf:citekey order="51" intorder="11">Saunders1992</bcf:citekey>
-    <bcf:citekey order="52" intorder="1">Brookes2000</bcf:citekey>
-    <bcf:citekey order="52" intorder="2">Saunders2009</bcf:citekey>
-    <bcf:citekey order="52" intorder="3">Sorrell2007</bcf:citekey>
-    <bcf:citekey order="52" intorder="4">Sorrell2009</bcf:citekey>
-    <bcf:citekey order="52" intorder="5">Hanley2009</bcf:citekey>
-    <bcf:citekey order="52" intorder="6">Gillingham2015</bcf:citekey>
-    <bcf:citekey order="53" intorder="1">Ozsoy2024</bcf:citekey>
-    <bcf:citekey order="53" intorder="2">Mikalauskas2025</bcf:citekey>
-    <bcf:citekey order="54" intorder="1">Pasquinelli2022</bcf:citekey>
-    <bcf:citekey order="54" intorder="2">Pasquinelli2023</bcf:citekey>
-    <bcf:citekey order="55" intorder="1">Pasquinelli2022</bcf:citekey>
-    <bcf:citekey order="55" intorder="2">Pasquinelli2023</bcf:citekey>
-    <bcf:citekey order="56" intorder="1">Malm2013</bcf:citekey>
-    <bcf:citekey order="57" intorder="1">Malm2013</bcf:citekey>
-    <bcf:citekey order="58" intorder="1">Marx2017</bcf:citekey>
-    <bcf:citekey order="58" intorder="2">SaBarreto2018</bcf:citekey>
-    <bcf:citekey order="59" intorder="1">Marx2014</bcf:citekey>
-    <bcf:citekey order="59" intorder="2">SaBarreto2018</bcf:citekey>
-    <bcf:citekey order="59" intorder="3">SaBarreto2022</bcf:citekey>
-    <bcf:citekey order="60" intorder="1">Medeiros2013</bcf:citekey>
-    <bcf:citekey order="60" intorder="2">Lawson1997</bcf:citekey>
-    <bcf:citekey order="60" intorder="3">Bhaskar1978</bcf:citekey>
-    <bcf:citekey order="60" intorder="4">Bhaskar1998</bcf:citekey>
+    <bcf:citekey order="1" intorder="1">Mas-Colell1995</bcf:citekey>
+    <bcf:citekey order="2" intorder="1">Cowell2004</bcf:citekey>
+    <bcf:citekey order="3" intorder="1">Cowell2004</bcf:citekey>
+    <bcf:citekey order="4" intorder="1">Mas-Colell1995</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nyt">

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.2.22)  6 MAR 2026 09:36
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.25)  25 MAY 2026 20:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -452,7 +452,7 @@ Package: bookmark 2023-12-10 v1.31 PDF bookmarks (HO)
 File: bkm-pdftex.def 2023-12-10 v1.31 bookmark driver for pdfTeX and luaTeX (HO)
 \BKM@id=\count347
 )) (C:\Program Files\MiKTeX\tex/generic/babel\babel.sty
-Package: babel 2026/01/26 v26.2 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
+Package: babel 2026/03/08 v26.4 The multilingual framework for LuaLaTeX, pdfLaTeX and XeLaTeX
 \babel@savecnt=\count348
 LaTeX Encoding Info:    Redeclaring text command \ij (encoding OT1) on input line 2078.
 LaTeX Encoding Info:    Redeclaring text command \IJ (encoding OT1) on input line 2080.
@@ -994,7 +994,7 @@ File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 LaTeX Warning: Unused global option(s):
     [chapter,english].
 
-(main.aux (aprovacao.aux))
+(main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 54.
@@ -1138,159 +1138,53 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (main.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                BLABLALB
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+ (main.bbl)
 Package biblatex Info: Reference section=0 on input line 54.
 Package biblatex Info: Reference segment=0 on input line 54.
-<logo.png, id=3, 253.94875pt x 257.96375pt>
-File: logo.png Graphic file (type png)
-<use logo.png>
-Package pdftex.def Info: logo.png  used on input line 67.
-(pdftex.def)             Requested size: 91.04872pt x 92.489pt.
- [1
-
-{C:/Users/nicho/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc} <./logo.png>] (C:\Users\nicho\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-cmr.cfg
-File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
-)
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 69.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 69.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 69.
-
-pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.69 
-      [1
-
-
-
-]
-<file.pdf, id=18, 597.51233pt x 845.0471pt>
-File: file.pdf Graphic file (type pdf)
-<use file.pdf>
-Package pdftex.def Info: file.pdf  used on input line 70.
-(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
-<file.pdf, id=20, page=1, 597.51233pt x 845.0471pt>
-File: file.pdf Graphic file (type pdf)
-<use file.pdf, page 1>
-Package pdftex.def Info: file.pdf , page1 used on input line 70.
-(pdftex.def)             Requested size: 597.51086pt x 845.04504pt.
-File: file.pdf Graphic file (type pdf)
-<use file.pdf, page 1>
-Package pdftex.def Info: file.pdf , page1 used on input line 70.
-(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
-File: file.pdf Graphic file (type pdf)
-<use file.pdf, page 1>
-Package pdftex.def Info: file.pdf , page1 used on input line 70.
-(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
-File: file.pdf Graphic file (type pdf)
-<use file.pdf, page 1>
-Package pdftex.def Info: file.pdf , page1 used on input line 70.
-(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
-File: file.pdf Graphic file (type pdf)
-<use file.pdf, page 1>
-Package pdftex.def Info: file.pdf , page1 used on input line 70.
-(pdftex.def)             Requested size: 597.53821pt x 845.08372pt.
- [2
-
- <./file.pdf>]
-\openout2 = `aprovacao.aux'.
-
- (aprovacao.tex
-Underfull \hbox (badness 10000) in paragraph at lines 6--7
-
- []
-
-[3
-
-
-]) (capitulos/resumo.tex [4
-
-
-
-
-] [5
-
-]) (capitulos/dedicatoria.tex
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 6.
- [6
-
-] [7
-
-
-]) (main.lof) [8
-
-] (main.lot) [9
-
-] (main.toc) [10
-
-] (capitulos/introducao.tex
+ (capitulos/capitulo2.tex
 Cap\'{\i }tulo 1.
-[11
-
-
-])
-LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
-(Font)              Font shape `T1/phv/m/sl' tried instead on input line 94.
-Package babel Info: 'brazil' activates 'portuges' shorthands.
-(babel)             Reported on input line 94.
- [12]
-
-LaTeX Warning: Citation 'BLABLALB' on page 13 undefined on input line 118.
-
-[13]
-LaTeX Font Info:    Trying to load font information for T1+pcr on input line 123.
- (C:\Users\nicho\AppData\Roaming\MiKTeX\tex/latex/psnfss\t1pcr.fd
-File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
+<imagens/blocof.jpg, id=3, 803.0pt x 464.73625pt>
+File: imagens/blocof.jpg Graphic file (type jpg)
+<use imagens/blocof.jpg>
+Package pdftex.def Info: imagens/blocof.jpg  used on input line 22.
+(pdftex.def)             Requested size: 455.0pt x 263.33524pt.
 )
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `pcr' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
- [14
 
-]
-\tf@lof=\write7
-\openout7 = `main.lof'.
+LaTeX Warning: Empty bibliography on input line 121.
 
-\tf@lot=\write8
-\openout8 = `main.lot'.
+[1
 
-\tf@toc=\write9
-\openout9 = `main.toc'.
 
- (main.aux (aprovacao.aux))
+{C:/Users/nicho/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc} <./imagens/blocof.jpg>] (main.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2020/03/25>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run Biber on the file:
+(biblatex)                main
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26548 strings out of 467867
- 465801 string characters out of 5428401
- 1509944 words of memory out of 5000000
- 54937 multiletter control sequences out of 15000+600000
- 651327 words of font info for 131 fonts, out of 8000000 for 9000
+ 25907 strings out of 467867
+ 453807 string characters out of 5428401
+ 1504611 words of memory out of 5000000
+ 54447 multiletter control sequences out of 15000+600000
+ 636085 words of font info for 70 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 99i,17n,107p,1258b,4310s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (15 pages, 97712 bytes).
+ 99i,10n,107p,1258b,4310s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb>
+Output written on main.pdf (1 page, 174788 bytes).
 PDF statistics:
- 192 PDF objects out of 1000 (max. 8388607)
- 44 named destinations out of 1000 (max. 500000)
- 22661 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 31 PDF objects out of 1000 (max. 8388607)
+ 5 named destinations out of 1000 (max. 500000)
+ 8206 words of extra memory for PDF output out of 10000 (max. 10000000)
 

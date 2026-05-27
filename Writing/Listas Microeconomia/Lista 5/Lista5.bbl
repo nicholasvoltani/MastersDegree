@@ -1,0 +1,104 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{Cowell2004}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=806151e99d27211f84af98b966e33f75}{%
+           family={Cowell},
+           familyi={C\bibinitperiod},
+           given={Frank},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{806151e99d27211f84af98b966e33f75}
+      \strng{fullhash}{806151e99d27211f84af98b966e33f75}
+      \strng{fullhashraw}{806151e99d27211f84af98b966e33f75}
+      \strng{bibnamehash}{806151e99d27211f84af98b966e33f75}
+      \strng{authorbibnamehash}{806151e99d27211f84af98b966e33f75}
+      \strng{authornamehash}{806151e99d27211f84af98b966e33f75}
+      \strng{authorfullhash}{806151e99d27211f84af98b966e33f75}
+      \strng{authorfullhashraw}{806151e99d27211f84af98b966e33f75}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{title}{Microeconomics: Principles and Analysis}
+      \field{year}{2004}
+      \verb{urlraw}
+      \verb http://diglib.globalcollege.edu.et:8080/xmlui/bitstream/handle/123456789/439/Cowell%20F.A.%20Microeconomics%20%28LSE%2C%202004%29%28O%29%28668s%29_GC_.pdf?sequence=1&isAllowed=y
+      \endverb
+      \verb{url}
+      \verb http://diglib.globalcollege.edu.et:8080/xmlui/bitstream/handle/123456789/439/Cowell%20F.A.%20Microeconomics%20%28LSE%2C%202004%29%28O%29%28668s%29_GC_.pdf?sequence=1&isAllowed=y
+      \endverb
+      \keyw{economics,economics/microeconomics}
+    \endentry
+    \entry{Mas-Colell1995}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=b76f97409971b7c349c5ca95c956f216}{%
+           family={{Mas-Colell}},
+           familyi={M\bibinitperiod},
+           given={Andreu},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=af8fb43e720fb828e2675ca752dab059}{%
+           family={Whinston},
+           familyi={W\bibinitperiod},
+           given={Michael\bibnamedelima Dennis},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=3351d53ca164d7525b03413fc0e38b7c}{%
+           family={Green},
+           familyi={G\bibinitperiod},
+           given={Jerry\bibnamedelima R.},
+           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Oxford University Press}%
+      }
+      \strng{namehash}{eba193a65b833f23ce32186bd3529df8}
+      \strng{fullhash}{eba193a65b833f23ce32186bd3529df8}
+      \strng{fullhashraw}{eba193a65b833f23ce32186bd3529df8}
+      \strng{bibnamehash}{eba193a65b833f23ce32186bd3529df8}
+      \strng{authorbibnamehash}{eba193a65b833f23ce32186bd3529df8}
+      \strng{authornamehash}{eba193a65b833f23ce32186bd3529df8}
+      \strng{authorfullhash}{eba193a65b833f23ce32186bd3529df8}
+      \strng{authorfullhashraw}{eba193a65b833f23ce32186bd3529df8}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Microeconomic Theory}
+      \field{year}{1995}
+      \keyw{economics,economics/microeconomics,mathematics}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

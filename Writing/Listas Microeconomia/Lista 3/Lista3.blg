@@ -1,15 +1,15 @@
-[0] Config.pm:328> INFO - This is Biber 2.21
+[1] Config.pm:328> INFO - This is Biber 2.21
 [1] Config.pm:331> INFO - Logfile is 'Lista3.blg'
-[367] biber-MSWIN64:342> INFO - === 
-[499] Biber.pm:421> INFO - Reading 'Lista3.bcf'
-[602] Biber.pm:1002> INFO - Found 4 citekeys in bib section 0
-[615] Biber.pm:4487> INFO - Processing section 0
-[663] Biber.pm:4678> INFO - Looking for bibtex file '../Microeconomics.bib' for section 0
-[742] bibtex.pm:1713> INFO - LaTeX decoding ...
-[757] bibtex.pm:1519> INFO - Found BibTeX data source '../Microeconomics.bib'
-[880] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[880] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[880] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'pt-BR'
-[880] Biber.pm:4313> INFO - No sort tailoring available for locale 'pt-BR'
-[974] bbl.pm:676> INFO - Writing 'Lista3.bbl' with encoding 'UTF-8'
-[977] bbl.pm:779> INFO - Output to Lista3.bbl
+[203] biber-MSWIN64:342> INFO - === 
+[282] Biber.pm:421> INFO - Reading 'Lista3.bcf'
+[476] Biber.pm:1002> INFO - Found 4 citekeys in bib section 0
+[494] Biber.pm:4487> INFO - Processing section 0
+[513] Biber.pm:4678> INFO - Looking for bibtex file '../Microeconomics.bib' for section 0
+[846] bibtex.pm:1713> INFO - LaTeX decoding ...
+[1143] bibtex.pm:1519> INFO - Found BibTeX data source '../Microeconomics.bib'
+[1585] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1585] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1585] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'pt-BR'
+[1585] Biber.pm:4313> INFO - No sort tailoring available for locale 'pt-BR'
+[1612] bbl.pm:676> INFO - Writing 'Lista3.bbl' with encoding 'UTF-8'
+[1622] bbl.pm:779> INFO - Output to Lista3.bbl

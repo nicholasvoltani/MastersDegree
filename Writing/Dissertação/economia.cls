@@ -1079,7 +1079,7 @@ brazil,				% o último idioma é o principal do documento
 % Comando \assinatura for signature
    % width of the line and text under the line
 \newlength{\ABNTEXsignwidth}
-\setlength{\ABNTEXsignwidth}{8cm}
+\setlength{\ABNTEXsignwidth}{14cm}
    % thickness of the line
 \newlength{\ABNTEXsignthickness}
 \setlength{\ABNTEXsignthickness}{1pt}

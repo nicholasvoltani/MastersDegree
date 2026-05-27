@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.25)  29 APR 2026 16:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.25)  26 MAY 2026 17:15
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**"c:/Users/nicho/Documents/MastersDegree/Writing/Listas Microeconomia/Lista 3/Lista3.tex"
-(c:/Users/nicho/Documents/MastersDegree/Writing/Listas Microeconomia/Lista 3/Lista3.tex
+**"c:/Users/nicho/Documents/MastersDegree/Writing/Listas Microeconomia/Lista 5/Lista5.tex"
+(c:/Users/nicho/Documents/MastersDegree/Writing/Listas Microeconomia/Lista 5/Lista5.tex
 LaTeX2e <2025-11-01>
 L3 programming layer <2026-01-19>
 (C:\Program Files\MiKTeX\tex/latex/base\article.cls
@@ -53,12 +53,17 @@ Package babel Info: Configuration files are deprecated, as
 *
 (C:\Program Files\MiKTeX\tex/latex/arabi\bblopts.cfg
 File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of babel
-) (C:\Program Files\MiKTeX\tex/generic/babel/locale/pt\babel-brazilian.tex)
-Package babel Info: Importing font and identification data for brazilian
+) (C:\Program Files\MiKTeX\tex/generic/babel/locale/invalid\babel-brazil.tex)
+
+Package babel Warning: Name 'brazil' is deprecated.
+(babel)                Use 'brazilian' instead.
+(babel)                Reported on input line 4330.
+
+Package babel Info: Importing font and identification data for brazil
 (babel)             from babel-pt-BR.ini. Reported on input line 4330.
- (C:\Users\nicho\AppData\Roaming\MiKTeX\tex/latex/babel-portuges\brazilian.ldf
+(C:\Users\nicho\AppData\Roaming\MiKTeX\tex/latex/babel-portuges\brazilian.ldf
 Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
-Package babel Info: Hyphen rules for 'brazilian' set to \l@portuguese
+Package babel Info: Hyphen rules for 'brazil' set to \l@portuguese
 (babel)             (\language56). Reported on input line 111.
 Package babel Info: Making " an active character on input line 143.
 )) (C:\Users\nicho\AppData\Roaming\MiKTeX\tex/latex/cancel\cancel.sty
@@ -389,7 +394,7 @@ Package biblatex Info: ... file 'blx-dm.def' found.
 File: blx-dm.def 2025/07/10 v3.21 biblatex datamodel (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
-Package biblatex Info: ... file 'abnt.dbx' not found.
+Package biblatex Info: ... file 'authoryear.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 \c@afterword=\count371
@@ -497,35 +502,21 @@ File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
 \biburllcskip=\muskip22
 \c@smartand=\count447
 )
-Package biblatex Info: Trying to load bibliography style 'abnt'...
-Package biblatex Info: ... file 'abnt.bbx' found.
- (C:\Users\nicho\AppData\Roaming\MiKTeX\tex/latex/biblatex-abnt/bbx\abnt.bbx
-File: abnt.bbx 2018-11-17 v3.4 ABNT BibLaTeX citation style
- (C:\Program Files\MiKTeX\tex/latex/l3packages/xparse\xparse.sty (C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
-Package: expl3 2026-01-19 L3 programming layer (loader) 
- (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count448
-))
-Package: xparse 2025-10-09 L3 Experimental document command parser
-) (C:\Users\nicho\AppData\Roaming\MiKTeX\tex/latex/xpatch\xpatch.sty
-Package: xpatch 2020/03/25 v0.3a Extending etoolbox patching commands
-)
+Package biblatex Info: Trying to load bibliography style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.bbx' found.
+ (C:\Program Files\MiKTeX\tex/latex/biblatex/bbx\authoryear.bbx
+File: authoryear.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (C:\Program Files\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count449
-\c@bbx:relatedtotal=\count450
+\c@bbx:relatedcount=\count448
+\c@bbx:relatedtotal=\count449
 ))
-Package biblatex Info: Trying to load citation style 'abnt'...
-Package biblatex Info: ... file 'abnt.cbx' found.
- (C:\Users\nicho\AppData\Roaming\MiKTeX\tex/latex/biblatex-abnt/cbx\abnt.cbx
-File: abnt.cbx 2018-11-17 v3.4 ABNT BibLaTeX citation style
-Package biblatex Info: Trying to load citation style 'authoryear-comp'...
-Package biblatex Info: ... file 'authoryear-comp.cbx' found.
- (C:\Program Files\MiKTeX\tex/latex/biblatex/cbx\authoryear-comp.cbx
-File: authoryear-comp.cbx 2025/07/10 v3.21 biblatex citation style (PK/MW)
+Package biblatex Info: Trying to load citation style 'authoryear'...
+Package biblatex Info: ... file 'authoryear.cbx' found.
+ (C:\Program Files\MiKTeX\tex/latex/biblatex/cbx\authoryear.cbx
+File: authoryear.cbx 2025/07/10 v3.21 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -533,20 +524,6 @@ Package biblatex Info: Redefining '\footcitetext'.
 Package biblatex Info: Redefining '\smartcite'.
 Package biblatex Info: Redefining '\textcite'.
 Package biblatex Info: Redefining '\textcites'.
-Package biblatex Info: Redefining '\cites'.
-Package biblatex Info: Redefining '\parencites'.
-Package biblatex Info: Redefining '\footcites'.
-Package biblatex Info: Redefining '\footcitetexts'.
-Package biblatex Info: Redefining '\smartcites'.
-)
-Package biblatex Info: Redefining '\cite'.
-Package biblatex Info: Redefining '\cites'.
-Package biblatex Info: Redefining '\footcite'.
-Package biblatex Info: Redefining '\footcites'.
-Package biblatex Info: Redefining '\citetitle'.
-Package biblatex Info: Redefining '\smartcite'.
-Package biblatex Info: Redefining '\citeauthor'.
-Package biblatex Info: Redefining '\citeyear'.
 )
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
@@ -555,41 +532,49 @@ File: biblatex.cfg
 )
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Document encoding is UTF8 ....
+ (C:\Program Files\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2026-01-19 L3 programming layer (loader) 
+ (C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count450
+))
 Package biblatex Info: ... and expl3
 (biblatex)             2026-01-19 L3 programming layer (loader) 
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
- (C:\Program Files\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty
+ (C:\Program Files\MiKTeX\tex/latex/biblatex\blx-case-expl3.sty (C:\Program Files\MiKTeX\tex/latex/l3packages/xparse\xparse.sty
+Package: xparse 2025-10-09 L3 Experimental document command parser
+)
 Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
 ))
 Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
-Package csquotes Info: Redefining alias 'default' -> 'brazilian'.
- (Lista3.aux
-Package babel Info: 'brazilian' activates 'portuges' shorthands.
-(babel)             Reported on input line 9.
+Package csquotes Info: Redefining alias 'default' -> 'brazil'.
+ (Lista5.aux
+Package babel Info: 'brazil' activates 'portuges' shorthands.
+(babel)             Reported on input line 11.
 )
-\openout1 = `Lista3.aux'.
+\openout1 = `Lista5.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 55.
-LaTeX Font Info:    ... okay on input line 55.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 56.
+LaTeX Font Info:    ... okay on input line 56.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -659,38 +644,11 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 \Gin@req@height=\dimen183
 \Gin@req@width=\dimen184
 )
-Package hyperref Info: Link coloring OFF on input line 55.
- (Lista3.out) (Lista3.out)
+Package hyperref Info: Link coloring OFF on input line 56.
+ (Lista5.out) (Lista5.out)
 \@outlinefile=\write4
-\openout4 = `Lista3.out'.
+\openout4 = `Lista5.out'.
 
-Package biblatex Info: Trying to load language 'brazilian' -> 'brazilian-abnt'...
-Package biblatex Info: ... file 'brazilian-abnt.lbx' found.
- (C:\Users\nicho\AppData\Roaming\MiKTeX\tex/latex/biblatex-abnt/lbx\brazilian-abnt.lbx
-File: brazilian-abnt.lbx 2018-11-17 v3.4 ABNT BibLaTeX citation style
-Package biblatex Info: Trying to load language 'brazilian'...
-Package biblatex Info: ... file 'brazilian.lbx' found.
- (C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\brazilian.lbx
-File: brazilian.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
-)
-Package biblatex Info: Trying to load language 'brazilian'...
-Package biblatex Info: ... file 'brazilian.lbx' found.
- (C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\brazilian.lbx
-File: brazilian.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
-)
-Package biblatex Info: Trying to load language 'brazil' -> 'brazil-abnt'...
-Package biblatex Info: ... file 'brazil-abnt.lbx' found.
- (C:\Users\nicho\AppData\Roaming\MiKTeX\tex/latex/biblatex-abnt/lbx\brazil-abnt.lbx
-File: brazil-abnt.lbx 2018-11-17 v3.4 ABNT BibLaTeX citation style
-Package biblatex Info: Trying to load language 'brazilian-abnt'...
-Package biblatex Info: ... file 'brazilian-abnt.lbx' found.
- (C:\Users\nicho\AppData\Roaming\MiKTeX\tex/latex/biblatex-abnt/lbx\brazilian-abnt.lbx
-File: brazilian-abnt.lbx 2018-11-17 v3.4 ABNT BibLaTeX citation style
-Package biblatex Info: Trying to load language 'brazilian'...
-Package biblatex Info: ... file 'brazilian.lbx' found.
- (C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\brazilian.lbx
-File: brazilian.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
-)
 Package biblatex Info: Trying to load language 'brazil'...
 Package biblatex Info: ... file 'brazil.lbx' found.
  (C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\brazil.lbx
@@ -699,92 +657,103 @@ Package biblatex Info: Trying to load language 'brazilian'...
 Package biblatex Info: ... file 'brazilian.lbx' found.
  (C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\brazilian.lbx
 File: brazilian.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
-)))))
+)
+Package biblatex Info: Trying to load language 'brazilian'...
+Package biblatex Info: ... file 'brazilian.lbx' found.
+ (C:\Program Files\MiKTeX\tex/latex/biblatex/lbx\brazilian.lbx
+File: brazilian.lbx 2025/07/10 v3.21 biblatex localization (PK/MW)
+))
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout3 = `Lista3.bcf'.
+\openout3 = `Lista5.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'Lista3.bbl' found.
- (Lista3.bbl)
-Package biblatex Info: Reference section=0 on input line 55.
-Package biblatex Info: Reference segment=0 on input line 55.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 57.
+Package biblatex Info: ... file 'Lista5.bbl' found.
+ (Lista5.bbl)
+Package biblatex Info: Reference section=0 on input line 56.
+Package biblatex Info: Reference segment=0 on input line 56.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 59.
  (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 57.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 59.
  (C:\Program Files\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
 {C:/Users/nicho/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-<images/simplexos.png, id=64, 552.56438pt x 255.95625pt>
-File: images/simplexos.png Graphic file (type png)
-<use images/simplexos.png>
-Package pdftex.def Info: images/simplexos.png  used on input line 91.
-(pdftex.def)             Requested size: 377.62642pt x 174.91888pt.
- [2 <./images/simplexos.png>] [3] [4] [5] [6] [7]
+<images/Pasted image 20260521124131.png, id=49, 242.70676pt x 213.79875pt>
+File: images/Pasted image 20260521124131.png Graphic file (type png)
+<use images/Pasted image 20260521124131.png>
+Package pdftex.def Info: images/Pasted image 20260521124131.png  used on input line 109.
+(pdftex.def)             Requested size: 212.41261pt x 187.11258pt.
+
+Underfull \hbox (badness 1769) in paragraph at lines 110--110
+[]\T1/cmr/m/n/12 Figura 1: []Conjunto de pro-du-��o com re-tor-nos \T1/cmr/m/it/12 n�o-crescentes \T1/cmr/m/n/12 de es-cala. Fonte:
+ []
+
+<images/Pasted image 20260521124214.png, id=53, 245.11575pt x 221.02576pt>
+File: images/Pasted image 20260521124214.png Graphic file (type png)
+<use images/Pasted image 20260521124214.png>
+Package pdftex.def Info: images/Pasted image 20260521124214.png  used on input line 116.
+(pdftex.def)             Requested size: 212.41261pt x 191.53876pt.
+
+Underfull \hbox (badness 1097) in paragraph at lines 117--117
+[]\T1/cmr/m/n/12 Figura 2: []Conjunto de pro-du-��o com re-tor-nos de es-cala \T1/cmr/m/it/12 n�o-decrescentes\T1/cmr/m/n/12 . Fonte:
+ []
+
+<images/Pasted image 20260521124319.png, id=56, 289.08pt x 242.1045pt>
+File: images/Pasted image 20260521124319.png Graphic file (type png)
+<use images/Pasted image 20260521124319.png>
+Package pdftex.def Info: images/Pasted image 20260521124319.png  used on input line 123.
+(pdftex.def)             Requested size: 212.41261pt x 177.89479pt.
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[2 <./images/Pasted image 20260521124131.png> <./images/Pasted image 20260521124214.png>] [3 <./images/Pasted image 20260521124319.png>] [4] [5] [6]
 pdfTeX warning (ext4): destination with the same identifier (name{exercise.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.325   S
-         upondo que $\alpha_1 + \alpha_2 = 1$, teremos [8] [9]
+l.335 C
+       aso haja \textit{algum} processo de produção \(y \in Y\) tal que
 pdfTeX warning (ext4): destination with the same identifier (name{exercise.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.384   T
-         emos a seguinte matriz de decisão:\footnote{O símbolo \(\lnot\) s... [10] [11]
+l.351 (
+       \(\implies\)) \(Y\) ter retornos constantes de escala quer dizer que [7]
 pdfTeX warning (ext4): destination with the same identifier (name{exercise.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.533   S
-         uponhamos que o preço cobrado pelo seguro não seja atuarialmente ...
+l.404 \textit{Curto prazo}
+                          : Tenha-se \(K = \bar{K}\). Então, é possível i... [8] [9]
 pdfTeX warning (ext4): destination with the same identifier (name{exercise.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.552   A
-          primeira derivada é [12]
-<images/utilidade_exponencial_financeiro.png, id=201, 560.0925pt x 375.20175pt>
-File: images/utilidade_exponencial_financeiro.png Graphic file (type png)
-<use images/utilidade_exponencial_financeiro.png>
-Package pdftex.def Info: images/utilidade_exponencial_financeiro.png  used on input line 571.
-(pdftex.def)             Requested size: 377.62642pt x 252.98116pt.
-
-pdfTeX warning (ext4): destination with the same identifier (name{exercise.5}) has been already used, duplicate ignored
-<to be read again> 
-                   \relax 
-l.580   A
-          primeira derivada é
-<images/1280px-Isoelastic.svg.png, id=206, 1284.8pt x 921.4425pt>
-File: images/1280px-Isoelastic.svg.png Graphic file (type png)
-<use images/1280px-Isoelastic.svg.png>
-Package pdftex.def Info: images/1280px-Isoelastic.svg.png  used on input line 603.
-(pdftex.def)             Requested size: 377.62642pt x 270.82492pt.
- [13 <./images/utilidade_exponencial_financeiro.png>] [14 <./images/1280px-Isoelastic.svg.png>] [15] (Lista3.aux)
+l.473 M
+       aximização da utilidade do consumidor \(u(x,m) = \phi(x) + m\), com [10] [11] (Lista5.aux)
  ***********
 LaTeX2e <2025-11-01>
-L3 programming layer <2020/03/25>
+L3 programming layer <2026-01-19>
  ***********
-Package rerunfilecheck Info: File `Lista3.out' has not changed.
-(rerunfilecheck)             Checksum: C21F1A49BEB025456AECAFC9E977B332;1184.
-Package logreq Info: Writing requests to 'Lista3.run.xml'.
-\openout1 = `Lista3.run.xml'.
+Package rerunfilecheck Info: File `Lista5.out' has not changed.
+(rerunfilecheck)             Checksum: FA0DF3BD2310FB79FADE8E6F6D249854;497.
+Package logreq Info: Writing requests to 'Lista5.run.xml'.
+\openout1 = `Lista5.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20925 strings out of 467867
- 364589 string characters out of 5428401
- 1268184 words of memory out of 5000000
- 49478 multiletter control sequences out of 15000+600000
- 647704 words of font info for 92 fonts, out of 8000000 for 9000
+ 20323 strings out of 467867
+ 351252 string characters out of 5428401
+ 1212330 words of memory out of 5000000
+ 48922 multiletter control sequences out of 15000+600000
+ 647103 words of font info for 89 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 78i,20n,79p,1468b,3961s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1000.pk> <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0700.pk> <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0700.pk> <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/latxfont/line10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Lista3.pdf (15 pages, 790226 bytes).
+ 75i,21n,79p,773b,1686s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0700.pk> <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0700.pk> <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/latxfont/line10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
+Output written on Lista5.pdf (11 pages, 401203 bytes).
 PDF statistics:
- 831 PDF objects out of 1000 (max. 8388607)
- 69 named destinations out of 1000 (max. 500000)
- 72 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 680 PDF objects out of 1000 (max. 8388607)
+ 47 named destinations out of 1000 (max. 500000)
+ 48 words of extra memory for PDF output out of 10000 (max. 10000000)
 

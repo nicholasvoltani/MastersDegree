@@ -3,7 +3,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[brazil]{babel}
-
+\usepackage{cancel}
 \usepackage{geometry}
 \geometry{margin=2.5cm}
 \usepackage{setspace}
@@ -28,35 +28,28 @@
 \theoremstyle{remark}
 \newtheorem*{remark}{Observação}
 
+\usepackage{hyperref}
 \usepackage{csquotes}
-\usepackage{xcolor}
-\usepackage{cancel}
 
 \usepackage[
-  backend=biber,
-  style=abnt,
-  maxcitenames=3
-  ]{biblatex}
-  
-  \addbibresource{../Microeconomics.bib}
+    backend=biber,
+    style=abnt,
+    style=authoryear,
+    maxcitenames=3
+]{biblatex}
 
-  \usepackage{url}
-  \usepackage[
-    colorlinks,
-    unicode, 
-    citecolor=blue,
-    urlcolor=blue,
-    linkcolor=blue]{hyperref}
-  
-  \newcommand{\R}{\mathbb{R}}
-  \newcommand{\pref}{\succeq}
+\addbibresource{../Microeconomics.bib}
+
+
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\pref}{\succeq}
 \newcommand{\strictpref}{\succ}
 \newcommand{\indiff}{\sim}
 
 % ------------------------------------------------
 % Title (fill manually)
 % ------------------------------------------------
-\title{Lista 4 --- Teoria Microeconômica (PPGE-UFF)}
+\title{Lista 5 --- Teoria Microeconômica (PPGE-UFF)}
 \author{Professor: Fábio Waltenberg\thanks{\href{mailto:fdwaltenberg@id.uff.br}{fdwaltenberg@id.uff.br}} \\Monitor: Nicholas Funari Voltani\thanks{\href{mailto:nicholasvoltani@gmail.com}{nicholasvoltani@gmail.com}}}
 \date{}
 
@@ -67,536 +60,465 @@
 \hypertarget{conceitos-introdutuxf3rios}{%
 \section{Conceitos introdutórios}\label{conceitos-introdutuxf3rios}}
 
-\hypertarget{aversuxe3o-ao-risco}{%
-\subsection{Aversão ao risco}\label{aversuxe3o-ao-risco}}
+\hypertarget{teoria-da-firma}{%
+\subsection{Teoria da firma}\label{teoria-da-firma}}
+
+A teoria da produção em Microeconomia consiste em tratar firmas como ``caixas pretas'' que tomam certos insumos como \textit{inputs} e produzem certos bens como \textit{outputs}. As possibilidades que uma dada firma possui no que tange às proporções de \textit{inputs} para certas quantidades de \textit{outputs} podem ser representadas no que se chama de \textit{conjunto de produção}.
 
 \begin{definition}
-O equivalente certo de um tomador de risco é a quantidade monetária
-não-aleatória com a qual ele obtém utilidade igual à sua
-\textit{utilidade média}.
+Um \textit{conjunto de produção} \(Y\) de uma dada firma é o conjunto
+\(Y \subseteq \mathbb{R}^{L}\), em que cada
+\(Y \ni y = (y_{1}, \dots, y_n)\) descreve uma possível configuração de
+produção, em que \(y_{i}<0\) é um \textit{input} \(y_{i}>0\) é um
+\textit{output}
 
-Dada uma loteria \(L\) e uma utilidade de Bernoulli \(u(\cdot)\), o
-equivalente certo (ou equivalente de certeza) \(C(L, u)\) é o valor
-(monetário) \textit{com probabilidade \(100\%\) de ser recebido} que faz
-com que a utilidade de Bernoulli se iguale à Utilidade de von
-Neumann-Morgenstern \(U(\cdot)\) da loteria \(L\),
-i.e.~\(U(L)\).\footnote{\textcite{Cowell2004}, p.~188 comenta sobre a
-  confusão que ambas estas utilidades --- utilidade ``de Bernoulli''
-  (cf. \textcite{Mas-Colell1995}, p.~184) e utilidade de von
-  Neumann-Morgenstern --- podem suscitar: ``Here we encounter a
-  terminologically awkward corner. We should not really call \(u\)
-  {[}''utilidade de Bernoulli''{]} `the utility function' because the
-  whole expression {[}utilidade de von Neumann-Morgenstern,
-  \(U(L) = \sum \limits_{k} p_{k} u_{k}\){]} is the person's utility; so
-  \(u\) is sometimes known as the individual's \textit{cardinal utility
-  function} or \textit{felicity function}; arguably neither term is a
-  particularly happy choice of words.''.}
+Em geral, diz-se que qualquer \(y_{i}\) é um ``\textit{netput}''.
+\end{definition}
 
-Formalmente, temos que, para uma loteria \((p_{1}, \dots, p_{n})\)
-relacionada às utilidades (de Bernoulli)
-\((u_{1} \coloneqq u(x_{1}), \dots, u_{n}:= u(x_{n}))\), a definição do
-equivalente certo segue a forma
-\[
-u(C(L, u)) = \sum \limits_{k} p_{k} u_{k} = U(L)
-\]
+Note-se que, a depender do conjunto de produção \(Y\), pode ser possível que haja ``desperdício'' de inputs, i.e. uma mesma produção de outputs pode demandar mais do que a quantidade ``ótima'' de inputs, ou, por outro lado, uma quantidade de inputs pode produzir uma quantidade ``não-ótima'' de outputs.
 
-Pensando em termos de gráficos: \(c\) é o valor (não-aleatório,
-``\textit{certo}'') com o qual o indivíduo alcança a utilidade média
-(dadas as suas possibilidades \(u_{1},\dots, u_{n}\)). Intuitivamente,
-pensaríamos que este ponto seria
-\[
-c = \sum \limits_{i=1}^{n} p_{i} x_{i}
-\]
-i.e.~o valor esperado dentre as possibilidades \(x_{i}\). Este caso,
-porém, é o que se chama de ``indiferente ao risco''. Indivíduos que têm
-\textit{aversão} ao risco, por outro lado, preferem um valor
-\textit{menor, porém certo}, para evitar a aleatoriedade; eles se
-dispõem a receber um valor menor, contanto que não se indisponham a
-``recebíveis'' incertos. \textit{Mutatis mutandis} para indivíduos
-\textit{amantes} ao risco: eles precisam ser pagos valores certos
-\textit{maiores} para que se abstenham do risco.
+\begin{definition}
+\parencite[, p. 132]{Mas-Colell1995} Os \textit{retornos de escala} de
+um conjunto de produção \(Y\) dizem respeito à \textit{viabilidade} de
+aumentar/diminuir a escala de algum plano de produção viável
+\(y \in Y\).
 
-\begin{figure}[h]
+As definições são: 
+\begin{enumerate}
+  \item Retornos \textit{não-crescentes} de escala: para
+quaisquer escalares \(\alpha \in [0,1]\) e \(y\in Y\), tem-se que
+\(\alpha y \in Y\). Ou seja, se \(y\) é um plano de produção factível,
+ele pode ser realizado em menor escala,mas \textit{nada garante} que ele
+o será em maior escala (\textit{ceteris paribus}, em particular as
+proporções de insumos e produtos etc.).
+  \item Retornos
+\textit{não-decrescentes} de escala: para quaisquer escalares
+\(\alpha \geq 1\) e \(y \in Y\), tem-se que \(\alpha y \in Y\). Ou seja,
+se \(y\) é um plano de produção factível, então ele pode ser realizado
+em maior escala, mas não necessariamente ele pode ser \textit{scaled
+down}.
+  \item Retornos \textit{constantes} de escala: são não-decrescentes e
+não-crescentes em escala. Portanto, para todo escalar \(\alpha \geq 0\)
+e \(y \in Y\), tem-se que \(\alpha y \in Y\).
+\end{enumerate}
+
+Pode-se visualizar estes conjuntos da seguinte forma:
+
+\begin{figure}[h!]
   \centering
-  \includegraphics[width=\linewidth]{images/Pasted image 20260416180100.png}
-  \caption{Fonte: \textcite{Cowell2004}, p.~191. Na figura, os possíveis
-acontecimentos são \(x_{\color{red} Red}, x_{\color{blue} Blue}\)
-(implicitamente com probabilidades respectivas
-\(p_{\color{red} Red}, p_{\color{blue} Blue}\)), \(\mathcal{E}x\) é o
-valor esperado dos acontecimentos \(x\) (i.e.~\(\sum p_{i}x_{i}\)), e
-\(\xi\) é o equivalente certo para este indivíduo. Note-se que, como
-\(\xi < \mathcal{E}x\), este indivíduo é \textit{avesso} ao risco; isso
-também é notável por sua utilidade \textit{côncava}
-(\(u^{\prime\prime}<0\)).}
+  \includegraphics[width=0.45\linewidth]{images/Pasted image 20260521124131.png}
+  \caption{Conjunto de produção com retornos \textit{não-crescentes} de escala. Fonte: \href{https://felixmunozgarcia.com/wp-content/uploads/2018/02/chapter-4-production-theory.pdf}{felixmunozgarcia.com/wp-content/uploads/2018/02/chapter-4-production-theory.pdf}.}
 \end{figure}
 
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.45\linewidth]{images/Pasted image 20260521124214.png}
+  \caption{Conjunto de produção com retornos de escala \textit{não-decrescentes}. Fonte: \href{https://felixmunozgarcia.com/wp-content/uploads/2018/02/chapter-4-production-theory.pdf}{felixmunozgarcia.com/wp-content/uploads/2018/02/chapter-4-production-theory.pdf}.}
+\end{figure}
+
+
+\begin{figure}[h!]
+  \centering
+  \includegraphics[width=0.45\linewidth]{images/Pasted image 20260521124319.png}
+  \caption{Conjunto de produção com retornos de escala \textit{constantes}. Note que ele está no ``meio termo'' entre não-crescente e
+não-decrescente, ou melhor, é ambos ao mesmo tempo. Fonte: \href{https://felixmunozgarcia.com/wp-content/uploads/2018/02/chapter-4-production-theory.pdf}{felixmunozgarcia.com/wp-content/uploads/2018/02/chapter-4-production-theory.pdf}.}
+\end{figure}
 \end{definition}
+
+O mais comum, porém, é de se falar de processos que tomam \(n\) inputs \(z \in \mathbb{R}^{n}\) e produzem somente \(1\) output \(y \in \mathbb{R}_{+}\). Não só isso, é comum também falar-se de \textit{funções de produção} \(f(z) \in \mathbb{R}\) que descrevem processos \textit{ótimos} de produção.
 
 \begin{definition}
-Dado um indivíduo com um equivalente certo \(C(L, u)\) e cujos possíveis
-acontecimentos \(x_{1},\dots,x_{n}\) (com resp. probabillidades
-\(p_{1},\dots,p_{n}\)) tenham valor esperado
+Uma função \(f: \mathbb{R}^{n} \to \mathbb{R}_{+}\) é dita ser uma
+\textit{função de produção} se ela descreve um processo de produção
+``ótimo'' em um conjunto de produção \(Y \subseteq \mathbb{R}^{n+1}\).
+Ou seja, para cada processo de produção
+\((z_{1}, \dots, z_{n}, y) \in Y\), tem-se que
 \[
-\left<x\right> \coloneqq \sum \limits_{i=1}^{n} p_{i} x_{i}
+f(z) \geq y
 \]
-define-se seu \textit{prêmio de risco} como
-\(\left< x \right> - C(L,u)\)
-\parencite[, p. 191]{Cowell2004}.\footnote{Note-se que esta definição
-  \textbf{não} é a mesma que \textcite{Mas-Colell1995} fazem: MWG definem
-  o que chamaram de ``\textit{probability premium}'' (definição
-  \textbf{6.C.2 (ii)}, p.~186), mas não o \textit{risk premium}
-  \textit{per se}.}
 
-Para indivíduos indiferentes ao risco, ele é \(= 0\); para os avessos ao
-risco, é \(>0\); para os amantes ao risco, é \(<0\).
+Ou seja, o valor \(f(z)\) é o output ótimo que esta firma consegue
+produzir a partir destes inputs \(z_{1},\dots,z_{n}\). Isso não quer
+dizer que \(f(z)\) é o \textit{único output} possível de se obter com
+inputs \(z\) --- pois sempre é possível se produzir \textit{menos
+eficientemente}, p.~ex. com algum processo mais desorganizado ---, e sim
+\(f(z)\) é o maior output possível de se obter através dos inputs \(z\),
+ou, visto de outra forma, é o output que é obtido através do processo
+\textit{mais eficiente possível} (com os inputs \(z\)).
 \end{definition}
+
+O problema da firma possui um paralelo com o problema do consumidor, consistindo em dois problemas duais: a firma pode buscar \textit{minimizar seu custo de produção}, assim como pode buscar \textit{maximizar seu lucro}. Tais problemas são passíveis de ser descritos pelo formalismo acima.
+
+O usual é de se falar sobre a minimização do custo \(\sum \limits_{i=1}^{n} w_{i}z_{i}\) --- em que \(w_{i}\) é o custo do input \(i\), consumido em \(z_{i} \in \mathbb{R}\) ``unidades'' neste processo específico --- para a produção de uma dada quantidade \(\bar{q} \in \mathbb{R}\) de output, com alguma função produção \(f(z_{1},\dots,z_{n}) \in \mathbb{R}\), e que será vendida a preço \(p\) por unidade produzida. Ou seja, usualmente fala-se do problema de \textit{minimização do custo}.
+
+\textbf{Um comentário sobre notação}: Quando se fala sobre netputs, costuma-se empregar $p_i$ como os preços de todos estes elementos da produção. Contudo, conforme notação usual, empregaremos \(w_{i}\) como o \textit{custo do insumo} \(i\) --- quando for cabível discerni-lo do produto, especialmente em processos de produção de somente um produto $q$ ---, análogo ao \textbf{w}age/preço da força de trabalho, e \(p_{j}\) como o \textit{preço do produto} \(j\). Não confundir estes \(w\)'s com ``restrições orçamentárias''!
+
+\begin{definition}
+O problema de minimização do custo de uma firma com conjunto de produção
+\(Y \in \mathbb{R}^{n+1}\) e função produção
+\(f: \mathbb{R}^{n} \to \mathbb{R}_{+}\), dados os preços de seus
+insumos \(w \in \mathbb{R}^{n}\), consiste no problema
+\[
+\min\limits_{z \in \mathbb{R}^{n}} \sum \limits_{i=1}^{n} p_{i}z_{i \,\,\,} \text{  t. q. } \, f(z) \geq q
+\]
+I.e. minimizar o custo com o qual pode-se produzir \textit{no mínimo}
+\(q\) unidades de output; ou seja, ``aproveita-se ao máximo'' os insumos
+dados. Denote-se os valores ótimos dessa minimização como \(z_{i}^*\).
+
+As quantidades ótimas dos inputs empregados sob este problema (de
+minimização de custo) são denominadas de \textit{demandas condicionais}
+\(H^{i}(w,q)\) deste processo \parencite[, p. 23]{Cowell2004}, denotadas
+como
+\[
+H^{i}(w, q) \coloneqq z^{*}_{i}
+\]
+
+Os valores da função minimizada neste problema compõem a \textit{função
+custo} desta firma:
+\[
+C(w,q) \coloneqq \sum \limits_{i=1}^{n} p_{i} z^{*}_{i} = \sum \limits_{i=1}^{n}p_{i} H^{i}(w, q)
+\]
+Como Cowell o coloca, a função custo descreve ``o investimento
+{[}\textit{outlay}{]} mínimo que a firma exige para adquirir os
+insumos'', dados os preços dos insumos \(w\) e o nível de produção \(q\)
+\parencite[, p. 23]{Cowell2004}.
+
+Há um claro análogo com a teoria do consumidor, em que a \textit{função
+dispêndio}
+\[
+e(p, \bar{u}) = \sum \limits_{i=1}^{n} p_{i} x_{i}^{*}
+\]
+é a \textit{restrição orçamentária mínima} com a qual alcança-se um
+nível de utilidade \(\bar{u}\) sob preços \(p\) dos bens consumidos
+\(x_{i}^{*}\)\footnote{Demandas estas que, sob o problema de minimização
+  da restrição orçamentária, são Demandas Hicksianas.} em uma cesta.
+\end{definition}
+
+Por outro lado, o formalismo mais geral de conjuntos de produção, em que inputs são ``negativos'' e outputs são ``positivos'', permite uma descrição mais elegante do problema de \textit{maximização do lucro}.
+
+\begin{definition}
+O problema de maximização do lucro de uma firma que tenha um conjunto de
+produção \(Y \in \mathbb{R}^{n}\) pode ser escrito, no caso geral, como
+\[
+\max\limits_{y \in Y} \sum \limits_{i=1}^{n} p_{i}y_{i}= \max\limits_{y \in Y} \left\{\underbrace{ \sum \limits_{i} p_{i} y_{i} }_{ \underset{(y_{i} > 0)}{\text{Receita } }} - \underbrace{ \sum \limits_{j} p_{j}|y_{j}| }_{ \underset{(y_{j} < 0)}{\text{Custo}}}\right\}
+\]
+
+O caso usual, em que empregam-se \(n\) inputs \(z_{1},\dots,z_{n}\) (com
+preços \(w_{1},\dots,w_{n}\)) para a produção de um output \(q\) (com
+preço \(p\)), escreve-se como
+\[
+\max\limits_{x_{i}, q \,\in \mathbb{R}} \left\{pq - \sum \limits_{i}w_{i}z_{i}\right\}
+\]
+
+Supondo que a firma tenha uma função produção
+\(f(x_{1},\dots,x_{n}) \equiv f(x)\), o problema se escreve\footnote{Pois,
+  lembrando da definição de função produção, \(f(z)\) é a quantidade
+  ótima que se pode obter de \(z_{1},\dots,z_{n}\). É por isso que o
+  problema restringe-se a buscar otimizar somente \(z\), invés de \(z\)
+  e \(q\).}
+\[
+\max\limits_{z_{i} \in \mathbb{R}} \left\{pf(z) - \sum \limits_{i}w_{i}z_{i}\right\}
+\]
+
+\end{definition}
+
+
+
+
+
+
 
 \hypertarget{exercuxedcios}{%
 \section{Exercícios}\label{exercuxedcios}}
+
 \begin{exercise}
-\parencite[, pp. 233-5]{Varian2014} Suponhamos que um indivíduo possui
-renda \(w\) e queira investir uma parcela \(x\) dela em algum ativo
-arriscado, tal que divida sua renda de forma
+\parencite[, pp. 135-6]{Mas-Colell1995} Seja \(Y\) um conjunto de
+produção com retornos de escala \textit{não-decrescentes}. Ou seja,
 \[
-\begin{cases}
-x&: \text{Ativo arriscado}\\
-w-x&: \text{Riqueza não-investida} 
-\end{cases}
+\forall y \in Y, \forall \alpha\geq 1: \alpha y \in Y
 \]
 
-Este ativo pode ter um retorno \(r_{b}\) em um cenário ``ruim'' com
-probabilidade \(p\), e um retorno \(r_{g}\) em um cenário ``bom'' com
-probabilidade \(1-p\).\footnote{Caso vá checar no Varian, ele utiliza
-  \(p\) para o resultado \textit{bom} e \(1-p\) para o resultado
-  \textit{ruim}. Caso haja algum erro aqui, com certeza se deu devido a
-  esta alteração aqui.} Consideremos, em geral, que \(r_{g}> 0\), e que,
-ao menos, \(r_{b}<r_{g}\), em geral tendo \(r_{b}<0 < r_{g}\).
+Prove que, dados preços \(p\) --- de insumos e de produtos ---, o
+lucro\footnote{Lembrando que, num conjunto de produção \(Y\), insumos
+  são valores negativos, e produtos são valores positivos.}
+\[\pi(p) \coloneqq \max\limits_{y \in Y} p \cdot y\] 
+desta firma ou tende a \(\infty\), ou \(\pi(p) \leq 0\).
 
-A riqueza deste indivíduo, em ambos os cenários, será
+(Note que, como não existe almoço grátis na vida, este caso não é
+sustentável na realidade. O que \textit{pode} acontecer é que um certo
+processo de produção tenha \textit{localmente} retornos de escala
+não-decrescentes, mas que, a escalas de produção maiores, ele tenha
+\textit{rendimentos marginais decrescentes}.)
+\end{exercise}
+
+\begin{exercise}
+Suponha que \(f: \mathbb{R} \to \mathbb{R}^{L-1}\) seja a função de
+produção de um único produto, e seja \(Y \subseteq \mathbb{R}^L\) o
+respectivo conjunto de produção.
+
+Mostre que \(Y\) satisfaz retornos constantes de escala se, e somente
+se, \(f\) é homogênea de grau \(1\).
+\end{exercise}
+
+\begin{exercise}
+Para uma firma com função produção
+\[
+f(K, L) = K^{\alpha}L^{\beta}
+\]
+em que \(K\) tem ``preço'' \(r\) (produtividade marginal do capital/taxa
+real de juros) e \(L\) tem ``preço'' \(w\) (produtividade marginal do
+trabalho/salário real).
+
+Resolva o problema de minimização de custo no curto prazo (\(K=\bar{K}\)
+fixo, \(L\) variável) e longo prazo (\(K,L\) variáveis), obtendo as
+respectivas demandas condicionais \(K^{*}(r,w,q)\) e \(L^{*}(r,w,q)\)
 
 \begin{align*}
-W_{g} = (w-x) + x (1+r_{g}) = w + x r_{g}\\
-W_{b} = (w-x) + x (1+r_{b}) = w + x r_{b}
+\text{Curto prazo: }&  \begin{cases}
+K^{*} = \bar{K} \\
+L^{*}(w,r,q;\bar{K}) = \left( \frac{q}{\bar{K}^{\alpha}} \right)^{1/\beta}
+\end{cases} \\
+\text{Longo prazo: }& \begin{cases}
+K^{*}(w,r,q) = q^{1/\alpha+\beta} \left( \frac{w}{r} \frac{\alpha}{\beta} \right)^{\beta/\alpha+\beta} \\
+L^{*}(w,r,q) = q^{1/\alpha+\beta} \left( \frac{r}{w} \frac{\beta}{\alpha} \right)^{\alpha/\alpha+\beta}
+\end{cases}
 \end{align*}
 
-A utilidade esperada deste indivíduo será
-\[
-\left<u\right> = p \,u(W_{b}) + (1-p) \,u(W_{g})
-\]
-e este indivíduo deseja encontrar \(x\) ótimo que maximize sua utilidade
-esperada. Supomos também que ele é avesso ao risco.
-
-No que tange à derivada da utilidade esperada com relação a \(x\),
-investigue o caso em que \(x=0\). Qual é a condição com que se pode
-garantir que haja \(x^*>0\)? Como ela relaciona-se com
-\(\langle r \rangle = p r_{b}+(1-p)r_{g}\)?
-
-Satisfeitas as condições necessárias para que \(x^*>0\), investigue o
-que ocorre quando temos uma taxação sobre os retornos:
-\[
-r_{i} \mapsto \tilde{r}_{i} = (1-t) r_{i}
-\]
-
-Mostre que a solução ótima de riqueza pós-taxação \(\hat{x}\) de se
-investir satisfaz
-\[
-\hat{x} = \frac{x^*}{1-t}
-\]
-quando \(x^*\) é solução ótima pré-taxação. Isso condiz com sua intuição
-de \(\hat{x} \gtrless x^*\)?
-
-Sinta-se livre para explorar este exercício nesta simulação:
-\href{https://www.desmos.com/calculator/ppkg28wznf}{Investimentos e
-Taxação (Simulação no Desmos)}!
-\end{exercise}
-
-\begin{exercise}
-\parencite[, pp. 223-4]{Cowell2004} Um indivíduo precisa declarar sua
-renda \(y\) às autoridades. A renda que ele pode declarar,
-\(0 \leq x \leq y\), será taxada a uma taxa \(t \in (0,1)\).
-
-Suponha que a probabilidade de que sua renda declarada seja
-\textit{auditada} é \(p\). Caso o indivíduo declare \(x < y\), então ele
-deverá pagar a mais como multa, de tal forma que sua renda disponível
-fica na forma:
-\[
-\begin{cases}
-\text{Sem auditoria: } y_n \coloneqq y - tx \\
-\text{Com auditoria: } y_a \coloneqq (1-(1+s)t)y + stx 
-\end{cases}
-\]
-
-Suponha que o indivíduo é avesso ao risco, e que tenha utilidade \(u(\cdot)\). Escreva a utilidade média \(\langle u \rangle\), e obtenha a condição de primeira ordem da maximização da utilidade média (com relação a \(x\)).
-
-Através da condição de primeira ordem, mostre que, quando \(s=\frac{1-p}{p}\), \(x=y\), e que, quando \(s>\frac{(1-p)}{p}\), valerá que \(x < y\).
-
-\begin{remark}  
-O motivo da fórmula da renda disponível pós-auditoria ficar daquela forma é o seguinte.
-Supondo que \textit{vá haver auditoria}, temos os casos extremos 1) para
-\(x=y\), naturalmente ele terá \((1-t)y\) de renda disponível em ambos
-os casos (afinal, quem não deve, não teme); 2) com \(x=0\), ele fica com
-\((1 - (1+s)t)y\): ele paga o imposto que deveria, i.e. $ty$, mais uma multa $sty$, sendo sua renda disponível $y$ menos estes dedutíveis. 
-
-Estes dois casos compõem o máximo e o mínimo, respectivamente ao declarar $x=y$ e $x=0$, que o indivíduo conseguiria reter como renda disponível \textit{sob auditoria}. Chamando de $Y(x)$ a renda disponível que ele reterá ao declarar $x$, então, por triângulos equivalentes --- ``este $\Delta Y(x)$ para este $\Delta x$ $=$ aquele $\Delta f(x)$ para aquele $\Delta x$'', assumindo uma $Y(x)$ linear em $x$ ---, temos que
+e respectivas funções custo:\footnote{Citando o honorável
+  professor do IFUSP João Carlos Alves Barata --- autor das
+  enciclopédicas
+  \href{https://denebola.if.usp.br/~jbarata/Notas_de_aula/capitulos.html}{Notas
+  (de Física Matemática) do Barata} ---, é bom ``fazer estas contas ao
+  menos uma vez na vida'' --- e depois meramente usar os resultados que
+  outros já tiveram a dor de cabeça de calcular!}
 
 \begin{align*}
-\frac{[(1-t)y] - [(1-(1+s)t)y]}{y - 0} = \frac{Y(x) - [(1-t)y]}{x - 0} \\
-\therefore Y(x) = (1-(1+s)t)y + stx
+&\text{Curto prazo: } C(w,r,q; \bar{K}) = r \bar{K} + w \left( \frac{q}{\bar{K}^{\alpha}}\right)^{1/\beta} \\
+&\text{Longo prazo: } C(w, r, q) = q^{1/\alpha+\beta}  \left[ r^{\alpha} \left(w \frac{\alpha}{\beta} \right)^{\beta/\alpha+\beta}
++ w^{\beta} \left( r \frac{\beta}{\alpha} \right)^{\alpha/\alpha+\beta} \right]
 \end{align*}
-\end{remark}
-\end{exercise}
-
-
-
-\begin{exercise}
-Mostre que o equivalente certo de uma função utilidade exponencial
-\(u(x) = - e^{-ax}\) assume a forma
-\[
-C = - \frac{1}{a} \ln\left( \sum \limits_{i}p_{i}e^{-ax_{i}} \right) = \frac{1}{a} \ln\left( \frac{1}{\sum \limits_{i}p_{i}e^{-ax_{i}}} \right)
-\]
-Fazendo a transformação \(x_i = \ln \frac{\tilde{x_{i}}}{a}\) e
-\(C = \ln \frac{\tilde{C}}{a}\), esta fórmula assume a forma de uma
-\textit{média harmônica ponderada}
-\[
-\tilde{C} = \frac{1}{\sum \limits_{i} p_{i} \frac{1}{\tilde{x}_{i}}} 
-\]
-
-
 \end{exercise}
 
 \begin{exercise}
-Mostre que o equivalente certo de uma função utilidade isoelástica
-\(u(x) = \frac{x^{1-\rho}-1}{1-\rho}\) assume a forma de uma
-\textit{$p$-norma ponderada}\footnote{\url{https://en.wikipedia.org/wiki/Lp_space\#The_p-norm_in_finite_dimensions}.} (na verdade, uma \((1-\rho)\)-norma ponderada), i.e.
-\[
-   C(L, \rho) = \left( \sum \limits_{i} p_{i} x_{i}^{1-\rho} \right)^{1/(1-\rho)}
-   \]
+Considere um indivíduo com utilidade quase-linear
+\(u(x, m) = \phi(x) + m\),. Assuma que há uma firma com função de custos
+\(C(q) = \sigma q\) (\(\sigma>0\)), e que este indivíduo recebe todos os
+lucros desta firma. Assuma que a dotação inicial do numerário é
+\(\omega_{m}>0\) e a do bem \(x\) é \(\omega_{x}=0\).
 
+Tanto a firma quanto o consumidor são assumidos como tomadores de
+preços: \(x\) tem preço \(p\), e \(m\) tem preço \(1\)\footnote{I.e.
+  \(m\) é assumido como numerário.}. Note que o preço \(p\) do bem \(x\)
+conta para o consumidor (i.e.~é um dispêndio) e para a firma (i.e.~conta
+para sua receita).
+
+\begin{enumerate}
+\item
+  Derive as condições de primeira ordem do consumidor e da firma, para
+  \(\phi(x)\) genérica. Como a condição fica para
+  \(\phi(x)=\alpha+\beta \ln x\)?
+\item
+  Derive o preço de equilíbrio competitivo e o produto do bem \(x\), e a
+  quantidade de \(x\) produzido pela firma. Como eles variam conforme
+  \(\sigma\), e com relação a \(\alpha,\beta\) do subitem
+  acima?\footnote{Exercício de uma lista de um dos monitores prévios
+    desta disciplina, Carlos Henrique de C. Júnior.}
+\end{enumerate}
 \end{exercise}
-
-\begin{exercise}
-Mostre que o equivalente certo de uma função utilidade logarítmica
-\(u(x) = \ln x\) tem a forma de uma \textit{média geométrica ponderada}
-\[
-C(L) = \prod \limits_{i=1}^{n} x_{i}^{p_{i}}
-\]
-
-\end{exercise}
-
-\begin{exercise}
-\parencite[, p. 230-1]{Varian2014} Suponha uma comunidade de \(N\)
-indivíduos, cada um com renda \(w\) e com uma probabilidade
-\(0\leq p \leq 1\) de sofrer uma perda \(L\) (ou seja, ficando com renda
-\(w-L\)). Suponha que estes indivíduos reservem uma quantidade \(q\) de suas
-rendas (ficando com renda \(w-q\)) em um ``\textit{pool}'' monetário comum, de tal
-forma que indivíduos que sofram esta perda $L$ possam ressarcir-se através
-deste \textit{pool}.
-
-Supondo que os riscos dos indivíduos sejam \textit{independentes entre
-si}, calcule qual tem de ser essa quantidade \(q\) em função de \(p\) e
-\(L\). Ela depende de \(N\)? Por quê/por que não?
-
-Ademais, verifique que este valor é justamente o que um indivíduo
-\textit{indiferente ao risco} pagaria por este seguro: se sua função
-utilidade for \(u(x) = ax\) (\(a>0\)), então ele estaria disposto a pagar este mesmo valor. (Dica: a fórmula do equivalente certo diz sobre \textit{a renda equivalente} que dá a utilidade média ao indivíduo, enquanto aqui queremos saber \textit{o valor subtraído da renda} que ele aceita para se desfazer do risco, i.e. o quanto ele se dispõe \textit{a pagar}.)
-
-Obs: Isto é o que se costuma chamar de \textit{mutualismo}, ou
-\textit{risk pooling}, em ciências atuariais.
-
-Obs²: Sinta-se à vontade para testar este exemplo com algumas funções
-utilidade comuns nesta simulação:
-\href{https://www.desmos.com/calculator/quce5bk5v5}{Equivalentes certos
-(Simulação Desmos)}.
-\end{exercise}
-
-
-
 
 \hypertarget{resoluuxe7uxf5es}{%
 \section{Resoluções}\label{resoluuxe7uxf5es}}
 \setcounter{exercise}{0}
+
 \begin{exercise}
-Diferenciando \(\langle u \rangle\) com relação a \(x\), temos
-\[
-\frac{d\langle u \rangle}{dx} = p r_{b} \, u^\prime(W_{b}) +(1-p) r_{g} \, u^\prime(W_{g})
-\]
+Caso haja \textit{algum} processo de produção \(y \in Y\) tal que
+\(p \cdot y > 0\), então, pela hipótese de retornos de escala
+não-decrescente, este processo pode ser expandido para \(\alpha y\),
+gerando um lucro maior. Por hipótese, este processo pode ser extendido
+\textit{ad infinitum}; portanto, a função lucro, sendo o \textit{máximo}
+de \(p\cdot y\), é ilimitada, i.e.~\(\pi(p)\to \infty\).
 
-A segunda derivada fica como
-\[
-\frac{d^{2}\langle u \rangle}{dx^{2}} = p r_{b}^{2} \, u^{\prime\prime}(W_{b}) +(1-p) r_{g}^{2} \, u^{\prime\prime}(W_{g}) < 0
-\]
-que é \(<0\) por conta da aversão ao risco pressuposta.
+O caso oposto, em que \textit{todos} os processos \(y \in Y\) fazem com
+que \(p \cdot y \leq 0\), farão com que \(\pi(p) \leq 0\)
+inequivocamente.
 
-É pertinente que consideremos o caso da derivada de
-\(\langle u \rangle\) em que \(x=0\), pois, caso sua utilidade esperada
-\textit{somente caia} para \(x>0\), ele não investirá nada, pois terá
-seu máximo em \(x=0\). Seu valor é
-
-\begin{align*}
-\frac{d\langle u \rangle}{dx}(x=0) &= p r_{b} u^\prime(w) + (1-p) r_{g} u^\prime \\
-&= u^\prime(w) \langle r \rangle 
-\end{align*} onde \(\langle r \rangle=p r_{b} + (1-p) r_{g}\) é o
-retorno esperado. Naturalmente, ele estará mais instigado a investir
-caso \(\langle r \rangle>0\)\footnote{Por ser avesso ao risco. Não tende
-  a ser o mesmo para amante ao risco.}. Portanto, tomando também que
-\(u^\prime(w)>0\)\footnote{Pois sempre pressupomos que o indivíduo
-  prefere mais dinheiro do que menos --- ou seja, derivada positiva ---,
-  não obstante ele ter ``utilidade marginal decrescente''. Só porque o
-  Tio Patinhas se satisfaz menos com uma moeda a mais em seu cofre cheio
-  do que nele vazio, não quer dizer que ele não se satisfaça
-  \textit{algum pouquinho a mais}!}, então sua utilidade marginal
-tenderá a aumentar caso \(\langle r \rangle>0\), portanto instigando-o a
-investir alguma parcela \(x>0\) de sua riqueza neste ativo.
-
-Voltando ao caso geral: supomos que a função utilidade é bem-comportada
-o suficiente para que encontremos \(x^*\) ótimo através de
-\(\frac{d\langle u \rangle}{dx}=0\).
-
-Buscamos agora o efeito de uma taxação sobre os rendimentos deste
-retorno. Ou seja, os retornos pós-taxação serão \((1-t)r_{g}\) e
-\((1-t)r_{b}\)\footnote{A rigor, não faria muito sentido taxar no caso
-  \(r_{b}<0\) --- o indivíduo seria \textit{ressarcido} (parcialmente)
-  pelo governo por sua perda! Desconsideremos este caso, por
-  simplicidade\ldots{} Mas note que este ``deslize'' desempenha um papel
-  não-desprezível no resultado obtido deste exercício.}, de forma que
-sua riqueza fica da forma
-
-\begin{align*}
-W_{g} = (w-(1-t)x) + (1-t)x (1+r_{g}) = w + (1-t)x r_{g}\\
-W_{b} = (w-(1-t)x) + (1-t)x (1+r_{b}) = w + (1-t)x r_{b}
-\end{align*} A utilidade marginal fica da mesma forma, embora
-\(W_{i}(t>0) < W_{i}(t=0)\). Sua derivada fica numa forma similar:
-
-\begin{align*}
-\frac{d\langle u \rangle}{dx} &= p (1-t)r_{b}\,u^\prime(w + (1-t)x r_{b}) + (1-p) (1-t)r_{g}\,u^\prime(w + (1-t)x r_{g})
-\end{align*}
-
-Chame-se sua solução ótima pós-taxação de \(\hat{x}\). Note-se que a
-solução
-\[
-\hat{x} = \frac{x^*}{1-t}
-\]
-satisfaz que \(\frac{d\langle u \rangle}{dx}=0\):
-
-\begin{align*}
-\frac{d\langle u \rangle}{dx} &= p (1-t)r_{b}\,u^\prime\left( w + \frac{\cancel{ (1-t) }x^*}{\cancel{ 1-t }} r_{b} \right) + (1-p) (1-t)r_{g}\,u^\prime\left( w + \frac{\cancel{ (1-t) }x^*}{\cancel{ 1-t }} r_{g} \right) \\
-&= 0
-\end{align*} pois torna-se a condição ótima de \(x^*\) (pré-taxação).
-
-Note-se, portanto, que aumentar \(t\) \textbf{aumenta o percentual de
-riqueza investida}! A explicação de Varian é a seguinte
-
-\begin{quote}
-``Mediante imposto, o indivíduo terá um ganho menor no cenário bom,
-\textit{mas também terá uma perda menor no cenário ruim}. Ao aumentar
-seu investimento inicial em \(1/(1 - t)\), o consumidor pode reproduzir
-os mesmos retornos \textit{pós-impostos} que obtinha antes da
-implementação do imposto. O imposto reduz seu retorno esperado, mas
-também reduz seu risco: ao aumentar seu investimento, o consumidor pode
-obter exatamente o mesmo padrão de retornos que tinha antes e, assim,
-compensar completamente o efeito do imposto. Um imposto sobre um
-investimento arriscado representa um subsídio sobre a perda quando o
-retorno é negativo.'' \parencite[, p. 235]{Varian2014}
-\end{quote}
-
-Relembrando: sinta-se livre para explorar este exercício nesta
-simulação:
-\href{https://www.desmos.com/calculator/ppkg28wznf}{Investimentos e
-Taxação (Simulação no Desmos)}!
+Portanto, tendo \(Y\) com retornos não-decrescentes de escala,
+\(\pi(p) \to \infty\) ou \(\pi(p) \leq 0\).
 \end{exercise}
 
 \begin{exercise}
-Escrevendo \(y_{n} = y-tx\) e \(y_{a}=(1-(1+s)t)y + stx\) as rendas
-disponíveis no caso sem e com auditoria, respectivamente. Então a
-condição de primeira ordem fica como (já cancelando o fator \(t\) devido
-ao \(=0\))
-
-\begin{align*}
-(1-p) u^\prime(y_{n}) + sp u^\prime(y_{a}) \mp sp u^\prime(y_{n}) &= 0 \\
-(1-p - sp) u^\prime(y_{n}) + sp (\underbrace{ u^\prime(y_{n}) - u^\prime(y_{a}) }_{ \leq 0 }) &=0
-\end{align*}
-
-Como \(y_{a} \leq y_{n}\) --- e, evidentemente,
-\(y_{a}=y_{n} \iff x = y\) ---, temos que, embora
-\(u(y_{a}) \leq u(y_{n})\) (``mais é melhor''), temos que
-\(u^\prime(y_{a}) \geq u^\prime(y_{n}) \iff u^\prime(y_{n})- u^\prime(y_{a}) \leq 0\),
-por conta de utilidades marginais decrescentes. Porém, a condição de
-primeira ordem somente é satisfeita quando, além de \(x=y\),
+(\(\implies\)) \(Y\) ter retornos constantes de escala quer dizer que
 \[
-s = \frac{1-p}{p}
+\forall y \in Y, \forall \alpha\geq 0: \alpha y \in Y
 \]
 
-Caso \(1- p - sp < 0 \iff s > \frac{1-p}{p}\), a condição de primeira
-ordem nunca pode ser \(=0\), pois a expressão inteira é \(<0\) --- a não
-ser que o indivíduo declare, \textit{voluntariamente}, ter \textit{mais}
-do que ele tem (i.e.~se dispor a pagar por renda que ele \textit{não}
-tem)!
-
-Portanto, caso \(s < \frac{1-p}{p}\), teremos que a escolha ótima do
-indivíduo será reportar \(0 < x^{*} < y\).
-\end{exercise}
-
-
-
-\begin{exercise}
-Dada uma loteria \(L = (p_{1},\dots,p_{n})\) de possíveis resultados
-\(x=(x_{1},\dots,x_{n})\), o equivalente certo \(C(L, u)\) é a
-quantidade monetária que garante a utilidade média (i.e.~utilidade de
-von Neumann-Morgenstern). Como a utilidade \(u(x) = - e^{-ax}\) é
-definida pelo coeficiente \(a\), podemos escrever \(C(L, u) = C(L, a)\).
-
-Portanto,
-
-\begin{align*}
-\cancel{ - }e^{-aC} &= \sum \limits_{i=1}^{n} p_{i} (\cancel{ - }e^{-ax_{i}}) \\
-&= \sum \limits_{i=1}^{n} p_{i} e^{-ax_{i}}
-\end{align*} Isolando \(C\), temos
-
-\begin{align*}
-C(L, a) &= -\frac{1}{a} \ln\left( \sum \limits_{i=1}^{n}p_{i} e^{-ax_{i}} \right) \\
-&= \frac{1}{a}\ln \left( \frac{1}{\left( \sum \limits_{i=1}^{n}p_{i} e^{-ax_{i}} \right)} \right)
-\end{align*} Defina-se, a fins de simplificação, variáveis auxiliares
-\(\tilde{x}_{i}\) tais que
+Dado algum insumo \(z\), tenhamos, em particular, \(y=(z, f(z))\).
+Então, por hipótese, temos que
+\(\alpha y=(\alpha z, \alpha f(z)) \in Y\). Porém, por definição,
+\(f(z)\) é a quantidade ótima que se pode produzir através de \(z\);
+portanto, para \(\alpha z\), vale que
 \[
-x_{i} = \frac{1}{a} \ln \tilde{x}_{i} \iff \tilde{x}_{i}^{-1} = e^{-ax_{i}}
-\]
-Dessa forma, temos que \begin{align*}
-C(L, a) &= \frac{1}{a}  \ln \left( \frac{1}{\left( \sum \limits_{i=1}^{n}p_{i} \frac{1}{\tilde{x}_{i}} \right)} \right) 
-\end{align*}
-
-Fazendo o mesmo para \(C\), i.e.~\(C = \frac{1}{a}\ln \tilde{C}\), temos
-\begin{align*}
-\tilde{C} &= \frac{1}{\left( \sum \limits_{i=1}^{n}p_{i} \frac{1}{\tilde{x}_{i}} \right)}  \\
-&= \frac{\sum \limits_{i=1}^{n} p_{i}}{\left( \sum \limits_{i=1}^{n}p_{i} \frac{1}{\tilde{x}_{i}} \right)} 
-\end{align*}
-
-Ou seja, é possível escrever o equivalente certo de uma utilidade
-exponencial como uma média \textit{harmônica ponderada}.
-
-A fins de \textit{sanity check}: suponhamos que algum dos \(x_{i}\)'s
-tende a \(0\)\footnote{Em verdade: consideremos \(x_{i}\) se aproximando
-  de \(0\). Não queremos tomar o limite formal
-  \(\lim\limits_{x\to_{0}}\) neste caso.} --- \textit{mas não sua
-probabilidade} \(p_i\) ---, ou seja, é um caso que tende à perda máxima
-do indivíduo com uma probabilidade não-nula.
-
-Teremos, portanto, que, neste caso extremo,
-\[
-C \to \frac{1}{a}  \ln \left( \frac{x_{i}}{p_{i}}\right) 
+\underbrace{ f(\alpha z) }_{ \text{Qtd. ótima prod. com } \alpha z } \geq\underbrace{ \alpha f(z) }_{ \text{Qtd. retornos cte. escala} }
 \]
 
-Ou seja, o equivalente certo torna-se (muito mais) dependente deste caso
-extremo: o quanto se desejará pagar para evitar a aleatoriedade desta
-loteria será contingente
+O mesmo vale fazendo o ``caminho inverso'': tenhamos, em particular,
+\(\tilde{y} = (\tilde{z}, f(\tilde{z})) \in Y\), então
+\[
+\alpha^{-1}\tilde{y} = (\alpha^{-1}\tilde{z}, \alpha^{-1}f(\tilde{z}))
+\]
+Façamos agora \(\tilde{z}=\alpha z\). Então teremos
+\[
+y = (z, f(\alpha z)) \in Y \implies \alpha^{-1} y = (z, \alpha^{-1}f(\alpha z)) \in Y
+\]
+
+Assim como acima,
+\[
+f(z)\geq \alpha^{-1}f(\alpha z)  \iff f(\alpha z) \leq \alpha f(z)
+\]
+
+Portanto, \(f(\alpha z) = \alpha f(z)\), e \(f\) é homogênea de grau
+\(1\).
+
+(\(\impliedby\)) Seja \(\alpha\geq 0\). Então, por hipótese,
+\(f(\alpha z)=\alpha f(z)\).
+
+Tenha-se algum \(y = (z, q) \in Y\). Então
+\(\alpha y=(\alpha z, \alpha q)\). Em particular, pela definição da
+função produção,
+\[
+\alpha q\leq f(\alpha z) = \alpha f(z)
+\]
+
+Portanto {[}para um conjunto de produção suficientemente
+bem-comportado{]}, teremos que, por valer \(\alpha q \leq \alpha f(z)\),
+valerá
+\[
+(\alpha z, \alpha f(z)) \in Y \implies (\alpha z,\alpha q) \in Y
+\]
+
+Portanto, \(Y\) terá retornos constantes de escala.
 \end{exercise}
 
 \begin{exercise}
-Com a utilidade \(u(x) = \frac{x^{1-\rho}-1}{1-\rho}\), temos que
-\(C(L, u) = C(L, \rho)\), obtido da seguinte forma:
+\textit{Curto prazo}: Tenha-se \(K = \bar{K}\). Então, é possível isolar
+\(L\) através de
 
 \begin{align*}
-\frac{C^{1-\rho}-\cancel{ 1 }}{\cancel{ 1-\rho }} &= \sum \limits_{i=1}^{n} p_{i} \frac{x_{i}^{1-\rho}-\cancel{ 1 }}{\cancel{ 1-\rho }} \\
+q = f(\bar{K},L) &= \bar{K}^{\alpha} L^{\beta} \\
+\implies L^{*} &= \bar{K}^{\alpha/\beta} q^{1/\beta}
 \end{align*}
 
-Isolando \(C\), temos
+Não há ``minimização de custo'' aqui, pois o estoque fixo de capital
+\(\bar{K}\) e a isoquanta \(f(\bar{K},L) = q\) determinam o nível \(L\)
+demandado: despende-se \(L^{*}\) de trabalho para \(\bar{K}\) de
+capital, proporção esta ditada pela função produção \(f\).
+
+A função custo no curto prazo é
 \[
-C(L, \rho) = \left( \sum \limits_{i=1}^{n} p_{i} x_{i}^{1-\rho} \right)^{1/(1-\rho)}
+C(\bar{K},L^{*}) = \underbrace{ r\bar{K} }_{ \text{Custo fixo } c_{f} } + \underbrace{ w \bar{K}^{\alpha/\beta} q^{1/\beta} }_{ \text{Custo variável } c_{v}(q) }
 \]
 
-Ou seja, o equivalente certo de uma utilidade isoelástica é uma
-\href{https://en.wikipedia.org/wiki/Norm_(mathematics)\#p-norm}{p-norma}\footnote{É
-  uma \(p\)-norma \textit{de facto} assumindo-se que \(x_{i}>0\).} ---
-no caso, uma \((1-\rho)\)-norma --- \textbf{ponderada} (!!!).
+\textit{Longo prazo}: O problema de minimização do custo \(rK + wL\),
+dado um nível de produção \(q=f(K,L) = K^{\alpha}L^{\beta}\), é
+resolvido pela otimização do lagrangiano
+\[
+\mathcal{L}(K, L, \lambda) = rK+wL - \lambda (K^{\alpha}L^{\beta} - q)
+\]
+
+A otimização de \(\mathcal{L}\) traz
+\[
+\begin{cases}
+\frac{ \partial \mathcal{L} }{ \partial K } &= 0 \implies r = \alpha \lambda K^{\alpha-1} L^{\beta} \\
+ \frac{ \partial \mathcal{L} }{ \partial L } &=0 \implies w = \beta \lambda K^{\alpha}L^{\beta-1} \\
+ \frac{ \partial \mathcal{L} }{ \partial \lambda } &=0 \implies q = K^{\alpha}L^{\beta}
+\end{cases}
+\]
+
+Dividindo a primeira equação pela segunda, temos
+\[
+L^{*} = \frac{r}{w} \frac{\beta}{\alpha} K^{*}
+\]
+
+Substituindo na restrição (terceira equação), temos
+
+\begin{align*}
+q &= K^{\alpha}L^{\beta} \\
+&= K^{\alpha} \left( \frac{r}{w} \frac{\beta}{\alpha} \right)^{\beta} K^{\beta} \\
+\therefore K^{*} &= q^{1/\alpha+\beta} \, \left( \frac{w}{r} \frac{\alpha}{\beta} \right)^{\beta/\alpha+\beta}
+\end{align*}
+
+Ressubstituindo na equação de \(L^{*}\), temos
+
+\begin{align*}
+L^{*} &= q^{1/\alpha+\beta} \, \left( \frac{r}{w} \frac{\beta}{\alpha}  \right) \left( \frac{w}{r} \frac{\alpha}{\beta} \right)^{\beta/\alpha+\beta} \\
+&= q^{1/\alpha+\beta} \, \left( \frac{w}{r} \frac{\alpha}{\beta} \right)^{(-\alpha-\beta)/\alpha+\beta} \left( \frac{w}{r} \frac{\alpha}{\beta} \right)^{\beta/\alpha+\beta} \\
+&= q^{1/\alpha+\beta} \left( \frac{w}{r} \frac{\alpha}{\beta} \right)^{-\alpha/\alpha+\beta} \\
+\therefore L^{*} &= q^{1/\alpha+\beta} \left( \frac{r}{w} \frac{\beta}{\alpha}  \right)^{\alpha/\alpha+\beta}
+\end{align*}
+
+A função custo, sendo \(C(r,w,q) = r K^{*} + w L^{*}\), fica
+
+\begin{align*}
+C(r,w,q) &= q^{1/\alpha+\beta} \left( \frac{r^{(\alpha+\cancel{ \beta })/\alpha+\beta}}{r^{\cancel{ \beta }/\alpha+\beta}} \left( w \frac{\alpha}{\beta} \right)^{\beta/\alpha+\beta} + \frac{w^{(\cancel{ \alpha }+\beta)/\alpha+\beta}}{w^{\cancel{ \alpha }/\alpha+\beta}}\left( r \frac{\beta}{\alpha} \right)^{\alpha/\alpha+\beta} \right) \\
+&= q^{1/\alpha+\beta} \left( r^{\alpha/\alpha+\beta} \left( w \frac{\alpha}{\beta} \right)^{\beta/\alpha+\beta} + w^{\beta/\alpha+\beta} \left( r \frac{\beta}{\alpha} \right)^{\alpha/\alpha+\beta} \right)
+\end{align*}
+
+Note que não há nenhum termo de custo fixo, pois, \textit{no longo
+prazo}, mesmo o fator de produção \(K\) também é passível de ser variado
+(no que tange à produção de \(q\)).
 \end{exercise}
 
 \begin{exercise}
-\begin{align*}
-\ln C &= \sum \limits_{i=1}^{n} p_{i} \ln x_{i} \\
-&= \sum \limits_{i=1}^{n} \ln x_{i}^{p_{i}} \\
-&= \ln \left( \prod \limits_{i=1}^{n} x_{i}^{p_{i}} \right)
-\end{align*}
-
-Portanto,
-
-\begin{align*}
-C &= \prod \limits_{i=1}^{n} x_{i}^{p_{i}} \\
-&= \left( \prod \limits_{i=1}^{n} x_{i}^{p_{i}} \right)^{1/\sum \limits_{i}p_{i}}
-\end{align*}
-
-Ou seja, o equivalente certo de uma utilidade logarítmica é uma média
-geométrica \textit{ponderada}. Note-se que, aqui, não é uma média
-\textit{aritmética}, ou seja, estamos falando de variações
-\textit{multiplicativas} de riqueza, muito propício p.~ex. em contextos
-financeiros.
-\end{exercise}
-
-
-\begin{exercise}
-A probabilidade de que qualquer indivíduo \(i\) sofra uma perda
-\(L_{i}\) é
+Maximização da utilidade do consumidor \(u(x,m) = \phi(x) + m\), com
+restrição orçamentária
 \[
-P(L_{i}) = p
+p\cdot x+1\cdot m \leq \omega_{m}
 \]
 
-Supondo que haja \textit{um} indivíduo que sofra essa perda, a
-quantidade que todos --- incluindo o próprio indivíduo --- pagariam para
-ressarci-lo seria \(\frac{L}{N}\).
-
-Como os riscos são independentes, a quantidade média de indivíduos que
-será afetada é \(p\cdot N\). Multiplicando ambos, teremos a quantidade
-que cada indivíduo deve pagar para ressarcir esta quantidade média de
-indivíduos:
+Condições de primeira ordem:\footnote{Evitando Kuhn-Tucker, \textit{as
+  per usual}\ldots{}}
 \[
-q=\frac{L}{\cancel{ N }} \cancel{ N } p = pL
+\begin{cases}
+\phi^\prime(x) + \lambda p = 0 \\
+1 + \lambda = 0
+\end{cases}
 \]
 
-Note-se que, embora a quantidade para ressarcir \textit{um único
-indivíduo} seja inversamente proporcional a \(N\), a quantidade média de
-\textit{indivíduos a se ressarcir} é diretamente proporcional a \(N\), o
-que faz com que \(q\) não dependa de \(N\), e sim da probabilidade \(p\)
-em si. Lembre-se que estamos considerando aqui \textbf{riscos
-independentes}!!
+Como \(\lambda=-1\), teremos que tem de valer
+\[
+\phi^\prime(x) = p
+\]
 
-Tomando um indivíduo indiferente ao risco com \(u(x)=ax\), pela
-definição de equivalente certo, teremos \begin{align*}
-u(w-q) = \cancel{ a }(w-q) &= (1-p)u(w) + p u(w-L) \\
-&= (1-p) \cancel{ a }w + p \cancel{ a }w - p \cancel{ a }L \\
-\implies q &= pL
+Para o caso específico de \(\phi(x) = \alpha+\beta \ln x\), teremos
+\[
+x^* = \frac{\beta}{p}
+\]
+
+Ressubstituindo na restrição orçamentária, teremos que \begin{align*}
+m^* &= \omega_{m}-p x^* \\
+&= \omega_{m}- \beta
 \end{align*}
+
+Maximização do lucro da firma requer a maximização da função lucro
+\[
+\pi(q) = pq-\sigma q = (p-\sigma)q
+\]
+
+Como só teremos que \(\pi\geq 0 \iff p \geq \sigma\); evitando soluções
+de canto, requer-se que \(p=\sigma\).
+
+Portanto, quando ambas as soluções valem, teremos (para a \(\phi(x)\)
+logarítmica acima)
+\[
+\begin{cases}
+p=\sigma \\
+x^*=\frac{\beta}{\sigma} \\
+m^* = \omega_{m}-\beta
+\end{cases}
+\]
+
 \end{exercise}
-
-\begin{exercise}
-Tomando as utilidades dos exercícios anteriores, teremos: 
-
-1- Exponencial
-
-\begin{align*}
--e^{-a(w-q)} &= -(1-p)e^{-aw} - pe^{-a(w-L)} \\
-\implies e^{-a(\cancel{ w }-q)} &= \cancel{ e^{-aw} }(1-p + p e^{aL}) \\
-\implies q &= \frac{1}{a}\ln(1-p+pe^{aL})
-\end{align*} 2 - Isoelástica (já cancelando os termos \(1-\rho\) do
-denominador) \begin{align*}
-(w-q)^{1-\rho}-\cancel{ 1 } &= (1-p)(w^{1-\rho}-\cancel{ 1 }) + p ((w-L)^{1-\rho}-\cancel{ 1 }) \\
-\implies (w-q)^{1-\rho} &= w^{1-\rho}\left( 1-p + p \left( 1-\frac{L}{w} \right)^{1-\rho} \right) \\
-\implies q &= w \left(1- \left( 1-p + p \left( 1-\frac{L}{w} \right)^{1-\rho} \right)\right)^{1/1-\rho}
-\end{align*}
-
-3 - Logarítmica \begin{align*}
-\ln(w-q) &= (1-p)\ln w + p\ln(w-L) \\
-&=\ln w^{1-p}+ \ln(w-L)^{p} \\
-&= \ln(w^{1-p}(w-L)^{p})\\
-\implies w-q &= w ^{1-p} (w-L)^{p} \\
-&= w \left( 1-\frac{L}{w} \right)^{p}\\
-\implies q = w\left( 1-\left( 1-\frac{L}{w} \right)^{p} \right)
-\end{align*}
-
-De novo: fique à vontade para testar a simulação
-\href{https://www.desmos.com/calculator/quce5bk5v5}{Equivalentes certos
-(Simulação Desmos)}!
-\end{exercise}
-
-
-
 
 \printbibliography
 

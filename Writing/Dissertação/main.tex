@@ -21,9 +21,9 @@
 %\usepackage[backend=biber, style=abnt]{biblatex}
 %\addbibresource{Khazzoom-Brookes.bib}
 
-\usepackage[backend=biber,style=abnt,language=brazilian]{biblatex}
+\usepackage[backend=biber,style=abnt,language=brazilian,sorting=nyt]{biblatex}
 \usepackage{csquotes}
-\addbibresource{../Khazzoom_Brookes.bib}
+\addbibresource{../Khazzoom-Brookes.bib}
 
 
 %------------------------------------------------------------------------------
@@ -33,8 +33,8 @@
 \titulo{Uma crítica marxista ao postulado de Khazzoom-Brookes}
 \autor{Nicholas Funari Voltani}
 \data{2026} 
-\orientador{Prof. Eduardo Sá Barreto}
-\coorientador{Profa. Dra. Bianca Imbiriba Bonente}
+\orientador{Prof. Dr. Eduardo Sá Barreto Cruz}
+\coorientador{Profa. Dra. Bianca Aires Imbiriba Di Maio Bonente}
 
 
 %------------------------------------------------------------------------------
@@ -43,7 +43,7 @@
 
 \preambulo{Dissertação apresentada ao Programa de Pós-graduação em Economia da Universidade Federal Fluminense como requisito parcial para obtenção do título de Mestre em Economia.
 
-Área de concentração: }
+Área de concentração: \textbf{VERIFICAR}}
 
 %------------------------------------------------------------------------------
 % INÍCIO DO DOCUMENTO
@@ -64,35 +64,37 @@
 % comando 'quadros'. Sempre pulando uma linha entre as opções de ''listas''
 %------------------------------------------------------------------------------
 
-\imprimircapa 						
-\imprimirfolhaderosto*	  					
+%\imprimircapa 						
+%\imprimirfolhaderosto*	  					
 
-\includepdf[pages=1]{file.pdf} % inclui o arquivo file (ficha catalografica gerada pela biblioteca)
-\include{aprovacao}	
-\clearpage
+%\includepdf[pages=1]{file.pdf} % inclui o arquivo file (ficha catalografica gerada pela biblioteca)
+%\include{aprovacao}	
+%\clearpage
 
-\input{capitulos/resumo.tex}	
+%\input{capitulos/resumo.tex}	
 
-\input{capitulos/dedicatoria}		
-					
-\figuras
+%\input{capitulos/dedicatoria}		
 
-\tabelas
+%\figuras
 
-\sumario
+%\tabelas
+
+%\sumario
 
 
 % -----------------------------------------------------------------------------
 % ELEMENTOS TEXTUAIS
 % -----------------------------------------------------------------------------
 
-\textual
+%\textual
 
 
 
-\input{capitulos/introducao.tex}
+%\input{capitulos/introducao.tex}
 
-%\input{capitulos/capitulo2.tex}
+%\input{capitulos/capitulo1.tex}
+
+\input{capitulos/capitulo2.tex}
 
 %\input{capitulos/capitulo3.tex}
 
@@ -111,10 +113,6 @@
 % ----------------------------------------------------------
 % Referências bibliográficas
 % ----------------------------------------------------------
-
-\cite{Amado2005}
-
-\apud[Whatever][Test]{BLABLALB}{Amado2005}
 
 
 %\bibliography{Khazzoom_Brookes}

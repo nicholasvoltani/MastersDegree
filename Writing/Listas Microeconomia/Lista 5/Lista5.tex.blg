@@ -1,0 +1,5 @@
+[0] Config.pm:307> INFO - This is Biber 2.19
+[0] Config.pm:310> INFO - Logfile is './Lista5.tex.blg'
+[50] biber:340> INFO - === Tue May 26, 2026, 16:53:49
+[140] Utils.pm:399> ERROR - Cannot find 'Lista5.tex.bcf'!
+[140] Biber.pm:136> INFO - ERRORS: 1

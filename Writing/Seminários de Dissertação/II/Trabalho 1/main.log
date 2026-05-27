@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.25)  25 APR 2026 18:50
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.25)  1 MAY 2026 22:00
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -728,70 +728,134 @@ Writing index file main.idx
 \cftquadronumwidth=\skip265
 ) (C:\Users\nicho\AppData\Roaming\MiKTeX\tex/latex/psnfss\helvet.sty
 Package: helvet 2020/03/25 PSNFSS-v9.3 (WaS) 
+) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty
+Package: amsmath 2025/07/09 v2.17z AMS math features
+\@mathmargin=\skip266
+
+For additional information on amsmath, use the `?' option.
+(C:\Program Files\MiKTeX\tex/latex/amsmath\amstext.sty
+Package: amstext 2024/11/17 v2.01 AMS text
+ (C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks33
+\ex@=\dimen275
+)) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen276
+) (C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty
+Package: amsopn 2022/04/08 v2.04 operator names
+)
+\inf@bad=\count385
+LaTeX Info: Redefining \frac on input line 233.
+\uproot@=\count386
+\leftroot@=\count387
+LaTeX Info: Redefining \overline on input line 398.
+LaTeX Info: Redefining \colon on input line 409.
+\classnum@=\count388
+\DOTSCASE@=\count389
+LaTeX Info: Redefining \ldots on input line 495.
+LaTeX Info: Redefining \dots on input line 498.
+LaTeX Info: Redefining \cdots on input line 619.
+\Mathstrutbox@=\box108
+\strutbox@=\box109
+LaTeX Info: Redefining \big on input line 721.
+LaTeX Info: Redefining \Big on input line 722.
+LaTeX Info: Redefining \bigg on input line 723.
+LaTeX Info: Redefining \Bigg on input line 724.
+\big@size=\dimen277
+LaTeX Font Info:    Redeclaring font encoding OML on input line 742.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 743.
+\macc@depth=\count390
+LaTeX Info: Redefining \bmod on input line 904.
+LaTeX Info: Redefining \pmod on input line 909.
+LaTeX Info: Redefining \smash on input line 939.
+LaTeX Info: Redefining \relbar on input line 969.
+LaTeX Info: Redefining \Relbar on input line 970.
+\c@MaxMatrixCols=\count391
+\dotsspace@=\muskip18
+\c@parentequation=\count392
+\dspbrk@lvl=\count393
+\tag@help=\toks34
+\row@=\count394
+\column@=\count395
+\maxfields@=\count396
+\andhelp@=\toks35
+\eqnshift@=\dimen278
+\alignsep@=\dimen279
+\tagshift@=\dimen280
+\tagwidth@=\dimen281
+\totwidth@=\dimen282
+\lineht@=\dimen283
+\@envbody=\toks36
+\multlinegap=\skip267
+\multlinetaggap=\skip268
+\mathdisplay@stack=\toks37
+LaTeX Info: Redefining \[ on input line 2950.
+LaTeX Info: Redefining \] on input line 2951.
 ) (C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.sty
 Package: biblatex 2025/07/10 v3.21 programmable bibliographies (PK/MW)
  (C:\Users\nicho\AppData\Roaming\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count385
+\lrq@indent=\count397
  (C:\Users\nicho\AppData\Roaming\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-\c@tabx@nest=\count386
-\c@listtotal=\count387
-\c@listcount=\count388
-\c@liststart=\count389
-\c@liststop=\count390
-\c@citecount=\count391
-\c@citetotal=\count392
-\c@multicitecount=\count393
-\c@multicitetotal=\count394
-\c@instcount=\count395
-\c@maxnames=\count396
-\c@minnames=\count397
-\c@maxitems=\count398
-\c@minitems=\count399
-\c@citecounter=\count400
-\c@maxcitecounter=\count401
-\c@savedcitecounter=\count402
-\c@uniquelist=\count403
-\c@uniquename=\count404
-\c@refsection=\count405
-\c@refsegment=\count406
-\c@maxextratitle=\count407
-\c@maxextratitleyear=\count408
-\c@maxextraname=\count409
-\c@maxextradate=\count410
-\c@maxextraalpha=\count411
-\c@abbrvpenalty=\count412
-\c@highnamepenalty=\count413
-\c@lownamepenalty=\count414
-\c@maxparens=\count415
-\c@parenlevel=\count416
-\blx@tempcnta=\count417
-\blx@tempcntb=\count418
-\blx@tempcntc=\count419
-\c@blx@maxsection=\count420
-\blx@maxsegment@0=\count421
-\blx@notetype=\count422
-\blx@parenlevel@text=\count423
-\blx@parenlevel@foot=\count424
-\blx@sectionciteorder@0=\count425
-\blx@sectionciteorderinternal@0=\count426
-\blx@entrysetcounter=\count427
-\blx@biblioinstance=\count428
-\labelnumberwidth=\skip266
-\labelalphawidth=\skip267
-\biblabelsep=\skip268
-\bibnamesep=\skip269
-\bibinitsep=\skip270
-\bibparsep=\skip271
-\bibhang=\skip272
+\c@tabx@nest=\count398
+\c@listtotal=\count399
+\c@listcount=\count400
+\c@liststart=\count401
+\c@liststop=\count402
+\c@citecount=\count403
+\c@citetotal=\count404
+\c@multicitecount=\count405
+\c@multicitetotal=\count406
+\c@instcount=\count407
+\c@maxnames=\count408
+\c@minnames=\count409
+\c@maxitems=\count410
+\c@minitems=\count411
+\c@citecounter=\count412
+\c@maxcitecounter=\count413
+\c@savedcitecounter=\count414
+\c@uniquelist=\count415
+\c@uniquename=\count416
+\c@refsection=\count417
+\c@refsegment=\count418
+\c@maxextratitle=\count419
+\c@maxextratitleyear=\count420
+\c@maxextraname=\count421
+\c@maxextradate=\count422
+\c@maxextraalpha=\count423
+\c@abbrvpenalty=\count424
+\c@highnamepenalty=\count425
+\c@lownamepenalty=\count426
+\c@maxparens=\count427
+\c@parenlevel=\count428
+\blx@tempcnta=\count429
+\blx@tempcntb=\count430
+\blx@tempcntc=\count431
+\c@blx@maxsection=\count432
+\blx@maxsegment@0=\count433
+\blx@notetype=\count434
+\blx@parenlevel@text=\count435
+\blx@parenlevel@foot=\count436
+\blx@sectionciteorder@0=\count437
+\blx@sectionciteorderinternal@0=\count438
+\blx@entrysetcounter=\count439
+\blx@biblioinstance=\count440
+\labelnumberwidth=\skip269
+\labelalphawidth=\skip270
+\biblabelsep=\skip271
+\bibnamesep=\skip272
+\bibinitsep=\skip273
+\bibparsep=\skip274
+\bibhang=\skip275
 \blx@bcfin=\read4
 \blx@bcfout=\write5
 \blx@langwohyphens=\language80
-\c@mincomprange=\count429
-\c@maxcomprange=\count430
-\c@mincompwidth=\count431
+\c@mincomprange=\count441
+\c@maxcomprange=\count442
+\c@mincompwidth=\count443
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (C:\Program Files\MiKTeX\tex/latex/biblatex\blx-dm.def
@@ -801,88 +865,88 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'abnt.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count432
-\c@savedafterword=\count433
-\c@annotator=\count434
-\c@savedannotator=\count435
-\c@author=\count436
-\c@savedauthor=\count437
-\c@bookauthor=\count438
-\c@savedbookauthor=\count439
-\c@commentator=\count440
-\c@savedcommentator=\count441
-\c@editor=\count442
-\c@savededitor=\count443
-\c@editora=\count444
-\c@savededitora=\count445
-\c@editorb=\count446
-\c@savededitorb=\count447
-\c@editorc=\count448
-\c@savededitorc=\count449
-\c@foreword=\count450
-\c@savedforeword=\count451
-\c@holder=\count452
-\c@savedholder=\count453
-\c@introduction=\count454
-\c@savedintroduction=\count455
-\c@namea=\count456
-\c@savednamea=\count457
-\c@nameb=\count458
-\c@savednameb=\count459
-\c@namec=\count460
-\c@savednamec=\count461
-\c@translator=\count462
-\c@savedtranslator=\count463
-\c@shortauthor=\count464
-\c@savedshortauthor=\count465
-\c@shorteditor=\count466
-\c@savedshorteditor=\count467
-\c@labelname=\count468
-\c@savedlabelname=\count469
-\c@institution=\count470
-\c@savedinstitution=\count471
-\c@lista=\count472
-\c@savedlista=\count473
-\c@listb=\count474
-\c@savedlistb=\count475
-\c@listc=\count476
-\c@savedlistc=\count477
-\c@listd=\count478
-\c@savedlistd=\count479
-\c@liste=\count480
-\c@savedliste=\count481
-\c@listf=\count482
-\c@savedlistf=\count483
-\c@location=\count484
-\c@savedlocation=\count485
-\c@organization=\count486
-\c@savedorganization=\count487
-\c@origlocation=\count488
-\c@savedoriglocation=\count489
-\c@origpublisher=\count490
-\c@savedorigpublisher=\count491
-\c@publisher=\count492
-\c@savedpublisher=\count493
-\c@language=\count494
-\c@savedlanguage=\count495
-\c@origlanguage=\count496
-\c@savedoriglanguage=\count497
-\c@pageref=\count498
-\c@savedpageref=\count499
-\shorthandwidth=\skip273
-\shortjournalwidth=\skip274
-\shortserieswidth=\skip275
-\shorttitlewidth=\skip276
-\shortauthorwidth=\skip277
-\shorteditorwidth=\skip278
-\locallabelnumberwidth=\skip279
-\locallabelalphawidth=\skip280
-\localshorthandwidth=\skip281
-\localshortjournalwidth=\skip282
-\localshortserieswidth=\skip283
-\localshorttitlewidth=\skip284
-\localshortauthorwidth=\skip285
-\localshorteditorwidth=\skip286
+\c@afterword=\count444
+\c@savedafterword=\count445
+\c@annotator=\count446
+\c@savedannotator=\count447
+\c@author=\count448
+\c@savedauthor=\count449
+\c@bookauthor=\count450
+\c@savedbookauthor=\count451
+\c@commentator=\count452
+\c@savedcommentator=\count453
+\c@editor=\count454
+\c@savededitor=\count455
+\c@editora=\count456
+\c@savededitora=\count457
+\c@editorb=\count458
+\c@savededitorb=\count459
+\c@editorc=\count460
+\c@savededitorc=\count461
+\c@foreword=\count462
+\c@savedforeword=\count463
+\c@holder=\count464
+\c@savedholder=\count465
+\c@introduction=\count466
+\c@savedintroduction=\count467
+\c@namea=\count468
+\c@savednamea=\count469
+\c@nameb=\count470
+\c@savednameb=\count471
+\c@namec=\count472
+\c@savednamec=\count473
+\c@translator=\count474
+\c@savedtranslator=\count475
+\c@shortauthor=\count476
+\c@savedshortauthor=\count477
+\c@shorteditor=\count478
+\c@savedshorteditor=\count479
+\c@labelname=\count480
+\c@savedlabelname=\count481
+\c@institution=\count482
+\c@savedinstitution=\count483
+\c@lista=\count484
+\c@savedlista=\count485
+\c@listb=\count486
+\c@savedlistb=\count487
+\c@listc=\count488
+\c@savedlistc=\count489
+\c@listd=\count490
+\c@savedlistd=\count491
+\c@liste=\count492
+\c@savedliste=\count493
+\c@listf=\count494
+\c@savedlistf=\count495
+\c@location=\count496
+\c@savedlocation=\count497
+\c@organization=\count498
+\c@savedorganization=\count499
+\c@origlocation=\count500
+\c@savedoriglocation=\count501
+\c@origpublisher=\count502
+\c@savedorigpublisher=\count503
+\c@publisher=\count504
+\c@savedpublisher=\count505
+\c@language=\count506
+\c@savedlanguage=\count507
+\c@origlanguage=\count508
+\c@savedoriglanguage=\count509
+\c@pageref=\count510
+\c@savedpageref=\count511
+\shorthandwidth=\skip276
+\shortjournalwidth=\skip277
+\shortserieswidth=\skip278
+\shorttitlewidth=\skip279
+\shortauthorwidth=\skip280
+\shorteditorwidth=\skip281
+\locallabelnumberwidth=\skip282
+\locallabelalphawidth=\skip283
+\localshorthandwidth=\skip284
+\localshortjournalwidth=\skip285
+\localshortserieswidth=\skip286
+\localshorttitlewidth=\skip287
+\localshortauthorwidth=\skip288
+\localshorteditorwidth=\skip289
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
  (C:\Program Files\MiKTeX\tex/latex/biblatex\blx-compat.def
@@ -892,19 +956,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Program Files\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2025/07/10 v3.21 biblatex compatibility (PK/MW)
-\c@textcitecount=\count500
-\c@textcitetotal=\count501
-\c@textcitemaxnames=\count502
-\c@biburlbigbreakpenalty=\count503
-\c@biburlbreakpenalty=\count504
-\c@biburlnumpenalty=\count505
-\c@biburlucpenalty=\count506
-\c@biburllcpenalty=\count507
-\biburlbigskip=\muskip18
-\biburlnumskip=\muskip19
-\biburlucskip=\muskip20
-\biburllcskip=\muskip21
-\c@smartand=\count508
+\c@textcitecount=\count512
+\c@textcitetotal=\count513
+\c@textcitemaxnames=\count514
+\c@biburlbigbreakpenalty=\count515
+\c@biburlbreakpenalty=\count516
+\c@biburlnumpenalty=\count517
+\c@biburlucpenalty=\count518
+\c@biburllcpenalty=\count519
+\biburlbigskip=\muskip19
+\biburlnumskip=\muskip20
+\biburlucskip=\muskip21
+\biburllcskip=\muskip22
+\c@smartand=\count520
 )
 Package biblatex Info: Trying to load bibliography style 'abnt'...
 Package biblatex Info: ... file 'abnt.bbx' found.
@@ -914,8 +978,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (C:\Program Files\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2025/07/10 v3.21 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count509
-\c@bbx:relatedtotal=\count510
+\c@bbx:relatedcount=\count521
+\c@bbx:relatedtotal=\count522
 ))
 Package biblatex Info: Trying to load citation style 'abnt'...
 Package biblatex Info: ... file 'abnt.cbx' found.
@@ -962,13 +1026,13 @@ Package biblatex Info: ... and expl3
 Package: blx-case-expl3 2025/07/10 v3.21 expl3 case changing code for biblatex
 )) (C:\Users\nicho\AppData\Roaming\MiKTeX\tex/latex/csquotes\csquotes.sty
 Package: csquotes 2024-04-04 v5.2o context-sensitive quotations (JAW)
-\csq@reset=\count511
-\csq@gtype=\count512
-\csq@glevel=\count513
-\csq@qlevel=\count514
-\csq@maxlvl=\count515
-\csq@tshold=\count516
-\csq@ltx@everypar=\toks33
+\csq@reset=\count523
+\csq@gtype=\count524
+\csq@glevel=\count525
+\csq@qlevel=\count526
+\csq@maxlvl=\count527
+\csq@tshold=\count528
+\csq@ltx@everypar=\toks38
  (C:\Users\nicho\AppData\Roaming\MiKTeX\tex/latex/csquotes\csquotes.def
 File: csquotes.def 2024-04-04 v5.2o csquotes generic definitions (JAW)
 )
@@ -986,7 +1050,7 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'brazil'.
-LaTeX Font Info:    Trying to load font information for T1+phv on input line 58.
+LaTeX Font Info:    Trying to load font information for T1+phv on input line 59.
 (C:\Users\nicho\AppData\Roaming\MiKTeX\tex/latex/psnfss\t1phv.fd
 File: t1phv.fd 2020/03/25 scalable font definitions for T1/phv.
 )
@@ -997,56 +1061,56 @@ LaTeX Warning: Unused global option(s):
 (main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 58.
-LaTeX Font Info:    ... okay on input line 58.
-Package hyperref Info: Link coloring ON on input line 58.
-\myptabbox=\box108
-\myptabboxwidth=\skip287
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 59.
+LaTeX Font Info:    ... okay on input line 59.
+Package hyperref Info: Link coloring ON on input line 59.
+\myptabbox=\box110
+\myptabboxwidth=\skip290
  (C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count517
-\scratchdimen=\dimen275
-\scratchbox=\box109
-\nofMPsegments=\count518
-\nofMParguments=\count519
-\everyMPshowfont=\toks34
-\MPscratchCnt=\count520
-\MPscratchDim=\dimen276
-\MPnumerator=\count521
-\makeMPintoPDFobject=\count522
-\everyMPtoPDFconversion=\toks35
+\scratchcounter=\count529
+\scratchdimen=\dimen284
+\scratchbox=\box111
+\nofMPsegments=\count530
+\nofMParguments=\count531
+\everyMPshowfont=\toks39
+\MPscratchCnt=\count532
+\MPscratchDim=\dimen285
+\MPnumerator=\count533
+\makeMPintoPDFobject=\count534
+\everyMPtoPDFconversion=\toks40
 ) (C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (C:\Program Files\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \microtypecontext on input line 58.
-Package microtype Info: Applying patch `item' on input line 58.
-Package microtype Info: Applying patch `toc' on input line 58.
-Package microtype Info: Applying patch `eqnum' on input line 58.
+LaTeX Info: Redefining \microtypecontext on input line 59.
+Package microtype Info: Applying patch `item' on input line 59.
+Package microtype Info: Applying patch `toc' on input line 59.
+Package microtype Info: Applying patch `eqnum' on input line 59.
 
 
-Package microtype Warning: Unable to apply patch `footnote' on input line 58.
+Package microtype Warning: Unable to apply patch `footnote' on input line 59.
 
-Package microtype Info: Applying patch `verbatim' on input line 58.
-LaTeX Info: Redefining \microtypesetup on input line 58.
+Package microtype Info: Applying patch `verbatim' on input line 59.
+LaTeX Info: Redefining \microtypesetup on input line 59.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
@@ -1139,19 +1203,13 @@ Package biblatex Info: Automatic encoding selection.
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
  (main.bbl)
-Package biblatex Info: Reference section=0 on input line 58.
-Package biblatex Info: Reference segment=0 on input line 58.
+Package biblatex Info: Reference section=0 on input line 59.
+Package biblatex Info: Reference segment=0 on input line 59.
  (capitulos/capitulo1.tex
 Cap\'{\i }tulo 1.
 (C:\Users\nicho\AppData\Roaming\MiKTeX\tex/latex/microtype\mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <10.95> on input line 10.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 10.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 10.
 LaTeX Font Info:    Font shape `T1/phv/m/it' in size <12> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 13.
  [1{C:/Users/nicho/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}
@@ -1162,14 +1220,7 @@ LaTeX Font Info:    Font shape `T1/phv/m/it' in size <10> not available
 (Font)              Font shape `T1/phv/m/sl' tried instead on input line 30.
 Package babel Info: 'brazil' activates 'portuges' shorthands.
 (babel)             Reported on input line 30.
- [2]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 34.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 34.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 34.
- [3] [4]
+ [2] [3] [4]
 LaTeX Font Info:    Trying to load font information for T1+pcr on input line 83.
  (C:\Users\nicho\AppData\Roaming\MiKTeX\tex/latex/psnfss\t1pcr.fd
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
@@ -1178,22 +1229,13 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `pcr' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [5]
-LaTeX Font Info:    Trying to load font information for TS1+phv on input line 100.
- (C:\Users\nicho\AppData\Roaming\MiKTeX\tex/latex/psnfss\ts1phv.fd
-File: ts1phv.fd 2020/03/25 scalable font definitions for TS1/phv.
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `phv' (encoding: TS1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-) [6]
+ [5] [6]) [7]
 
 Package biblatex Warning: Field 'extrayear' is deprecated.
 (biblatex)                Please use 'extradate' instead.
 (biblatex)                Using 'extradate' now.
 
-[7
+[8
 
 ] (main.aux)
  ***********
@@ -1205,17 +1247,17 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 26679 strings out of 467867
- 467255 string characters out of 5428401
- 1510895 words of memory out of 5000000
- 54970 multiletter control sequences out of 15000+600000
- 668487 words of font info for 225 fonts, out of 8000000 for 9000
+ 27369 strings out of 467867
+ 475996 string characters out of 5428401
+ 1523228 words of memory out of 5000000
+ 55624 multiletter control sequences out of 15000+600000
+ 673356 words of font info for 245 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  99i,13n,107p,1992b,4310s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
-Output written on main.pdf (7 pages, 136640 bytes).
+<C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvb8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvr8a.pfb><C:/Program Files/MiKTeX/fonts/type1/urw/helvetic/uhvro8a.pfb>
+Output written on main.pdf (8 pages, 196155 bytes).
 PDF statistics:
- 170 PDF objects out of 1000 (max. 8388607)
- 26 named destinations out of 1000 (max. 500000)
- 39457 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 213 PDF objects out of 1000 (max. 8388607)
+ 29 named destinations out of 1000 (max. 500000)
+ 40481 words of extra memory for PDF output out of 42996 (max. 10000000)
 

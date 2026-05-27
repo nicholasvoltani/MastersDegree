@@ -57,14 +57,14 @@
 
 \section{Conceitos introdutórios}
 \subsection{Identidades matemáticas em Teoria do Consumidor}
-Resultados importantes para a teoria do consumidor, assim como para a teoria da firma, são o lema de Shephard e a identidade de Roy.\footnote{Suas demonstrações são mais convolutas. Para o leitor interessado: suas demonstrações giram em torno do \textit{envelope theorem}, e recomendo singelamente minha (Nicholas) demonstração destes resultados em \href{https://nicholasvoltani.github.io/Envelope-Theorem}{[[Envelope Theorem]]}.}
+Resultados importantes para a teoria do consumidor, assim como para a teoria da firma, são o lema de Shephard e a identidade de Roy.\footnote{Suas demonstrações são mais convolutas. Para o leitor interessado: suas demonstrações giram em torno do \textit{envelope theorem}, e recomendo singelamente minha [Nicholas] demonstração destes resultados em \href{https://nicholasvoltani.github.io/Envelope-Theorem}{[[Envelope Theorem]]}.}
 
 O lema de Shephard associa a demanda hicksiana \(\vec{h}(\vec{p}, \bar{u})\) com a função dispêndio \(e(\vec{p}, \bar{u})\): a trajetória da demanda hicksiana é descrita pela variação do dispêndio com relação aos \textit{preços}. Formalmente:
 \[
 \nabla_{p} {e(\vec{p}, \bar{u})} = \vec{h}(p, \bar{u}) 
 \]
 
-A identidade de Roy é um corolário do lema de Shephard, resultado obtido pela derivação da função de utilidade indireta:
+A identidade de Roy é um corolário do lema de Shephard, resultado obtido pela derivação da função de utilidade indireta:\footnote{Pela regra da cadeia: $\nabla_p v(p, e(p, \bar{u})) = \nabla_p v + \frac{\partial v}{\partial w} \nabla_p e$.}
 \[
 \nabla_{p} v\left(\vec{p}, e(\vec{p}, \bar{u})\right) = \nabla_{p} \underbrace{\bar{u}}_{\text{Constante!}} = 0
 \]
@@ -140,9 +140,7 @@ Dessa forma, temos que o segmento de reta $[0, 1]$ é o simplexo que representa 
       \alpha^* = D
       \]
       
-      Assim, se o seguro for atuarialmente justo, o tomador de decisão faz seguro completo. A riqueza final do indivíduo é então \(w-\pi D\), independentemente da ocorrência da perda.
-      
-      Essa prova do resultado do seguro total usa condições de primeira ordem, o que é instrutivo, mas não é realmente necessário. Observe que se \(q=\pi\), então a riqueza esperada do tomador de decisão é \(w-\pi D\) para qualquer \(\alpha\). Como definir \(\alpha=D\) permite que ele alcance \(w-\pi D\) com certeza, a definição de aversão ao risco implica diretamente que este é o nível ótimo de \(\alpha\).\footnote{Não necessariamente o segurado conseguirá segurar-se completamente (em cujo caso parte de seu risco seguirá ``a descoberto''), seja por falta de oferta por parte de seguradoras e/ou por taxas de prêmio inacessíveis. Aqui, num nível mais concreto e próximo da realidade econômica, entraríamos no terreno de falhas de mercado, mais precisamente de assimetria de informação.
+      Assim, se o seguro for atuarialmente justo, o tomador de decisão faz seguro completo. A riqueza final do indivíduo é então \(w-\pi D\), independentemente da ocorrência da perda.\footnote{Não necessariamente o segurado conseguirá segurar-se completamente (em cujo caso parte de seu risco seguirá ``a descoberto''), seja por falta de oferta por parte de seguradoras e/ou por taxas de prêmio inacessíveis. Aqui, num nível mais concreto e próximo da realidade econômica, entraríamos no terreno de falhas de mercado, mais precisamente de assimetria de informação.
       
       Por exemplo, em seu famoso artigo, \textcite{Akerlof1978} aponta tal ``falha de mercado'' de oferta de seguros descompassada com sua demanda: ``É fato conhecido que pessoas com mais de 65 anos têm grande dificuldade em adquirir um plano de saúde [\textit{medical insurance}: é uma espécie de seguro]. A pergunta que surge naturalmente é: por que o preço não sobe para acompanhar o risco? Nossa resposta é que, à medida que o preço sobe, \textit{as pessoas que contratam o seguro serão aquelas que têm cada vez mais certeza de que precisarão dele} [i.e. risco moral] […] O resultado é que a condição médica média dos solicitantes de seguro se deteriora conforme o preço aumenta […]'' (p. 492-3, grifo nosso).}
 \end{example}
@@ -419,12 +417,18 @@ b) Dadas probabilidades \(P(E \mid I)\) e \(P(E \mid \lnot I)\), junto de \(P(I)
 \[
 \begin{cases}
   P(C) = P(E \land I) &= P(E \mid I) \cdot P(I) \\
-  P(D) = P(\lnot E \mid I) &= P(\lnot E \mid I) \cdot P(I) \\
+  P(D) = P(\lnot E \land I) &= P(\lnot E \mid I) \cdot P(I) \\
   P(B) = P(E \land \lnot I) &= P(E \mid \lnot I) \cdot P(\lnot I) \\
   P(A) = P(\lnot E \land \lnot I) &= P(\lnot E \mid \lnot I) \cdot P(\lnot I)
   \end{cases}
   \]
-  Critério \(1\): - \(P(E \mid I) = 0.90\) (\(\implies P(\lnot E \mid I) = 0.10\)) - \(P(E \mid \lnot I) = 0.10\) (\(\implies P(\lnot E \mid \lnot I) = 0.90\)) Logo, tem-se que
+  Critério \(1\): 
+  \begin{itemize}
+    \item \(P(E \mid I) = 0.90\) (\(\implies P(\lnot E \mid I) = 0.10\))
+    \item \(P(E \mid \lnot I) = 0.10\) (\(\implies P(\lnot E \mid \lnot I) = 0.90\))  
+  \end{itemize}
+  
+  Logo, tem-se que
   \[
 \begin{cases}
   P(A) = 0.891 \\
@@ -434,7 +438,13 @@ b) Dadas probabilidades \(P(E \mid I)\) e \(P(E \mid \lnot I)\), junto de \(P(I)
   \end{cases}
   \]
   
-  Critério \(2\): - \(P(E \mid I) = 0.95\) (\(\implies P(\lnot E \mid I) = 0.05\)) - \(P(E \mid \lnot I) = 0.15\) (\(\implies P(\lnot E \mid \lnot I) = 0.85\)) Logo, tem-se que
+  Critério \(2\): 
+  \begin{itemize}
+    \item \(P(E \mid I) = 0.95\) (\(\implies P(\lnot E \mid I) = 0.05\))
+    \item \(P(E \mid \lnot I) = 0.15\) (\(\implies P(\lnot E \mid \lnot I) = 0.85\))  
+  \end{itemize}
+  
+  Logo, tem-se que
 \[
 \begin{cases}
   P(A) = 0.8415 \\
@@ -559,7 +569,7 @@ Dividindo tudo por \(0.005\), tem-se que o critério \(1\) é preferível ao cri
   \begin{figure}[h]
   \centering
   \includegraphics[width=0.8\textwidth]{images/utilidade_exponencial_financeiro.png}
-  \caption{Fonte: Funções de utilidade exponencial para vários parâmetros de aversão ao risco. Fonte: \parencite[fig. 1]{Wood2015}; destaque-se que estes autores utilizam a função $U(x) = \frac{1-e^{-rx}}{1-e^{-r}}$.}
+  \caption{Fonte: Funções de utilidade exponencial para vários parâmetros de aversão ao risco. Fonte: \textcite[fig. 1]{Wood2015}; destaque-se que estes autores utilizam a função $U(x) = \frac{1-e^{-rx}}{1-e^{-r}}$.}
   \label{exponencial}
 \end{figure}
   
