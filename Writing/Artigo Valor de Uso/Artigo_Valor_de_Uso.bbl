@@ -19,70 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global/global}
-    \entry{Carcanholo1998}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=fc84a5fe8e343148f15037896ff34bdb}{%
-           family={Carcanholo},
-           familyi={C\bibinitperiod},
-           given={Marcelo\bibnamedelima Dias},
-           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{fc84a5fe8e343148f15037896ff34bdb}
-      \strng{fullhash}{fc84a5fe8e343148f15037896ff34bdb}
-      \strng{fullhashraw}{fc84a5fe8e343148f15037896ff34bdb}
-      \strng{bibnamehash}{fc84a5fe8e343148f15037896ff34bdb}
-      \strng{authorbibnamehash}{fc84a5fe8e343148f15037896ff34bdb}
-      \strng{authornamehash}{fc84a5fe8e343148f15037896ff34bdb}
-      \strng{authorfullhash}{fc84a5fe8e343148f15037896ff34bdb}
-      \strng{authorfullhashraw}{fc84a5fe8e343148f15037896ff34bdb}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Pesquisa \& Debate Revista do Programa de Estudos Pós-Graduados em Economia Política}
-      \field{number}{2 (14)}
-      \field{title}{A Importância Da Categoria Valor de Uso Na Teoria de {{Marx}}}
-      \field{volume}{9}
-      \field{year}{1998}
-    \endentry
-    \entry{Duayer2023a}{inbook}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=a30fb6f2c2430fb472e31ff72de8e72c}{%
-           family={Duayer},
-           familyi={D\bibinitperiod},
-           given={Mário},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {São Paulo}%
-      }
-      \list{publisher}{1}{%
-        {Boitempo}%
-      }
-      \strng{namehash}{a30fb6f2c2430fb472e31ff72de8e72c}
-      \strng{fullhash}{a30fb6f2c2430fb472e31ff72de8e72c}
-      \strng{fullhashraw}{a30fb6f2c2430fb472e31ff72de8e72c}
-      \strng{bibnamehash}{a30fb6f2c2430fb472e31ff72de8e72c}
-      \strng{authorbibnamehash}{a30fb6f2c2430fb472e31ff72de8e72c}
-      \strng{authornamehash}{a30fb6f2c2430fb472e31ff72de8e72c}
-      \strng{authorfullhash}{a30fb6f2c2430fb472e31ff72de8e72c}
-      \strng{authorfullhashraw}{a30fb6f2c2430fb472e31ff72de8e72c}
-      \field{sortinit}{D}
-      \field{sortinithash}{6f385f66841fb5e82009dc833c761848}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{booktitle}{{Teoria social, verdade e transformação: Ensaios de crítica ontológica}}
-      \field{langid}{brazilian}
-      \field{month}{9}
-      \field{title}{{Jorge Luis Borges, filosofia da ciência e crítica ontológica: verdade e transformação social}}
-      \field{year}{2023}
-    \endentry
     \entry{Foster2004}{article}{}{}
       \name{author}{2}{}{%
         {{un=0,uniquepart=base,hash=66ef95fbc18ced2469c3a06817f4f6e1}{%
@@ -112,48 +48,54 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{journaltitle}{Socialist register}
+      \field{journaltitle}{Socialist Register}
       \field{shorttitle}{Ecological Imperialism}
       \field{title}{Ecological Imperialism: {{The}} Curse of Capitalism}
       \field{volume}{40}
       \field{year}{2004}
+      \verb{urlraw}
+      \verb https://socialistregister.com/index.php/srv/article/view/5817
+      \endverb
+      \verb{url}
+      \verb https://socialistregister.com/index.php/srv/article/view/5817
+      \endverb
+      \keyw{marxism}
     \endentry
-    \entry{Marx2021}{book}{}{}
+    \entry{Lukacs2018}{book}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=af80d32a7d375e934f94bdfb27bf2999}{%
-           family={Marx},
-           familyi={M\bibinitperiod},
-           given={Karl},
-           giveni={K\bibinitperiod},
+        {{un=0,uniquepart=base,hash=8d4454debdb25e09d9e0a311eb26f9bc}{%
+           family={Lukács},
+           familyi={L\bibinitperiod},
+           given={György},
+           giveni={G\bibinitperiod},
            givenun=0}}%
       }
       \list{location}{1}{%
-        {São Paulo}%
+        {Maceió}%
       }
       \list{publisher}{1}{%
-        {Boitempo}%
+        {Coletivo Veredas}%
       }
-      \strng{namehash}{af80d32a7d375e934f94bdfb27bf2999}
-      \strng{fullhash}{af80d32a7d375e934f94bdfb27bf2999}
-      \strng{fullhashraw}{af80d32a7d375e934f94bdfb27bf2999}
-      \strng{bibnamehash}{af80d32a7d375e934f94bdfb27bf2999}
-      \strng{authorbibnamehash}{af80d32a7d375e934f94bdfb27bf2999}
-      \strng{authornamehash}{af80d32a7d375e934f94bdfb27bf2999}
-      \strng{authorfullhash}{af80d32a7d375e934f94bdfb27bf2999}
-      \strng{authorfullhashraw}{af80d32a7d375e934f94bdfb27bf2999}
-      \field{extraname}{1}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \strng{namehash}{8d4454debdb25e09d9e0a311eb26f9bc}
+      \strng{fullhash}{8d4454debdb25e09d9e0a311eb26f9bc}
+      \strng{fullhashraw}{8d4454debdb25e09d9e0a311eb26f9bc}
+      \strng{bibnamehash}{8d4454debdb25e09d9e0a311eb26f9bc}
+      \strng{authorbibnamehash}{8d4454debdb25e09d9e0a311eb26f9bc}
+      \strng{authornamehash}{8d4454debdb25e09d9e0a311eb26f9bc}
+      \strng{authorfullhash}{8d4454debdb25e09d9e0a311eb26f9bc}
+      \strng{authorfullhashraw}{8d4454debdb25e09d9e0a311eb26f9bc}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{langid}{brazilian}
-      \field{shorttitle}{{Grundrisse}}
-      \field{title}{{Grundrisse: Manuscritos e econômicos de 1857 - 1858 : Esboços da crítica da economia política}}
-      \field{year}{2021}
+      \field{labeltitlesource}{title}
+      \field{edition}{1}
+      \field{title}{Para Uma Ontologia Do Ser Social}
+      \field{year}{2018}
+      \keyw{marxism,marxism/lukacs}
     \endentry
-    \entry{Marx2017a}{book}{}{}
+    \entry{Marx2017}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=af80d32a7d375e934f94bdfb27bf2999}{%
            family={Marx},
@@ -176,7 +118,6 @@
       \strng{authornamehash}{af80d32a7d375e934f94bdfb27bf2999}
       \strng{authorfullhash}{af80d32a7d375e934f94bdfb27bf2999}
       \strng{authorfullhashraw}{af80d32a7d375e934f94bdfb27bf2999}
-      \field{extraname}{2}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -188,38 +129,135 @@
       \field{shorttitle}{{O Capital}}
       \field{title}{{O Capital: crítica da economia política - Livro I: o processo de produção do capital}}
       \field{year}{2017}
+      \keyw{economics,marxism}
     \endentry
-    \entry{Medeiros2016}{article}{}{}
+    \entry{Mill1909}{book}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=7a0223d80175ececcaca634cc03d959b}{%
-           family={Medeiros},
+        {{un=0,uniquepart=base,hash=b627c5e688e8b7502c2468b40c681f20}{%
+           family={Mill},
            familyi={M\bibinitperiod},
-           given={João\bibnamedelima Leonardo},
-           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={John\bibnamedelima Stuart},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{7a0223d80175ececcaca634cc03d959b}
-      \strng{fullhash}{7a0223d80175ececcaca634cc03d959b}
-      \strng{fullhashraw}{7a0223d80175ececcaca634cc03d959b}
-      \strng{bibnamehash}{7a0223d80175ececcaca634cc03d959b}
-      \strng{authorbibnamehash}{7a0223d80175ececcaca634cc03d959b}
-      \strng{authornamehash}{7a0223d80175ececcaca634cc03d959b}
-      \strng{authorfullhash}{7a0223d80175ececcaca634cc03d959b}
-      \strng{authorfullhashraw}{7a0223d80175ececcaca634cc03d959b}
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Longmans, Green and Co.}%
+      }
+      \strng{namehash}{b627c5e688e8b7502c2468b40c681f20}
+      \strng{fullhash}{b627c5e688e8b7502c2468b40c681f20}
+      \strng{fullhashraw}{b627c5e688e8b7502c2468b40c681f20}
+      \strng{bibnamehash}{b627c5e688e8b7502c2468b40c681f20}
+      \strng{authorbibnamehash}{b627c5e688e8b7502c2468b40c681f20}
+      \strng{authornamehash}{b627c5e688e8b7502c2468b40c681f20}
+      \strng{authorfullhash}{b627c5e688e8b7502c2468b40c681f20}
+      \strng{authorfullhashraw}{b627c5e688e8b7502c2468b40c681f20}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Although inspired by very different motivations, Geörgy Lukács (in his Ontology of Social Being) and Roy Bhaskar (mainly in The Possibility of Naturalism) attempted to unveil the key elements of the ontology underlying in Marx's social theory. This article aims to present some of the defining elements of such an ontology, highlighting the following determinations: teleology, which is unique to human activity; knowledge and value taken as objective determinations of society; the structured character of the social world; the categories of totality; and historicity, characterized by the notions of law (understood as a tendency), development and unequal development.}
-      \field{journaltitle}{Revista Outubro}
-      \field{langid}{portuguese}
-      \field{title}{{Se Marx tivesse escrito uma ontologia da sociedade, quais seriam seus elementos fundamentais?}}
-      \field{volume}{26}
-      \field{year}{2016}
-      \field{pages}{169\bibrangedash 194}
-      \range{pages}{26}
+      \field{edition}{7}
+      \field{title}{Principles of {{Political Economy}} with Some of Their {{Applications}} to {{Social Philosophy}}}
+      \field{year}{1909}
+      \verb{urlraw}
+      \verb https://oll.libertyfund.org/titles/mill-principles-of-political-economy-ashley-ed
+      \endverb
+      \verb{url}
+      \verb https://oll.libertyfund.org/titles/mill-principles-of-political-economy-ashley-ed
+      \endverb
+      \keyw{economics}
+    \endentry
+    \entry{Monserrate2022}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fc6111b6fdf836a6979886807d2754ed}{%
+           family={Monserrate},
+           familyi={M\bibinitperiod},
+           given={Steven\bibnamedelima Gonzalez},
+           giveni={S\bibinitperiod\bibinitdelim G\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{publisher}{1}{%
+        {MIT Schwarzman College of Computing}%
+      }
+      \strng{namehash}{fc6111b6fdf836a6979886807d2754ed}
+      \strng{fullhash}{fc6111b6fdf836a6979886807d2754ed}
+      \strng{fullhashraw}{fc6111b6fdf836a6979886807d2754ed}
+      \strng{bibnamehash}{fc6111b6fdf836a6979886807d2754ed}
+      \strng{authorbibnamehash}{fc6111b6fdf836a6979886807d2754ed}
+      \strng{authornamehash}{fc6111b6fdf836a6979886807d2754ed}
+      \strng{authorfullhash}{fc6111b6fdf836a6979886807d2754ed}
+      \strng{authorfullhashraw}{fc6111b6fdf836a6979886807d2754ed}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{shorttitle}{The Cloud Is Material}
+      \field{title}{The Cloud Is Material: {{On}} the Environmental Impacts of Computation and Data Storage}
+      \field{year}{2022}
+      \verb{urlraw}
+      \verb https://mit-serc.pubpub.org/pub/the-cloud-is-material/release/1
+      \endverb
+      \verb{url}
+      \verb https://mit-serc.pubpub.org/pub/the-cloud-is-material/release/1
+      \endverb
+      \keyw{AI}
+    \endentry
+    \entry{Smith1904}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5ccecf114bbd51a1a2979a23dd69c78c}{%
+           family={Smith},
+           familyi={S\bibinitperiod},
+           given={Adam},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{1}{}{%
+        {{hash=f4081879a3493c3886528ae54bd58baf}{%
+           family={Cannan},
+           familyi={C\bibinitperiod},
+           given={Edwin},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Londres}%
+      }
+      \list{publisher}{1}{%
+        {Methuen}%
+      }
+      \strng{namehash}{5ccecf114bbd51a1a2979a23dd69c78c}
+      \strng{fullhash}{5ccecf114bbd51a1a2979a23dd69c78c}
+      \strng{fullhashraw}{5ccecf114bbd51a1a2979a23dd69c78c}
+      \strng{bibnamehash}{5ccecf114bbd51a1a2979a23dd69c78c}
+      \strng{authorbibnamehash}{5ccecf114bbd51a1a2979a23dd69c78c}
+      \strng{authornamehash}{5ccecf114bbd51a1a2979a23dd69c78c}
+      \strng{authorfullhash}{5ccecf114bbd51a1a2979a23dd69c78c}
+      \strng{authorfullhashraw}{5ccecf114bbd51a1a2979a23dd69c78c}
+      \strng{editorbibnamehash}{f4081879a3493c3886528ae54bd58baf}
+      \strng{editornamehash}{f4081879a3493c3886528ae54bd58baf}
+      \strng{editorfullhash}{f4081879a3493c3886528ae54bd58baf}
+      \strng{editorfullhashraw}{f4081879a3493c3886528ae54bd58baf}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{An {{Inquiry Into}} the {{Nature}} and {{Causes}} of the {{Wealth}} of {{Nations}}}
+      \field{volume}{1}
+      \field{year}{1904}
+      \verb{urlraw}
+      \verb https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/titles/237/Smith_0206-01_EBk_v6.0.pdf
+      \endverb
+      \verb{url}
+      \verb https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/titles/237/Smith_0206-01_EBk_v6.0.pdf
+      \endverb
+      \keyw{economics}
     \endentry
   \enddatalist
 \endrefsection

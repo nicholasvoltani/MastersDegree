@@ -142,6 +142,7 @@
       \verb{url}
       \verb https://www.bloomberg.com/news/articles/2025-01-09/blackrock-leaves-major-climate-group-amid-wall-street-exodus
       \endverb
+      \keyw{economics}
     \endentry
     \entry{Carcanholo2021}{incollection}{}{}
       \name{author}{1}{}{%
@@ -193,35 +194,6 @@
       \field{title}{{Valor e preço na teoria de Marx: o significado da lei do valor}}
       \field{year}{2021}
       \keyw{marxism}
-    \endentry
-    \entry{HouseOfCards}{misc}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=26c08bf4340349df140c586dac287d7b}{%
-           family={Coulter},
-           familyi={C\bibinitperiod},
-           given={Allen},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Netflix}%
-      }
-      \strng{namehash}{26c08bf4340349df140c586dac287d7b}
-      \strng{fullhash}{26c08bf4340349df140c586dac287d7b}
-      \strng{fullhashraw}{26c08bf4340349df140c586dac287d7b}
-      \strng{bibnamehash}{26c08bf4340349df140c586dac287d7b}
-      \strng{authorbibnamehash}{26c08bf4340349df140c586dac287d7b}
-      \strng{authornamehash}{26c08bf4340349df140c586dac287d7b}
-      \strng{authorfullhash}{26c08bf4340349df140c586dac287d7b}
-      \strng{authorfullhashraw}{26c08bf4340349df140c586dac287d7b}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{labeldatesource}{nodate}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{House of Cards}
-      \field{number}{Temporada 1, Episódio 12}
-      \field{title}{Chapter 12}
     \endentry
     \entry{Duayer2023a}{inbook}{}{}
       \name{author}{1}{}{%
@@ -373,6 +345,7 @@
       \verb{url}
       \verb https://www.blackrock.com/corporate/investor-relations/2020-larry-fink-ceo-letter
       \endverb
+      \keyw{economics}
     \endentry
     \entry{Fink2021}{misc}{}{}
       \name{author}{1}{}{%
@@ -413,6 +386,7 @@
       \verb{url}
       \verb https://www.blackrock.com/corporate/investor-relations/2021-larry-fink-ceo-letter
       \endverb
+      \keyw{economics}
     \endentry
     \entry{Fink2022}{misc}{}{}
       \name{author}{1}{}{%
@@ -453,6 +427,7 @@
       \verb{url}
       \verb https://www.blackrock.com/corporate/investor-relations/2022-larry-fink-ceo-letter
       \endverb
+      \keyw{economics}
     \endentry
     \entry{Friedman1970}{misc}{}{}
       \name{author}{1}{}{%
@@ -495,7 +470,7 @@
       \endverb
       \keyw{economics}
     \endentry
-    \entry{Gross2022}{article}{}{}
+    \entry{Gross2022}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=370636a2f494049f903f4d33b7cab702}{%
            family={Gross},
@@ -519,7 +494,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Stuart Kirk, the head of responsible investing for the bank's asset management division, said the risks of climate change had been overblown. ``Who cares if Miami is six meters underwater in 100 years?''}
-      \field{chapter}{Business}
       \field{journaltitle}{The New York Times}
       \field{langid}{american}
       \field{month}{5}
@@ -1017,6 +991,7 @@
       \verb{url}
       \verb https://www.theguardian.com/environment/ng-interactive/2025/dec/18/how-climate-breakdown-is-putting-the-worlds-food-in-peril-in-maps-and-charts
       \endverb
+      \keyw{economics}
     \endentry
     \entry{PacoCunha2025}{article}{}{}
       \name{author}{1}{}{%
@@ -1543,6 +1518,7 @@
       \endverb
     \endentry
   \enddatalist
+  \missing{HouseOfCards}
 \endrefsection
 \endinput
 

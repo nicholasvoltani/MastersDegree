@@ -1,15 +1,15 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'Lista1.blg'
-[121] biber-MSWIN64:342> INFO - === 
-[168] Biber.pm:421> INFO - Reading 'Lista1.bcf'
-[287] Biber.pm:1002> INFO - Found 1 citekeys in bib section 0
-[300] Biber.pm:4487> INFO - Processing section 0
-[311] Biber.pm:4678> INFO - Looking for bibtex file '../Microeconomics.bib' for section 0
-[372] bibtex.pm:1713> INFO - LaTeX decoding ...
-[382] bibtex.pm:1519> INFO - Found BibTeX data source '../Microeconomics.bib'
-[433] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[433] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[433] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'pt-BR'
-[433] Biber.pm:4313> INFO - No sort tailoring available for locale 'pt-BR'
-[434] bbl.pm:676> INFO - Writing 'Lista1.bbl' with encoding 'UTF-8'
-[436] bbl.pm:779> INFO - Output to Lista1.bbl
+[127] biber-MSWIN64:342> INFO - === 
+[181] Biber.pm:421> INFO - Reading 'Lista1.bcf'
+[312] Biber.pm:1002> INFO - Found 1 citekeys in bib section 0
+[324] Biber.pm:4487> INFO - Processing section 0
+[333] Biber.pm:4678> INFO - Looking for bibtex file '../Microeconomics.bib' for section 0
+[454] bibtex.pm:1713> INFO - LaTeX decoding ...
+[479] bibtex.pm:1519> INFO - Found BibTeX data source '../Microeconomics.bib'
+[536] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[536] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[536] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'pt-BR'
+[536] Biber.pm:4313> INFO - No sort tailoring available for locale 'pt-BR'
+[538] bbl.pm:676> INFO - Writing 'Lista1.bbl' with encoding 'UTF-8'
+[539] bbl.pm:779> INFO - Output to Lista1.bbl

@@ -1,0 +1,220 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{Feynman2006}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=aac54ccf9c76aa4ba4310ed1334be7d8}{%
+           family={Feynman},
+           familyi={F\bibinitperiod},
+           given={Richard\bibnamedelima P.},
+           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=773368378dd55945d3bd474598026757}{%
+           family={Leighton},
+           familyi={L\bibinitperiod},
+           given={Robert\bibnamedelima B.},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=5c232c2cb9d68f9c56cfcc361731e78e}{%
+           family={Sands},
+           familyi={S\bibinitperiod},
+           given={Matthew\bibnamedelima L.},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {San Francisco}%
+      }
+      \list{publisher}{1}{%
+        {Pearson Addison Wesley}%
+      }
+      \strng{namehash}{2c21286a7c7e7a4bcb5a2debc7959b90}
+      \strng{fullhash}{2c21286a7c7e7a4bcb5a2debc7959b90}
+      \strng{fullhashraw}{2c21286a7c7e7a4bcb5a2debc7959b90}
+      \strng{bibnamehash}{2c21286a7c7e7a4bcb5a2debc7959b90}
+      \strng{authorbibnamehash}{2c21286a7c7e7a4bcb5a2debc7959b90}
+      \strng{authornamehash}{2c21286a7c7e7a4bcb5a2debc7959b90}
+      \strng{authorfullhash}{2c21286a7c7e7a4bcb5a2debc7959b90}
+      \strng{authorfullhashraw}{2c21286a7c7e7a4bcb5a2debc7959b90}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{langid}{english}
+      \field{title}{The {{Feynman}} Lectures on Physics}
+      \field{year}{2006}
+      \verb{urlraw}
+      \verb https://www.feynmanlectures.caltech.edu/
+      \endverb
+      \verb{url}
+      \verb https://www.feynmanlectures.caltech.edu/
+      \endverb
+      \keyw{physics}
+    \endentry
+    \entry{Malm2013}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ed4bd54c7ba46f2ed6095d7ed711d7ec}{%
+           family={Malm},
+           familyi={M\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
+      \strng{fullhash}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
+      \strng{fullhashraw}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
+      \strng{bibnamehash}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
+      \strng{authorbibnamehash}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
+      \strng{authornamehash}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
+      \strng{authorfullhash}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
+      \strng{authorfullhashraw}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Historical Materialism}
+      \field{number}{1}
+      \field{shorttitle}{The Origins of Fossil Capital}
+      \field{title}{The Origins of Fossil Capital: {{From}} Water to Steam in the {{British}} Cotton Industry}
+      \field{volume}{21}
+      \field{year}{2013}
+      \field{pages}{15\bibrangedash 68}
+      \range{pages}{54}
+      \keyw{economics,marxism}
+    \endentry
+    \entry{Malm2016}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ed4bd54c7ba46f2ed6095d7ed711d7ec}{%
+           family={Malm},
+           familyi={M\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London ; New York}%
+      }
+      \list{publisher}{1}{%
+        {Verso}%
+      }
+      \strng{namehash}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
+      \strng{fullhash}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
+      \strng{fullhashraw}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
+      \strng{bibnamehash}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
+      \strng{authorbibnamehash}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
+      \strng{authornamehash}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
+      \strng{authorfullhash}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
+      \strng{authorfullhashraw}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{shorttitle}{Fossil Capital}
+      \field{title}{Fossil Capital: The Rise of Steam-Power and the Roots of Global Warming}
+      \field{year}{2016}
+      \keyw{economics,marxism}
+    \endentry
+    \entry{Marx2014}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=af80d32a7d375e934f94bdfb27bf2999}{%
+           family={Marx},
+           familyi={M\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {Boitempo}%
+      }
+      \strng{namehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{fullhash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{fullhashraw}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{bibnamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorbibnamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authornamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorfullhash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorfullhashraw}{af80d32a7d375e934f94bdfb27bf2999}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{1}
+      \field{langid}{brazilian}
+      \field{shorttitle}{{O capital}}
+      \field{title}{{O capital: crítica da economia política - Livro II: o processo de circulação do capital}}
+      \field{year}{2014}
+      \keyw{economics,marxism}
+    \endentry
+    \entry{Marx2017}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=af80d32a7d375e934f94bdfb27bf2999}{%
+           family={Marx},
+           familyi={M\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {Boitempo}%
+      }
+      \strng{namehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{fullhash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{fullhashraw}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{bibnamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorbibnamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authornamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorfullhash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorfullhashraw}{af80d32a7d375e934f94bdfb27bf2999}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{2}
+      \field{langid}{brazilian}
+      \field{shorttitle}{{O Capital}}
+      \field{title}{{O Capital: crítica da economia política - Livro I: o processo de produção do capital}}
+      \field{year}{2017}
+      \keyw{economics,marxism}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+

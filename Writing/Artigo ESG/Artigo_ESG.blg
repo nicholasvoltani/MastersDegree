@@ -1,15 +1,17 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'Artigo_ESG.blg'
-[122] biber-MSWIN64:342> INFO - === 
-[204] Biber.pm:421> INFO - Reading 'Artigo_ESG.bcf'
-[348] Biber.pm:1002> INFO - Found 38 citekeys in bib section 0
-[360] Biber.pm:4487> INFO - Processing section 0
-[371] Biber.pm:4678> INFO - Looking for bibtex file 'Artigo_ESG.bib' for section 0
-[521] bibtex.pm:1713> INFO - LaTeX decoding ...
-[653] bibtex.pm:1519> INFO - Found BibTeX data source 'Artigo_ESG.bib'
-[884] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[884] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[884] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'pt-BR'
-[884] Biber.pm:4313> INFO - No sort tailoring available for locale 'pt-BR'
-[920] bbl.pm:676> INFO - Writing 'Artigo_ESG.bbl' with encoding 'UTF-8'
-[943] bbl.pm:779> INFO - Output to Artigo_ESG.bbl
+[342] biber-MSWIN64:342> INFO - === 
+[446] Biber.pm:421> INFO - Reading 'Artigo_ESG.bcf'
+[558] Biber.pm:1002> INFO - Found 38 citekeys in bib section 0
+[575] Biber.pm:4487> INFO - Processing section 0
+[595] Biber.pm:4678> INFO - Looking for bibtex file 'Artigo_ESG.bib' for section 0
+[680] bibtex.pm:1713> INFO - LaTeX decoding ...
+[794] bibtex.pm:1519> INFO - Found BibTeX data source 'Artigo_ESG.bib'
+[1011] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[1012] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[1012] Biber.pm:4307> INFO - Sorting list 'nty/global//global/global/global' of type 'entry' with template 'nty' and locale 'pt-BR'
+[1012] Biber.pm:4313> INFO - No sort tailoring available for locale 'pt-BR'
+[1118] bbl.pm:676> INFO - Writing 'Artigo_ESG.bbl' with encoding 'UTF-8'
+[1136] bbl.pm:779> INFO - Output to Artigo_ESG.bbl
+[1137] Biber.pm:132> WARN - I didn't find a database entry for 'HouseOfCards' (section 0)
+[1137] Biber.pm:134> INFO - WARNINGS: 1

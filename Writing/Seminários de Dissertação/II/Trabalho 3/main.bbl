@@ -16,5 +16,392 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{nyt/global//global/global/global}
+    \entry{Babbage2009}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=407b9f6991fda78d294be36bfc3d762c}{%
+           family={Babbage},
+           familyi={B\bibinitperiod},
+           given={Charles},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {New York}%
+      }
+      \list{publisher}{1}{%
+        {Cambridge University Press}%
+      }
+      \strng{namehash}{407b9f6991fda78d294be36bfc3d762c}
+      \strng{fullhash}{407b9f6991fda78d294be36bfc3d762c}
+      \strng{fullhashraw}{407b9f6991fda78d294be36bfc3d762c}
+      \strng{bibnamehash}{407b9f6991fda78d294be36bfc3d762c}
+      \strng{authorbibnamehash}{407b9f6991fda78d294be36bfc3d762c}
+      \strng{authornamehash}{407b9f6991fda78d294be36bfc3d762c}
+      \strng{authorfullhash}{407b9f6991fda78d294be36bfc3d762c}
+      \strng{authorfullhashraw}{407b9f6991fda78d294be36bfc3d762c}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In this famous book, first published in 1832, Charles Babbage (1791--1871), the mathematician, philosopher, engineer and inventor who originated the concept of a programmable computer, surveys manufacturing practices and discusses the political, moral and economic factors affecting them. The book met with hostility from the publishing industry on account of Babbage's analysis of the manufacture and sale of books. Babbage describes the many different printing processes of the time, analyses the costs of book production and explains the publication process, before discussing the 'too large' profit margins of booksellers. Babbage succeeded in his aim 'to avoid all technical terms, and to describe in concise language', making this an eminently readable historical account. His analysis and promotion of mechanisation and efficient 'division of labour' (still known as the 'Babbage principle') continue to resonate strongly for modern industrial engineering}
+      \field{langid}{english}
+      \field{series}{Cambridge Library Collection. {{History}} of {{Printing}}, {{Publishing}} and {{Libraries}}}
+      \field{title}{On the {{Economy}} of {{Machinery}} and {{Manufactures}}}
+      \field{year}{2009}
+      \keyw{economics}
+    \endentry
+    \entry{Jevons1866}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=64cc6e50f483058684a3ec742cbd8ab6}{%
+           family={Jevons},
+           familyi={J\bibinitperiod},
+           given={William\bibnamedelima Stanley},
+           giveni={W\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London}%
+      }
+      \list{publisher}{1}{%
+        {Macmillan and Co.}%
+      }
+      \strng{namehash}{64cc6e50f483058684a3ec742cbd8ab6}
+      \strng{fullhash}{64cc6e50f483058684a3ec742cbd8ab6}
+      \strng{fullhashraw}{64cc6e50f483058684a3ec742cbd8ab6}
+      \strng{bibnamehash}{64cc6e50f483058684a3ec742cbd8ab6}
+      \strng{authorbibnamehash}{64cc6e50f483058684a3ec742cbd8ab6}
+      \strng{authornamehash}{64cc6e50f483058684a3ec742cbd8ab6}
+      \strng{authorfullhash}{64cc6e50f483058684a3ec742cbd8ab6}
+      \strng{authorfullhashraw}{64cc6e50f483058684a3ec742cbd8ab6}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2}
+      \field{title}{The Coal Question}
+      \field{year}{1866}
+      \verb{urlraw}
+      \verb https://oll.libertyfund.org/titles/jevons-the-coal-question
+      \endverb
+      \verb{url}
+      \verb https://oll.libertyfund.org/titles/jevons-the-coal-question
+      \endverb
+      \keyw{economics}
+    \endentry
+    \entry{Malm2013}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ed4bd54c7ba46f2ed6095d7ed711d7ec}{%
+           family={Malm},
+           familyi={M\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
+      \strng{fullhash}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
+      \strng{fullhashraw}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
+      \strng{bibnamehash}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
+      \strng{authorbibnamehash}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
+      \strng{authornamehash}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
+      \strng{authorfullhash}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
+      \strng{authorfullhashraw}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Historical Materialism}
+      \field{number}{1}
+      \field{shorttitle}{The Origins of Fossil Capital}
+      \field{title}{The Origins of Fossil Capital: {{From}} Water to Steam in the {{British}} Cotton Industry}
+      \field{volume}{21}
+      \field{year}{2013}
+      \field{pages}{15\bibrangedash 68}
+      \range{pages}{54}
+      \keyw{economics,marxism}
+    \endentry
+    \entry{Malm2016}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=ed4bd54c7ba46f2ed6095d7ed711d7ec}{%
+           family={Malm},
+           familyi={M\bibinitperiod},
+           given={Andreas},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London ; New York}%
+      }
+      \list{publisher}{1}{%
+        {Verso}%
+      }
+      \strng{namehash}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
+      \strng{fullhash}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
+      \strng{fullhashraw}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
+      \strng{bibnamehash}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
+      \strng{authorbibnamehash}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
+      \strng{authornamehash}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
+      \strng{authorfullhash}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
+      \strng{authorfullhashraw}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{shorttitle}{Fossil Capital}
+      \field{title}{Fossil Capital: The Rise of Steam-Power and the Roots of Global Warming}
+      \field{year}{2016}
+      \keyw{economics,marxism}
+    \endentry
+    \entry{Marx2014}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=af80d32a7d375e934f94bdfb27bf2999}{%
+           family={Marx},
+           familyi={M\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {Boitempo}%
+      }
+      \strng{namehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{fullhash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{fullhashraw}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{bibnamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorbibnamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authornamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorfullhash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorfullhashraw}{af80d32a7d375e934f94bdfb27bf2999}
+      \field{extraname}{1}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{1}
+      \field{langid}{brazilian}
+      \field{shorttitle}{{O capital}}
+      \field{title}{{O capital: crítica da economia política - Livro II: o processo de circulação do capital}}
+      \field{year}{2014}
+      \keyw{economics,marxism}
+    \endentry
+    \entry{Marx2017}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=af80d32a7d375e934f94bdfb27bf2999}{%
+           family={Marx},
+           familyi={M\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {Boitempo}%
+      }
+      \strng{namehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{fullhash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{fullhashraw}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{bibnamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorbibnamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authornamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorfullhash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorfullhashraw}{af80d32a7d375e934f94bdfb27bf2999}
+      \field{extraname}{2}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{1}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{2}
+      \field{langid}{brazilian}
+      \field{shorttitle}{{O Capital}}
+      \field{title}{{O Capital: crítica da economia política - Livro I: o processo de produção do capital}}
+      \field{year}{2017}
+      \keyw{economics,marxism}
+    \endentry
+    \entry{Marx2017a}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=af80d32a7d375e934f94bdfb27bf2999}{%
+           family={Marx},
+           familyi={M\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {Boitempo}%
+      }
+      \strng{namehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{fullhash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{fullhashraw}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{bibnamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorbibnamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authornamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorfullhash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorfullhashraw}{af80d32a7d375e934f94bdfb27bf2999}
+      \field{extraname}{3}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradate}{2}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{1}
+      \field{langid}{brazilian}
+      \field{shorttitle}{{O capital}}
+      \field{title}{{O capital: crítica da economia política - Livro III: o processo global da produção capitalista}}
+      \field{year}{2017}
+      \keyw{economics,marxism}
+    \endentry
+    \entry{Pasquinelli2023}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fdd1f8c21d64d058841fdd4eae05cf96}{%
+           family={Pasquinelli},
+           familyi={P\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {London; New York}%
+      }
+      \list{publisher}{1}{%
+        {Verso}%
+      }
+      \strng{namehash}{fdd1f8c21d64d058841fdd4eae05cf96}
+      \strng{fullhash}{fdd1f8c21d64d058841fdd4eae05cf96}
+      \strng{fullhashraw}{fdd1f8c21d64d058841fdd4eae05cf96}
+      \strng{bibnamehash}{fdd1f8c21d64d058841fdd4eae05cf96}
+      \strng{authorbibnamehash}{fdd1f8c21d64d058841fdd4eae05cf96}
+      \strng{authornamehash}{fdd1f8c21d64d058841fdd4eae05cf96}
+      \strng{authorfullhash}{fdd1f8c21d64d058841fdd4eae05cf96}
+      \strng{authorfullhashraw}{fdd1f8c21d64d058841fdd4eae05cf96}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{"A social history that reveals the roots of AI in the spatial computation of industrial factories and the surveillance of collective behaviour"--}
+      \field{shorttitle}{The Eye of the Master}
+      \field{title}{The Eye of the Master: A Social History of Artificial Intelligence}
+      \field{year}{2023}
+      \keyw{AI,economics,marxism}
+    \endentry
+    \entry{SaBarreto2021a}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d3ce1cfa405ecdf3f2d780a51f005f2c}{%
+           family={Sá\bibnamedelima Barreto},
+           familyi={S\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Eduardo},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=7a0223d80175ececcaca634cc03d959b}{%
+           family={Medeiros},
+           familyi={M\bibinitperiod},
+           given={João\bibnamedelima Leonardo},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=d3ce1cfa405ecdf3f2d780a51f005f2c}{%
+           family={Sá\bibnamedelima Barreto},
+           familyi={S\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Eduardo},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {Usina Editorial}%
+      }
+      \strng{namehash}{d3ce1cfa405ecdf3f2d780a51f005f2c}
+      \strng{fullhash}{d3ce1cfa405ecdf3f2d780a51f005f2c}
+      \strng{fullhashraw}{d3ce1cfa405ecdf3f2d780a51f005f2c}
+      \strng{bibnamehash}{d3ce1cfa405ecdf3f2d780a51f005f2c}
+      \strng{authorbibnamehash}{d3ce1cfa405ecdf3f2d780a51f005f2c}
+      \strng{authornamehash}{d3ce1cfa405ecdf3f2d780a51f005f2c}
+      \strng{authorfullhash}{d3ce1cfa405ecdf3f2d780a51f005f2c}
+      \strng{authorfullhashraw}{d3ce1cfa405ecdf3f2d780a51f005f2c}
+      \strng{editorbibnamehash}{620c5e65b7cabac292098c9581f86097}
+      \strng{editornamehash}{620c5e65b7cabac292098c9581f86097}
+      \strng{editorfullhash}{620c5e65b7cabac292098c9581f86097}
+      \strng{editorfullhashraw}{620c5e65b7cabac292098c9581f86097}
+      \field{extraname}{1}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{Para que leiam O capital: interpretações sobre o Livro I}}
+      \field{langid}{brazilian}
+      \field{title}{{Fundamentos para a crítica ecológica do capitalismo no Livro I de O Capital (ou: esse não é mais um texto sobre ruptura metabólica)}}
+      \field{year}{2021}
+      \keyw{marxism}
+    \endentry
+    \entry{SaBarreto2022}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d3ce1cfa405ecdf3f2d780a51f005f2c}{%
+           family={Sá\bibnamedelima Barreto},
+           familyi={S\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Eduardo},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {Usina Editorial}%
+      }
+      \strng{namehash}{d3ce1cfa405ecdf3f2d780a51f005f2c}
+      \strng{fullhash}{d3ce1cfa405ecdf3f2d780a51f005f2c}
+      \strng{fullhashraw}{d3ce1cfa405ecdf3f2d780a51f005f2c}
+      \strng{bibnamehash}{d3ce1cfa405ecdf3f2d780a51f005f2c}
+      \strng{authorbibnamehash}{d3ce1cfa405ecdf3f2d780a51f005f2c}
+      \strng{authornamehash}{d3ce1cfa405ecdf3f2d780a51f005f2c}
+      \strng{authorfullhash}{d3ce1cfa405ecdf3f2d780a51f005f2c}
+      \strng{authorfullhashraw}{d3ce1cfa405ecdf3f2d780a51f005f2c}
+      \field{extraname}{2}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Ecologia Marxista para pessoas sem tempo.}
+      \field{langid}{brazilian}
+      \field{month}{7}
+      \field{title}{{Ecologia Marxista para pessoas sem tempo}}
+      \field{year}{2022}
+      \keyw{biology/ecology,economics,marxism}
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

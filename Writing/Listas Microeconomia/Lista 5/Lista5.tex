@@ -70,7 +70,7 @@ Um \textit{conjunto de produção} \(Y\) de uma dada firma é o conjunto
 \(Y \subseteq \mathbb{R}^{L}\), em que cada
 \(Y \ni y = (y_{1}, \dots, y_n)\) descreve uma possível configuração de
 produção, em que \(y_{i}<0\) é um \textit{input} \(y_{i}>0\) é um
-\textit{output}
+\textit{output}.
 
 Em geral, diz-se que qualquer \(y_{i}\) é um ``\textit{netput}''.
 \end{definition}
@@ -88,9 +88,8 @@ As definições são:
   \item Retornos \textit{não-crescentes} de escala: para
 quaisquer escalares \(\alpha \in [0,1]\) e \(y\in Y\), tem-se que
 \(\alpha y \in Y\). Ou seja, se \(y\) é um plano de produção factível,
-ele pode ser realizado em menor escala,mas \textit{nada garante} que ele
-o será em maior escala (\textit{ceteris paribus}, em particular as
-proporções de insumos e produtos etc.).
+ele pode ser realizado em menor escala, mas \textit{nada garante} que ele
+o será em maior escala.
   \item Retornos
 \textit{não-decrescentes} de escala: para quaisquer escalares
 \(\alpha \geq 1\) e \(y \in Y\), tem-se que \(\alpha y \in Y\). Ou seja,
@@ -129,7 +128,7 @@ não-decrescente, ou melhor, é ambos ao mesmo tempo. Fonte: \href{https://felix
 O mais comum, porém, é de se falar de processos que tomam \(n\) inputs \(z \in \mathbb{R}^{n}\) e produzem somente \(1\) output \(y \in \mathbb{R}_{+}\). Não só isso, é comum também falar-se de \textit{funções de produção} \(f(z) \in \mathbb{R}\) que descrevem processos \textit{ótimos} de produção.
 
 \begin{definition}
-Uma função \(f: \mathbb{R}^{n} \to \mathbb{R}_{+}\) é dita ser uma
+Uma função \(f: \mathbb{R}^{n} \to \mathbb{R}_{+}\) é chamada de
 \textit{função de produção} se ela descreve um processo de produção
 ``ótimo'' em um conjunto de produção \(Y \subseteq \mathbb{R}^{n+1}\).
 Ou seja, para cada processo de produção
@@ -150,13 +149,13 @@ ou, visto de outra forma, é o output que é obtido através do processo
 
 O problema da firma possui um paralelo com o problema do consumidor, consistindo em dois problemas duais: a firma pode buscar \textit{minimizar seu custo de produção}, assim como pode buscar \textit{maximizar seu lucro}. Tais problemas são passíveis de ser descritos pelo formalismo acima.
 
-O usual é de se falar sobre a minimização do custo \(\sum \limits_{i=1}^{n} w_{i}z_{i}\) --- em que \(w_{i}\) é o custo do input \(i\), consumido em \(z_{i} \in \mathbb{R}\) ``unidades'' neste processo específico --- para a produção de uma dada quantidade \(\bar{q} \in \mathbb{R}\) de output, com alguma função produção \(f(z_{1},\dots,z_{n}) \in \mathbb{R}\), e que será vendida a preço \(p\) por unidade produzida. Ou seja, usualmente fala-se do problema de \textit{minimização do custo}.
+É mais usual falar sobre a minimização do custo \(\sum \limits_{i=1}^{n} w_{i}z_{i}\) --- em que \(w_{i}\) é o custo do input \(i\), consumido em \(z_{i} \in \mathbb{R}\) ``unidades'' neste processo específico --- para a produção de uma dada quantidade \(\bar{q} \in \mathbb{R}\) de output, com alguma função de produção \(f(z_{1},\dots,z_{n}) \in \mathbb{R}\), e que será vendida a preço \(p\) por unidade produzida. Ou seja, usualmente fala-se do problema de \textit{minimização do custo}.
 
 \textbf{Um comentário sobre notação}: Quando se fala sobre netputs, costuma-se empregar $p_i$ como os preços de todos estes elementos da produção. Contudo, conforme notação usual, empregaremos \(w_{i}\) como o \textit{custo do insumo} \(i\) --- quando for cabível discerni-lo do produto, especialmente em processos de produção de somente um produto $q$ ---, análogo ao \textbf{w}age/preço da força de trabalho, e \(p_{j}\) como o \textit{preço do produto} \(j\). Não confundir estes \(w\)'s com ``restrições orçamentárias''!
 
 \begin{definition}
 O problema de minimização do custo de uma firma com conjunto de produção
-\(Y \in \mathbb{R}^{n+1}\) e função produção
+\(Y \in \mathbb{R}^{n+1}\) e função de produção
 \(f: \mathbb{R}^{n} \to \mathbb{R}_{+}\), dados os preços de seus
 insumos \(w \in \mathbb{R}^{n}\), consiste no problema
 \[
@@ -211,9 +210,9 @@ preço \(p\)), escreve-se como
 \max\limits_{x_{i}, q \,\in \mathbb{R}} \left\{pq - \sum \limits_{i}w_{i}z_{i}\right\}
 \]
 
-Supondo que a firma tenha uma função produção
+Supondo que a firma tenha uma função de produção
 \(f(x_{1},\dots,x_{n}) \equiv f(x)\), o problema se escreve\footnote{Pois,
-  lembrando da definição de função produção, \(f(z)\) é a quantidade
+  lembrando da definição de função de produção, \(f(z)\) é a quantidade
   ótima que se pode obter de \(z_{1},\dots,z_{n}\). É por isso que o
   problema restringe-se a buscar otimizar somente \(z\), invés de \(z\)
   e \(q\).}
@@ -245,15 +244,11 @@ lucro\footnote{Lembrando que, num conjunto de produção \(Y\), insumos
 \[\pi(p) \coloneqq \max\limits_{y \in Y} p \cdot y\] 
 desta firma ou tende a \(\infty\), ou \(\pi(p) \leq 0\).
 
-(Note que, como não existe almoço grátis na vida, este caso não é
-sustentável na realidade. O que \textit{pode} acontecer é que um certo
-processo de produção tenha \textit{localmente} retornos de escala
-não-decrescentes, mas que, a escalas de produção maiores, ele tenha
-\textit{rendimentos marginais decrescentes}.)
+(Note que este caso não é sustentável na realidade. O que \textit{pode} acontecer é que um certo processo de produção tenha \textit{localmente} retornos de escala não-decrescentes, mas que, a escalas de produção maiores, ele tenha \textit{rendimentos marginais decrescentes}.)
 \end{exercise}
 
 \begin{exercise}
-Suponha que \(f: \mathbb{R} \to \mathbb{R}^{L-1}\) seja a função de
+Suponha que \(f: \mathbb{R}^{L-1} \to \mathbb{R}\) seja a função de
 produção de um único produto, e seja \(Y \subseteq \mathbb{R}^L\) o
 respectivo conjunto de produção.
 
@@ -262,7 +257,7 @@ se, \(f\) é homogênea de grau \(1\).
 \end{exercise}
 
 \begin{exercise}
-Para uma firma com função produção
+Para uma firma com função de produção
 \[
 f(K, L) = K^{\alpha}L^{\beta}
 \]
@@ -285,7 +280,7 @@ L^{*}(w,r,q) = q^{1/\alpha+\beta} \left( \frac{r}{w} \frac{\beta}{\alpha} \right
 \end{cases}
 \end{align*}
 
-e respectivas funções custo:\footnote{Citando o honorável
+e respectivas funções custo:\footnote{[Nota do Nicholas] Citando o honorável
   professor do IFUSP João Carlos Alves Barata --- autor das
   enciclopédicas
   \href{https://denebola.if.usp.br/~jbarata/Notas_de_aula/capitulos.html}{Notas
@@ -307,10 +302,9 @@ Considere um indivíduo com utilidade quase-linear
 lucros desta firma. Assuma que a dotação inicial do numerário é
 \(\omega_{m}>0\) e a do bem \(x\) é \(\omega_{x}=0\).
 
-Tanto a firma quanto o consumidor são assumidos como tomadores de
-preços: \(x\) tem preço \(p\), e \(m\) tem preço \(1\)\footnote{I.e.
+Assume-se que tanto a firma quanto o consumidor são tomadores de preço: \(x\) tem preço \(p\), e \(m\) tem preço \(1\)\footnote{I.e.
   \(m\) é assumido como numerário.}. Note que o preço \(p\) do bem \(x\)
-conta para o consumidor (i.e.~é um dispêndio) e para a firma (i.e.~conta
+conta para o consumidor (i.e. é um dispêndio) e para a firma (i.e.~conta
 para sua receita).
 
 \begin{enumerate}
@@ -385,7 +379,7 @@ Portanto, \(f(\alpha z) = \alpha f(z)\), e \(f\) é homogênea de grau
 
 Tenha-se algum \(y = (z, q) \in Y\). Então
 \(\alpha y=(\alpha z, \alpha q)\). Em particular, pela definição da
-função produção,
+função de produção,
 \[
 \alpha q\leq f(\alpha z) = \alpha f(z)
 \]
@@ -412,7 +406,7 @@ q = f(\bar{K},L) &= \bar{K}^{\alpha} L^{\beta} \\
 Não há ``minimização de custo'' aqui, pois o estoque fixo de capital
 \(\bar{K}\) e a isoquanta \(f(\bar{K},L) = q\) determinam o nível \(L\)
 demandado: despende-se \(L^{*}\) de trabalho para \(\bar{K}\) de
-capital, proporção esta ditada pela função produção \(f\).
+capital, proporção esta ditada pela função de produção \(f\).
 
 A função custo no curto prazo é
 \[

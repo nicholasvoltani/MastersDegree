@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.25)  26 MAY 2026 17:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (MiKTeX 26.2) (preloaded format=pdflatex 2026.3.25)  22 JUN 2026 10:08
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -686,27 +686,27 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 <images/Pasted image 20260521124131.png, id=49, 242.70676pt x 213.79875pt>
 File: images/Pasted image 20260521124131.png Graphic file (type png)
 <use images/Pasted image 20260521124131.png>
-Package pdftex.def Info: images/Pasted image 20260521124131.png  used on input line 109.
+Package pdftex.def Info: images/Pasted image 20260521124131.png  used on input line 108.
 (pdftex.def)             Requested size: 212.41261pt x 187.11258pt.
 
-Underfull \hbox (badness 1769) in paragraph at lines 110--110
+Underfull \hbox (badness 1769) in paragraph at lines 109--109
 []\T1/cmr/m/n/12 Figura 1: []Conjunto de pro-du-Á„o com re-tor-nos \T1/cmr/m/it/12 n„o-crescentes \T1/cmr/m/n/12 de es-cala. Fonte:
  []
 
 <images/Pasted image 20260521124214.png, id=53, 245.11575pt x 221.02576pt>
 File: images/Pasted image 20260521124214.png Graphic file (type png)
 <use images/Pasted image 20260521124214.png>
-Package pdftex.def Info: images/Pasted image 20260521124214.png  used on input line 116.
+Package pdftex.def Info: images/Pasted image 20260521124214.png  used on input line 115.
 (pdftex.def)             Requested size: 212.41261pt x 191.53876pt.
 
-Underfull \hbox (badness 1097) in paragraph at lines 117--117
+Underfull \hbox (badness 1097) in paragraph at lines 116--116
 []\T1/cmr/m/n/12 Figura 2: []Conjunto de pro-du-Á„o com re-tor-nos de es-cala \T1/cmr/m/it/12 n„o-decrescentes\T1/cmr/m/n/12 . Fonte:
  []
 
 <images/Pasted image 20260521124319.png, id=56, 289.08pt x 242.1045pt>
 File: images/Pasted image 20260521124319.png Graphic file (type png)
 <use images/Pasted image 20260521124319.png>
-Package pdftex.def Info: images/Pasted image 20260521124319.png  used on input line 123.
+Package pdftex.def Info: images/Pasted image 20260521124319.png  used on input line 122.
 (pdftex.def)             Requested size: 212.41261pt x 177.89479pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -715,22 +715,22 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 pdfTeX warning (ext4): destination with the same identifier (name{exercise.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.335 C
+l.329 C
        aso haja \textit{algum} processo de produ√ß√£o \(y \in Y\) tal que
 pdfTeX warning (ext4): destination with the same identifier (name{exercise.2}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.351 (
+l.345 (
        \(\implies\)) \(Y\) ter retornos constantes de escala quer dizer que [7]
 pdfTeX warning (ext4): destination with the same identifier (name{exercise.3}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.404 \textit{Curto prazo}
+l.398 \textit{Curto prazo}
                           : Tenha-se \(K = \bar{K}\). Ent√£o, √© poss√≠vel i... [8] [9]
 pdfTeX warning (ext4): destination with the same identifier (name{exercise.4}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.473 M
+l.467 M
        aximiza√ß√£o da utilidade do consumidor \(u(x,m) = \phi(x) + m\), com [10] [11] (Lista5.aux)
  ***********
 LaTeX2e <2025-11-01>
@@ -751,9 +751,9 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  75i,21n,79p,773b,1686s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1000.pk> <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0700.pk> <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm0800.pk> <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm0700.pk> <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk> <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\nicho\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/latxfont/line10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb><C:/Program Files/MiKTeX/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on Lista5.pdf (11 pages, 401203 bytes).
+Output written on Lista5.pdf (11 pages, 401725 bytes).
 PDF statistics:
- 680 PDF objects out of 1000 (max. 8388607)
+ 682 PDF objects out of 1000 (max. 8388607)
  47 named destinations out of 1000 (max. 500000)
  48 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,15 +1,15 @@
 [0] Config.pm:328> INFO - This is Biber 2.21
 [0] Config.pm:331> INFO - Logfile is 'Lista5.blg'
-[92] biber-MSWIN64:342> INFO - === 
-[128] Biber.pm:421> INFO - Reading 'Lista5.bcf'
-[226] Biber.pm:1002> INFO - Found 2 citekeys in bib section 0
-[238] Biber.pm:4487> INFO - Processing section 0
-[253] Biber.pm:4678> INFO - Looking for bibtex file '../Microeconomics.bib' for section 0
-[342] bibtex.pm:1713> INFO - LaTeX decoding ...
-[400] bibtex.pm:1519> INFO - Found BibTeX data source '../Microeconomics.bib'
-[456] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
-[456] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
-[456] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'pt-BR'
-[456] Biber.pm:4313> INFO - No sort tailoring available for locale 'pt-BR'
-[463] bbl.pm:676> INFO - Writing 'Lista5.bbl' with encoding 'UTF-8'
-[465] bbl.pm:779> INFO - Output to Lista5.bbl
+[320] biber-MSWIN64:342> INFO - === 
+[452] Biber.pm:421> INFO - Reading 'Lista5.bcf'
+[551] Biber.pm:1002> INFO - Found 2 citekeys in bib section 0
+[562] Biber.pm:4487> INFO - Processing section 0
+[590] Biber.pm:4678> INFO - Looking for bibtex file '../Microeconomics.bib' for section 0
+[701] bibtex.pm:1713> INFO - LaTeX decoding ...
+[747] bibtex.pm:1519> INFO - Found BibTeX data source '../Microeconomics.bib'
+[885] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'variable = shifted' with 'variable = non-ignorable'
+[885] UCollate.pm:68> INFO - Overriding locale 'pt-BR' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[885] Biber.pm:4307> INFO - Sorting list 'nyt/global//global/global/global' of type 'entry' with template 'nyt' and locale 'pt-BR'
+[885] Biber.pm:4313> INFO - No sort tailoring available for locale 'pt-BR'
+[960] bbl.pm:676> INFO - Writing 'Lista5.bbl' with encoding 'UTF-8'
+[963] bbl.pm:779> INFO - Output to Lista5.bbl

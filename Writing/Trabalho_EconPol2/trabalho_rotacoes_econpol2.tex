@@ -1,0 +1,280 @@
+\documentclass[12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+
+\usepackage{geometry}
+\geometry{margin=2cm}
+\usepackage{setspace}
+\onehalfspacing
+
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{mathtools}
+\usepackage{soul}
+\usepackage[utf8]{inputenc}
+
+\numberwithin{equation}{section}
+
+\theoremstyle{plain}
+\newtheorem{theorem}{Teorema}[section]
+\newtheorem{proposition}[theorem]{Proposição}
+\newtheorem{lemma}[theorem]{Lema}
+\newtheorem{corollary}[theorem]{Corolário}
+
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definição}
+\newtheorem{example}[theorem]{Exemplo}
+\newtheorem{exercise}{Exercício}[section]
+
+\theoremstyle{remark}
+\newtheorem*{remark}{Observação}
+
+\usepackage{hyperref}
+\hypersetup{
+    hidelinks
+}
+\usepackage{csquotes}
+\usepackage{cancel}
+\usepackage{xcolor}
+\usepackage{svg}
+
+\usepackage[
+    backend=biber,
+    style=abnt,
+    sorting=nyt
+]{biblatex}
+
+\addbibresource{../Khazzoom-Brookes.bib}
+
+\title{Estudos sobre tempo de rotação e influências da maquinaria sobre ele}
+\author{Nicholas Funari Voltani}
+\date{31 de julho de 2026}
+
+\begin{document}
+
+\maketitle
+
+\section{Introdução}
+A mecanização, ou subsunção real do trabalho pelo capital, é um momento crucial no que diz respeito à superação daquilo que torna-se um entrave ao capital: as restrições que seus componentes vivos e mortos lhe traziam ante à produção acelerada de valor.\footnote{``O sistema mecanizado ergueu-se, portanto, de modo natural-espontâneo sobre uma base material que lhe era inadequada. Ao atingir certo grau de desenvolvimento, ele teve de revolucionar essa base – encontrada já pronta e, depois, aperfeiçoada de acordo com sua antiga forma – e criar para si uma nova, apropriada a seu próprio modo de produção. Assim como a máquina isolada permaneceu limitada enquanto foi movida apenas por homens, e assim como o sistema da maquinaria não pôde se desenvolver livremente até que a máquina a vapor tomasse o lugar das forças motrizes preexistentes – animal, vento e até mesmo água –, também a grande indústria foi retardada em seu desenvolvimento enquanto seu meio característico de produção, a própria máquina, existiu graças à força e à habilidade pessoais, dependendo, assim, do desenvolvimento muscular, da acuidade visual e da virtuosidade da mão com que o trabalhador parcial na manufatura e o artesão fora dela operavam seu instrumento limitado. (...) A partir de certo grau de desenvolvimento, porém, a grande indústria também entrou tecnicamente em conflito com sua base artesanal e manufatureira. A ampliação do tamanho das máquinas motrizes, do mecanismo de transmissão e das máquinas-ferramentas; a maior complexidade, multiformidade e a regularidade mais precisa de seus componentes, à medida que a máquina-ferramenta se distanciava do modelo artesanal (que originalmente dominava sua construção) e assumia uma forma livre, determinada apenas por sua tarefa mecânica; o aperfeiçoamento do sistema automático e a aplicação, cada vez mais inevitável, de um material difícil de ser trabalhado, como o ferro em vez da madeira – a solução de todas essas tarefas surgidas espontaneamente chocou-se por toda parte com as limitações pessoais, que mesmo os trabalhadores combinados na manufatura só conseguiam superar até certo grau, mas não em sua essência. Máquinas como a impressora, o tear a vapor e a máquina de cardar modernos não podiam ser fornecidas pela manufatura.'' \parencite[p. 456-7]{Marx2017}} Com a mecanização, torna-se quantificável muito do que antes não o era, em particular no que diz respeito ao mais ambíguo de seus instrumentos: o trabalho humano. 
+
+A Maquinaria permite o aceleramento do ritmo das atividades econômicas em geral, não só produtoras de valor, como também de transporte, circulação, comunicação etc. No que diz respeito ao capital, permite justamente ``fazer mais em menos tempo'', ou seja, de, por assim dizer, \textit{acelerar o próprio tempo}: uma hora de trabalho mecanizado torna-se equivalente a muitas horas de trabalho não-mecanizado, ou, como Marx o coloca, o tempo torna-se ``menos poroso''. Isso é o que Marx chama de aumento de intensidade do trabalho. 
+
+Porém, a maquinaria, por mais que seja capital fixo por excelência, não funciona \textit{per se stessa}, requerendo também matérias primas e auxiliares como óleos e lubrificantes, e principalmente \textit{combustível}. O que Marx chama de ``força-motriz'' da máquina, no ``mundo de mercadorias'' do capital, torna-se também uma mercadoria, que chamo aqui de Mercadoria-Energia. 
+
+A mercadoria-energia é, para todos os fins e propósitos, mais uma matéria-prima, i.e. capital circulante, nas mãos do capitalista. Faz-se importante discerni-la das demais matérias-primas, porém, justamente pelo que ela engendra: uma cristalização de um conceito, a princípio, etéreo e fugidio à intuição cotidiana.\footnote{E mesmo à intuição dos físicos, que tanto dela se valem em seu \textit{métier}. ``\textit{It is important to realize that[,] in physics today, we have no knowledge of what energy is. We do not have a picture that energy comes in little blobs of a definite amount. It is not that way. However, there are formulas for calculating some numerical quantity [i.e. total energy], and when we add it all together it gives [...] always the same number. It is an abstract thing in that it does not tell us the mechanism or the reasons for the various formulas [kinetic energy, etc.]}.'' \parencite[Vol I, Cap. 4]{Feynman2006}. É similar ao que Santo Agostinho diz sobre o tempo: ``Que é, pois, o tempo? Se ninguém me pergunta, eu sei; mas se quiser explicar a quem indaga, já não sei.''} Análoga — mas não mais que análoga — à força de trabalho, a mercadoria-energia é uma reificação de algo que é sempre \textit{in actu}, e que agora é passível de ser comprada e vendida como potência-a-efetivar\footnote{O que é, a rigor, redundante, pois toda potência que não tenha pretensão de se efetivar não é, de fato, \textit{potência}, da mesma forma que as ideias de um empreendedor, ávido por louros e louvores, não vale nada se ela não tiver pretensão \textit{efetiva} de devir algo concreto. (Não que isso impeça a especulação do mercado, claro.)}. Neste ínterim, o carvão, mercadoria-energia \textit{par excellence}, assume o papel de alicerce da segunda Revolução Industrial, sobrepujando a predominância das rodas d'água nas indústrias britânicas após meados do século XIX.\footnote{Não necessariamente por ser ''mais eficiente" que as rodas d'água desde o princípio — muito pelo contrário. Isso é atestado não só pelas evidências históricas vindas dos próprios capitalistas da época — bem sumarizado por \textcite{Malm2016,Malm2013} —, como também pela profusão de ciclos termodinâmicos conceptualizados e estudados por engenheiros da época (ciclos de Carnot, Otto, Diesel, Rankine etc.) que ratificam sua busca incessante pela viabilização econômica do motor a vapor.}
+
+Não é somente sobre a produção capitalista, porém, que a grande indústria exerceu influência. Sua relevância diz respeito ao processo completo de reprodução do capital, qual seja, seu processo de produção \textit{e de circulação}, ou seja, sobre a produção de valor e de sua efetivação no mercado. Dito de outra forma, é sobre o tempo de rotação que devemos nos debruçar para aferir mais holisticamente o papel da maquinaria na, e sobre a, economia capitalista. 
+
+\section{O tempo de rotação do capital}
+O tempo de rotação do capital $T_{r}$ é dado da forma
+$$
+T_{r} = \underbrace{ T_{trab} + T_{\lnot trab} }_{ T_{prod} } + \underbrace{ T_{D-M} + T_{M^\prime-D^\prime} }_{ T_{circ} }
+$$
+onde $T_{prod}$ é o tempo de produção — de mercadorias, ou melhor, de valor —, e $T_{circ}$ é o tempo de circulação.\footnote{Ao longo do livro II d'O Capital, há um uso em comum dos termos \textit{Umlaufszeit} (comumente traduzido como ``tempo de curso'') e \textit{Zirkulationszeit}/\textit{Cirkulationszeit} (``tempo de circulação'') para descrever este conceito, como se pode aferir p. ex. no capítulo 14 — ``...o tempo de rotação do capital é igual à soma de seu tempo de produção e de seu tempo de curso ou de circulação [\textit{Umlaufs- oder Zirkulationszeit}]'' \parencite[p. 343]{Marx2014} —, capítulo 12: ``...o tempo de rotação [\textit{Umschlagszeit}] é igual à soma do tempo de produção e do tempo de circulação [\textit{Zirkulationszeit}] do capital.'' \parencite[p. 323]{Marx2014}, capítulo 6 — ``Ele [o produtor capitalista] tem de converter sua coisa [seu produto] em dinheiro. As despesas que lhe acarretam sua conservação sob a forma de mercadorias [antes de sua venda] fazem parte de suas aventuras pessoais, que não dizem respeito ao comprador da mercadoria. Este não lhe paga o tempo de circulação [\textit{Zirkulationszeit}] de sua mercadoria.'' \parencite[p. 225]{Marx2014} —, \textit{et cetera}. Por este motivo, prefiro aqui denotá-lo como ``tempo \textit{de circulação} do capital'' — cuja adjetivação contrapõe-se mais explicitamente àquela do ``tempo \textit{de produção} do capital'' —, a despeito de Marx ter utilizado predominantemente \textit{Umlaufszeit}/``tempo de curso'' para descrever este conceito. De qualquer forma, ambos estes termos — ``tempo de curso do capital'' e ``tempo de circulação do capital'' — serão, neste presente trabalho, assumidos como \textit{sinônimos}. } É ao longo do tempo de uma rotação que um dado capital adiantado reproduz seu próprio valor, ou seja, transita sucessivamente por suas formas — capital-dinheiro, capital produtivo e capital-mercadoria — até retornar a seu proprietário num produto total de mesma magnitude de valor. 
+
+Toda a produção de valor ocorre sob $T_{prod}$, tanto durante o tempo de trabalho ($T_{trab}$) em si quanto também durante seu tempo de ``não-trabalho'' $T_{\lnot trab}$\footnote{$\lnot$ é o símbolo matemático de negação. $\lnot trab$ deve ser lido como ``não-trab[alho]''.}, pois, da mesma forma que a produção \textit{necessária} de resíduos durante um processo de produção transfere também o valor destes resíduos ao produto final\footnote{``Suponhamos que, no processo de fiação, para cada $115$ libras de algodão diariamente utilizadas[,] sejam desperdiçadas $15$ libras, que não se transformam em fio, mas em \textit{devil's dust}. No entanto, na medida em que esse resíduo é considerado como elemento normal e inseparável da fiação em suas condições médias, essas $15$ libras, embora não constituam elemento do fio, passam a compor o valor do fio tanto quanto as $100$ libras que constituem sua substância. O valor de uso de $15$ libras de algodão tem de ser transformado em pó para que sejam produzidas $100$ libras de fio. A destruição desse algodão é, portanto, uma condição necessária para a produção do fio, e é justamente por isso que ele transfere seu valor ao fio.'' \parencite[p. 282]{Marx2017}}, também o desgaste de capital fixo durante um certo tempo ocioso \textit{necessário} ao processo tem de ser transferido ao produto.
+
+O papel que a mecanização do trabalho humano desempenha é de reduzir os tempos de produção e de circulação, ainda que de maneiras distintas. O tempo de produção de uma dada quantidade de mercadorias (em algum dado setor etc.), como Marx o elabora no Livro I, é reduzido não só no que diz respeito à sua confecção em si, como também na redução do tempo ocioso durante as jornadas de trabalho, destes ``poros'' de tempo ``desperdiçado'' pelo trabalhador em seu trabalho. O tempo de circulação é comprimido conquanto o tempo requerido para o transporte de mercadorias, comunicação entre vendedor e comprador (em particular compradores de atacado), efetuação de pagamentos (em particular após o século XXI) etc. é minimizado.
+
+O tempo de rotação de algum dado capital adiantado depende dos tempos de rotação de suas partes componentes. A mensuração homogênea destes tempos referentes a componentes qualitativamente distintas de um certo capital tem de ser feita sob o ciclo do capital-dinheiro, em que tais temporalidades são medidas pela medida homogênea por excelência do mundo das mercadorias: o dinheiro. Dado um capital em um setor cujas proporções de dispêndio em certas componentes de capital — por exemplo, carvão, máquinas de fiar, algodão, força de trabalho etc. — sejam dadas por $\alpha_{i}$, as quais têm de ser repostas a cada período de tempo $t_{i}$ — por exemplo, 1 ano ($t=1$), a cada dois anos ($t=2$), duas vezes por ano ($t=1/2$), etc. —, então teremos que o tempo de rotação deste capital será dado pela fórmula
+$$
+T_{r}= \frac{1}{\sum \limits_{i=1}^{n} \alpha_{i} t_{i}^{-1}}
+$$
+(A derivação é deixada no apêndice.) 
+
+Este período não toma em conta o mais-valor produzido, porquanto diz respeito meramente ao ``refluxo'' do valor \textit{do capital adiantado} às mãos de seu proprietário, ou melhor, diz respeito à recomposição \textit{da conformação desta quantidade específica de capital} (de um dado setor etc.). Da mesma forma como a reprodução ampliada do capital pressupõe sua reprodução simples, a produção anual de uma massa de mais-valor pressupõe a reprodução anual do valor do próprio capital — seja pela transferência de valor do capital constante, seja pela produção de valor pelo capital variável — que gerou esta massa; dito de outra forma, é justamente porque é um excedente de valor \textit{vis-à-vis} um certo valor re-produzido que trata-se de mais-valor, i.e. que se trata de valor \textit{excedente}. 
+
+No que tange ao processo de mecanização, há não só um aumento considerável da prevalência de capital fixo nas composições de capital (em contextos industriais\footnote{No sentido de indústria \textit{stricto sensu}, como processos químicos, têxteis etc. O sentido em que Marx emprega o termo ``capital industrial'' é \textit{lato sensu}, englobando também processos de produção que se mantiveram (à época de Marx em particular) razoavelmente desmecanizados, p. ex. a \textit{Hausindustrie} (``indústria doméstica'') \parencite{Marx2017}.} em particular), como também necessariamente um aumento no consumo de matérias auxiliares, principalmente combustíveis que forneçam força-motriz à maquinaria\footnote{``Uma parte dos meios de produção — especialmente aqueles materiais auxiliares que ou são consumidos pelos próprios meios de trabalho durante seu funcionamento, tal como o carvão pela máquina a vapor, ou apenas auxiliam no processo, como o gás de iluminação etc. — não se incorpora \textit{materialmente} no produto. Somente seu \textit{valor} constitui uma parte do valor-produto. Em sua própria circulação, o produto circula seu [destes meios de produção] valor. [...] em todo processo de trabalho em que entram eles são \textit{inteiramente consumidos} e têm, portanto, de ser substituídos, para cada novo processo de trabalho, por novos exemplares do mesmo tipo.'' \parencite[p. 241, grifo meu]{Marx2014}.}, ainda mais tendo em vista a paulatina redução do emprego de força de trabalho ao longo do desenvolvimento do modo de produção capitalista. Ou seja, cresce a composição orgânica do capital, em que seu emprego de capital morto/objetivado/pretérito prevalece ante seu emprego de capital vivo. 
+
+\section{A rotação do capital mediante a não-interrupção da produção}
+O desenvolvimento do modo de produção capitalista permitiu com que a produção de mercadorias precisasse cada vez menos do refluxo do dinheiro de sua venda para prosseguir em seu funcionamento. De fato, cada vez mais surge capital-dinheiro disponível para crédito de investimentos não só para o início de empreitadas industriais, como para sua manutenção ao longo do ano.\footnote{Não somente industriais no sentido cotidiano da palavra: o agronegócio brasileiro, por exemplo, depende enormemente do mercado financeiro, p. ex. para operações de custeio — crédito para custear plantios, compra de sementes, insumos etc. —, negociações nos mercados de futuros para garantir a venda das safras e a previsibilidade dos preços de venda, contratação de seguros, financiamentos a longo prazo de máquinas e instalações etc.} Faz-se necessário, porém, abstrair destas circunstâncias mais concretas, a fim de ver o fenômeno em sua ``pureza'': períodos de produção e de circulação de mercadorias, visando efetivação de valor (e de mais-valor) periodicamente. Dessa forma, abstraímos de \textit{como} o capitalista obtém este adiantamento, supondo que ele já o tenha em mãos.
+
+\subsection{Primeiro exemplo: rotação de 12 semanas (tempo de trabalho menor que tempo de circulação)}
+\textcite[p. 356-7]{Marx2014} dá os seguintes períodos:
+\begin{itemize}
+\item Tempo de trabalho $T_{trab} = 9$ semanas
+\item Período de não-trabalho $T_{\lnot trab}=0$, i.e. $T_{prod}=T_{trab}$
+\item Tempo de circulação $T_{circ}=3$ semanas
+\end{itemize}
+
+Em vez de manter somente ``um'' capital operando por $9$ semanas e parado por $3$ semanas de circulação, um capitalista deseja manter ``um'' capital operando por $9$ semanas e, enquanto este leva $3$ semanas em circulação, manter \textit{outro capital} em período de trabalho ao mesmo tempo.
+
+Para isso, Marx supõe que o adiantamento semanal é de $k=100$. Portanto, o adiantamento do período de trabalho é $9k$, e do período de circulação é $3k$. ``Originalmente'' — isto é, socialmente —, ele necessitaria somente $9k$ para fazer seu capital rodar, mas agora ele deseja investir para manter todas as semanas do ano operantes, portanto tendo de adiantar a mais. Com isso, ele obtém \textit{mais} do que uma rotação a cada 12 semanas.
+
+Uma depicção disso é o seguinte:
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=\textwidth]{imagens/Drawing 2026-07-30 19.26.36.png}
+    \caption{Cada quadrado representa três semanas; os quadrados hachurados em verde e em amarelo se tratam de trimestres \textit{ativamente em produção}: em verde são os que são empregados no primeiro período de trabalho, e o em amarelo é o que capital ``adicional'' que é empregado a partir do segundo período de trabalho; os quadrados hachurados em preto são períodos em que o capital produzido está \textit{em circulação}.}
+    %\label{fig:figure2}
+\end{figure}
+
+Fica visível que, enquanto o [que Marx chama de] capital I está em circulação, o capital II começa sua rotação, e consegue acabar seu período de trabalho justamente porque o capital I completou sua rotação, trazendo de volta este valor adiantado, \textit{und so weiter}.
+
+Vide descrição textual de Marx:
+\begin{enumerate}
+\item Primeira rotação: ``Primeiro período de trabalho de nove semanas: a rotação do capital aqui adiantado completa-se no início da 13ª semana'' (vide quarto quadrado verde na parte de baixo, começo da segunda rotação). ``Durante as últimas três semanas, funciona o capital adicional de £300'' (em amarelo), ``inaugurando o segundo período de trabalho de nove semanas.'' 
+\item Segunda rotação: ``No começo da 13ª semana'' (após primeiro quadrado hachurado em preto), ``£900 retornaram e estão aptas a começar uma nova rotação. Mas o segundo período de trabalho já foi iniciado pelas £300 adicionais na 10ª semana'' (vide primeiro quadrado hachurado em amarelo). ``Das £900 iniciais foi liberada a soma de £300 para desempenhar o mesmo papel que o capital de £300 adicionado desempenhara no primeiro período de trabalho'' — i.e. vai ser agora um ``quadrado verde'' que começará um novo período de trabalho, após o fim do período de trabalho iniciado pelo ``quadrado amarelo''. E por aí vai.
+\item Terceira rotação: similar. 
+\item Quarta rotação: ``assim, o quarto período de rotação e o 5º \textit{de trabalho} [grifo meu] começam simultaneamente, com a 37ª semana do ano.''
+\end{enumerate}
+
+Note-se, portanto, que, enquanto o capital médio, adiantando $9k$, completou $3$ rotações — rodando, portanto, $27k$ —, este capital individual, adiantando $12k$, completou $3$ rotações e ainda está à espera da circulação ao final de mais uma rotação — rodou, portanto, $36k$, $9k$ dos quais ainda precisam passar pela circulação para serem vendidos.
+
+\subsection{Segundo exemplo: rotação de 10 semanas (tempo de trabalho igual ao tempo de circulação)}
+\textcite[p. 357]{Marx2014}:
+\begin{itemize}
+\item Tempo de trabalho $T_{trab}=5$ semanas
+\item Período de não-trabalho $T_{\lnot trab}=0$, i.e. $T_{prod}=T_{trab}$
+\item Tempo de circulação $T_{circ}=5$ semanas
+\end{itemize}
+
+Por simplicidade, pensemos que $5$ semanas sejam compostas de um só ``período'', a fim de que possamos pensar que uma rotação é composta de 1 parte de trabalho por 1 parte de circulação. Dessa forma, podemos enxergar as rotações alternadas da seguinte forma, em que cada quadrado represente $5$ semanas:
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=\textwidth]{imagens/Drawing 2026-07-30 20.03.57.png}
+    \caption{Cada quadrado representa cinco semanas.}
+    %\label{fig:figure2}
+\end{figure}
+
+Temos que, a cada duas rotações do capital médio, este capital individual terá feito duas rotações mais um período de trabalho completo (i.e. mais meia rotação). 
+
+\subsection{Terceiro exemplo: rotação de 9 semanas (tempo de trabalho menor que tempo de circulação, períodos múltiplos entre si)}
+\textcite[p. 371-3]{Marx2014}:
+\begin{itemize}
+\item Tempo de trabalho $T_{trab}=3$ semanas
+\item Período de não-trabalho $T_{\lnot trab}=0$, i.e. $T_{prod}=T_{trab}$
+\item Tempo de circulação $T_{circ}=6$ semanas
+\end{itemize}
+
+Ou seja, adianta-se £900 para as 9 semanas, e os períodos de trabalho demandarão £300 cada.
+
+Uma visualização deste cenário, em que cada quadrado representa $3$ semanas:
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=\textwidth]{imagens/Drawing 2026-07-31 12.46.06.png}
+    \caption{Cada quadrado representa três semanas.}
+    %\label{fig:figure2}
+\end{figure}
+
+Note-se que a cada rotação (do capital médio), temos três movimentos simultâneos: o capital ``I'' faz uma rotação; o capital ``II'' faz $2/3$ de uma rotação (completa um período de trabalho e metade do tempo de circulação); e o capital ``III'' faz $1/3$ de uma rotação (somente completa o período de trabalho). 
+
+Aqui é visível que ``Não ocorre um entrecruzamento ou entrelaçamento dos capitais'' \parencite[p. 373]{Marx2014}, devido à coincidência de que os tempos de produção e de circulação possuem um múltiplo em comum (no caso, $T_{circ}=2T_{trab}$). 
+
+\subsection{Quarto exemplo: rotação de 9 semanas (tempo de trabalho menor que tempo de circulação, períodos não-múltiplos entre si)}
+Faz-se necessário, portanto, analisar o caso bem mais comum de que estes tempos não sejam comensuráveis dessa forma. Conforme \textcite[p. 373-6]{Marx2014}:
+\begin{itemize}
+\item Tempo de trabalho $T_{trab}=4$ semanas
+\item Período de não-trabalho $T_{\lnot trab}=0$, i.e. $T_{prod}=T_{trab}$
+\item Tempo de circulação $T_{circ}=5$ semanas
+\end{itemize}
+
+Uma visualização desse caso, em que cada quadrado representa $1$ semana:
+\begin{figure}[h!]
+    \centering
+    \includegraphics[width=\textwidth]{imagens/Drawing 2026-07-31 13.08.19.png}
+    \caption{Cada quadrado representa \textit{uma} semana. Os quadrados com cores mais fortes representam uma antecipação da primeira semana de trabalho da rotação seguinte. Por exemplo, o primeiro quadrado azul (escuro), na nona semana, já inicia o terceiro período de trabalho, o qual ``normalmente'' começaria na décima semana (após o fim da primeira rotação); o primeiro quadrado verde-escuro, na décima-terceira semana, inicia o quarto período de trabalho, que ``normalmente'' começaria na décima-quarta semana (após o fim da segunda rotação), e idem para o primeiro quadrado amarelo-laranja, etc.}
+    %\label{fig:figure2}
+\end{figure}
+
+Note-se que o capital adicional (``capital III'') é empregado \textit{na última semana do tempo de circulação} do capital I, ou seja, permite começar o período de trabalho seguinte \textit{antecipadamente}, de forma que não haja semana com produção interrompida.
+
+
+Em suma: Marx desenvolve no livro II d'O Capital que as circunstâncias mais ubíquas de tais proporções do tempo de rotação são de 1) períodos de trabalho maiores que tempo de circulação e 2) tempo de circulação maior que o período de trabalho, \textit{porém} sem que ambos sejam múltiplos um do outro. Em tais cenários, ao contrário dos outros possíveis — período de trabalho igual ao tempo de circulação, e ambos múltiplos um do outro —, sempre há uma ``liberação de capital adicional'', ou seja, o valor que reflui após um tempo de circulação permite a conclusão do período de trabalho que lhe é simultâneo. Por exemplo, na primeira figura, durante a primeira rotação, o capitalista possui £300 adicionais em capital-dinheiro até que chegue o primeiro período de circulação; na quarta figura, ele possui £500 adicionais até este período. Dessa forma, 
+\begin{quote}
+``são as condições do mercado que vão dizer se ele [o capitalista] reconverterá de imediato [esse 'capital adicional'], total ou parcialmente, em estoque produtivo excedente, ou se as manterá como [capital-dinheiro], total ou parcialmente, à espera de condições de mercado mais favoráveis.'' \parencite[p. 378-9]{Marx2014}
+\end{quote}
+
+Tais excedentes, agregados em escalas cada vez maiores, são ``um dos fundamentos'' do sistema de crédito, assim como ``[têm] de desempenhar um importante papel'' tão logo ele se desenvolva \parencite[p. 379]{Marx2014}, pois não só tais mercados tornam-se o destino de capitais-dinheiro ociosos, à busca de investimentos mais rentáveis (e de receber juros rendidos por seu dinheiro), quanto de capitalistas buscando adiantamentos para suas empreitadas.
+
+\section{A rotação do capital em reprodução simples}
+Embora o mais-valor seja produzido durante o processo de produção, é somente após a conclusão de uma rotação — ou seja, após sua circulação — que ele retorna à mão do capitalista na palpável forma-dinheiro. Marx bem aponta que é tal confluência de circunstâncias que cria
+\begin{quote}
+``a impressão de que a taxa do mais-valor depende não só da quantidade e do grau de exploração da força de trabalho posta em movimento pelo capital variável, mas, além disso, de influências inexplicáveis, \textit{derivadas do processo de circulação}'' \parencite[p. 394, grifo meu]{Marx2014}
+\end{quote}
+
+O valor do produto de uma rotação, retornando ao capitalista na forma de dinheiro, é igual ao capital circulante despendido durante a rotação mais a depreciação de capital fixo ocorrida durante o período de produção. Neste capital circulante está incluso, em particular, o capital variável, o real \textit{produtor} de valor deste processo.\footnote{Capital constante somente \textit{transfere} seu valor ao produto: capital circulante constante durante uma rotação, e capital fixo de maneira paulatina, durante várias rotações ao longo de seu tempo médio de uso.} Dessa forma, rotações sucessivas são geradoras sucessivas de mais-valor, de forma que rotações mais frequentes permitem obtenção mais frequente de mais-valor. Ainda melhor para o capitalista, posto que, dentro do período de trabalho — que nada mais é do que as ``jornadas de trabalho conexas'' envolvidas em uma rotação \parencite[p. 321]{Marx2014} —, sua força de trabalho contratada \textit{reproduz} seu próprio valor e \textit{produz} um excedente do qual pode se apropriar gratuitamente. Ao enunciá-lo, porém, já é evidente que a obtenção do mais-valor, que reflui junto do valor adiantado por meio das rotações, permite sua ``recapitalização'' para ampliar o capital adiantado de rotações posteriores, permitindo cada vez maior obtenção de mais-valor.
+
+
+
+\section*{Apêndice: Cálculo do tempo de rotação do capital}
+Com um capital adiantado $V$, que subdivide-se em
+$$
+\begin{cases}
+\alpha_{1} \leftrightarrow  (k_{1}, t_{1}) \\
+\alpha_{2} \leftrightarrow  (k_{2}, t_{2}) \\
+\vdots \\
+\alpha_{n} \leftrightarrow  (k_{n}, t_{n})
+\end{cases}
+$$
+em que $\alpha_{i}$ são as proporções em que $V$ é despendido em $k_{i}$ — i.e. $\frac{k_{i}}{V} = \alpha_{i}$, cujo tempo de rotação individual é $t_{i}$ — todos medidos com relação a algum tempo de referência em comum. Tomando esta referência como sendo igual a $1$ ano, então um componente que é reposto anualmente terá $t=1$; um que é reposto duas vezes por ano terá $t=2$; um que é reposto a cada dois anos terá $t=\frac{1}{2}$, etc.
+
+Então, pressupondo aqui que \textit{não} estamos distinguindo capital constante de capital variável — no que diz respeito a seu tempo próprio de rotação —, teremos que o valor \textit{empregado} $V^\prime$ em um ano — desconsiderando capitalização de mais-valor, i.e. considerando reprodução simples do capital — será
+\begin{align*}
+V^\prime &= \left( \sum \limits_{i=1}^{n} \frac{\alpha_{i} \cdot V}{t_{i}} \right)
+\end{align*}
+
+O número de rotações anuais do capital é o inverso do tempo de rotação (em anos) do capital, porque estamos utilizando $1$ ano como referência: $t_{r}$ anos estão para $1$ rotação assim como $1$ ano está para um número $\frac{1}{t_{r}}$ de rotações. Ou seja, $t_{r}$ está sendo medido em anos \textit{porque} estamos medindo o número de rotações \textit{em um ano}.\footnote{Dito de outra forma: o número de rotações tem unidade ``$\text{ano}^{-1}$'' — em verdade, de ``\textit{rotações}/ano'' — da mesma forma que a \textit{frequência} temporal de uma onda é medida em $\text{Hz}\equiv s^{-1}$ — em verdade, de ``\textit{períodos}/ano''.} Portanto, a razão entre o capital empregado e o capital adiantado, que é igual ao \textit{número de rotações} deste capital em um ano\footnote{``...a proporção $^\text{capital rodado anualmente}/_{\text{capital adiantado}}$ (...). Dessa divisão resulta o número de rotações do capital adiantado em um ano.'' \parencite[p. 399]{Marx2014}. (O fato de que esta fórmula apareça aqui explicitamente no capítulo 16, ``A rotação do capital variável'', não desfaz sua validade geral.)}, será igual a
+$$
+\frac{V^\prime}{V} = \sum \limits_{i=1}^{n} \frac{\alpha_{i}}{t_{i}} = \sum \limits_{i=1}^{n} \alpha_{i} t_{i}^{-1}
+$$
+
+Logo, o tempo de rotação total do capital, que é o inverso do número de rotações, é igual a
+$$
+t_{r} = \frac{1}{\sum \limits_{i=1}^{n} \alpha_{i} t_{i}^{-1}}
+$$
+
+Ou seja, o tempo total de rotação de um capital (sob reprodução simples) é uma \textit{média harmônica} dos tempos individuais de rotação de seus componentes, ponderados por suas respectivas proporções do capital adiantado.
+
+O exemplo fornecido por Marx \parencite[p. 270-1]{Marx2014} dita:
+$$
+\begin{cases}
+\text{Capital adiantado}: &V = 50k\\
+\text{Edifícios/maquinaria: }&\alpha_{1}=\frac{1}{2}, t_{1}=10 \text{ anos} \\
+\text{Ferramentas: }&\alpha_{2}=\frac{1}{4}, t_{2}=2 \text{ anos}\\
+\text{Salários e matérias-primas: }&\alpha_{3}=\frac{1}{4}, t_{3}=\frac{1}{2} \text{ ano}
+\end{cases}
+$$
+
+O valor total \textit{empregado} em um ano é
+$$
+50k \cdot \frac{1}{\frac{1}{2}\cdot \frac{1}{10} + \frac{1}{4} \cdot \frac{1}{2} + \frac{1}{4} \cdot \frac{1}{\frac{1}{2}}} \approx 33750
+$$
+
+Portanto, o tempo de rotação total é
+$$
+\frac{\cancel{ 50 }}{\cancel{ 50 }} \frac{1}{\frac{1}{2}\cdot \frac{1}{10} + \frac{1}{4} \cdot \frac{1}{2} + \frac{1}{4} \cdot \frac{1}{\frac{1}{2}}} \approx 1.48 \text{ ano} \approx 17.78 \text{ meses}
+$$
+
+O número de rotações é
+$$
+\frac{1 \text{ ano}}{1.48 \text{ ano}} \approx 0.676 \text{ rotação por ano}
+$$
+
+Mudando a composição, para que haja maior presença de elementos que sejam repostos \textit{mais vezes por ano}:
+$$
+\begin{cases}
+\alpha_{1}={\color{red} \frac{1}{4}}, t_{1}=10 \text{ anos} \\
+\alpha_{2}=\frac{1}{4}, t_{2}={\color{red} 1} \text{ ano}\\
+\alpha_{3}={\color{red} \frac{1}{2}}, t_{3}=\frac{1}{2} \text{ ano}
+\end{cases}
+$$
+
+O mesmo cálculo que o de acima traz que o capital total \textit{empregado} em um ano é
+$$
+50k \cdot \frac{1}{\frac{1}{4}\cdot \frac{1}{10} + \frac{1}{4} \cdot \frac{1}{1} + \frac{1}{2} \cdot \frac{1}{\frac{1}{2}}} \approx 63750
+$$
+e o tempo total de rotação
+$$
+\frac{1}{\frac{1}{4}\cdot \frac{1}{10} + \frac{1}{4} \cdot \frac{1}{1} + \frac{1}{2} \cdot \frac{1}{\frac{1}{2}}} \approx 0.78 \text{ ano} \approx 9.41 \text{ meses}
+$$
+
+O número de rotações é 
+$$
+\frac{1 \text{ ano}}{0.78 \text{ ano}} \approx 1.282 \text{ rotação por ano}
+$$
+
+\printbibliography
+
+\end{document}

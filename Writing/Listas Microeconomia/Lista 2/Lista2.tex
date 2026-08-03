@@ -61,16 +61,16 @@
 
 \begin{exercise}
     Um consumidor consome um bem de consumo \(x\) e
-    usufrui de uma quantidade de horas de lazer \(h\). O preço do bem de
+    usufrui de uma quantidade de horas de lazer \(L\). O preço do bem de
     consumo é \(p\), e o consumidor pode trabalhar a um salário-hora de
     \(s \in \mathbb{R}_+\) (salário \emph{positivo}!). Qual é o conjunto
-    orçamentário walrasiano do consumidor, em notação matemática? Desenhe seu gráfico. Dica: Note que \(0 \leq h \leq 24\), e que o consumidor divide seu tempo entre lazer ($h$, um bem que usufrui) e trabalho assalariado ($24-h$, um ``mal'').
+    orçamentário walrasiano do consumidor, em notação matemática? Desenhe seu gráfico. Dica: Note que \(0 \leq L \leq 24\), e que o consumidor divide seu tempo entre lazer ($L$, um bem que usufrui) e trabalho assalariado ($24-L$, um ``mal'').
 
-    \parencite{Mas-Colell1995} Suponhamos também que este consumidor tenha direito a horas extras, i.e. um salário diferenciado após ter trabalhado (digamos) 8 horas em um dia: seu salário trabalhando $0\leq (24-h) \leq 8$\footnote{Pois estamos focando na variável $h$ de horas de lazer (um bem), e portanto $24-h$ horas de trabalho (um mal); caso trabalhemos com o tempo de trabalho $L$ (um mal), teríamos que $24-L$ seria a quantidade de horas de lazer (um bem). Inclusive, este $24$ também é arbitrário, é o caso máximo de horas possíveis de se trabalhar em um dia --- mas que, na prática, não é alcançado... ou, ao menos, \textbf{não deveria}!} é $s$, e para as demais horas de trabalho é $s^{\prime}  > s$. Desenhe o conjunto orçamentário deste consumidor (dica: desenhe da direita para a esquerda no eixo $h$). 
+    \parencite{Mas-Colell1995} Suponhamos também que este consumidor tenha direito a horas extras, i.e. um salário diferenciado após ter trabalhado (digamos) 8 horas em um dia: seu salário trabalhando $0\leq (24-L) \leq 8$\footnote{Pois estamos focando na variável $L$ de horas de lazer (um bem), e portanto $24-L$ horas de trabalho (um mal); caso trabalhemos com o tempo de trabalho, denotado e.g. por $h$ (um mal), teríamos que $24-h$ seria a quantidade de horas de lazer (um bem). Inclusive, este $24$ também é arbitrário: é o caso máximo de horas possíveis de se trabalhar em um dia --- mas que, na prática, não é alcançado... ou, ao menos, \textbf{não deveria}!} é $s$, e para as demais horas de trabalho é $s^{\prime}  > s$. Desenhe o conjunto orçamentário deste consumidor (dica: desenhe da direita para a esquerda no eixo $L$). 
     
-    O que acontece caso as horas \textit{obrigatórias} --- i.e. horas não-extras --- aumentem, por exemplo, de 8h pra 12h diárias?\footnote{Como permitido pela recente ``modernização trabalhista'' na Argentina \parencite{BBCNews2026}.} E se considerarmos não o tempo diário de trabalho, e sim o tempo \textit{semanal} de trabalho $0\leq  \tilde{h}\leq 24 \cdot 7=168$: como muda o conjunto orçamentário conforme muda-se a jornada de trabalho de 5x2 ($5\cdot 8 = 40$h obrigatórias semanais) para 6x1 ($6\cdot 8 = 48$h horas obrigatórias semanais)\footnote{Sem contar descansos extras estipulados etc.}?
+    O que acontece caso as horas \textit{obrigatórias} --- i.e. horas não-extras --- aumentem, por exemplo, de 8h pra 12h diárias?\footnote{Como permitido pela recente ``modernização trabalhista'' na Argentina \parencite{BBCNews2026}.} E se considerarmos não o tempo diário de trabalho, e sim o tempo \textit{semanal} de trabalho $0\leq  \tilde{L}\leq 24 \cdot 7=168$: como muda o conjunto orçamentário conforme muda-se a jornada de trabalho de 5x2 ($5\cdot 8 = 40$h obrigatórias semanais) para 6x1 ($6\cdot 8 = 48$h horas obrigatórias semanais)\footnote{Sem contar descansos extras estipulados etc.}?
 
-    Suponhamos, ademais, que ele passe a ter sua renda taxada a um imposto $t \in (0, 1)$ após um patamar de $M$ reais\footnote{Isso pode ser visto como o valor $M$ no eixo do consumo: caso ele tenha $M$ reais (ou mais) de renda, ele pode comprar o equivalente a $M$ reais (ou mais) do bem $x$.}, e que esse imposto incida somente na região em que ele ganha $s^{\prime}$. Desenhe o gráfico de seu conjunto orçamentário (como acima: desenhe da direita para a esquerda no eixo $h$).
+    Suponhamos, ademais, que ele passe a ter sua renda taxada a um imposto $t \in (0, 1)$ após um patamar de $M$ reais\footnote{Isso pode ser visto como o valor $M$ no eixo do consumo: caso ele tenha $M$ reais (ou mais) de renda, ele pode comprar o equivalente a $M$ reais (ou mais) do bem $x$.}, e que esse imposto incida somente na região em que ele ganha $s^{\prime}$. Desenhe o gráfico de seu conjunto orçamentário (como acima: desenhe da direita para a esquerda no eixo $L$).
 \end{exercise}
 
 \begin{exercise}
@@ -186,12 +186,12 @@
 \setcounter{exercise}{0}
 
 \begin{exercise}
-    Dados os bens \(x\) e \(h\), onde \(x\) possui preço \(p\) e o tempo de trabalho possui salário \(s\), temos que a restrição orçamentária é de que 
+    Dados os bens \(x\) e \(L\), onde \(x\) possui preço \(p\) e o tempo de trabalho possui salário \(s\), temos que a restrição orçamentária é de que 
     \[
-\underbrace{ p\cdot x }_{ \text{Consumo de bens} } \leq \underbrace{ (24-h)\cdot s }_{ \text{Salário} } 
+\underbrace{ p\cdot x }_{ \text{Consumo de bens} } \leq \underbrace{ (24-L)\cdot s }_{ \text{Salário} } 
 \] 
 o que é equivalente a 
-\[ \underbrace{ p \cdot x + s \cdot h }_{ \text{Custos (+ de oportunidade)} } \leq \underbrace{ 24 \cdot s }_{ \text{Salário máximo} }
+\[ \underbrace{ p \cdot x + s \cdot L }_{ \text{Custos (+ de oportunidade)} } \leq \underbrace{ 24 \cdot s }_{ \text{Salário máximo} }
 \]
 
 Isso pode ser visto na figura \ref{fig:Varian}. Os casos subsequentes estão na figura \ref{fig:outrossalarios}. 
@@ -199,7 +199,7 @@ Isso pode ser visto na figura \ref{fig:Varian}. Os casos subsequentes estão na 
 \begin{figure}[h!]
     \centering
     \includegraphics{images/Pasted image 20250424141222.png}
-    \caption{Restrição orçamentária de consumo vs. lazer. Fonte: \cite[p. 175]{Varian2014}.}
+    \caption{Restrição orçamentária de consumo vs. lazer. Note que, aqui, $R$ denota o tempo de lazer, e $\bar{R} - R$ o tempo de trabalho ($\bar{R}$ sendo o tempo máximo de lazer, p. ex. $24$h). Fonte: \cite[p. 175]{Varian2014}.}
     \label{fig:Varian}
 \end{figure}
 
