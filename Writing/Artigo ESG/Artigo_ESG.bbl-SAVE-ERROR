@@ -19,6 +19,182 @@
 
 \refsection{0}
   \datalist[entry]{nty/global//global/global/global}
+    \entry{BBC2022}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=a61d00661142b2d5c6ab4e7fcf6d13c6}{%
+           family={{BBC}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{a61d00661142b2d5c6ab4e7fcf6d13c6}
+      \strng{fullhash}{a61d00661142b2d5c6ab4e7fcf6d13c6}
+      \strng{fullhashraw}{a61d00661142b2d5c6ab4e7fcf6d13c6}
+      \strng{bibnamehash}{a61d00661142b2d5c6ab4e7fcf6d13c6}
+      \strng{authorbibnamehash}{a61d00661142b2d5c6ab4e7fcf6d13c6}
+      \strng{authornamehash}{a61d00661142b2d5c6ab4e7fcf6d13c6}
+      \strng{authorfullhash}{a61d00661142b2d5c6ab4e7fcf6d13c6}
+      \strng{authorfullhashraw}{a61d00661142b2d5c6ab4e7fcf6d13c6}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Stuart Kirk says his position became 'unsustainable' after he was suspended by the bank in May.}
+      \field{langid}{british}
+      \field{month}{7}
+      \field{title}{{{HSBC}} Banker Quits after 'nut Job' Climate Speech}
+      \field{urlday}{2}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.bbc.com/news/business-62085294
+      \endverb
+      \verb{url}
+      \verb https://www.bbc.com/news/business-62085294
+      \endverb
+      \keyw{finance}
+    \endentry
+    \entry{BloombergOriginals2021}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=5094bb39bebcfa50006578c701456740}{%
+           family={{Bloomberg Originals}},
+           familyi={B\bibinitperiod}}}%
+      }
+      \strng{namehash}{5094bb39bebcfa50006578c701456740}
+      \strng{fullhash}{5094bb39bebcfa50006578c701456740}
+      \strng{fullhashraw}{5094bb39bebcfa50006578c701456740}
+      \strng{bibnamehash}{5094bb39bebcfa50006578c701456740}
+      \strng{authorbibnamehash}{5094bb39bebcfa50006578c701456740}
+      \strng{authornamehash}{5094bb39bebcfa50006578c701456740}
+      \strng{authorfullhash}{5094bb39bebcfa50006578c701456740}
+      \strng{authorfullhashraw}{5094bb39bebcfa50006578c701456740}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{12}
+      \field{title}{{{ESG}} Ratings Are Not What They Seem}
+      \field{urlday}{25}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://youtube.com/watch?v=f_rrS-_giP8
+      \endverb
+      \verb{url}
+      \verb https://youtube.com/watch?v=f_rrS-_giP8
+      \endverb
+      \keyw{finance}
+    \endentry
+    \entry{Brush2025}{misc}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=56e20de797cd96f50e877d67cfe391bf}{%
+           family={Brush},
+           familyi={B\bibinitperiod},
+           given={Silla},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=33e10dd2e75a0a18a5363c616bf9e6f8}{%
+           family={Kishan},
+           familyi={K\bibinitperiod},
+           given={Saijel},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=baba562c119ff6f02a7f2ca6ec3748d3}{%
+           family={Marsh},
+           familyi={M\bibinitperiod},
+           given={Alastair},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{77258030652957767c2813593a88d889}
+      \strng{fullhash}{77258030652957767c2813593a88d889}
+      \strng{fullhashraw}{77258030652957767c2813593a88d889}
+      \strng{bibnamehash}{77258030652957767c2813593a88d889}
+      \strng{authorbibnamehash}{77258030652957767c2813593a88d889}
+      \strng{authornamehash}{77258030652957767c2813593a88d889}
+      \strng{authorfullhash}{77258030652957767c2813593a88d889}
+      \strng{authorfullhashraw}{77258030652957767c2813593a88d889}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{BlackRock Inc. is parting ways with one of the world's biggest climate-investor groups after being targeted by Republican politicians for its efforts on global warming.}
+      \field{journaltitle}{Bloomberg}
+      \field{langid}{english}
+      \field{month}{1}
+      \field{title}{{{BlackRock Leaves Major Climate Group Amid Wall Street Exodus}}}
+      \field{urlday}{22}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.bloomberg.com/news/articles/2025-01-09/blackrock-leaves-major-climate-group-amid-wall-street-exodus
+      \endverb
+      \verb{url}
+      \verb https://www.bloomberg.com/news/articles/2025-01-09/blackrock-leaves-major-climate-group-amid-wall-street-exodus
+      \endverb
+      \keyw{economics}
+    \endentry
+    \entry{Carcanholo2021}{incollection}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fc84a5fe8e343148f15037896ff34bdb}{%
+           family={Carcanholo},
+           familyi={C\bibinitperiod},
+           given={Marcelo\bibnamedelima Dias},
+           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
+           givenun=0}}%
+      }
+      \name{editor}{2}{}{%
+        {{hash=7a0223d80175ececcaca634cc03d959b}{%
+           family={Medeiros},
+           familyi={M\bibinitperiod},
+           given={João\bibnamedelima Leonardo},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod}}}%
+        {{hash=d3ce1cfa405ecdf3f2d780a51f005f2c}{%
+           family={Sá\bibnamedelima Barreto},
+           familyi={S\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Eduardo},
+           giveni={E\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {Usina Editorial}%
+      }
+      \strng{namehash}{fc84a5fe8e343148f15037896ff34bdb}
+      \strng{fullhash}{fc84a5fe8e343148f15037896ff34bdb}
+      \strng{fullhashraw}{fc84a5fe8e343148f15037896ff34bdb}
+      \strng{bibnamehash}{fc84a5fe8e343148f15037896ff34bdb}
+      \strng{authorbibnamehash}{fc84a5fe8e343148f15037896ff34bdb}
+      \strng{authornamehash}{fc84a5fe8e343148f15037896ff34bdb}
+      \strng{authorfullhash}{fc84a5fe8e343148f15037896ff34bdb}
+      \strng{authorfullhashraw}{fc84a5fe8e343148f15037896ff34bdb}
+      \strng{editorbibnamehash}{620c5e65b7cabac292098c9581f86097}
+      \strng{editornamehash}{620c5e65b7cabac292098c9581f86097}
+      \strng{editorfullhash}{620c5e65b7cabac292098c9581f86097}
+      \strng{editorfullhashraw}{620c5e65b7cabac292098c9581f86097}
+      \field{sortinit}{C}
+      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{booktitle}{{Para que leiam O capital: interpretações sobre o Livro I}}
+      \field{langid}{brazilian}
+      \field{title}{{Valor e preço na teoria de Marx: o significado da lei do valor}}
+      \field{year}{2021}
+      \keyw{marxism}
+    \endentry
     \entry{Duayer2023a}{inbook}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=a30fb6f2c2430fb472e31ff72de8e72c}{%
@@ -130,7 +306,130 @@
       \verb https://aboutus.ft.com/press_release/stuart-kirk-personal-finance
       \endverb
     \endentry
-    \entry{Friedman1970}{article}{}{}
+    \entry{Fink2020}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=834ed0eea5d56837aa54a14b36152f17}{%
+           family={Fink},
+           familyi={F\bibinitperiod},
+           given={Larry},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{834ed0eea5d56837aa54a14b36152f17}
+      \strng{fullhash}{834ed0eea5d56837aa54a14b36152f17}
+      \strng{fullhashraw}{834ed0eea5d56837aa54a14b36152f17}
+      \strng{bibnamehash}{834ed0eea5d56837aa54a14b36152f17}
+      \strng{authorbibnamehash}{834ed0eea5d56837aa54a14b36152f17}
+      \strng{authornamehash}{834ed0eea5d56837aa54a14b36152f17}
+      \strng{authorfullhash}{834ed0eea5d56837aa54a14b36152f17}
+      \strng{authorfullhashraw}{834ed0eea5d56837aa54a14b36152f17}
+      \field{extraname}{1}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In his annual letter on corporate governance, BlackRock CEO Larry Fink explores how companies can achieve long-term financial returns}
+      \field{journaltitle}{BlackRock}
+      \field{langid}{american}
+      \field{title}{A {{Fundamental Reshaping}} of {{Finance}}}
+      \field{urlday}{22}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2020}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.blackrock.com/corporate/investor-relations/2020-larry-fink-ceo-letter
+      \endverb
+      \verb{url}
+      \verb https://www.blackrock.com/corporate/investor-relations/2020-larry-fink-ceo-letter
+      \endverb
+      \keyw{economics}
+    \endentry
+    \entry{Fink2021}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=834ed0eea5d56837aa54a14b36152f17}{%
+           family={Fink},
+           familyi={F\bibinitperiod},
+           given={Larry},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{834ed0eea5d56837aa54a14b36152f17}
+      \strng{fullhash}{834ed0eea5d56837aa54a14b36152f17}
+      \strng{fullhashraw}{834ed0eea5d56837aa54a14b36152f17}
+      \strng{bibnamehash}{834ed0eea5d56837aa54a14b36152f17}
+      \strng{authorbibnamehash}{834ed0eea5d56837aa54a14b36152f17}
+      \strng{authornamehash}{834ed0eea5d56837aa54a14b36152f17}
+      \strng{authorfullhash}{834ed0eea5d56837aa54a14b36152f17}
+      \strng{authorfullhashraw}{834ed0eea5d56837aa54a14b36152f17}
+      \field{extraname}{2}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In his annual letter to CEOs, BlackRock's Larry Fink discusses how the events of 2020 are helping to accelerate an economic transformation.}
+      \field{journaltitle}{BlackRock}
+      \field{langid}{american}
+      \field{title}{Larry {{Fink}}'s 2021 Letter to {{CEOs}}}
+      \field{urlday}{22}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.blackrock.com/corporate/investor-relations/2021-larry-fink-ceo-letter
+      \endverb
+      \verb{url}
+      \verb https://www.blackrock.com/corporate/investor-relations/2021-larry-fink-ceo-letter
+      \endverb
+      \keyw{economics}
+    \endentry
+    \entry{Fink2022}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=834ed0eea5d56837aa54a14b36152f17}{%
+           family={Fink},
+           familyi={F\bibinitperiod},
+           given={Larry},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{834ed0eea5d56837aa54a14b36152f17}
+      \strng{fullhash}{834ed0eea5d56837aa54a14b36152f17}
+      \strng{fullhashraw}{834ed0eea5d56837aa54a14b36152f17}
+      \strng{bibnamehash}{834ed0eea5d56837aa54a14b36152f17}
+      \strng{authorbibnamehash}{834ed0eea5d56837aa54a14b36152f17}
+      \strng{authornamehash}{834ed0eea5d56837aa54a14b36152f17}
+      \strng{authorfullhash}{834ed0eea5d56837aa54a14b36152f17}
+      \strng{authorfullhashraw}{834ed0eea5d56837aa54a14b36152f17}
+      \field{extraname}{3}
+      \field{sortinit}{F}
+      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{In his annual 2022 letter to CEO's, BlackRock's Larry Fink discusses how effective stakeholder capitalism creates and sustains value for shareholders. Read more.}
+      \field{journaltitle}{BlackRock}
+      \field{langid}{american}
+      \field{title}{The {{Power}} of {{Capitalism}}}
+      \field{urlday}{22}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.blackrock.com/corporate/investor-relations/2022-larry-fink-ceo-letter
+      \endverb
+      \verb{url}
+      \verb https://www.blackrock.com/corporate/investor-relations/2022-larry-fink-ceo-letter
+      \endverb
+      \keyw{economics}
+    \endentry
+    \entry{Friedman1970}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=ed599767cda235bc9b7bb0e787374d60}{%
            family={Friedman},
@@ -154,7 +453,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Illus}
-      \field{chapter}{Archives}
       \field{journaltitle}{The New York Times}
       \field{langid}{american}
       \field{month}{9}
@@ -172,7 +470,7 @@
       \endverb
       \keyw{economics}
     \endentry
-    \entry{Gross2022}{article}{}{}
+    \entry{Gross2022}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=370636a2f494049f903f4d33b7cab702}{%
            family={Gross},
@@ -196,7 +494,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Stuart Kirk, the head of responsible investing for the bank's asset management division, said the risks of climate change had been overblown. ``Who cares if Miami is six meters underwater in 100 years?''}
-      \field{chapter}{Business}
       \field{journaltitle}{The New York Times}
       \field{langid}{american}
       \field{month}{5}
@@ -213,6 +510,46 @@
       \verb https://www.nytimes.com/2022/05/23/business/stuart-kirk-hsbc-climate-change.html
       \endverb
       \keyw{finance}
+    \endentry
+    \entry{Johnson2025a}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=6d51934b95597a62bbe13293522f4ed7}{%
+           family={Johnson},
+           familyi={J\bibinitperiod},
+           given={Lamar},
+           giveni={L\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6d51934b95597a62bbe13293522f4ed7}
+      \strng{fullhash}{6d51934b95597a62bbe13293522f4ed7}
+      \strng{fullhashraw}{6d51934b95597a62bbe13293522f4ed7}
+      \strng{bibnamehash}{6d51934b95597a62bbe13293522f4ed7}
+      \strng{authorbibnamehash}{6d51934b95597a62bbe13293522f4ed7}
+      \strng{authornamehash}{6d51934b95597a62bbe13293522f4ed7}
+      \strng{authorfullhash}{6d51934b95597a62bbe13293522f4ed7}
+      \strng{authorfullhashraw}{6d51934b95597a62bbe13293522f4ed7}
+      \field{sortinit}{J}
+      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{The nation's largest asset manager said it will not renew ``aspirational workforce representation goals'' which expired in 2024, in response to executive orders targeting DEI programs.}
+      \field{journaltitle}{ESG Dive}
+      \field{langid}{american}
+      \field{month}{3}
+      \field{title}{{{BlackRock}} Ends Diversity Goals, Merges {{DEI}} Team into `{{Talent}} and {{Culture}}'}
+      \field{urlday}{11}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.esgdive.com/news/blackrock-ends-diversity-goals-merges-dei-team-into-talent-and-culture/741391/
+      \endverb
+      \verb{url}
+      \verb https://www.esgdive.com/news/blackrock-ends-diversity-goals-merges-dei-team-into-talent-and-culture/741391/
+      \endverb
     \endentry
     \entry{Kirk2022}{misc}{}{}
       \name{author}{1}{}{%
@@ -325,7 +662,7 @@
       \field{year}{2013}
       \keyw{marxism,philosophy}
     \endentry
-    \entry{Makortoff2022}{article}{}{}
+    \entry{Makortoff2022}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=43242bf9fe3e3b22933e3fe8fa962812}{%
            family={Makortoff},
@@ -349,7 +686,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Bank investigating Stuart Kirk's conference speech deriding flooding risks and climate warnings from UN and Bank of England}
-      \field{chapter}{Business}
       \field{journaltitle}{The Guardian}
       \field{langid}{british}
       \field{month}{5}
@@ -562,6 +898,100 @@
       \verb{url}
       \verb https://oll.libertyfund.org/titles/mill-principles-of-political-economy-ashley-ed
       \endverb
+      \keyw{economics}
+    \endentry
+    \entry{Mirza2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=3f981e43d1150643528ababcb0c11afb}{%
+           family={Mirza},
+           familyi={M\bibinitperiod},
+           given={Zoya},
+           giveni={Z\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{3f981e43d1150643528ababcb0c11afb}
+      \strng{fullhash}{3f981e43d1150643528ababcb0c11afb}
+      \strng{fullhashraw}{3f981e43d1150643528ababcb0c11afb}
+      \strng{bibnamehash}{3f981e43d1150643528ababcb0c11afb}
+      \strng{authorbibnamehash}{3f981e43d1150643528ababcb0c11afb}
+      \strng{authornamehash}{3f981e43d1150643528ababcb0c11afb}
+      \strng{authorfullhash}{3f981e43d1150643528ababcb0c11afb}
+      \strng{authorfullhashraw}{3f981e43d1150643528ababcb0c11afb}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Financial institutions have increasingly departed groups like the Net-Zero Banking Alliance and Climate Action 100+, but experts say banks are still committed to sustainability.}
+      \field{journaltitle}{ESG Dive}
+      \field{langid}{american}
+      \field{month}{1}
+      \field{title}{Why Climate Alliance Memberships Are No Longer `En Vogue' for {{Wall Street}} |{} {{ESG Dive}}}
+      \field{urlday}{1}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.esgdive.com/news/why-climate-alliance-memberships-are-no-longer-en-vogue-for-wall-street-banks/738838/
+      \endverb
+      \verb{url}
+      \verb https://www.esgdive.com/news/why-climate-alliance-memberships-are-no-longer-en-vogue-for-wall-street-banks/738838/
+      \endverb
+    \endentry
+    \entry{OBrien2025}{misc}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=e153a5eeecd60b8c85cb9c29d485a2a5}{%
+           family={O'Brien},
+           familyi={O\bibinitperiod},
+           given={Frederick},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=e2cf2e2601ed0f53477ca5d822ed3a55}{%
+           family={Gutiérrez},
+           familyi={G\bibinitperiod},
+           given={Pablo},
+           giveni={P\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=a517259d7a4be4bf2950a241897dc137}{%
+           family={Kirk},
+           familyi={K\bibinitperiod},
+           given={Ashley},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{47a3d61a47403a0601245e07ffd8c1b4}
+      \strng{fullhash}{47a3d61a47403a0601245e07ffd8c1b4}
+      \strng{fullhashraw}{47a3d61a47403a0601245e07ffd8c1b4}
+      \strng{bibnamehash}{47a3d61a47403a0601245e07ffd8c1b4}
+      \strng{authorbibnamehash}{47a3d61a47403a0601245e07ffd8c1b4}
+      \strng{authornamehash}{47a3d61a47403a0601245e07ffd8c1b4}
+      \strng{authorfullhash}{47a3d61a47403a0601245e07ffd8c1b4}
+      \strng{authorfullhashraw}{47a3d61a47403a0601245e07ffd8c1b4}
+      \field{sortinit}{O}
+      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{From floods to droughts, erratic weather patterns are affecting food security, with crop yields projected to fall if changes are not made}
+      \field{journaltitle}{The Guardian}
+      \field{langid}{british}
+      \field{month}{12}
+      \field{title}{How Climate Breakdown Is Putting the World's Food in Peril -- in Maps and Charts}
+      \field{urlday}{21}
+      \field{urlmonth}{3}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.theguardian.com/environment/ng-interactive/2025/dec/18/how-climate-breakdown-is-putting-the-worlds-food-in-peril-in-maps-and-charts
+      \endverb
+      \verb{url}
+      \verb https://www.theguardian.com/environment/ng-interactive/2025/dec/18/how-climate-breakdown-is-putting-the-worlds-food-in-peril-in-maps-and-charts
+      \endverb
+      \keyw{economics}
     \endentry
     \entry{PacoCunha2025}{article}{}{}
       \name{author}{1}{}{%
@@ -638,7 +1068,7 @@
       \verb{url}
       \verb https://ecgi.global/sites/default/files/Paper%3A%20Elizabeth%20Pollman.pdf
       \endverb
-      \keyw{finance}
+      \keyw{economics,finance}
     \endentry
     \entry{25PublicacaoLinkedIn}{misc}{}{}
       \name{author}{1}{}{%
@@ -754,7 +1184,7 @@
       \field{pages}{118\bibrangedash 128}
       \range{pages}{11}
     \endentry
-    \entry{Reuters2022}{article}{}{}
+    \entry{Reuters2022}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=7513717dba8b208fe06799dcc54e59e2}{%
            family={{Reuters}},
@@ -775,7 +1205,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Stuart Kirk, the global head of responsible investing at HSBC Asset Management, has resigned from his role, according to a post attributed to him on professional networking site LinkedIn on Thursday.}
-      \field{chapter}{Business}
       \field{journaltitle}{Reuters}
       \field{langid}{english}
       \field{month}{7}
@@ -791,6 +1220,94 @@
       \verb{url}
       \verb https://www.reuters.com/business/hsbcs-head-responsible-investing-quits-after-climate-speech-controversy-2022-07-07/
       \endverb
+    \endentry
+    \entry{SaBarreto2022}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=d3ce1cfa405ecdf3f2d780a51f005f2c}{%
+           family={Sá\bibnamedelima Barreto},
+           familyi={S\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Eduardo},
+           giveni={E\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {Usina Editorial}%
+      }
+      \strng{namehash}{d3ce1cfa405ecdf3f2d780a51f005f2c}
+      \strng{fullhash}{d3ce1cfa405ecdf3f2d780a51f005f2c}
+      \strng{fullhashraw}{d3ce1cfa405ecdf3f2d780a51f005f2c}
+      \strng{bibnamehash}{d3ce1cfa405ecdf3f2d780a51f005f2c}
+      \strng{authorbibnamehash}{d3ce1cfa405ecdf3f2d780a51f005f2c}
+      \strng{authornamehash}{d3ce1cfa405ecdf3f2d780a51f005f2c}
+      \strng{authorfullhash}{d3ce1cfa405ecdf3f2d780a51f005f2c}
+      \strng{authorfullhashraw}{d3ce1cfa405ecdf3f2d780a51f005f2c}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Ecologia Marxista para pessoas sem tempo.}
+      \field{langid}{brazilian}
+      \field{month}{7}
+      \field{title}{{Ecologia Marxista para pessoas sem tempo}}
+      \field{year}{2022}
+      \keyw{biology/ecology,economics,marxism}
+    \endentry
+    \entry{Simpson2021}{misc}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=fdca50cbe9df85bec2b75e46e9d3d9ce}{%
+           family={Simpson},
+           familyi={S\bibinitperiod},
+           given={Cam},
+           giveni={C\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=131dd6dc47bf89ea3b0ebb7362bf5436}{%
+           family={Rathi},
+           familyi={R\bibinitperiod},
+           given={Akshat},
+           giveni={A\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=7a86e74ceeed526af3fca69265a1bd5d}{%
+           family={Kishan},
+           familyi={K\bibinitperiod},
+           given={Sajiel},
+           giveni={S\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{6cb3230447430c064ee18810c5dc8fb6}
+      \strng{fullhash}{6cb3230447430c064ee18810c5dc8fb6}
+      \strng{fullhashraw}{6cb3230447430c064ee18810c5dc8fb6}
+      \strng{bibnamehash}{6cb3230447430c064ee18810c5dc8fb6}
+      \strng{authorbibnamehash}{6cb3230447430c064ee18810c5dc8fb6}
+      \strng{authornamehash}{6cb3230447430c064ee18810c5dc8fb6}
+      \strng{authorfullhash}{6cb3230447430c064ee18810c5dc8fb6}
+      \strng{authorfullhashraw}{6cb3230447430c064ee18810c5dc8fb6}
+      \field{sortinit}{S}
+      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Wall Street uses ESG ratings to boost ``sustainable'' labels on stock and bond funds---but what do these ratings really measure?}
+      \field{journaltitle}{Bloomberg}
+      \field{month}{12}
+      \field{title}{The {{ESG Mirage}}: {{Sustainable Investing Is Mostly About Sustaining Corporations}}}
+      \field{urlday}{24}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{year}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.bloomberg.com/graphics/2021-what-is-esg-investing-msci-ratings-focus-on-corporate-bottom-line/
+      \endverb
+      \verb{url}
+      \verb https://www.bloomberg.com/graphics/2021-what-is-esg-investing-msci-ratings-focus-on-corporate-bottom-line/
+      \endverb
+      \keyw{bloomberg graphics,conscious capitalism,environmental social governance,ESG,ESG Investing,finance,graphics,MSCI,MSCI Ratings,Sustainable Investing,Wall Street}
     \endentry
     \entry{Smith1904}{book}{}{}
       \name{author}{1}{}{%
@@ -836,10 +1353,10 @@
       \field{volume}{1}
       \field{year}{1904}
       \verb{urlraw}
-      \verb https://oll.libertyfund.org/titles/smith-an-inquiry-into-the-nature-and-causes-of-the-wealth-of-nations-cannan-ed-vol-1
+      \verb https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/titles/237/Smith_0206-01_EBk_v6.0.pdf
       \endverb
       \verb{url}
-      \verb https://oll.libertyfund.org/titles/smith-an-inquiry-into-the-nature-and-causes-of-the-wealth-of-nations-cannan-ed-vol-1
+      \verb https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/titles/237/Smith_0206-01_EBk_v6.0.pdf
       \endverb
       \keyw{economics}
     \endentry
@@ -921,8 +1438,9 @@
       \verb{url}
       \verb https://documents1.worldbank.org/curated/en/280911488968799581/pdf/113237-WP-WhoCaresWins-2004.pdf
       \endverb
+      \keyw{economics}
     \endentry
-    \entry{Walker2022}{article}{}{}
+    \entry{Walker2022}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=2f331a88c60f6cea12dec4a85d48a158}{%
            family={Walker},
@@ -946,7 +1464,6 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{abstract}{Executives criticise Stuart Kirk despite speech's theme and content having been agreed internally}
-      \field{chapter}{HSBC Holdings PLC}
       \field{journaltitle}{Financial Times}
       \field{month}{5}
       \field{title}{{{HSBC}} Suspends Banker over Climate Change Comments}
@@ -963,7 +1480,46 @@
       \endverb
       \keyw{finance}
     \endentry
+    \entry{WhiteHouse2025}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fc5ee6934003d7a25ef59361504afd08}{%
+           family={{White House}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{fc5ee6934003d7a25ef59361504afd08}
+      \strng{fullhash}{fc5ee6934003d7a25ef59361504afd08}
+      \strng{fullhashraw}{fc5ee6934003d7a25ef59361504afd08}
+      \strng{bibnamehash}{fc5ee6934003d7a25ef59361504afd08}
+      \strng{authorbibnamehash}{fc5ee6934003d7a25ef59361504afd08}
+      \strng{authornamehash}{fc5ee6934003d7a25ef59361504afd08}
+      \strng{authorfullhash}{fc5ee6934003d7a25ef59361504afd08}
+      \strng{authorfullhashraw}{fc5ee6934003d7a25ef59361504afd08}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{By the authority vested in me as President by the Constitution and the laws of the United States of America, it is hereby ordered: Section 1.}
+      \field{journaltitle}{The White House}
+      \field{langid}{american}
+      \field{month}{1}
+      \field{title}{Ending {{Radical And Wasteful Government DEI Programs And Preferencing}}}
+      \field{urlday}{1}
+      \field{urlmonth}{2}
+      \field{urlyear}{2026}
+      \field{year}{2025}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://www.whitehouse.gov/presidential-actions/2025/01/ending-radical-and-wasteful-government-dei-programs-and-preferencing/
+      \endverb
+      \verb{url}
+      \verb https://www.whitehouse.gov/presidential-actions/2025/01/ending-radical-and-wasteful-government-dei-programs-and-preferencing/
+      \endverb
+    \endentry
   \enddatalist
+  \missing{HouseOfCards}
+  \missing{fin}
 \endrefsection
 \endinput
 

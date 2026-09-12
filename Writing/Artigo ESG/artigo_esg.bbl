@@ -511,6 +511,44 @@
       \endverb
       \keyw{finance}
     \endentry
+    \entry{Finance2026}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=71cc7cf023522242a2481cfae414eeb2}{%
+           family={{Institute of Business \& Finance}},
+           familyi={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{71cc7cf023522242a2481cfae414eeb2}
+      \strng{fullhash}{71cc7cf023522242a2481cfae414eeb2}
+      \strng{fullhashraw}{71cc7cf023522242a2481cfae414eeb2}
+      \strng{bibnamehash}{71cc7cf023522242a2481cfae414eeb2}
+      \strng{authorbibnamehash}{71cc7cf023522242a2481cfae414eeb2}
+      \strng{authornamehash}{71cc7cf023522242a2481cfae414eeb2}
+      \strng{authorfullhash}{71cc7cf023522242a2481cfae414eeb2}
+      \strng{authorfullhashraw}{71cc7cf023522242a2481cfae414eeb2}
+      \field{sortinit}{I}
+      \field{sortinithash}{8d291c51ee89b6cd86bf5379f0b151d8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{abstract}{BlackRock, Vanguard, and State Street control \$30 trillion in assets. How they got there, why they dominate fund flows, and what advisors need to know.}
+      \field{chapter}{Mutual Funds \& ETFs}
+      \field{langid}{english}
+      \field{month}{2}
+      \field{shorttitle}{{{BlackRock}}, {{Vanguard}}, {{State Street}}}
+      \field{title}{{{BlackRock}}, {{Vanguard}}, {{State Street}}: {{The Big Three Explained}} |{} {{The Specialist}}'s {{Desk}}}
+      \field{urlday}{5}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{year}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://icfs.com/specialists-desk/big-three-blackrock-vanguard-state-street
+      \endverb
+      \verb{url}
+      \verb https://icfs.com/specialists-desk/big-three-blackrock-vanguard-state-street
+      \endverb
+    \endentry
     \entry{Johnson2025a}{misc}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=6d51934b95597a62bbe13293522f4ed7}{%
@@ -940,59 +978,6 @@
       \verb https://www.esgdive.com/news/why-climate-alliance-memberships-are-no-longer-en-vogue-for-wall-street-banks/738838/
       \endverb
     \endentry
-    \entry{OBrien2025}{misc}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=e153a5eeecd60b8c85cb9c29d485a2a5}{%
-           family={O'Brien},
-           familyi={O\bibinitperiod},
-           given={Frederick},
-           giveni={F\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e2cf2e2601ed0f53477ca5d822ed3a55}{%
-           family={Gutiérrez},
-           familyi={G\bibinitperiod},
-           given={Pablo},
-           giveni={P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=a517259d7a4be4bf2950a241897dc137}{%
-           family={Kirk},
-           familyi={K\bibinitperiod},
-           given={Ashley},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{47a3d61a47403a0601245e07ffd8c1b4}
-      \strng{fullhash}{47a3d61a47403a0601245e07ffd8c1b4}
-      \strng{fullhashraw}{47a3d61a47403a0601245e07ffd8c1b4}
-      \strng{bibnamehash}{47a3d61a47403a0601245e07ffd8c1b4}
-      \strng{authorbibnamehash}{47a3d61a47403a0601245e07ffd8c1b4}
-      \strng{authornamehash}{47a3d61a47403a0601245e07ffd8c1b4}
-      \strng{authorfullhash}{47a3d61a47403a0601245e07ffd8c1b4}
-      \strng{authorfullhashraw}{47a3d61a47403a0601245e07ffd8c1b4}
-      \field{sortinit}{O}
-      \field{sortinithash}{2cd7140a07aea5341f9e2771efe90aae}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{From floods to droughts, erratic weather patterns are affecting food security, with crop yields projected to fall if changes are not made}
-      \field{journaltitle}{The Guardian}
-      \field{langid}{british}
-      \field{month}{12}
-      \field{title}{How Climate Breakdown Is Putting the World's Food in Peril -- in Maps and Charts}
-      \field{urlday}{21}
-      \field{urlmonth}{3}
-      \field{urlyear}{2026}
-      \field{year}{2025}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://www.theguardian.com/environment/ng-interactive/2025/dec/18/how-climate-breakdown-is-putting-the-worlds-food-in-peril-in-maps-and-charts
-      \endverb
-      \verb{url}
-      \verb https://www.theguardian.com/environment/ng-interactive/2025/dec/18/how-climate-breakdown-is-putting-the-worlds-food-in-peril-in-maps-and-charts
-      \endverb
-      \keyw{economics}
-    \endentry
     \entry{PacoCunha2025}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=9b80f791a24b866cc72d31b856453977}{%
@@ -1107,82 +1092,6 @@
       \verb{url}
       \verb https://www.linkedin.com/posts/noel-quinn-hsbc_i-do-not-agree-at-all-with-the-remarks-activity-6933729465193668608-14ho/?utm_source=social_share_send&utm_medium=member_desktop_web&rcm=ACoAADGDblYBTpg3cdnCuk-ijUGghBmcJcxAlLc
       \endverb
-    \endentry
-    \entry{Reis-Castro2021}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=0118e968605c48ec99340c91b5d5d771}{%
-           family={{Reis-Castro}},
-           familyi={R\bibinitperiod},
-           given={Luísa},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Duke University Press}%
-      }
-      \strng{namehash}{0118e968605c48ec99340c91b5d5d771}
-      \strng{fullhash}{0118e968605c48ec99340c91b5d5d771}
-      \strng{fullhashraw}{0118e968605c48ec99340c91b5d5d771}
-      \strng{bibnamehash}{0118e968605c48ec99340c91b5d5d771}
-      \strng{authorbibnamehash}{0118e968605c48ec99340c91b5d5d771}
-      \strng{authornamehash}{0118e968605c48ec99340c91b5d5d771}
-      \strng{authorfullhash}{0118e968605c48ec99340c91b5d5d771}
-      \strng{authorfullhashraw}{0118e968605c48ec99340c91b5d5d771}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{journaltitle}{Environmental Humanities}
-      \field{number}{2}
-      \field{shorttitle}{Becoming Without}
-      \field{title}{Becoming without: {{Making}} Transgenic Mosquitoes and Disease Control in {{Brazil}}}
-      \field{volume}{13}
-      \field{year}{2021}
-      \field{pages}{323\bibrangedash 347}
-      \range{pages}{25}
-    \endentry
-    \entry{Reis-Castro2013}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=0118e968605c48ec99340c91b5d5d771}{%
-           family={{Reis-Castro}},
-           familyi={R\bibinitperiod},
-           given={Luísa},
-           giveni={L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=d6ad5517ede07ef3e7ca669db9f5e38a}{%
-           family={Hendrickx},
-           familyi={H\bibinitperiod},
-           given={Kim},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{a6dadb1cfd82a738c1225420f57e3824}
-      \strng{fullhash}{a6dadb1cfd82a738c1225420f57e3824}
-      \strng{fullhashraw}{a6dadb1cfd82a738c1225420f57e3824}
-      \strng{bibnamehash}{a6dadb1cfd82a738c1225420f57e3824}
-      \strng{authorbibnamehash}{a6dadb1cfd82a738c1225420f57e3824}
-      \strng{authornamehash}{a6dadb1cfd82a738c1225420f57e3824}
-      \strng{authorfullhash}{a6dadb1cfd82a738c1225420f57e3824}
-      \strng{authorfullhashraw}{a6dadb1cfd82a738c1225420f57e3824}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{journaltitle}{Technology in society}
-      \field{number}{2}
-      \field{shorttitle}{Winged Promises}
-      \field{title}{Winged Promises: Exploring the Discourse on Transgenic Mosquitoes in {{Brazil}}}
-      \field{volume}{35}
-      \field{year}{2013}
-      \field{pages}{118\bibrangedash 128}
-      \range{pages}{11}
     \endentry
     \entry{Reuters2022}{misc}{}{}
       \name{author}{1}{}{%
@@ -1517,8 +1426,41 @@
       \verb https://www.whitehouse.gov/presidential-actions/2025/01/ending-radical-and-wasteful-government-dei-programs-and-preferencing/
       \endverb
     \endentry
+    \entry{WorldBankGDP}{misc}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=444999b431440cba354bbfabfd05aba3}{%
+           family={{World Bank Open Data}},
+           familyi={W\bibinitperiod}}}%
+      }
+      \strng{namehash}{444999b431440cba354bbfabfd05aba3}
+      \strng{fullhash}{444999b431440cba354bbfabfd05aba3}
+      \strng{fullhashraw}{444999b431440cba354bbfabfd05aba3}
+      \strng{bibnamehash}{444999b431440cba354bbfabfd05aba3}
+      \strng{authorbibnamehash}{444999b431440cba354bbfabfd05aba3}
+      \strng{authornamehash}{444999b431440cba354bbfabfd05aba3}
+      \strng{authorfullhash}{444999b431440cba354bbfabfd05aba3}
+      \strng{authorfullhashraw}{444999b431440cba354bbfabfd05aba3}
+      \field{sortinit}{W}
+      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{url}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{abstract}{Free and open access to global development data}
+      \field{langid}{english}
+      \field{title}{World {{Bank Open Data}}}
+      \field{urlday}{5}
+      \field{urlmonth}{8}
+      \field{urlyear}{2026}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://data.worldbank.org/indicator/NY.GDP.MKTP.CD
+      \endverb
+      \verb{url}
+      \verb https://data.worldbank.org/indicator/NY.GDP.MKTP.CD
+      \endverb
+    \endentry
   \enddatalist
-  \missing{HouseOfCards}
 \endrefsection
 \endinput
 

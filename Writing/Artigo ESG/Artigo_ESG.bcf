@@ -2492,7 +2492,7 @@
     <bcf:citekey order="24" intorder="1">Lukacs2013</bcf:citekey>
     <bcf:citekey order="25" intorder="1">Lukacs2018</bcf:citekey>
     <bcf:citekey order="26" intorder="1">Lukacs2018</bcf:citekey>
-    <bcf:citekey order="27" intorder="1">Marx2017</bcf:citekey>
+    <bcf:citekey order="27" intorder="1">Lukacs2018</bcf:citekey>
     <bcf:citekey order="28" intorder="1">Mill1909</bcf:citekey>
     <bcf:citekey order="29" intorder="1">Duayer2023a</bcf:citekey>
     <bcf:citekey order="30" intorder="1">Medeiros2013a</bcf:citekey>
@@ -2521,26 +2521,28 @@
     <bcf:citekey order="53" intorder="1">Gross2022</bcf:citekey>
     <bcf:citekey order="53" intorder="2">Makortoff2022</bcf:citekey>
     <bcf:citekey order="53" intorder="3">BBC2022</bcf:citekey>
-    <bcf:citekey order="54" intorder="1">Fancy2021</bcf:citekey>
+    <bcf:citekey order="54" intorder="1">Finance2026</bcf:citekey>
+    <bcf:citekey order="54" intorder="2">WorldBankGDP</bcf:citekey>
     <bcf:citekey order="55" intorder="1">Fancy2021</bcf:citekey>
-    <bcf:citekey order="56" intorder="1">Kirk2022</bcf:citekey>
-    <bcf:citekey order="57" intorder="1">OBrien2025</bcf:citekey>
-    <bcf:citekey order="58" intorder="1">Reis-Castro2013</bcf:citekey>
-    <bcf:citekey order="59" intorder="1">Reis-Castro2021</bcf:citekey>
-    <bcf:citekey order="60" intorder="1">PacoCunha2025</bcf:citekey>
-    <bcf:citekey order="61" intorder="1">Fink2020</bcf:citekey>
-    <bcf:citekey order="61" intorder="2">Fink2021</bcf:citekey>
-    <bcf:citekey order="61" intorder="3">Fink2022</bcf:citekey>
-    <bcf:citekey order="62" intorder="1">Brush2025</bcf:citekey>
-    <bcf:citekey order="62" intorder="2">Mirza2025</bcf:citekey>
-    <bcf:citekey order="63" intorder="1">Johnson2025a</bcf:citekey>
-    <bcf:citekey order="64" intorder="1">WhiteHouse2025</bcf:citekey>
-    <bcf:citekey order="65" intorder="1">Pollman2022</bcf:citekey>
-    <bcf:citekey order="66" intorder="1">Fancy2021</bcf:citekey>
-    <bcf:citekey order="67" intorder="1">HouseOfCards</bcf:citekey>
-    <bcf:citekey order="68" intorder="1">Smith1904</bcf:citekey>
-    <bcf:citekey order="69" intorder="1">Smith1904</bcf:citekey>
-    <bcf:citekey order="70" intorder="1">Marx2017</bcf:citekey>
+    <bcf:citekey order="56" intorder="1">Fancy2021</bcf:citekey>
+    <bcf:citekey order="57" intorder="1">Kirk2022</bcf:citekey>
+    <bcf:citekey order="58" intorder="1">PacoCunha2025</bcf:citekey>
+    <bcf:citekey order="59" intorder="1">Fink2020</bcf:citekey>
+    <bcf:citekey order="59" intorder="2">Fink2021</bcf:citekey>
+    <bcf:citekey order="59" intorder="3">Fink2022</bcf:citekey>
+    <bcf:citekey order="60" intorder="1">Fink2020</bcf:citekey>
+    <bcf:citekey order="60" intorder="2">Fink2021</bcf:citekey>
+    <bcf:citekey order="60" intorder="3">Fink2022</bcf:citekey>
+    <bcf:citekey order="61" intorder="1">Brush2025</bcf:citekey>
+    <bcf:citekey order="61" intorder="2">Mirza2025</bcf:citekey>
+    <bcf:citekey order="62" intorder="1">Johnson2025a</bcf:citekey>
+    <bcf:citekey order="63" intorder="1">WhiteHouse2025</bcf:citekey>
+    <bcf:citekey order="64" intorder="1">Pollman2022</bcf:citekey>
+    <bcf:citekey order="65" intorder="1">Fancy2021</bcf:citekey>
+    <bcf:citekey order="66" intorder="1">Smith1904</bcf:citekey>
+    <bcf:citekey order="67" intorder="1">Smith1904</bcf:citekey>
+    <bcf:citekey order="68" intorder="1">Marx2017</bcf:citekey>
+    <bcf:citekey order="69" intorder="1">Marx2017</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="nty">

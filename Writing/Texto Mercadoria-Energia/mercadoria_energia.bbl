@@ -52,6 +52,9 @@
       \field{langid}{english}
       \field{title}{A {{Realist Theory}} of {{Science}}}
       \field{year}{1978}
+      \verb{doi}
+      \verb 10.4324/9780203090732
+      \endverb
       \keyw{philosophy,philosophy/philosophy_of_science}
     \endentry
     \entry{Brookes2000}{article}{}{}
@@ -77,7 +80,6 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{annotation}{MAG ID: 1984826624}
       \field{journaltitle}{Energy Policy}
       \field{month}{6}
       \field{number}{6}
@@ -86,6 +88,9 @@
       \field{year}{2000}
       \field{pages}{355\bibrangedash 366}
       \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/s0301-4215(00)00030-6
+      \endverb
       \keyw{economics}
     \endentry
     \entry{Feynman2006}{book}{}{}
@@ -138,6 +143,7 @@
       \verb{url}
       \verb https://www.feynmanlectures.caltech.edu/
       \endverb
+      \keyw{physics}
     \endentry
     \entry{Jevons1866}{book}{}{}
       \name{author}{1}{}{%
@@ -322,6 +328,7 @@
       \field{urldateera}{ce}
       \field{pages}{2483\bibrangedash 2493}
       \range{pages}{11}
+      \keyw{economics}
     \endentry
     \entry{Wallace2006}{book}{}{}
       \name{author}{2}{}{%
