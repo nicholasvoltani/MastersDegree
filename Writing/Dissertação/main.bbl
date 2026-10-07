@@ -19,430 +19,127 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global/global}
-    \entry{Brookes1990}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=15090d3314c2c999d04871948c715e97}{%
-           family={Brookes},
-           familyi={B\bibinitperiod},
-           given={Leonard\bibnamedelima G.},
-           giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{15090d3314c2c999d04871948c715e97}
-      \strng{fullhash}{15090d3314c2c999d04871948c715e97}
-      \strng{fullhashraw}{15090d3314c2c999d04871948c715e97}
-      \strng{bibnamehash}{15090d3314c2c999d04871948c715e97}
-      \strng{authorbibnamehash}{15090d3314c2c999d04871948c715e97}
-      \strng{authornamehash}{15090d3314c2c999d04871948c715e97}
-      \strng{authorfullhash}{15090d3314c2c999d04871948c715e97}
-      \strng{authorfullhashraw}{15090d3314c2c999d04871948c715e97}
-      \field{extraname}{1}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradate}{1}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Much attention has been attracted by the paper of Keepin and Katz (1988) which claimed that for limiting greenhouse gas build-up it was several times more cost-effective to invest in energy efficency measures than in nuclear power. The author of this reply claims that not only were the claims on behalf of energy efficiency faulty in detail, they were also unsound in principle: it has been known for at least 125 years that more efficient energy use is associated with increases in total and per capita energy consumption, not decreases. The present paper discusses relevant published work and attempts to explain the economic processes involved.}
-      \field{journaltitle}{Energy \& Environment}
-      \field{month}{12}
-      \field{number}{4}
-      \field{title}{Energy {{Efficiency}} and {{The Greenhouse Effect}}}
-      \field{volume}{1}
-      \field{year}{1990}
-      \field{pages}{318\bibrangedash 333}
-      \range{pages}{16}
-      \verb{doi}
-      \verb 10.1177/0958305x9000100403
-      \endverb
-      \keyw{economics}
-    \endentry
-    \entry{Brookes1990a}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=15090d3314c2c999d04871948c715e97}{%
-           family={Brookes},
-           familyi={B\bibinitperiod},
-           given={Leonard\bibnamedelima G.},
-           giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{15090d3314c2c999d04871948c715e97}
-      \strng{fullhash}{15090d3314c2c999d04871948c715e97}
-      \strng{fullhashraw}{15090d3314c2c999d04871948c715e97}
-      \strng{bibnamehash}{15090d3314c2c999d04871948c715e97}
-      \strng{authorbibnamehash}{15090d3314c2c999d04871948c715e97}
-      \strng{authornamehash}{15090d3314c2c999d04871948c715e97}
-      \strng{authorfullhash}{15090d3314c2c999d04871948c715e97}
-      \strng{authorfullhashraw}{15090d3314c2c999d04871948c715e97}
-      \field{extraname}{2}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradate}{2}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{journaltitle}{Energy Policy}
-      \field{langid}{english}
-      \field{month}{3}
-      \field{number}{2}
-      \field{shorttitle}{The Greenhouse Effect}
-      \field{title}{The Greenhouse Effect: The Fallacies in the Energy Efficiency Solution}
-      \field{volume}{18}
-      \field{year}{1990}
-      \field{pages}{199\bibrangedash 201}
-      \range{pages}{3}
-      \verb{doi}
-      \verb 10.1016/0301-4215(90)90145-T
-      \endverb
-      \keyw{economics,economics/microeconomics}
-    \endentry
-    \entry{Brookes2000}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=15090d3314c2c999d04871948c715e97}{%
-           family={Brookes},
-           familyi={B\bibinitperiod},
-           given={Leonard\bibnamedelima G.},
-           giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{15090d3314c2c999d04871948c715e97}
-      \strng{fullhash}{15090d3314c2c999d04871948c715e97}
-      \strng{fullhashraw}{15090d3314c2c999d04871948c715e97}
-      \strng{bibnamehash}{15090d3314c2c999d04871948c715e97}
-      \strng{authorbibnamehash}{15090d3314c2c999d04871948c715e97}
-      \strng{authornamehash}{15090d3314c2c999d04871948c715e97}
-      \strng{authorfullhash}{15090d3314c2c999d04871948c715e97}
-      \strng{authorfullhashraw}{15090d3314c2c999d04871948c715e97}
-      \field{extraname}{3}
-      \field{sortinit}{B}
-      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Energy Policy}
-      \field{month}{6}
-      \field{number}{6}
-      \field{title}{Energy Efficiency Fallacies Revisited}
-      \field{volume}{28}
-      \field{year}{2000}
-      \field{pages}{355\bibrangedash 366}
-      \range{pages}{12}
-      \verb{doi}
-      \verb 10.1016/s0301-4215(00)00030-6
-      \endverb
-      \keyw{economics}
-    \endentry
-    \entry{Clark2001}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=79c3238289d29fa489cb55da7489969e}{%
-           family={Clark},
-           familyi={C\bibinitperiod},
-           given={Brett},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=66ef95fbc18ced2469c3a06817f4f6e1}{%
-           family={Foster},
+    \entry{Feynman2006}{book}{}{}
+      \name{author}{3}{}{%
+        {{un=0,uniquepart=base,hash=aac54ccf9c76aa4ba4310ed1334be7d8}{%
+           family={Feynman},
            familyi={F\bibinitperiod},
-           given={John\bibnamedelima Bellamy},
-           giveni={J\bibinitperiod\bibinitdelim B\bibinitperiod},
+           given={Richard\bibnamedelima P.},
+           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
            givenun=0}}%
-      }
-      \strng{namehash}{addc1cea5b3e759f4153a313ea5c4dbd}
-      \strng{fullhash}{addc1cea5b3e759f4153a313ea5c4dbd}
-      \strng{fullhashraw}{addc1cea5b3e759f4153a313ea5c4dbd}
-      \strng{bibnamehash}{addc1cea5b3e759f4153a313ea5c4dbd}
-      \strng{authorbibnamehash}{addc1cea5b3e759f4153a313ea5c4dbd}
-      \strng{authornamehash}{addc1cea5b3e759f4153a313ea5c4dbd}
-      \strng{authorfullhash}{addc1cea5b3e759f4153a313ea5c4dbd}
-      \strng{authorfullhashraw}{addc1cea5b3e759f4153a313ea5c4dbd}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{journaltitle}{Organization \& Environment}
-      \field{langid}{english}
-      \field{month}{3}
-      \field{number}{1}
-      \field{shorttitle}{William {{Stanley Jevons}} and {{The Coal Question}}}
-      \field{title}{William {{Stanley Jevons}} and {{The Coal Question}}: {{An Introduction}} to {{Jevons}}'s ``{{Of}} the {{Economy}} of {{Fuel}}''}
-      \field{volume}{14}
-      \field{year}{2001}
-      \field{pages}{93\bibrangedash 98}
-      \range{pages}{6}
-      \verb{doi}
-      \verb 10.1177/1086026601141005
-      \endverb
-      \keyw{economics,marxism}
-    \endentry
-    \entry{Cowell2004}{book}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=806151e99d27211f84af98b966e33f75}{%
-           family={Cowell},
-           familyi={C\bibinitperiod},
-           given={Frank},
-           giveni={F\bibinitperiod},
+        {{un=0,uniquepart=base,hash=773368378dd55945d3bd474598026757}{%
+           family={Leighton},
+           familyi={L\bibinitperiod},
+           given={Robert\bibnamedelima B.},
+           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod},
            givenun=0}}%
-      }
-      \strng{namehash}{806151e99d27211f84af98b966e33f75}
-      \strng{fullhash}{806151e99d27211f84af98b966e33f75}
-      \strng{fullhashraw}{806151e99d27211f84af98b966e33f75}
-      \strng{bibnamehash}{806151e99d27211f84af98b966e33f75}
-      \strng{authorbibnamehash}{806151e99d27211f84af98b966e33f75}
-      \strng{authornamehash}{806151e99d27211f84af98b966e33f75}
-      \strng{authorfullhash}{806151e99d27211f84af98b966e33f75}
-      \strng{authorfullhashraw}{806151e99d27211f84af98b966e33f75}
-      \field{sortinit}{C}
-      \field{sortinithash}{4d103a86280481745c9c897c925753c0}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{month}{12}
-      \field{title}{Microeconomics: Principles and Analysis}
-      \field{year}{2004}
-      \keyw{economics,economics/microeconomics}
-    \endentry
-    \entry{Fouquet2009}{incollection}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=d5ef2bfd40405f00d29b38f232efc36d}{%
-           family={Fouquet},
-           familyi={F\bibinitperiod},
-           given={Roger},
-           giveni={R\bibinitperiod},
+        {{un=0,uniquepart=base,hash=5c232c2cb9d68f9c56cfcc361731e78e}{%
+           family={Sands},
+           familyi={S\bibinitperiod},
+           given={Matthew\bibnamedelima L.},
+           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
            givenun=0}}%
-      }
-      \name{editor}{2}{}{%
-        {{hash=4f25c5e848fb0bed870cd3e77b46d857}{%
-           family={Evans},
-           familyi={E\bibinitperiod},
-           given={Joanne},
-           giveni={J\bibinitperiod}}}%
-        {{hash=dd26fb9503fcf0aa218d25af9911a0e2}{%
-           family={Hunt},
-           familyi={H\bibinitperiod},
-           given={Lester\bibnamedelima C.},
-           giveni={L\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
       }
       \list{location}{1}{%
-        {Cheltenham}%
+        {San Francisco}%
       }
       \list{publisher}{1}{%
-        {Edward Elgar}%
+        {Pearson Addison Wesley}%
       }
-      \strng{namehash}{d5ef2bfd40405f00d29b38f232efc36d}
-      \strng{fullhash}{d5ef2bfd40405f00d29b38f232efc36d}
-      \strng{fullhashraw}{d5ef2bfd40405f00d29b38f232efc36d}
-      \strng{bibnamehash}{d5ef2bfd40405f00d29b38f232efc36d}
-      \strng{authorbibnamehash}{d5ef2bfd40405f00d29b38f232efc36d}
-      \strng{authornamehash}{d5ef2bfd40405f00d29b38f232efc36d}
-      \strng{authorfullhash}{d5ef2bfd40405f00d29b38f232efc36d}
-      \strng{authorfullhashraw}{d5ef2bfd40405f00d29b38f232efc36d}
-      \strng{editorbibnamehash}{8b4f66c34bc6a029c550458b6a817360}
-      \strng{editornamehash}{8b4f66c34bc6a029c550458b6a817360}
-      \strng{editorfullhash}{8b4f66c34bc6a029c550458b6a817360}
-      \strng{editorfullhashraw}{8b4f66c34bc6a029c550458b6a817360}
+      \strng{namehash}{b076fd40e1c51d083783c592688d03cb}
+      \strng{fullhash}{2c21286a7c7e7a4bcb5a2debc7959b90}
+      \strng{fullhashraw}{2c21286a7c7e7a4bcb5a2debc7959b90}
+      \strng{bibnamehash}{2c21286a7c7e7a4bcb5a2debc7959b90}
+      \strng{authorbibnamehash}{2c21286a7c7e7a4bcb5a2debc7959b90}
+      \strng{authornamehash}{b076fd40e1c51d083783c592688d03cb}
+      \strng{authorfullhash}{2c21286a7c7e7a4bcb5a2debc7959b90}
+      \strng{authorfullhashraw}{2c21286a7c7e7a4bcb5a2debc7959b90}
       \field{sortinit}{F}
       \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{booktitle}{International Handbook on the Economics of Energy}
-      \field{title}{A Brief History of Energy}
-      \field{year}{2009}
-      \keyw{economics}
-    \endentry
-    \entry{Gillingham2015}{article}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=ca807e4797b1d949450bee066eb4418e}{%
-           family={Gillingham},
-           familyi={G\bibinitperiod},
-           given={Kenneth},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=dde42f3bd3046e578279b7c9ef4e9808}{%
-           family={Rapson},
-           familyi={R\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5898aaa48a036e13a66e4c2a0878f232}{%
-           family={Wagner},
-           familyi={W\bibinitperiod},
-           given={Gernot},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{fac8d9d9df878902a3d30402cae18939}
-      \strng{fullhash}{fd443b87cfd98b0a7687634b492e93bb}
-      \strng{fullhashraw}{fd443b87cfd98b0a7687634b492e93bb}
-      \strng{bibnamehash}{fd443b87cfd98b0a7687634b492e93bb}
-      \strng{authorbibnamehash}{fd443b87cfd98b0a7687634b492e93bb}
-      \strng{authornamehash}{fac8d9d9df878902a3d30402cae18939}
-      \strng{authorfullhash}{fd443b87cfd98b0a7687634b492e93bb}
-      \strng{authorfullhashraw}{fd443b87cfd98b0a7687634b492e93bb}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Review of Environmental Economics and Policy}
       \field{langid}{english}
-      \field{number}{1}
-      \field{title}{The {{Rebound Effect}} and {{Energy Efficiency Policy}}}
-      \field{volume}{10}
-      \field{year}{2015}
-      \field{pages}{68\bibrangedash 88}
-      \range{pages}{21}
-      \verb{doi}
-      \verb 10.1093/reep/rev017
+      \field{title}{The {{Feynman}} Lectures on Physics}
+      \field{year}{2006}
+      \verb{urlraw}
+      \verb https://www.feynmanlectures.caltech.edu/
       \endverb
-      \keyw{economics,economics/microeconomics}
-    \endentry
-    \entry{Greening2000}{article}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=9a26022a3894d314f454e6e801d81044}{%
-           family={Greening},
-           familyi={G\bibinitperiod},
-           given={Lorna\bibnamedelima A.},
-           giveni={L\bibinitperiod\bibinitdelim A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=1e0da5234784dcd5495a21fdb33093c5}{%
-           family={Greene},
-           familyi={G\bibinitperiod},
-           given={David\bibnamedelima L.},
-           giveni={D\bibinitperiod\bibinitdelim L\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=53d92c0029276331b46f0a921b9252d7}{%
-           family={Difiglio},
-           familyi={D\bibinitperiod},
-           given={Carmen},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{5f2777a975c72123f51cd9ea0da7b3e8}
-      \strng{fullhash}{0d4b7170ffc0718021678813b8565488}
-      \strng{fullhashraw}{0d4b7170ffc0718021678813b8565488}
-      \strng{bibnamehash}{0d4b7170ffc0718021678813b8565488}
-      \strng{authorbibnamehash}{0d4b7170ffc0718021678813b8565488}
-      \strng{authornamehash}{5f2777a975c72123f51cd9ea0da7b3e8}
-      \strng{authorfullhash}{0d4b7170ffc0718021678813b8565488}
-      \strng{authorfullhashraw}{0d4b7170ffc0718021678813b8565488}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Energy policy}
-      \field{number}{6-7}
-      \field{title}{Energy Efficiency and Consumption---the Rebound Effect---a Survey}
-      \field{volume}{28}
-      \field{year}{2000}
-      \field{pages}{389\bibrangedash 401}
-      \range{pages}{13}
-      \verb{doi}
-      \verb 10.1016/S0301-4215(00)00021-5
+      \verb{url}
+      \verb https://www.feynmanlectures.caltech.edu/
       \endverb
-      \keyw{economics}
+      \keyw{physics}
     \endentry
-    \entry{Hanley2009}{article}{}{}
-      \name{author}{4}{}{%
-        {{un=0,uniquepart=base,hash=aeda14819f8b7e98a91c218f4876058a}{%
-           family={Hanley},
-           familyi={H\bibinitperiod},
-           given={Nick},
-           giveni={N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e0104c19d1c5540fd5964ea658ef27db}{%
-           family={McGregor},
-           familyi={M\bibinitperiod},
-           given={Peter\bibnamedelima G.},
-           giveni={P\bibinitperiod\bibinitdelim G\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=e9cac09e1ae098d74e5170d97bea3ad2}{%
-           family={Swales},
-           familyi={S\bibinitperiod},
-           given={J.\bibnamedelimi Kim},
-           giveni={J\bibinitperiod\bibinitdelim K\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=61fe4677acedf58577626793cf0f48e0}{%
-           family={Turner},
-           familyi={T\bibinitperiod},
-           given={Karen},
-           giveni={K\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{e0d0438fb303c19b792d966b28120281}
-      \strng{fullhash}{dac0fd2c37692e71161feca622344084}
-      \strng{fullhashraw}{dac0fd2c37692e71161feca622344084}
-      \strng{bibnamehash}{e0d0438fb303c19b792d966b28120281}
-      \strng{authorbibnamehash}{e0d0438fb303c19b792d966b28120281}
-      \strng{authornamehash}{e0d0438fb303c19b792d966b28120281}
-      \strng{authorfullhash}{dac0fd2c37692e71161feca622344084}
-      \strng{authorfullhashraw}{dac0fd2c37692e71161feca622344084}
-      \field{sortinit}{H}
-      \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Ecological Economics}
-      \field{langid}{english}
-      \field{month}{1}
-      \field{number}{3}
-      \field{title}{Do Increases in Energy Efficiency Improve Environmental Quality and Sustainability?}
-      \field{volume}{68}
-      \field{year}{2009}
-      \field{pages}{692\bibrangedash 709}
-      \range{pages}{18}
-      \verb{doi}
-      \verb 10.1016/j.ecolecon.2008.06.004
-      \endverb
-      \keyw{economics,economics/microeconomics}
-    \endentry
-    \entry{Hegel1995}{book}{}{}
+    \entry{Griffiths2013}{book}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=657f840dc3818e7a56523e4e2d17a0ca}{%
-           family={Hegel},
-           familyi={H\bibinitperiod},
-           given={Georg\bibnamedelimb Wilhelm\bibnamedelima Friedrich},
-           giveni={G\bibinitperiod\bibinitdelim W\bibinitperiod\bibinitdelim F\bibinitperiod},
+        {{un=0,uniquepart=base,hash=a00328547222c4a2a201442ee59dccfd}{%
+           family={Griffiths},
+           familyi={G\bibinitperiod},
+           given={David\bibnamedelima J.},
+           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
            givenun=0}}%
       }
       \list{location}{1}{%
-        {Lisboa}%
+        {Boston}%
       }
       \list{publisher}{1}{%
-        {Edições 70}%
+        {Pearson}%
       }
-      \strng{namehash}{657f840dc3818e7a56523e4e2d17a0ca}
-      \strng{fullhash}{657f840dc3818e7a56523e4e2d17a0ca}
-      \strng{fullhashraw}{657f840dc3818e7a56523e4e2d17a0ca}
-      \strng{bibnamehash}{657f840dc3818e7a56523e4e2d17a0ca}
-      \strng{authorbibnamehash}{657f840dc3818e7a56523e4e2d17a0ca}
-      \strng{authornamehash}{657f840dc3818e7a56523e4e2d17a0ca}
-      \strng{authorfullhash}{657f840dc3818e7a56523e4e2d17a0ca}
-      \strng{authorfullhashraw}{657f840dc3818e7a56523e4e2d17a0ca}
+      \strng{namehash}{a00328547222c4a2a201442ee59dccfd}
+      \strng{fullhash}{a00328547222c4a2a201442ee59dccfd}
+      \strng{fullhashraw}{a00328547222c4a2a201442ee59dccfd}
+      \strng{bibnamehash}{a00328547222c4a2a201442ee59dccfd}
+      \strng{authorbibnamehash}{a00328547222c4a2a201442ee59dccfd}
+      \strng{authornamehash}{a00328547222c4a2a201442ee59dccfd}
+      \strng{authorfullhash}{a00328547222c4a2a201442ee59dccfd}
+      \strng{authorfullhashraw}{a00328547222c4a2a201442ee59dccfd}
+      \field{sortinit}{G}
+      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{4}
+      \field{title}{Introduction to Electrodynamics}
+      \field{year}{2013}
+    \endentry
+    \entry{Hobsbawm2014}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=24e58ae54a1f1620d2abf3afaa9fa2b2}{%
+           family={Hobsbawm},
+           familyi={H\bibinitperiod},
+           given={Eric\bibnamedelima J.},
+           giveni={E\bibinitperiod\bibinitdelim J\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {Rio de Janeiro}%
+      }
+      \list{publisher}{1}{%
+        {Paz e Terra}%
+      }
+      \strng{namehash}{24e58ae54a1f1620d2abf3afaa9fa2b2}
+      \strng{fullhash}{24e58ae54a1f1620d2abf3afaa9fa2b2}
+      \strng{fullhashraw}{24e58ae54a1f1620d2abf3afaa9fa2b2}
+      \strng{bibnamehash}{24e58ae54a1f1620d2abf3afaa9fa2b2}
+      \strng{authorbibnamehash}{24e58ae54a1f1620d2abf3afaa9fa2b2}
+      \strng{authornamehash}{24e58ae54a1f1620d2abf3afaa9fa2b2}
+      \strng{authorfullhash}{24e58ae54a1f1620d2abf3afaa9fa2b2}
+      \strng{authorfullhashraw}{24e58ae54a1f1620d2abf3afaa9fa2b2}
       \field{sortinit}{H}
       \field{sortinithash}{23a3aa7c24e56cfa16945d55545109b5}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{A Razão Na História}
-      \field{year}{1995}
+      \field{edition}{33}
+      \field{langid}{brazilian}
+      \field{title}{{A Era Das Revoluções, 1789-1848}}
+      \field{year}{2014}
+      \keyw{marxism}
     \endentry
-    \entry{Jevons1866}{book}{}{}
+    \entry{Jevons1878}{article}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=64cc6e50f483058684a3ec742cbd8ab6}{%
            family={Jevons},
@@ -450,12 +147,6 @@
            given={William\bibnamedelima Stanley},
            giveni={W\bibinitperiod\bibinitdelim S\bibinitperiod},
            givenun=0}}%
-      }
-      \list{location}{1}{%
-        {London}%
-      }
-      \list{publisher}{1}{%
-        {Macmillan and Co.}%
       }
       \strng{namehash}{64cc6e50f483058684a3ec742cbd8ab6}
       \strng{fullhash}{64cc6e50f483058684a3ec742cbd8ab6}
@@ -471,221 +162,22 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{edition}{2}
-      \field{title}{The Coal Question}
-      \field{year}{1866}
-      \verb{urlraw}
-      \verb https://oll.libertyfund.org/titles/jevons-the-coal-question
-      \endverb
-      \verb{url}
-      \verb https://oll.libertyfund.org/titles/jevons-the-coal-question
-      \endverb
-      \keyw{economics}
-    \endentry
-    \entry{Keepin1988}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=db0fab98f0db47452166dbb4c2dfb283}{%
-           family={Keepin},
-           familyi={K\bibinitperiod},
-           given={Bill},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f585bf735dd5fea19f17a072e999accb}{%
-           family={Kats},
-           familyi={K\bibinitperiod},
-           given={Gregory},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{f5c80cfc4bbfc9ef88d8c3fb7b9dcecd}
-      \strng{fullhash}{f5c80cfc4bbfc9ef88d8c3fb7b9dcecd}
-      \strng{fullhashraw}{f5c80cfc4bbfc9ef88d8c3fb7b9dcecd}
-      \strng{bibnamehash}{f5c80cfc4bbfc9ef88d8c3fb7b9dcecd}
-      \strng{authorbibnamehash}{f5c80cfc4bbfc9ef88d8c3fb7b9dcecd}
-      \strng{authornamehash}{f5c80cfc4bbfc9ef88d8c3fb7b9dcecd}
-      \strng{authorfullhash}{f5c80cfc4bbfc9ef88d8c3fb7b9dcecd}
-      \strng{authorfullhashraw}{f5c80cfc4bbfc9ef88d8c3fb7b9dcecd}
-      \field{extraname}{1}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Energy Policy}
+      \field{journaltitle}{Nature}
       \field{langid}{english}
-      \field{month}{12}
-      \field{number}{6}
-      \field{title}{Greenhouse Warming: {{Comparative}} Analysis of Nuclear and Efficiency Abatement Strategies}
-      \field{volume}{16}
-      \field{year}{1988}
-      \field{pages}{538\bibrangedash 561}
-      \range{pages}{24}
-      \verb{doi}
-      \verb 10.1016/0301-4215(88)90209-1
-      \endverb
-      \keyw{economics}
-    \endentry
-    \entry{Keepin1989}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=db0fab98f0db47452166dbb4c2dfb283}{%
-           family={Keepin},
-           familyi={K\bibinitperiod},
-           given={Bill},
-           giveni={B\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=f585bf735dd5fea19f17a072e999accb}{%
-           family={Kats},
-           familyi={K\bibinitperiod},
-           given={Gregory},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{f5c80cfc4bbfc9ef88d8c3fb7b9dcecd}
-      \strng{fullhash}{f5c80cfc4bbfc9ef88d8c3fb7b9dcecd}
-      \strng{fullhashraw}{f5c80cfc4bbfc9ef88d8c3fb7b9dcecd}
-      \strng{bibnamehash}{f5c80cfc4bbfc9ef88d8c3fb7b9dcecd}
-      \strng{authorbibnamehash}{f5c80cfc4bbfc9ef88d8c3fb7b9dcecd}
-      \strng{authornamehash}{f5c80cfc4bbfc9ef88d8c3fb7b9dcecd}
-      \strng{authorfullhash}{f5c80cfc4bbfc9ef88d8c3fb7b9dcecd}
-      \strng{authorfullhashraw}{f5c80cfc4bbfc9ef88d8c3fb7b9dcecd}
-      \field{extraname}{2}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Energy Policy}
-      \field{langid}{english}
-      \field{month}{12}
-      \field{number}{6}
-      \field{title}{The Efficiency-Renewable Synergism}
-      \field{volume}{17}
-      \field{year}{1989}
-      \field{pages}{614\bibrangedash 616}
-      \range{pages}{3}
-      \verb{doi}
-      \verb 10.1016/0301-4215(89)90142-0
-      \endverb
-      \keyw{economics}
-    \endentry
-    \entry{Khazzoom1980}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=c6af64d9676cf668ee78fe6fe9306885}{%
-           family={Khazzoom},
-           familyi={K\bibinitperiod},
-           given={J.\bibnamedelimi Daniel},
-           giveni={J\bibinitperiod\bibinitdelim D\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{c6af64d9676cf668ee78fe6fe9306885}
-      \strng{fullhash}{c6af64d9676cf668ee78fe6fe9306885}
-      \strng{fullhashraw}{c6af64d9676cf668ee78fe6fe9306885}
-      \strng{bibnamehash}{c6af64d9676cf668ee78fe6fe9306885}
-      \strng{authorbibnamehash}{c6af64d9676cf668ee78fe6fe9306885}
-      \strng{authornamehash}{c6af64d9676cf668ee78fe6fe9306885}
-      \strng{authorfullhash}{c6af64d9676cf668ee78fe6fe9306885}
-      \strng{authorfullhashraw}{c6af64d9676cf668ee78fe6fe9306885}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{In the discussion of energy conservation, a great deal of attention has focused on mandated efficiency standards for cars and energy-using household appliances. (In this article, I will use the term "appliance" in a generic sense to cover household durables). Unfortunately, the estimates of energy savings predicted to result from these mandated standards are derived mechanically.' When mandated standards raise the appliance efficiency by 1 percent, demand is predicted to drop by 1 percent; when they raise efficiency by 2 percent, demand is predicted to drop by 2 percent; and so on. Examples of such results are found in reports by the Department of Energy (1979a, 1980) and by the Staff of the California Energy Commission (1979) on energy demand in California in the coming two decades.}
-      \field{journaltitle}{The Energy Journal}
-      \field{month}{1}
-      \field{number}{4}
-      \field{title}{Economic {{Implications}} of {{Mandated Efficiency}} in {{Standards}} for {{Household Appliances}}}
-      \field{volume}{1}
-      \field{year}{1980}
-      \field{pages}{21\bibrangedash 40}
-      \range{pages}{20}
-      \verb{doi}
-      \verb 10.5547/issn0195-6574-ej-vol1-no4-2
-      \endverb
-      \keyw{economics}
-    \endentry
-    \entry{Kim2006}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=7521839f3fb5a01bb0039b486d238665}{%
-           family={Kim},
-           familyi={K\bibinitperiod},
-           given={Jaegwon},
-           giveni={J\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{7521839f3fb5a01bb0039b486d238665}
-      \strng{fullhash}{7521839f3fb5a01bb0039b486d238665}
-      \strng{fullhashraw}{7521839f3fb5a01bb0039b486d238665}
-      \strng{bibnamehash}{7521839f3fb5a01bb0039b486d238665}
-      \strng{authorbibnamehash}{7521839f3fb5a01bb0039b486d238665}
-      \strng{authornamehash}{7521839f3fb5a01bb0039b486d238665}
-      \strng{authorfullhash}{7521839f3fb5a01bb0039b486d238665}
-      \strng{authorfullhashraw}{7521839f3fb5a01bb0039b486d238665}
-      \field{sortinit}{K}
-      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{journaltitle}{Synthese}
-      \field{langid}{english}
-      \field{month}{8}
-      \field{number}{3}
-      \field{shorttitle}{Emergence}
-      \field{title}{Emergence: {{Core}} Ideas and Issues}
-      \field{urlday}{15}
-      \field{urlmonth}{4}
-      \field{urlyear}{2025}
-      \field{volume}{151}
-      \field{year}{2006}
+      \field{month}{11}
+      \field{number}{472}
+      \field{title}{Commercial {{Crises}} and {{Sun-Spots}}}
+      \field{urlday}{5}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{volume}{19}
+      \field{year}{1878}
       \field{urldateera}{ce}
-      \field{pages}{547\bibrangedash 559}
-      \range{pages}{13}
+      \field{pages}{33\bibrangedash 37}
+      \range{pages}{5}
       \verb{doi}
-      \verb 10.1007/s11229-006-9025-0
+      \verb 10.1038/019033d0
       \endverb
-      \keyw{complexity}
-    \endentry
-    \entry{Lovins1988}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=000e02ec6aff31539061962055bf33f7}{%
-           family={Lovins},
-           familyi={L\bibinitperiod},
-           given={Amory\bibnamedelima B.},
-           giveni={A\bibinitperiod\bibinitdelim B\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{000e02ec6aff31539061962055bf33f7}
-      \strng{fullhash}{000e02ec6aff31539061962055bf33f7}
-      \strng{fullhashraw}{000e02ec6aff31539061962055bf33f7}
-      \strng{bibnamehash}{000e02ec6aff31539061962055bf33f7}
-      \strng{authorbibnamehash}{000e02ec6aff31539061962055bf33f7}
-      \strng{authornamehash}{000e02ec6aff31539061962055bf33f7}
-      \strng{authorfullhash}{000e02ec6aff31539061962055bf33f7}
-      \strng{authorfullhashraw}{000e02ec6aff31539061962055bf33f7}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{In our October 1987 issue (pp. 85-89), we published a Comment by J. Daniel Khazzoom on a paper given by Amory Lovins at the November 1986 North American Conference of the IAEE. The subject, certain aspects of energy savings from the use of more efficient appliances, has important research and policy implications. Dr. Lovins's reply (plus a follow-up note by three staff members of the University of California's Lawrence Berkeley Laboratory) appears below. Professor Khazzoom's rejoinder will appear in a subsequent issue. I encourage additional comments and letters from our readers. Comments Energy Saving Resulting from the Adoption of More Efficient Appliances: Another View Amory B. Lovins J. Daniel Khazzoom's objection (1987) to my November 1986 IAEE presentation' is wrong in at least a dozen distinct respects. Its errors are variously noted, by, among others, Goldstein \& Watson (1986), the follow- up by Henly et al. (see p. 156) to this note, and (contrary to Khazzoom's claim that I ignored rebound effects) myself (e.g. 1985). Khazzoom's 1987 article simply reasserts his position without offering a convincing response.}
-      \field{journaltitle}{The Energy Journal}
-      \field{langid}{english}
-      \field{month}{4}
-      \field{number}{2}
-      \field{title}{Energy {{Saving}} from the {{Adoption}} of {{More Efficient Appliances}}: {{Another}} View}
-      \field{volume}{9}
-      \field{year}{1988}
-      \field{pages}{153\bibrangedash 154}
-      \range{pages}{2}
-      \verb{doi}
-      \verb 10.5547/ISSN0195-6574-EJ-Vol9-No2-10
-      \endverb
-      \keyw{economics}
     \endentry
     \entry{Lukacs2012}{book}{}{}
       \name{author}{1}{}{%
@@ -695,6 +187,9 @@
            given={György},
            giveni={G\bibinitperiod},
            givenun=0}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
       }
       \list{publisher}{1}{%
         {Boitempo}%
@@ -718,124 +213,130 @@
       \field{year}{2012}
       \keyw{marxism,marxism/lukacs}
     \endentry
-    \entry{Mas-Colell1995}{book}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=b76f97409971b7c349c5ca95c956f216}{%
-           family={{Mas-Colell}},
-           familyi={M\bibinitperiod},
-           given={Andreu},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=af8fb43e720fb828e2675ca752dab059}{%
-           family={Whinston},
-           familyi={W\bibinitperiod},
-           given={Michael\bibnamedelima Dennis},
-           giveni={M\bibinitperiod\bibinitdelim D\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=3351d53ca164d7525b03413fc0e38b7c}{%
-           family={Green},
-           familyi={G\bibinitperiod},
-           given={Jerry\bibnamedelima R.},
-           giveni={J\bibinitperiod\bibinitdelim R\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {New York}%
-      }
-      \list{publisher}{1}{%
-        {Oxford University Press}%
-      }
-      \strng{namehash}{0c6e3aed91d7d85a6cc26760b7a3370f}
-      \strng{fullhash}{eba193a65b833f23ce32186bd3529df8}
-      \strng{fullhashraw}{eba193a65b833f23ce32186bd3529df8}
-      \strng{bibnamehash}{eba193a65b833f23ce32186bd3529df8}
-      \strng{authorbibnamehash}{eba193a65b833f23ce32186bd3529df8}
-      \strng{authornamehash}{0c6e3aed91d7d85a6cc26760b7a3370f}
-      \strng{authorfullhash}{eba193a65b833f23ce32186bd3529df8}
-      \strng{authorfullhashraw}{eba193a65b833f23ce32186bd3529df8}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Microeconomic Theory}
-      \field{year}{1995}
-      \keyw{economics,economics/microeconomics,mathematics}
-    \endentry
-    \entry{Medeiros2013}{book}{}{}
+    \entry{Marx2014}{book}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=7a0223d80175ececcaca634cc03d959b}{%
-           family={Medeiros},
+        {{un=0,uniquepart=base,hash=af80d32a7d375e934f94bdfb27bf2999}{%
+           family={Marx},
            familyi={M\bibinitperiod},
-           given={João\bibnamedelima Leonardo},
-           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod},
            givenun=0}}%
       }
       \list{location}{1}{%
-        {Niterói}%
+        {São Paulo}%
       }
       \list{publisher}{1}{%
-        {Editora da UFF}%
+        {Boitempo}%
       }
-      \strng{namehash}{7a0223d80175ececcaca634cc03d959b}
-      \strng{fullhash}{7a0223d80175ececcaca634cc03d959b}
-      \strng{fullhashraw}{7a0223d80175ececcaca634cc03d959b}
-      \strng{bibnamehash}{7a0223d80175ececcaca634cc03d959b}
-      \strng{authorbibnamehash}{7a0223d80175ececcaca634cc03d959b}
-      \strng{authornamehash}{7a0223d80175ececcaca634cc03d959b}
-      \strng{authorfullhash}{7a0223d80175ececcaca634cc03d959b}
-      \strng{authorfullhashraw}{7a0223d80175ececcaca634cc03d959b}
+      \strng{namehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{fullhash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{fullhashraw}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{bibnamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorbibnamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authornamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorfullhash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorfullhashraw}{af80d32a7d375e934f94bdfb27bf2999}
+      \field{extraname}{1}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{shorttitle}{A Economia Diante Do Horror Econômico}
-      \field{title}{A Economia Diante Do Horror Econômico: Uma Crítica Ontológica Dos Surtos de Altruísmo Da Ciência Econômica}
-      \field{year}{2013}
-      \keyw{economics,marxism,philosophy/critical_realism}
+      \field{edition}{1}
+      \field{langid}{brazilian}
+      \field{shorttitle}{{O capital}}
+      \field{title}{{O capital: crítica da economia política - Livro II: o processo de circulação do capital}}
+      \field{year}{2014}
+      \keyw{economics,marxism}
     \endentry
-    \entry{Missemer2012}{article}{}{}
+    \entry{Marx2017}{book}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=e99757e0a51836fff4926d76617f8762}{%
-           family={Missemer},
+        {{un=0,uniquepart=base,hash=af80d32a7d375e934f94bdfb27bf2999}{%
+           family={Marx},
            familyi={M\bibinitperiod},
-           given={Antoine},
-           giveni={A\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod},
            givenun=0}}%
       }
-      \list{publisher}{1}{%
-        {Elsevier}%
+      \list{location}{1}{%
+        {São Paulo}%
       }
-      \strng{namehash}{e99757e0a51836fff4926d76617f8762}
-      \strng{fullhash}{e99757e0a51836fff4926d76617f8762}
-      \strng{fullhashraw}{e99757e0a51836fff4926d76617f8762}
-      \strng{bibnamehash}{e99757e0a51836fff4926d76617f8762}
-      \strng{authorbibnamehash}{e99757e0a51836fff4926d76617f8762}
-      \strng{authornamehash}{e99757e0a51836fff4926d76617f8762}
-      \strng{authorfullhash}{e99757e0a51836fff4926d76617f8762}
-      \strng{authorfullhashraw}{e99757e0a51836fff4926d76617f8762}
+      \list{publisher}{1}{%
+        {Boitempo}%
+      }
+      \strng{namehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{fullhash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{fullhashraw}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{bibnamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorbibnamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authornamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorfullhash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorfullhashraw}{af80d32a7d375e934f94bdfb27bf2999}
+      \field{extraname}{2}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Ecological Economics}
-      \field{title}{William {{Stanley Jevons}}' the Coal Question (1865), beyond the Rebound Effect}
-      \field{volume}{82}
-      \field{year}{2012}
-      \field{pages}{97\bibrangedash 103}
-      \range{pages}{7}
-      \verb{doi}
-      \verb 10.1016/j.ecolecon.2012.07.010
-      \endverb
-      \keyw{economics}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{2}
+      \field{langid}{brazilian}
+      \field{shorttitle}{{O Capital}}
+      \field{title}{{O Capital: crítica da economia política - Livro I: o processo de produção do capital}}
+      \field{year}{2017}
+      \keyw{economics,marxism}
     \endentry
-    \entry{SaBarreto2022}{book}{}{}
-      \name{author}{1}{}{%
+    \entry{Marx2007}{book}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=af80d32a7d375e934f94bdfb27bf2999}{%
+           family={Marx},
+           familyi={M\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod},
+           givenun=0}}%
+        {{un=0,uniquepart=base,hash=fce08a4b30fb50f3020b2fdfeb8aa2e6}{%
+           family={Engels},
+           familyi={E\bibinitperiod},
+           given={Friedrich},
+           giveni={F\bibinitperiod},
+           givenun=0}}%
+      }
+      \list{location}{1}{%
+        {São Paulo}%
+      }
+      \list{publisher}{1}{%
+        {Boitempo}%
+      }
+      \strng{namehash}{d64f9a685d9554a1ba64bb1121d77c37}
+      \strng{fullhash}{d64f9a685d9554a1ba64bb1121d77c37}
+      \strng{fullhashraw}{d64f9a685d9554a1ba64bb1121d77c37}
+      \strng{bibnamehash}{d64f9a685d9554a1ba64bb1121d77c37}
+      \strng{authorbibnamehash}{d64f9a685d9554a1ba64bb1121d77c37}
+      \strng{authornamehash}{d64f9a685d9554a1ba64bb1121d77c37}
+      \strng{authorfullhash}{d64f9a685d9554a1ba64bb1121d77c37}
+      \strng{authorfullhashraw}{d64f9a685d9554a1ba64bb1121d77c37}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{1}
+      \field{langid}{brazilian}
+      \field{shorttitle}{{A Ideologia Alemã}}
+      \field{title}{{A Ideologia Alemã: Crítica mais recente filosofia alemã em seus representantes Feuerbach, B. Bauer E Stirner, e do socialismo alemão em seus diferentes profetas (1845-1846)}}
+      \field{year}{2007}
+      \keyw{marxism}
+    \endentry
+    \entry{Medeiros2013a}{article}{}{}
+      \name{author}{2}{}{%
+        {{un=0,uniquepart=base,hash=7a0223d80175ececcaca634cc03d959b}{%
+           family={Medeiros},
+           familyi={M\bibinitperiod},
+           given={João\bibnamedelima Leonardo},
+           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
+           givenun=0}}%
         {{un=0,uniquepart=base,hash=d3ce1cfa405ecdf3f2d780a51f005f2c}{%
            family={Sá\bibnamedelima Barreto},
            familyi={S\bibinitperiod\bibinitdelim B\bibinitperiod},
@@ -843,402 +344,221 @@
            giveni={E\bibinitperiod},
            givenun=0}}%
       }
+      \list{publisher}{1}{%
+        {SciELO Brasil}%
+      }
+      \strng{namehash}{620c5e65b7cabac292098c9581f86097}
+      \strng{fullhash}{620c5e65b7cabac292098c9581f86097}
+      \strng{fullhashraw}{620c5e65b7cabac292098c9581f86097}
+      \strng{bibnamehash}{620c5e65b7cabac292098c9581f86097}
+      \strng{authorbibnamehash}{620c5e65b7cabac292098c9581f86097}
+      \strng{authornamehash}{620c5e65b7cabac292098c9581f86097}
+      \strng{authorfullhash}{620c5e65b7cabac292098c9581f86097}
+      \strng{authorfullhashraw}{620c5e65b7cabac292098c9581f86097}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Economia e Sociedade}
+      \field{shorttitle}{Lukács e {{Marx}} Contra o" Ecologismo Acrítico"}
+      \field{title}{Lukács e {{Marx}} Contra o "Ecologismo Acrítico": Por Uma Ética Ambiental Materialista}
+      \field{volume}{22}
+      \field{year}{2013}
+      \field{pages}{317\bibrangedash 333}
+      \range{pages}{17}
+      \keyw{marxism}
+    \endentry
+    \entry{Mill1909}{book}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=b627c5e688e8b7502c2468b40c681f20}{%
+           family={Mill},
+           familyi={M\bibinitperiod},
+           given={John\bibnamedelima Stuart},
+           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
+           givenun=0}}%
+      }
       \list{location}{1}{%
-        {São Paulo}%
+        {London}%
       }
       \list{publisher}{1}{%
-        {Usina Editorial}%
+        {Longmans, Green and Co.}%
       }
-      \strng{namehash}{d3ce1cfa405ecdf3f2d780a51f005f2c}
-      \strng{fullhash}{d3ce1cfa405ecdf3f2d780a51f005f2c}
-      \strng{fullhashraw}{d3ce1cfa405ecdf3f2d780a51f005f2c}
-      \strng{bibnamehash}{d3ce1cfa405ecdf3f2d780a51f005f2c}
-      \strng{authorbibnamehash}{d3ce1cfa405ecdf3f2d780a51f005f2c}
-      \strng{authornamehash}{d3ce1cfa405ecdf3f2d780a51f005f2c}
-      \strng{authorfullhash}{d3ce1cfa405ecdf3f2d780a51f005f2c}
-      \strng{authorfullhashraw}{d3ce1cfa405ecdf3f2d780a51f005f2c}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \strng{namehash}{b627c5e688e8b7502c2468b40c681f20}
+      \strng{fullhash}{b627c5e688e8b7502c2468b40c681f20}
+      \strng{fullhashraw}{b627c5e688e8b7502c2468b40c681f20}
+      \strng{bibnamehash}{b627c5e688e8b7502c2468b40c681f20}
+      \strng{authorbibnamehash}{b627c5e688e8b7502c2468b40c681f20}
+      \strng{authornamehash}{b627c5e688e8b7502c2468b40c681f20}
+      \strng{authorfullhash}{b627c5e688e8b7502c2468b40c681f20}
+      \strng{authorfullhashraw}{b627c5e688e8b7502c2468b40c681f20}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{Ecologia Marxista para pessoas sem tempo.}
-      \field{langid}{brazilian}
-      \field{month}{7}
-      \field{title}{{Ecologia Marxista para pessoas sem tempo}}
+      \field{edition}{7}
+      \field{title}{Principles of {{Political Economy}} with Some of Their {{Applications}} to {{Social Philosophy}}}
+      \field{year}{1909}
+      \verb{urlraw}
+      \verb https://oll.libertyfund.org/titles/mill-principles-of-political-economy-ashley-ed
+      \endverb
+      \verb{url}
+      \verb https://oll.libertyfund.org/titles/mill-principles-of-political-economy-ashley-ed
+      \endverb
+      \keyw{economics}
+    \endentry
+    \entry{Pasquinelli2022}{article}{}{}
+      \name{author}{1}{}{%
+        {{un=0,uniquepart=base,hash=fdd1f8c21d64d058841fdd4eae05cf96}{%
+           family={Pasquinelli},
+           familyi={P\bibinitperiod},
+           given={Matteo},
+           giveni={M\bibinitperiod},
+           givenun=0}}%
+      }
+      \strng{namehash}{fdd1f8c21d64d058841fdd4eae05cf96}
+      \strng{fullhash}{fdd1f8c21d64d058841fdd4eae05cf96}
+      \strng{fullhashraw}{fdd1f8c21d64d058841fdd4eae05cf96}
+      \strng{bibnamehash}{fdd1f8c21d64d058841fdd4eae05cf96}
+      \strng{authorbibnamehash}{fdd1f8c21d64d058841fdd4eae05cf96}
+      \strng{authornamehash}{fdd1f8c21d64d058841fdd4eae05cf96}
+      \strng{authorfullhash}{fdd1f8c21d64d058841fdd4eae05cf96}
+      \strng{authorfullhashraw}{fdd1f8c21d64d058841fdd4eae05cf96}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
+      \field{extradatescope}{labelyear}
+      \field{labeldatesource}{}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{shorttitle}
+      \field{journaltitle}{Journal of Interdisciplinary History of Ideas}
+      \field{number}{22}
+      \field{shorttitle}{Labour, {{Energy}}, and {{Information}} as {{Historical Configurations}}}
+      \field{title}{Labour, {{Energy}}, and {{Information}} as {{Historical Configurations}}: {{Notes}} for a {{Political Metrology}} of the {{Anthropocene}}}
+      \field{volume}{11}
       \field{year}{2022}
-      \keyw{biology/ecology,economics,marxism}
+      \keyw{economics,marxism}
     \endentry
-    \entry{Saunders1992}{article}{}{}
+    \entry{Prado2026}{misc}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=e0bbf4826acf51992bbbfe7884dca47f}{%
-           family={Saunders},
-           familyi={S\bibinitperiod},
-           given={Harry\bibnamedelima D.},
-           giveni={H\bibinitperiod\bibinitdelim D\bibinitperiod},
+        {{un=0,uniquepart=base,hash=17424dd08d93e908a9b52b4b0f1bbfde}{%
+           family={Prado},
+           familyi={P\bibinitperiod},
+           given={Eleutério\bibnamedelimb F.\bibnamedelimi S.},
+           giveni={E\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim S\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{e0bbf4826acf51992bbbfe7884dca47f}
-      \strng{fullhash}{e0bbf4826acf51992bbbfe7884dca47f}
-      \strng{fullhashraw}{e0bbf4826acf51992bbbfe7884dca47f}
-      \strng{bibnamehash}{e0bbf4826acf51992bbbfe7884dca47f}
-      \strng{authorbibnamehash}{e0bbf4826acf51992bbbfe7884dca47f}
-      \strng{authornamehash}{e0bbf4826acf51992bbbfe7884dca47f}
-      \strng{authorfullhash}{e0bbf4826acf51992bbbfe7884dca47f}
-      \strng{authorfullhashraw}{e0bbf4826acf51992bbbfe7884dca47f}
-      \field{extraname}{1}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
+      \strng{namehash}{17424dd08d93e908a9b52b4b0f1bbfde}
+      \strng{fullhash}{17424dd08d93e908a9b52b4b0f1bbfde}
+      \strng{fullhashraw}{17424dd08d93e908a9b52b4b0f1bbfde}
+      \strng{bibnamehash}{17424dd08d93e908a9b52b4b0f1bbfde}
+      \strng{authorbibnamehash}{17424dd08d93e908a9b52b4b0f1bbfde}
+      \strng{authornamehash}{17424dd08d93e908a9b52b4b0f1bbfde}
+      \strng{authorfullhash}{17424dd08d93e908a9b52b4b0f1bbfde}
+      \strng{authorfullhashraw}{17424dd08d93e908a9b52b4b0f1bbfde}
+      \field{sortinit}{P}
+      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{abstract}{In a disturbing assault on intuition and conventional wisdom, Khazzoom and Brookes have asserted that energy efficiency improvements might increase, rather than decrease energy consumption. If true, policies aimed at encouraging conservation could worsen rather than ameliorate global warming and would accelerate the need for offshore drilling rather than provide a substitute for it. More generally, this result would pit conservation against environmental goals, in direct contradiction to many countries' energy plans (which see conservation as an environmental solution). Yet neoclassical growth theory confirms this possibility given certain fairly reasonable conditions-conditions that recent work by Hogan and Jorgenson indicates may hold in the U.S. economy. By no means proving the postulate, this analysis appears to make it much more difficult to dismiss. In fact, the effect can be more dramatic than even Khazzoom and Brookes may appreciate. Energy efficiency gains can increase energy use even more directly by increasing the economic growth rate, not only by decreasing the effective cost of energy. Efficiency gains for other factors (capital and labor) can also increase energy use.}
-      \field{journaltitle}{The Energy Journal}
-      \field{month}{5}
-      \field{number}{4}
-      \field{title}{The {{Khazzoom-Brookes Postulate}} and {{Neoclassical Growth}}}
-      \field{volume}{13}
-      \field{year}{1992}
-      \field{pages}{131\bibrangedash 148}
-      \range{pages}{18}
-      \verb{doi}
-      \verb 10.5547/issn0195-6574-ej-vol13-no4-7
-      \endverb
-      \keyw{economics}
-    \endentry
-    \entry{Saunders2000}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=e0bbf4826acf51992bbbfe7884dca47f}{%
-           family={Saunders},
-           familyi={S\bibinitperiod},
-           given={Harry\bibnamedelima D.},
-           giveni={H\bibinitperiod\bibinitdelim D\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{e0bbf4826acf51992bbbfe7884dca47f}
-      \strng{fullhash}{e0bbf4826acf51992bbbfe7884dca47f}
-      \strng{fullhashraw}{e0bbf4826acf51992bbbfe7884dca47f}
-      \strng{bibnamehash}{e0bbf4826acf51992bbbfe7884dca47f}
-      \strng{authorbibnamehash}{e0bbf4826acf51992bbbfe7884dca47f}
-      \strng{authornamehash}{e0bbf4826acf51992bbbfe7884dca47f}
-      \strng{authorfullhash}{e0bbf4826acf51992bbbfe7884dca47f}
-      \strng{authorfullhashraw}{e0bbf4826acf51992bbbfe7884dca47f}
-      \field{extraname}{2}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{journaltitle}{Energy Policy}
-      \field{number}{6-7}
-      \field{shorttitle}{A View from the Macro Side}
-      \field{title}{A View from the Macro Side: Rebound, Backfire, and {{Khazzoom}}--{{Brookes}}}
-      \field{urlday}{24}
-      \field{urlmonth}{8}
+      \field{abstract}{Eleutério F. S, Prado [1] Introdução Max Horkheimer, em seu Teoria tradicional e teoria crítica [2], afirma que existem conexões entre as formas de juízos e os períodos históricos. Em sequência, el\dots}
+      \field{journaltitle}{Economia e Complexidade}
+      \field{langid}{brazilian}
+      \field{month}{8}
+      \field{title}{{Ruy Fausto: apresentação dialética}}
+      \field{urlday}{9}
+      \field{urlmonth}{9}
       \field{urlyear}{2026}
-      \field{volume}{28}
-      \field{year}{2000}
+      \field{year}{2026}
       \field{urldateera}{ce}
-      \field{pages}{439\bibrangedash 449}
-      \range{pages}{11}
       \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S0301421500000240?casa_token=PrQrhWBTk6sAAAAA:I7FUaJwPlVCbOCY0u7SEJBJh97jmEGkhMx3MkHPza2kXoQuyRaa_4hQJyqv2ENpPiMz0nS9KjP_Y
+      \verb https://eleuterioprado.blog/2026/08/09/ruy-fausto-apresentacao-dialetica/
       \endverb
       \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S0301421500000240?casa_token=PrQrhWBTk6sAAAAA:I7FUaJwPlVCbOCY0u7SEJBJh97jmEGkhMx3MkHPza2kXoQuyRaa_4hQJyqv2ENpPiMz0nS9KjP_Y
+      \verb https://eleuterioprado.blog/2026/08/09/ruy-fausto-apresentacao-dialetica/
       \endverb
-      \keyw{economics}
+      \keyw{marxism}
     \endentry
-    \entry{Saunders2008}{article}{}{}
+    \entry{Ricardo2005}{book}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=e0bbf4826acf51992bbbfe7884dca47f}{%
-           family={Saunders},
-           familyi={S\bibinitperiod},
-           given={Harry\bibnamedelima D.},
-           giveni={H\bibinitperiod\bibinitdelim D\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{e0bbf4826acf51992bbbfe7884dca47f}
-      \strng{fullhash}{e0bbf4826acf51992bbbfe7884dca47f}
-      \strng{fullhashraw}{e0bbf4826acf51992bbbfe7884dca47f}
-      \strng{bibnamehash}{e0bbf4826acf51992bbbfe7884dca47f}
-      \strng{authorbibnamehash}{e0bbf4826acf51992bbbfe7884dca47f}
-      \strng{authornamehash}{e0bbf4826acf51992bbbfe7884dca47f}
-      \strng{authorfullhash}{e0bbf4826acf51992bbbfe7884dca47f}
-      \strng{authorfullhashraw}{e0bbf4826acf51992bbbfe7884dca47f}
-      \field{extraname}{3}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Energy Economics}
-      \field{number}{5}
-      \field{title}{Fuel Conserving (and Using) Production Functions}
-      \field{urlday}{24}
-      \field{urlmonth}{8}
-      \field{urlyear}{2026}
-      \field{volume}{30}
-      \field{year}{2008}
-      \field{urldateera}{ce}
-      \field{pages}{2184\bibrangedash 2235}
-      \range{pages}{52}
-      \verb{urlraw}
-      \verb https://www.sciencedirect.com/science/article/pii/S0140988307001454?casa_token=1LtMUlnJScUAAAAA:A0h-Xi1QuGUnpdueFcCugHEo_g8ZI8_dG6ITJ4X13AuVToIMnm4snz9W1Opubs_MHOCjXW2k8zqd
-      \endverb
-      \verb{url}
-      \verb https://www.sciencedirect.com/science/article/pii/S0140988307001454?casa_token=1LtMUlnJScUAAAAA:A0h-Xi1QuGUnpdueFcCugHEo_g8ZI8_dG6ITJ4X13AuVToIMnm4snz9W1Opubs_MHOCjXW2k8zqd
-      \endverb
-      \keyw{economics}
-    \endentry
-    \entry{Solow1956}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=2f9c43f5f85accb5d42c19b800a739e6}{%
-           family={Solow},
-           familyi={S\bibinitperiod},
-           given={Robert\bibnamedelima M.},
-           giveni={R\bibinitperiod\bibinitdelim M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Oxford University Press}%
-      }
-      \strng{namehash}{2f9c43f5f85accb5d42c19b800a739e6}
-      \strng{fullhash}{2f9c43f5f85accb5d42c19b800a739e6}
-      \strng{fullhashraw}{2f9c43f5f85accb5d42c19b800a739e6}
-      \strng{bibnamehash}{2f9c43f5f85accb5d42c19b800a739e6}
-      \strng{authorbibnamehash}{2f9c43f5f85accb5d42c19b800a739e6}
-      \strng{authornamehash}{2f9c43f5f85accb5d42c19b800a739e6}
-      \strng{authorfullhash}{2f9c43f5f85accb5d42c19b800a739e6}
-      \strng{authorfullhashraw}{2f9c43f5f85accb5d42c19b800a739e6}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{The Quarterly Journal of Economics}
-      \field{number}{1}
-      \field{title}{A Contribution to the Theory of Economic Growth}
-      \field{urlday}{25}
-      \field{urlmonth}{8}
-      \field{urlyear}{2026}
-      \field{volume}{70}
-      \field{year}{1956}
-      \field{urldateera}{ce}
-      \field{pages}{65\bibrangedash 94}
-      \range{pages}{30}
-      \verb{urlraw}
-      \verb https://academic.oup.com/qje/article-abstract/70/1/65/1903777
-      \endverb
-      \verb{url}
-      \verb https://academic.oup.com/qje/article-abstract/70/1/65/1903777
-      \endverb
-      \keyw{economics}
-    \endentry
-    \entry{Sorrell2007}{misc}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=99dd0b9f64b48220b8d4132ddbbd5cf8}{%
-           family={Sorrell},
-           familyi={S\bibinitperiod},
-           given={Steve},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {UK Energy Research Centre London}%
-      }
-      \strng{namehash}{99dd0b9f64b48220b8d4132ddbbd5cf8}
-      \strng{fullhash}{99dd0b9f64b48220b8d4132ddbbd5cf8}
-      \strng{fullhashraw}{99dd0b9f64b48220b8d4132ddbbd5cf8}
-      \strng{bibnamehash}{99dd0b9f64b48220b8d4132ddbbd5cf8}
-      \strng{authorbibnamehash}{99dd0b9f64b48220b8d4132ddbbd5cf8}
-      \strng{authornamehash}{99dd0b9f64b48220b8d4132ddbbd5cf8}
-      \strng{authorfullhash}{99dd0b9f64b48220b8d4132ddbbd5cf8}
-      \strng{authorfullhashraw}{99dd0b9f64b48220b8d4132ddbbd5cf8}
-      \field{extraname}{1}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{shorttitle}{The {{Rebound Effect}}}
-      \field{title}{The {{Rebound Effect}}: An Assessment of the Evidence for Economy-Wide Energy Savings from Improved Energy Efficiency}
-      \field{year}{2007}
-      \verb{urlraw}
-      \verb http://www.rshanthini.com/tmp/CP551/ReboundEffectReport.PDF
-      \endverb
-      \verb{url}
-      \verb http://www.rshanthini.com/tmp/CP551/ReboundEffectReport.PDF
-      \endverb
-      \keyw{economics}
-    \endentry
-    \entry{Sorrell2009}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=99dd0b9f64b48220b8d4132ddbbd5cf8}{%
-           family={Sorrell},
-           familyi={S\bibinitperiod},
-           given={Steve},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Elsevier}%
-      }
-      \strng{namehash}{99dd0b9f64b48220b8d4132ddbbd5cf8}
-      \strng{fullhash}{99dd0b9f64b48220b8d4132ddbbd5cf8}
-      \strng{fullhashraw}{99dd0b9f64b48220b8d4132ddbbd5cf8}
-      \strng{bibnamehash}{99dd0b9f64b48220b8d4132ddbbd5cf8}
-      \strng{authorbibnamehash}{99dd0b9f64b48220b8d4132ddbbd5cf8}
-      \strng{authornamehash}{99dd0b9f64b48220b8d4132ddbbd5cf8}
-      \strng{authorfullhash}{99dd0b9f64b48220b8d4132ddbbd5cf8}
-      \strng{authorfullhashraw}{99dd0b9f64b48220b8d4132ddbbd5cf8}
-      \field{extraname}{2}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{journaltitle}{Energy policy}
-      \field{number}{4}
-      \field{shorttitle}{Jevons' {{Paradox}} Revisited}
-      \field{title}{Jevons' {{Paradox}} Revisited: {{The}} Evidence for Backfire from Improved Energy Efficiency}
-      \field{volume}{37}
-      \field{year}{2009}
-      \field{pages}{1456\bibrangedash 1469}
-      \range{pages}{14}
-      \keyw{economics}
-    \endentry
-    \entry{Sorrell2010}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=99dd0b9f64b48220b8d4132ddbbd5cf8}{%
-           family={Sorrell},
-           familyi={S\bibinitperiod},
-           given={Steve},
-           giveni={S\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {University of Sussex}%
-      }
-      \strng{namehash}{99dd0b9f64b48220b8d4132ddbbd5cf8}
-      \strng{fullhash}{99dd0b9f64b48220b8d4132ddbbd5cf8}
-      \strng{fullhashraw}{99dd0b9f64b48220b8d4132ddbbd5cf8}
-      \strng{bibnamehash}{99dd0b9f64b48220b8d4132ddbbd5cf8}
-      \strng{authorbibnamehash}{99dd0b9f64b48220b8d4132ddbbd5cf8}
-      \strng{authornamehash}{99dd0b9f64b48220b8d4132ddbbd5cf8}
-      \strng{authorfullhash}{99dd0b9f64b48220b8d4132ddbbd5cf8}
-      \strng{authorfullhashraw}{99dd0b9f64b48220b8d4132ddbbd5cf8}
-      \field{extraname}{3}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{eprinttype}{hdl}
-      \field{shorttitle}{Mapping Rebound Effects from Sustainable Behaviours}
-      \field{title}{Mapping Rebound Effects from Sustainable Behaviours: Key Concepts and Literature Review}
-      \field{urlday}{13}
-      \field{urlmonth}{5}
-      \field{urlyear}{2026}
-      \field{year}{2010}
-      \field{urldateera}{ce}
-      \verb{eprint}
-      \verb 10779/uos.23416259.v1
-      \endverb
-      \verb{urlraw}
-      \verb https://hdl.handle.net/10779/uos.23416259.v1
-      \endverb
-      \verb{url}
-      \verb https://hdl.handle.net/10779/uos.23416259.v1
-      \endverb
-      \keyw{economics}
-    \endentry
-    \entry{Varian2014}{book}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=affde3c8d511e90b7126c60a56e7ab49}{%
-           family={Varian},
-           familyi={V\bibinitperiod},
-           given={Hal\bibnamedelima R.},
-           giveni={H\bibinitperiod\bibinitdelim R\bibinitperiod},
+        {{un=0,uniquepart=base,hash=9ae7096449cb2bea3208e1ea7e4f5b2b}{%
+           family={Ricardo},
+           familyi={R\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
            givenun=0}}%
       }
       \list{location}{1}{%
-        {New York; London}%
+        {Indianapolis}%
       }
       \list{publisher}{1}{%
-        {W.W. Norton \& Company}%
+        {Liberty Fund (Ed. Piero Sraffa with the Collaboration of M.H.Dobb)}%
       }
-      \strng{namehash}{affde3c8d511e90b7126c60a56e7ab49}
-      \strng{fullhash}{affde3c8d511e90b7126c60a56e7ab49}
-      \strng{fullhashraw}{affde3c8d511e90b7126c60a56e7ab49}
-      \strng{bibnamehash}{affde3c8d511e90b7126c60a56e7ab49}
-      \strng{authorbibnamehash}{affde3c8d511e90b7126c60a56e7ab49}
-      \strng{authornamehash}{affde3c8d511e90b7126c60a56e7ab49}
-      \strng{authorfullhash}{affde3c8d511e90b7126c60a56e7ab49}
-      \strng{authorfullhashraw}{affde3c8d511e90b7126c60a56e7ab49}
-      \field{sortinit}{V}
-      \field{sortinithash}{afb52128e5b4dc4b843768c0113d673b}
+      \strng{namehash}{9ae7096449cb2bea3208e1ea7e4f5b2b}
+      \strng{fullhash}{9ae7096449cb2bea3208e1ea7e4f5b2b}
+      \strng{fullhashraw}{9ae7096449cb2bea3208e1ea7e4f5b2b}
+      \strng{bibnamehash}{9ae7096449cb2bea3208e1ea7e4f5b2b}
+      \strng{authorbibnamehash}{9ae7096449cb2bea3208e1ea7e4f5b2b}
+      \strng{authornamehash}{9ae7096449cb2bea3208e1ea7e4f5b2b}
+      \strng{authorfullhash}{9ae7096449cb2bea3208e1ea7e4f5b2b}
+      \strng{authorfullhashraw}{9ae7096449cb2bea3208e1ea7e4f5b2b}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{edition}{9}
-      \field{langid}{english}
-      \field{shorttitle}{Intermediate Microeconomics}
-      \field{title}{Intermediate Microeconomics: A Modern Approach}
-      \field{year}{2014}
-      \keyw{economics,economics/microeconomics}
+      \field{edition}{Piero Sraffa with the Collaboration of M.H. Dobb}
+      \field{shorttitle}{On the {{Principles}} of {{Political Economy}} and {{Taxation}}}
+      \field{title}{The {{Works}} and {{Correspondence}} of {{David Ricardo}}}
+      \field{volume}{1}
+      \field{year}{2005}
+      \verb{urlraw}
+      \verb https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/titles/113/Ricardo_0687-01_EBk_v6.0.pdf
+      \endverb
+      \verb{url}
+      \verb https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/titles/113/Ricardo_0687-01_EBk_v6.0.pdf
+      \endverb
+      \keyw{economics}
     \endentry
-    \entry{Wei2010}{article}{}{}
+    \entry{TongElectromag}{misc}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=4a269e027c4bde7201bb3b2e2a4934dd}{%
-           family={Wei},
-           familyi={W\bibinitperiod},
-           given={Taoyuan},
-           giveni={T\bibinitperiod},
+        {{un=0,uniquepart=base,hash=e1841c0c41b5a5ffe8310253191fe07f}{%
+           family={Tong},
+           familyi={T\bibinitperiod},
+           given={David},
+           giveni={D\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{4a269e027c4bde7201bb3b2e2a4934dd}
-      \strng{fullhash}{4a269e027c4bde7201bb3b2e2a4934dd}
-      \strng{fullhashraw}{4a269e027c4bde7201bb3b2e2a4934dd}
-      \strng{bibnamehash}{4a269e027c4bde7201bb3b2e2a4934dd}
-      \strng{authorbibnamehash}{4a269e027c4bde7201bb3b2e2a4934dd}
-      \strng{authornamehash}{4a269e027c4bde7201bb3b2e2a4934dd}
-      \strng{authorfullhash}{4a269e027c4bde7201bb3b2e2a4934dd}
-      \strng{authorfullhashraw}{4a269e027c4bde7201bb3b2e2a4934dd}
-      \field{sortinit}{W}
-      \field{sortinithash}{4315d78024d0cea9b57a0c6f0e35ed0d}
+      \strng{namehash}{e1841c0c41b5a5ffe8310253191fe07f}
+      \strng{fullhash}{e1841c0c41b5a5ffe8310253191fe07f}
+      \strng{fullhashraw}{e1841c0c41b5a5ffe8310253191fe07f}
+      \strng{bibnamehash}{e1841c0c41b5a5ffe8310253191fe07f}
+      \strng{authorbibnamehash}{e1841c0c41b5a5ffe8310253191fe07f}
+      \strng{authornamehash}{e1841c0c41b5a5ffe8310253191fe07f}
+      \strng{authorfullhash}{e1841c0c41b5a5ffe8310253191fe07f}
+      \strng{authorfullhashraw}{e1841c0c41b5a5ffe8310253191fe07f}
+      \field{sortinit}{T}
+      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Energy Economics}
-      \field{langid}{english}
-      \field{month}{5}
-      \field{number}{3}
-      \field{title}{A General Equilibrium View of Global Rebound Effects}
-      \field{volume}{32}
-      \field{year}{2010}
-      \field{pages}{661\bibrangedash 672}
-      \range{pages}{12}
-      \verb{doi}
-      \verb 10.1016/j.eneco.2009.09.002
+      \field{title}{Electromagnetism}
+      \field{urlday}{28}
+      \field{urlmonth}{9}
+      \field{urlyear}{2026}
+      \field{year}{2015}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://davidtong.org/pdfs/teaching/electromagnetism/electro.pdf
       \endverb
-      \keyw{economics}
+      \verb{url}
+      \verb https://davidtong.org/pdfs/teaching/electromagnetism/electro.pdf
+      \endverb
     \endentry
   \enddatalist
 \endrefsection
