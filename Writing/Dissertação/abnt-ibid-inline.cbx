@@ -1,0 +1,89 @@
+\ProvidesFile{abnt-ibid-inline.cbx}
+  [2026/10/07 ABNT author-year ibid extension]
+
+\RequireCitationStyle{abnt}
+
+\ExecuteBibliographyOptions{
+  ibidtracker=context
+}
+
+\providecommand*{\mkibid}[1]{#1}
+
+% ------------------------------------------------------------
+% ibid
+% ------------------------------------------------------------
+
+\newbibmacro*{cite:ibid}{%
+  \printtext[bibhyperref]{%
+    \ifcapital
+      {\bibsentence\bibstring[\mkibid]{ibidem}}
+      {\midsentence\bibstring[\mkibid]{ibidem}}%
+  }%
+}
+% ------------------------------------------------------------
+% \cite e \parencite
+% ------------------------------------------------------------
+
+\DeclareCiteCommand{\cite}[\mkbibparens]
+  {\usebibmacro{cite:init}%
+   \usebibmacro{prenote}}
+  {\usebibmacro{citeindex}%
+   \ifboolexpr{test {\ifciteibid}}
+     {\usebibmacro{cite:ibid}}
+     {\usebibmacro{cite}}}
+  {\multicitedelim}
+  {\usebibmacro{postnote}}
+
+\DeclareCiteCommand{\parencite}[\mkbibparens]
+  {\usebibmacro{cite:init}%
+   \usebibmacro{prenote}}
+  {\usebibmacro{citeindex}%
+   \ifboolexpr{test {\ifciteibid}}
+     {\usebibmacro{cite:ibid}}
+     {\usebibmacro{cite}}}
+  {\multicitedelim}
+  {\usebibmacro{postnote}}
+
+% ------------------------------------------------------------
+% \textcite
+% ------------------------------------------------------------
+
+\newbool{cbx:ibid}
+
+\newbibmacro*{abnt:ibid-textcite}{%
+  \boolfalse{cbx:ibid}%
+  \ifboolexpr{test {\ifciteibid}}
+    {%
+      \booltrue{cbx:ibid}%
+      \usebibmacro{cite:ibid}%
+    }
+    {%
+      \usebibmacro{textcite}%
+    }%
+}
+
+\newbibmacro*{abnt:ibid-textcite-postnote}{%
+  \ifboolexpr{bool {cbx:ibid}}
+    {%
+      \iffieldundef{postnote}
+        {}
+        {%
+          \setunit{\addcomma\space}%
+          \printfield{postnote}%
+        }%
+    }
+    {%
+      \usebibmacro{textcite:postnote}%
+    }%
+}
+
+\DeclareCiteCommand{\cbx@textcite}
+  {\usebibmacro{cite:init}}
+  {%
+    \usebibmacro{citeindex}%
+    \usebibmacro{abnt:ibid-textcite}%
+  }
+  {}
+  {\usebibmacro{abnt:ibid-textcite-postnote}}
+
+\endinput

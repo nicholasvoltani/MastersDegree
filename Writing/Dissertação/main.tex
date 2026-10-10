@@ -26,8 +26,16 @@
 \usepackage{physics}
 \usepackage{mhchem}
 \usepackage{soul}
+\usepackage{epigraph}
+\usepackage{ragged2e}
+\epigraphtextposition{flushleftright}
 
-\usepackage[backend=biber,maxcitenames=2, style=abnt,language=brazilian,sorting=nyt]{biblatex}
+\usepackage[backend=biber,
+    maxcitenames=2, 
+    style=abnt,
+    citestyle=abnt-ibid-inline,
+    language=brazilian,
+    sorting=nyt]{biblatex}
 \usepackage{csquotes}
 \addbibresource{./Khazzoom-Brookes.bib}
 
@@ -70,22 +78,22 @@
 % comando 'quadros'. Sempre pulando uma linha entre as opções de ''listas''
 %------------------------------------------------------------------------------
 
-%\imprimircapa 						
-%\imprimirfolhaderosto*	  					
+\imprimircapa 						
+\imprimirfolhaderosto*	  					
 
 %\includepdf[pages=1]{file.pdf} % inclui o arquivo file (ficha catalografica gerada pela biblioteca)
 %\include{aprovacao}	
 %\clearpage
 
-%\input{capitulos/resumo.tex}	
+\input{capitulos/resumo.tex}	
 
-%\input{capitulos/dedicatoria}		
+\input{capitulos/dedicatoria}		
 
 %\figuras
 
 %\tabelas
 
-%\sumario
+\sumario
 
 
 % -----------------------------------------------------------------------------
@@ -98,17 +106,13 @@
 
 %\input{capitulos/introducao.tex}
 
-%input{capitulos/capitulo1.tex}
+%\input{capitulos/capitulo1.tex}
 
 %\input{capitulos/capitulo_interludio.tex}
 
-\input{capitulos/capitulo2.tex}
+%\input{capitulos/capitulo2.tex}
 
-%\input{capitulos/capitulo3.tex}
-
-%\input{capitulos/capitulo4.tex}
-
-%\input{capitulos/comocitar.tex}
+\input{capitulos/capitulo3.tex}
 
 %\input{capitulos/conclusao.tex}
 
