@@ -19,92 +19,43 @@
 
 \refsection{0}
   \datalist[entry]{nyt/global//global/global/global}
-    \entry{Feynman2006}{book}{}{}
-      \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=aac54ccf9c76aa4ba4310ed1334be7d8}{%
-           family={Feynman},
-           familyi={F\bibinitperiod},
-           given={Richard\bibnamedelima P.},
-           giveni={R\bibinitperiod\bibinitdelim P\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=773368378dd55945d3bd474598026757}{%
-           family={Leighton},
-           familyi={L\bibinitperiod},
-           given={Robert\bibnamedelima B.},
-           giveni={R\bibinitperiod\bibinitdelim B\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5c232c2cb9d68f9c56cfcc361731e78e}{%
-           family={Sands},
-           familyi={S\bibinitperiod},
-           given={Matthew\bibnamedelima L.},
-           giveni={M\bibinitperiod\bibinitdelim L\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {San Francisco}%
-      }
-      \list{publisher}{1}{%
-        {Pearson Addison Wesley}%
-      }
-      \strng{namehash}{2c21286a7c7e7a4bcb5a2debc7959b90}
-      \strng{fullhash}{2c21286a7c7e7a4bcb5a2debc7959b90}
-      \strng{fullhashraw}{2c21286a7c7e7a4bcb5a2debc7959b90}
-      \strng{bibnamehash}{2c21286a7c7e7a4bcb5a2debc7959b90}
-      \strng{authorbibnamehash}{2c21286a7c7e7a4bcb5a2debc7959b90}
-      \strng{authornamehash}{2c21286a7c7e7a4bcb5a2debc7959b90}
-      \strng{authorfullhash}{2c21286a7c7e7a4bcb5a2debc7959b90}
-      \strng{authorfullhashraw}{2c21286a7c7e7a4bcb5a2debc7959b90}
-      \field{sortinit}{F}
-      \field{sortinithash}{2638baaa20439f1b5a8f80c6c08a13b4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{langid}{english}
-      \field{title}{The {{Feynman}} Lectures on Physics}
-      \field{year}{2006}
-      \verb{urlraw}
-      \verb https://www.feynmanlectures.caltech.edu/
-      \endverb
-      \verb{url}
-      \verb https://www.feynmanlectures.caltech.edu/
-      \endverb
-      \keyw{physics}
-    \endentry
-    \entry{Griffiths2013}{book}{}{}
+    \entry{Brookes2000}{article}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=a00328547222c4a2a201442ee59dccfd}{%
-           family={Griffiths},
-           familyi={G\bibinitperiod},
-           given={David\bibnamedelima J.},
-           giveni={D\bibinitperiod\bibinitdelim J\bibinitperiod},
+        {{un=0,uniquepart=base,hash=15090d3314c2c999d04871948c715e97}{%
+           family={Brookes},
+           familyi={B\bibinitperiod},
+           given={Leonard\bibnamedelima G.},
+           giveni={L\bibinitperiod\bibinitdelim G\bibinitperiod},
            givenun=0}}%
       }
-      \list{location}{1}{%
-        {Boston}%
-      }
-      \list{publisher}{1}{%
-        {Pearson}%
-      }
-      \strng{namehash}{a00328547222c4a2a201442ee59dccfd}
-      \strng{fullhash}{a00328547222c4a2a201442ee59dccfd}
-      \strng{fullhashraw}{a00328547222c4a2a201442ee59dccfd}
-      \strng{bibnamehash}{a00328547222c4a2a201442ee59dccfd}
-      \strng{authorbibnamehash}{a00328547222c4a2a201442ee59dccfd}
-      \strng{authornamehash}{a00328547222c4a2a201442ee59dccfd}
-      \strng{authorfullhash}{a00328547222c4a2a201442ee59dccfd}
-      \strng{authorfullhashraw}{a00328547222c4a2a201442ee59dccfd}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
+      \strng{namehash}{15090d3314c2c999d04871948c715e97}
+      \strng{fullhash}{15090d3314c2c999d04871948c715e97}
+      \strng{fullhashraw}{15090d3314c2c999d04871948c715e97}
+      \strng{bibnamehash}{15090d3314c2c999d04871948c715e97}
+      \strng{authorbibnamehash}{15090d3314c2c999d04871948c715e97}
+      \strng{authornamehash}{15090d3314c2c999d04871948c715e97}
+      \strng{authorfullhash}{15090d3314c2c999d04871948c715e97}
+      \strng{authorfullhashraw}{15090d3314c2c999d04871948c715e97}
+      \field{sortinit}{B}
+      \field{sortinithash}{d7095fff47cda75ca2589920aae98399}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{edition}{4}
-      \field{title}{Introduction to Electrodynamics}
-      \field{year}{2013}
+      \field{journaltitle}{Energy Policy}
+      \field{month}{6}
+      \field{number}{6}
+      \field{title}{Energy Efficiency Fallacies Revisited}
+      \field{volume}{28}
+      \field{year}{2000}
+      \field{pages}{355\bibrangedash 366}
+      \range{pages}{12}
+      \verb{doi}
+      \verb 10.1016/s0301-4215(00)00030-6
+      \endverb
+      \keyw{economics}
     \endentry
-    \entry{Hobsbawm2014}{book}{}{}
+    \entry{Hobsbawm1987}{book}{}{}
       \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=24e58ae54a1f1620d2abf3afaa9fa2b2}{%
            family={Hobsbawm},
@@ -114,10 +65,10 @@
            givenun=0}}%
       }
       \list{location}{1}{%
-        {Rio de Janeiro}%
+        {New York}%
       }
       \list{publisher}{1}{%
-        {Paz e Terra}%
+        {Pantheon Books}%
       }
       \strng{namehash}{24e58ae54a1f1620d2abf3afaa9fa2b2}
       \strng{fullhash}{24e58ae54a1f1620d2abf3afaa9fa2b2}
@@ -133,97 +84,54 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{edition}{33}
-      \field{langid}{brazilian}
-      \field{title}{{A Era Das Revoluções, 1789-1848}}
-      \field{year}{2014}
-      \keyw{marxism}
-    \endentry
-    \entry{Jevons1866}{book}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=64cc6e50f483058684a3ec742cbd8ab6}{%
-           family={Jevons},
-           familyi={J\bibinitperiod},
-           given={William\bibnamedelima Stanley},
-           giveni={W\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {London}%
-      }
-      \list{publisher}{1}{%
-        {Macmillan and Co.}%
-      }
-      \strng{namehash}{64cc6e50f483058684a3ec742cbd8ab6}
-      \strng{fullhash}{64cc6e50f483058684a3ec742cbd8ab6}
-      \strng{fullhashraw}{64cc6e50f483058684a3ec742cbd8ab6}
-      \strng{bibnamehash}{64cc6e50f483058684a3ec742cbd8ab6}
-      \strng{authorbibnamehash}{64cc6e50f483058684a3ec742cbd8ab6}
-      \strng{authornamehash}{64cc6e50f483058684a3ec742cbd8ab6}
-      \strng{authorfullhash}{64cc6e50f483058684a3ec742cbd8ab6}
-      \strng{authorfullhashraw}{64cc6e50f483058684a3ec742cbd8ab6}
-      \field{extraname}{1}
-      \field{sortinit}{J}
-      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{2}
-      \field{title}{The Coal Question}
-      \field{year}{1866}
-      \verb{urlraw}
-      \verb https://oll.libertyfund.org/titles/jevons-the-coal-question
-      \endverb
-      \verb{url}
-      \verb https://oll.libertyfund.org/titles/jevons-the-coal-question
-      \endverb
+      \field{edition}{1}
+      \field{title}{The Age of Empire, 1875-1914}
+      \field{year}{1987}
       \keyw{economics}
     \endentry
-    \entry{Jevons1878}{article}{}{}
+    \entry{Marinetti1909}{article}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=64cc6e50f483058684a3ec742cbd8ab6}{%
-           family={Jevons},
-           familyi={J\bibinitperiod},
-           given={William\bibnamedelima Stanley},
-           giveni={W\bibinitperiod\bibinitdelim S\bibinitperiod},
+        {{un=0,uniquepart=base,hash=a7905d989619f85ccc123ee301826966}{%
+           family={Marinetti},
+           familyi={M\bibinitperiod},
+           given={Filippo\bibnamedelima Tommaso},
+           giveni={F\bibinitperiod\bibinitdelim T\bibinitperiod},
            givenun=0}}%
       }
-      \strng{namehash}{64cc6e50f483058684a3ec742cbd8ab6}
-      \strng{fullhash}{64cc6e50f483058684a3ec742cbd8ab6}
-      \strng{fullhashraw}{64cc6e50f483058684a3ec742cbd8ab6}
-      \strng{bibnamehash}{64cc6e50f483058684a3ec742cbd8ab6}
-      \strng{authorbibnamehash}{64cc6e50f483058684a3ec742cbd8ab6}
-      \strng{authornamehash}{64cc6e50f483058684a3ec742cbd8ab6}
-      \strng{authorfullhash}{64cc6e50f483058684a3ec742cbd8ab6}
-      \strng{authorfullhashraw}{64cc6e50f483058684a3ec742cbd8ab6}
-      \field{extraname}{2}
-      \field{sortinit}{J}
-      \field{sortinithash}{b2f54a9081ace9966a7cb9413811edb4}
+      \strng{namehash}{a7905d989619f85ccc123ee301826966}
+      \strng{fullhash}{a7905d989619f85ccc123ee301826966}
+      \strng{fullhashraw}{a7905d989619f85ccc123ee301826966}
+      \strng{bibnamehash}{a7905d989619f85ccc123ee301826966}
+      \strng{authorbibnamehash}{a7905d989619f85ccc123ee301826966}
+      \strng{authornamehash}{a7905d989619f85ccc123ee301826966}
+      \strng{authorfullhash}{a7905d989619f85ccc123ee301826966}
+      \strng{authorfullhashraw}{a7905d989619f85ccc123ee301826966}
+      \field{sortinit}{M}
+      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{journaltitle}{Nature}
-      \field{langid}{english}
-      \field{month}{11}
-      \field{number}{472}
-      \field{title}{Commercial {{Crises}} and {{Sun-Spots}}}
-      \field{volume}{19}
-      \field{year}{1878}
-      \field{pages}{33\bibrangedash 37}
-      \range{pages}{5}
-      \verb{doi}
-      \verb 10.1038/019033d0
+      \field{title}{Manifesto Del {{Futurismo}}}
+      \field{urlday}{10}
+      \field{urlmonth}{10}
+      \field{urlyear}{2026}
+      \field{year}{1909}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://dn720004.ca.archive.org/0/items/marinetti-manifesto-del-futurismo-1909/1909%20ansf_op_d_0044_text.pdf
+      \endverb
+      \verb{url}
+      \verb https://dn720004.ca.archive.org/0/items/marinetti-manifesto-del-futurismo-1909/1909%20ansf_op_d_0044_text.pdf
       \endverb
     \endentry
-    \entry{Lukacs2012}{book}{}{}
+    \entry{Marx2011}{book}{}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=8d4454debdb25e09d9e0a311eb26f9bc}{%
-           family={Lukács},
-           familyi={L\bibinitperiod},
-           given={György},
-           giveni={G\bibinitperiod},
+        {{un=0,uniquepart=base,hash=af80d32a7d375e934f94bdfb27bf2999}{%
+           family={Marx},
+           familyi={M\bibinitperiod},
+           given={Karl},
+           giveni={K\bibinitperiod},
            givenun=0}}%
       }
       \list{location}{1}{%
@@ -232,78 +140,14 @@
       \list{publisher}{1}{%
         {Boitempo}%
       }
-      \strng{namehash}{8d4454debdb25e09d9e0a311eb26f9bc}
-      \strng{fullhash}{8d4454debdb25e09d9e0a311eb26f9bc}
-      \strng{fullhashraw}{8d4454debdb25e09d9e0a311eb26f9bc}
-      \strng{bibnamehash}{8d4454debdb25e09d9e0a311eb26f9bc}
-      \strng{authorbibnamehash}{8d4454debdb25e09d9e0a311eb26f9bc}
-      \strng{authornamehash}{8d4454debdb25e09d9e0a311eb26f9bc}
-      \strng{authorfullhash}{8d4454debdb25e09d9e0a311eb26f9bc}
-      \strng{authorfullhashraw}{8d4454debdb25e09d9e0a311eb26f9bc}
-      \field{extraname}{1}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{1}
-      \field{title}{Para Uma Ontologia Do Ser Social}
-      \field{year}{2012}
-      \keyw{marxism,marxism/lukacs}
-    \endentry
-    \entry{Lukacs2018}{book}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=8d4454debdb25e09d9e0a311eb26f9bc}{%
-           family={Lukács},
-           familyi={L\bibinitperiod},
-           given={György},
-           giveni={G\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Maceió}%
-      }
-      \list{publisher}{1}{%
-        {Coletivo Veredas}%
-      }
-      \strng{namehash}{8d4454debdb25e09d9e0a311eb26f9bc}
-      \strng{fullhash}{8d4454debdb25e09d9e0a311eb26f9bc}
-      \strng{fullhashraw}{8d4454debdb25e09d9e0a311eb26f9bc}
-      \strng{bibnamehash}{8d4454debdb25e09d9e0a311eb26f9bc}
-      \strng{authorbibnamehash}{8d4454debdb25e09d9e0a311eb26f9bc}
-      \strng{authornamehash}{8d4454debdb25e09d9e0a311eb26f9bc}
-      \strng{authorfullhash}{8d4454debdb25e09d9e0a311eb26f9bc}
-      \strng{authorfullhashraw}{8d4454debdb25e09d9e0a311eb26f9bc}
-      \field{extraname}{2}
-      \field{sortinit}{L}
-      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{1}
-      \field{title}{Para Uma Ontologia Do Ser Social}
-      \field{year}{2018}
-      \keyw{marxism,marxism/lukacs}
-    \endentry
-    \entry{Malm2013}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=ed4bd54c7ba46f2ed6095d7ed711d7ec}{%
-           family={Malm},
-           familyi={M\bibinitperiod},
-           given={Andreas},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
-      \strng{fullhash}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
-      \strng{fullhashraw}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
-      \strng{bibnamehash}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
-      \strng{authorbibnamehash}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
-      \strng{authornamehash}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
-      \strng{authorfullhash}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
-      \strng{authorfullhashraw}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
+      \strng{namehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{fullhash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{fullhashraw}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{bibnamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorbibnamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authornamehash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorfullhash}{af80d32a7d375e934f94bdfb27bf2999}
+      \strng{authorfullhashraw}{af80d32a7d375e934f94bdfb27bf2999}
       \field{extraname}{1}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
@@ -311,50 +155,11 @@
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{journaltitle}{Historical Materialism}
-      \field{number}{1}
-      \field{shorttitle}{The Origins of Fossil Capital}
-      \field{title}{The Origins of Fossil Capital: {{From}} Water to Steam in the {{British}} Cotton Industry}
-      \field{volume}{21}
-      \field{year}{2013}
-      \field{pages}{15\bibrangedash 68}
-      \range{pages}{54}
-      \keyw{economics,marxism}
-    \endentry
-    \entry{Malm2016}{book}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=ed4bd54c7ba46f2ed6095d7ed711d7ec}{%
-           family={Malm},
-           familyi={M\bibinitperiod},
-           given={Andreas},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {London; New York}%
-      }
-      \list{publisher}{1}{%
-        {Verso}%
-      }
-      \strng{namehash}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
-      \strng{fullhash}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
-      \strng{fullhashraw}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
-      \strng{bibnamehash}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
-      \strng{authorbibnamehash}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
-      \strng{authornamehash}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
-      \strng{authorfullhash}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
-      \strng{authorfullhashraw}{ed4bd54c7ba46f2ed6095d7ed711d7ec}
-      \field{extraname}{2}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{shorttitle}{Fossil Capital}
-      \field{title}{Fossil Capital: The Rise of Steam-Power and the Roots of Global Warming}
-      \field{year}{2016}
-      \keyw{economics,marxism}
+      \field{langid}{brazilian}
+      \field{shorttitle}{{Grundrisse}}
+      \field{title}{{Grundrisse: Manuscritos e econômicos de 1857 - 1858 : Esboços da crítica da economia política}}
+      \field{year}{2011}
+      \keyw{marxism}
     \endentry
     \entry{Marx2014}{book}{}{}
       \name{author}{1}{}{%
@@ -379,7 +184,7 @@
       \strng{authornamehash}{af80d32a7d375e934f94bdfb27bf2999}
       \strng{authorfullhash}{af80d32a7d375e934f94bdfb27bf2999}
       \strng{authorfullhashraw}{af80d32a7d375e934f94bdfb27bf2999}
-      \field{extraname}{1}
+      \field{extraname}{2}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -416,7 +221,7 @@
       \strng{authornamehash}{af80d32a7d375e934f94bdfb27bf2999}
       \strng{authorfullhash}{af80d32a7d375e934f94bdfb27bf2999}
       \strng{authorfullhashraw}{af80d32a7d375e934f94bdfb27bf2999}
-      \field{extraname}{2}
+      \field{extraname}{3}
       \field{sortinit}{M}
       \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
       \field{extradatescope}{labelyear}
@@ -430,56 +235,53 @@
       \field{year}{2017}
       \keyw{economics,marxism}
     \endentry
-    \entry{Marx2007}{book}{}{}
+    \entry{Rodriguez2017}{inproceedings}{}{}
       \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=af80d32a7d375e934f94bdfb27bf2999}{%
-           family={Marx},
-           familyi={M\bibinitperiod},
-           given={Karl},
-           giveni={K\bibinitperiod},
+        {{un=0,uniquepart=base,hash=b744d335ecd8d50f64173369ec2f41de}{%
+           family={Rodriguez},
+           familyi={R\bibinitperiod},
+           given={Rodrigo\bibnamedelima Siqueira},
+           giveni={R\bibinitperiod\bibinitdelim S\bibinitperiod},
            givenun=0}}%
-        {{un=0,uniquepart=base,hash=fce08a4b30fb50f3020b2fdfeb8aa2e6}{%
-           family={Engels},
-           familyi={E\bibinitperiod},
-           given={Friedrich},
-           giveni={F\bibinitperiod},
+        {{un=0,uniquepart=base,hash=0f0921fc71d90025bac8a5197d228c4d}{%
+           family={Brasileiro},
+           familyi={B\bibinitperiod},
+           given={Juliana\bibnamedelima Teixeira},
+           giveni={J\bibinitperiod\bibinitdelim T\bibinitperiod},
            givenun=0}}%
       }
       \list{location}{1}{%
-        {São Paulo}%
+        {Niterói}%
       }
-      \list{publisher}{1}{%
-        {Boitempo}%
-      }
-      \strng{namehash}{d64f9a685d9554a1ba64bb1121d77c37}
-      \strng{fullhash}{d64f9a685d9554a1ba64bb1121d77c37}
-      \strng{fullhashraw}{d64f9a685d9554a1ba64bb1121d77c37}
-      \strng{bibnamehash}{d64f9a685d9554a1ba64bb1121d77c37}
-      \strng{authorbibnamehash}{d64f9a685d9554a1ba64bb1121d77c37}
-      \strng{authornamehash}{d64f9a685d9554a1ba64bb1121d77c37}
-      \strng{authorfullhash}{d64f9a685d9554a1ba64bb1121d77c37}
-      \strng{authorfullhashraw}{d64f9a685d9554a1ba64bb1121d77c37}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
+      \strng{namehash}{67393be0fd8b1e8837b2353d08e25a34}
+      \strng{fullhash}{67393be0fd8b1e8837b2353d08e25a34}
+      \strng{fullhashraw}{67393be0fd8b1e8837b2353d08e25a34}
+      \strng{bibnamehash}{67393be0fd8b1e8837b2353d08e25a34}
+      \strng{authorbibnamehash}{67393be0fd8b1e8837b2353d08e25a34}
+      \strng{authornamehash}{67393be0fd8b1e8837b2353d08e25a34}
+      \strng{authorfullhash}{67393be0fd8b1e8837b2353d08e25a34}
+      \strng{authorfullhashraw}{67393be0fd8b1e8837b2353d08e25a34}
+      \field{sortinit}{R}
+      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{shorttitle}
-      \field{edition}{1}
-      \field{langid}{brazilian}
-      \field{shorttitle}{{A Ideologia Alemã}}
-      \field{title}{{A Ideologia Alemã: Crítica mais recente da filosofia alemã em seus representantes Feuerbach, B. Bauer e Stirner, e do socialismo alemão em seus diferentes profetas (1845-1846)}}
-      \field{year}{2007}
+      \field{booktitle}{Anais Do {{Colóquio Marx}} e o {{Marxismo}} 2017: {{De O}} Capital à {{Revolução}} de {{Outubro}} (1867 -- 1917)}
+      \field{month}{8}
+      \field{shorttitle}{Lógica {{Dialética}} e {{O Capital}}}
+      \field{title}{Lógica {{Dialética}} e {{O Capital}}: As Formas e o Conteúdo Nos Ciclos Do Capital}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://www.niepmarx.blog.br/MM/MM2017/AnaisMM2017/MC79/mc792.pdf
+      \endverb
+      \verb{url}
+      \verb https://www.niepmarx.blog.br/MM/MM2017/AnaisMM2017/MC79/mc792.pdf
+      \endverb
       \keyw{marxism}
     \endentry
-    \entry{Medeiros2013a}{article}{}{}
-      \name{author}{2}{}{%
-        {{un=0,uniquepart=base,hash=7a0223d80175ececcaca634cc03d959b}{%
-           family={Medeiros},
-           familyi={M\bibinitperiod},
-           given={João\bibnamedelima Leonardo},
-           giveni={J\bibinitperiod\bibinitdelim L\bibinitperiod},
-           givenun=0}}%
+    \entry{SaBarreto2018}{book}{}{}
+      \name{author}{1}{}{%
         {{un=0,uniquepart=base,hash=d3ce1cfa405ecdf3f2d780a51f005f2c}{%
            family={Sá\bibnamedelima Barreto},
            familyi={S\bibinitperiod\bibinitdelim B\bibinitperiod},
@@ -487,309 +289,30 @@
            giveni={E\bibinitperiod},
            givenun=0}}%
       }
-      \list{publisher}{1}{%
-        {SciELO Brasil}%
-      }
-      \strng{namehash}{620c5e65b7cabac292098c9581f86097}
-      \strng{fullhash}{620c5e65b7cabac292098c9581f86097}
-      \strng{fullhashraw}{620c5e65b7cabac292098c9581f86097}
-      \strng{bibnamehash}{620c5e65b7cabac292098c9581f86097}
-      \strng{authorbibnamehash}{620c5e65b7cabac292098c9581f86097}
-      \strng{authornamehash}{620c5e65b7cabac292098c9581f86097}
-      \strng{authorfullhash}{620c5e65b7cabac292098c9581f86097}
-      \strng{authorfullhashraw}{620c5e65b7cabac292098c9581f86097}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{journaltitle}{Economia e Sociedade}
-      \field{shorttitle}{Lukács e {{Marx}} Contra o" Ecologismo Acrítico"}
-      \field{title}{Lukács e {{Marx}} Contra o "Ecologismo Acrítico": Por Uma Ética Ambiental Materialista}
-      \field{volume}{22}
-      \field{year}{2013}
-      \field{pages}{317\bibrangedash 333}
-      \range{pages}{17}
-      \keyw{marxism}
-    \endentry
-    \entry{Mill1909}{book}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=b627c5e688e8b7502c2468b40c681f20}{%
-           family={Mill},
-           familyi={M\bibinitperiod},
-           given={John\bibnamedelima Stuart},
-           giveni={J\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0}}%
-      }
       \list{location}{1}{%
-        {London}%
+        {Rio de Janeiro}%
       }
       \list{publisher}{1}{%
-        {Longmans, Green and Co.}%
+        {Consequência}%
       }
-      \strng{namehash}{b627c5e688e8b7502c2468b40c681f20}
-      \strng{fullhash}{b627c5e688e8b7502c2468b40c681f20}
-      \strng{fullhashraw}{b627c5e688e8b7502c2468b40c681f20}
-      \strng{bibnamehash}{b627c5e688e8b7502c2468b40c681f20}
-      \strng{authorbibnamehash}{b627c5e688e8b7502c2468b40c681f20}
-      \strng{authornamehash}{b627c5e688e8b7502c2468b40c681f20}
-      \strng{authorfullhash}{b627c5e688e8b7502c2468b40c681f20}
-      \strng{authorfullhashraw}{b627c5e688e8b7502c2468b40c681f20}
-      \field{sortinit}{M}
-      \field{sortinithash}{4625c616857f13d17ce56f7d4f97d451}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{edition}{7}
-      \field{title}{Principles of {{Political Economy}} with Some of Their {{Applications}} to {{Social Philosophy}}}
-      \field{year}{1909}
-      \verb{urlraw}
-      \verb https://oll.libertyfund.org/titles/mill-principles-of-political-economy-ashley-ed
-      \endverb
-      \verb{url}
-      \verb https://oll.libertyfund.org/titles/mill-principles-of-political-economy-ashley-ed
-      \endverb
-      \keyw{economics}
-    \endentry
-    \entry{Pasquinelli2022}{article}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=fdd1f8c21d64d058841fdd4eae05cf96}{%
-           family={Pasquinelli},
-           familyi={P\bibinitperiod},
-           given={Matteo},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{fdd1f8c21d64d058841fdd4eae05cf96}
-      \strng{fullhash}{fdd1f8c21d64d058841fdd4eae05cf96}
-      \strng{fullhashraw}{fdd1f8c21d64d058841fdd4eae05cf96}
-      \strng{bibnamehash}{fdd1f8c21d64d058841fdd4eae05cf96}
-      \strng{authorbibnamehash}{fdd1f8c21d64d058841fdd4eae05cf96}
-      \strng{authornamehash}{fdd1f8c21d64d058841fdd4eae05cf96}
-      \strng{authorfullhash}{fdd1f8c21d64d058841fdd4eae05cf96}
-      \strng{authorfullhashraw}{fdd1f8c21d64d058841fdd4eae05cf96}
-      \field{extraname}{1}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{journaltitle}{Journal of Interdisciplinary History of Ideas}
-      \field{number}{22}
-      \field{shorttitle}{Labour, {{Energy}}, and {{Information}} as {{Historical Configurations}}}
-      \field{title}{Labour, {{Energy}}, and {{Information}} as {{Historical Configurations}}: {{Notes}} for a {{Political Metrology}} of the {{Anthropocene}}}
-      \field{volume}{11}
-      \field{year}{2022}
-      \keyw{economics,marxism}
-    \endentry
-    \entry{Pasquinelli2023}{book}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=fdd1f8c21d64d058841fdd4eae05cf96}{%
-           family={Pasquinelli},
-           familyi={P\bibinitperiod},
-           given={Matteo},
-           giveni={M\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {London; New York}%
-      }
-      \list{publisher}{1}{%
-        {Verso}%
-      }
-      \strng{namehash}{fdd1f8c21d64d058841fdd4eae05cf96}
-      \strng{fullhash}{fdd1f8c21d64d058841fdd4eae05cf96}
-      \strng{fullhashraw}{fdd1f8c21d64d058841fdd4eae05cf96}
-      \strng{bibnamehash}{fdd1f8c21d64d058841fdd4eae05cf96}
-      \strng{authorbibnamehash}{fdd1f8c21d64d058841fdd4eae05cf96}
-      \strng{authornamehash}{fdd1f8c21d64d058841fdd4eae05cf96}
-      \strng{authorfullhash}{fdd1f8c21d64d058841fdd4eae05cf96}
-      \strng{authorfullhashraw}{fdd1f8c21d64d058841fdd4eae05cf96}
-      \field{extraname}{2}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{abstract}{"A social history that reveals the roots of AI in the spatial computation of industrial factories and the surveillance of collective behaviour"--}
-      \field{shorttitle}{The Eye of the Master}
-      \field{title}{The Eye of the Master: A Social History of Artificial Intelligence}
-      \field{year}{2023}
-      \keyw{AI,economics,marxism}
-    \endentry
-    \entry{Prado2026}{misc}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=17424dd08d93e908a9b52b4b0f1bbfde}{%
-           family={Prado},
-           familyi={P\bibinitperiod},
-           given={Eleutério\bibnamedelimb F.\bibnamedelimi S.},
-           giveni={E\bibinitperiod\bibinitdelim F\bibinitperiod\bibinitdelim S\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{17424dd08d93e908a9b52b4b0f1bbfde}
-      \strng{fullhash}{17424dd08d93e908a9b52b4b0f1bbfde}
-      \strng{fullhashraw}{17424dd08d93e908a9b52b4b0f1bbfde}
-      \strng{bibnamehash}{17424dd08d93e908a9b52b4b0f1bbfde}
-      \strng{authorbibnamehash}{17424dd08d93e908a9b52b4b0f1bbfde}
-      \strng{authornamehash}{17424dd08d93e908a9b52b4b0f1bbfde}
-      \strng{authorfullhash}{17424dd08d93e908a9b52b4b0f1bbfde}
-      \strng{authorfullhashraw}{17424dd08d93e908a9b52b4b0f1bbfde}
-      \field{sortinit}{P}
-      \field{sortinithash}{ff3bcf24f47321b42cb156c2cc8a8422}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{abstract}{Eleutério F. S, Prado [1] Introdução Max Horkheimer, em seu Teoria tradicional e teoria crítica [2], afirma que existem conexões entre as formas de juízos e os períodos históricos. Em sequência, el\dots}
-      \field{journaltitle}{Economia e Complexidade}
-      \field{langid}{brazilian}
-      \field{month}{8}
-      \field{title}{{Ruy Fausto: apresentação dialética}}
-      \field{urlday}{9}
-      \field{urlmonth}{9}
-      \field{urlyear}{2026}
-      \field{year}{2026}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://eleuterioprado.blog/2026/08/09/ruy-fausto-apresentacao-dialetica/
-      \endverb
-      \verb{url}
-      \verb https://eleuterioprado.blog/2026/08/09/ruy-fausto-apresentacao-dialetica/
-      \endverb
-      \keyw{marxism}
-    \endentry
-    \entry{Ricardo2005}{book}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=9ae7096449cb2bea3208e1ea7e4f5b2b}{%
-           family={Ricardo},
-           familyi={R\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{location}{1}{%
-        {Indianapolis}%
-      }
-      \list{publisher}{1}{%
-        {Liberty Fund}%
-      }
-      \strng{namehash}{9ae7096449cb2bea3208e1ea7e4f5b2b}
-      \strng{fullhash}{9ae7096449cb2bea3208e1ea7e4f5b2b}
-      \strng{fullhashraw}{9ae7096449cb2bea3208e1ea7e4f5b2b}
-      \strng{bibnamehash}{9ae7096449cb2bea3208e1ea7e4f5b2b}
-      \strng{authorbibnamehash}{9ae7096449cb2bea3208e1ea7e4f5b2b}
-      \strng{authornamehash}{9ae7096449cb2bea3208e1ea7e4f5b2b}
-      \strng{authorfullhash}{9ae7096449cb2bea3208e1ea7e4f5b2b}
-      \strng{authorfullhashraw}{9ae7096449cb2bea3208e1ea7e4f5b2b}
-      \field{sortinit}{R}
-      \field{sortinithash}{5e1c39a9d46ffb6bebd8f801023a9486}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{shorttitle}
-      \field{edition}{Piero Sraffa with the Collaboration of M. H. Dobb}
-      \field{shorttitle}{On the {{Principles}} of {{Political Economy}} and {{Taxation}}}
-      \field{title}{The {{Works}} and {{Correspondence}} of {{David Ricardo}}}
-      \field{volume}{1}
-      \field{year}{2005}
-      \verb{urlraw}
-      \verb https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/titles/113/Ricardo_0687-01_EBk_v6.0.pdf
-      \endverb
-      \verb{url}
-      \verb https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/titles/113/Ricardo_0687-01_EBk_v6.0.pdf
-      \endverb
-      \keyw{economics}
-    \endentry
-    \entry{Smith1904}{book}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=5ccecf114bbd51a1a2979a23dd69c78c}{%
-           family={Smith},
-           familyi={S\bibinitperiod},
-           given={Adam},
-           giveni={A\bibinitperiod},
-           givenun=0}}%
-      }
-      \name{editor}{1}{}{%
-        {{hash=f4081879a3493c3886528ae54bd58baf}{%
-           family={Cannan},
-           familyi={C\bibinitperiod},
-           given={Edwin},
-           giveni={E\bibinitperiod}}}%
-      }
-      \list{location}{1}{%
-        {Londres}%
-      }
-      \list{publisher}{1}{%
-        {Methuen}%
-      }
-      \strng{namehash}{5ccecf114bbd51a1a2979a23dd69c78c}
-      \strng{fullhash}{5ccecf114bbd51a1a2979a23dd69c78c}
-      \strng{fullhashraw}{5ccecf114bbd51a1a2979a23dd69c78c}
-      \strng{bibnamehash}{5ccecf114bbd51a1a2979a23dd69c78c}
-      \strng{authorbibnamehash}{5ccecf114bbd51a1a2979a23dd69c78c}
-      \strng{authornamehash}{5ccecf114bbd51a1a2979a23dd69c78c}
-      \strng{authorfullhash}{5ccecf114bbd51a1a2979a23dd69c78c}
-      \strng{authorfullhashraw}{5ccecf114bbd51a1a2979a23dd69c78c}
-      \strng{editorbibnamehash}{f4081879a3493c3886528ae54bd58baf}
-      \strng{editornamehash}{f4081879a3493c3886528ae54bd58baf}
-      \strng{editorfullhash}{f4081879a3493c3886528ae54bd58baf}
-      \strng{editorfullhashraw}{f4081879a3493c3886528ae54bd58baf}
+      \strng{namehash}{d3ce1cfa405ecdf3f2d780a51f005f2c}
+      \strng{fullhash}{d3ce1cfa405ecdf3f2d780a51f005f2c}
+      \strng{fullhashraw}{d3ce1cfa405ecdf3f2d780a51f005f2c}
+      \strng{bibnamehash}{d3ce1cfa405ecdf3f2d780a51f005f2c}
+      \strng{authorbibnamehash}{d3ce1cfa405ecdf3f2d780a51f005f2c}
+      \strng{authornamehash}{d3ce1cfa405ecdf3f2d780a51f005f2c}
+      \strng{authorfullhash}{d3ce1cfa405ecdf3f2d780a51f005f2c}
+      \strng{authorfullhashraw}{d3ce1cfa405ecdf3f2d780a51f005f2c}
       \field{sortinit}{S}
       \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
       \field{extradatescope}{labelyear}
       \field{labeldatesource}{}
       \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{An {{Inquiry Into}} the {{Nature}} and {{Causes}} of the {{Wealth}} of {{Nations}}}
-      \field{volume}{1}
-      \field{year}{1904}
-      \verb{urlraw}
-      \verb https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/titles/237/Smith_0206-01_EBk_v6.0.pdf
-      \endverb
-      \verb{url}
-      \verb https://oll-resources.s3.us-east-2.amazonaws.com/oll3/store/titles/237/Smith_0206-01_EBk_v6.0.pdf
-      \endverb
-      \keyw{economics}
-    \endentry
-    \entry{TongElectromag}{misc}{}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=e1841c0c41b5a5ffe8310253191fe07f}{%
-           family={Tong},
-           familyi={T\bibinitperiod},
-           given={David},
-           giveni={D\bibinitperiod},
-           givenun=0}}%
-      }
-      \strng{namehash}{e1841c0c41b5a5ffe8310253191fe07f}
-      \strng{fullhash}{e1841c0c41b5a5ffe8310253191fe07f}
-      \strng{fullhashraw}{e1841c0c41b5a5ffe8310253191fe07f}
-      \strng{bibnamehash}{e1841c0c41b5a5ffe8310253191fe07f}
-      \strng{authorbibnamehash}{e1841c0c41b5a5ffe8310253191fe07f}
-      \strng{authornamehash}{e1841c0c41b5a5ffe8310253191fe07f}
-      \strng{authorfullhash}{e1841c0c41b5a5ffe8310253191fe07f}
-      \strng{authorfullhashraw}{e1841c0c41b5a5ffe8310253191fe07f}
-      \field{sortinit}{T}
-      \field{sortinithash}{9af77f0292593c26bde9a56e688eaee9}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Electromagnetism}
-      \field{urlday}{28}
-      \field{urlmonth}{9}
-      \field{urlyear}{2026}
-      \field{year}{2015}
-      \field{urldateera}{ce}
-      \verb{urlraw}
-      \verb https://davidtong.org/pdfs/teaching/electromagnetism/electro.pdf
-      \endverb
-      \verb{url}
-      \verb https://davidtong.org/pdfs/teaching/electromagnetism/electro.pdf
-      \endverb
+      \field{labeltitlesource}{shorttitle}
+      \field{shorttitle}{O Capital Na Estufa}
+      \field{title}{O Capital Na Estufa: Para a Crítica Da Economia Das Mudanças Climáticas}
+      \field{year}{2018}
+      \keyw{economics,marxism}
     \endentry
   \enddatalist
 \endrefsection
